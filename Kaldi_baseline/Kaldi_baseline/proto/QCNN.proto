@@ -1,6 +1,0 @@
-[proto]
-cnn_N_filt=int_list(1,inf)
-cnn_len_filt=int_list(1,inf)
-cnn_max_pool_len=int_list(1,inf)
-cnn_act=list_str
-cnn_drop=str_list
