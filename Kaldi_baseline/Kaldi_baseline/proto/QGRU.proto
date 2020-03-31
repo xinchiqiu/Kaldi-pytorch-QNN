@@ -1,0 +1,11 @@
+[proto]
+gru_lay=str_list
+gru_drop=str_list
+gru_bidir=bool
+gru_act=str_list
+quaternion_init=str
+autograd=bool
+proj_layer=bool
+proj_dim=int
+proj_norm=bool
+proj_act=str
