@@ -175,6 +175,14 @@ class LSTM_cudnn(nn.Module):
             ]
         )
 
+        for name,param in self.lstm[0].named_parameters():
+            if 'weight_hh' in name:
+                if self.batch_first:
+                    nn.init.orthogonal_(param)
+            elif 'bias' in name:
+                nn.init.zeros_(param)
+
+
         self.out_dim = self.hidden_size + self.bidirectional * self.hidden_size
 
     def forward(self, x):

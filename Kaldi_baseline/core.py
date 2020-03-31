@@ -516,13 +516,16 @@ def run_nn(
 
     [nns, costs] = model_init(inp_out_dict, model, config, arch_dict, use_cuda, multi_gpu, to_do)
 
+    print(nns)
+
     # optimizers initialization
     optimizers = optimizer_init(nns, config, arch_dict)
 
+    nb_param = 0
     # pre-training and multi-gpu init
     for net in nns.keys():
         pt_file_arch = config[arch_dict[net][0]]["arch_pretrain_file"]
-
+        nb_param += sum(p.numel() for p in nns[net].parameters() if p.requires_grad)
         if pt_file_arch != "none":
             if use_cuda:
                 checkpoint_load = torch.load(pt_file_arch)
@@ -536,6 +539,8 @@ def run_nn(
 
         if multi_gpu:
             nns[net] = torch.nn.DataParallel(nns[net])
+
+    print("Number of trainable parameters:"+str(nb_param))
 
     if to_do == "forward":
 
