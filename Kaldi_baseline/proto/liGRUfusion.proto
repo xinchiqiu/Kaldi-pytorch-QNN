@@ -1,5 +1,5 @@
 [proto]
-ligru_la=str_list
+ligru_lay=str_list
 ligru_drop=str_list
 ligru_use_laynorm_inp=bool
 ligru_use_batchnorm_inp=bool
