@@ -1090,7 +1090,7 @@ class QGRU(nn.Module):
 
 class liGRUfusion(nn.Module):
     def __init__(self, options, inp_dim):
-        super(liGRUfusion, self).__init__()
+        super(liGRU, self).__init__()
 
         # Reading parameters
         self.input_dim = inp_dim
@@ -1140,14 +1140,14 @@ class liGRUfusion(nn.Module):
         current_input = self.input_dim
 
         # Initialization of hidden layers
- 
+
         for i in range(self.N_ligru_lay):
-            
+
             # Activations
             self.act.append(act_fun(self.ligru_act[i]))
-             
+
             add_bias = True
-             
+
             if self.ligru_use_laynorm[i] or self.ligru_use_batchnorm[i]:
                 add_bias = False
             
@@ -1165,26 +1165,26 @@ class liGRUfusion(nn.Module):
                 # Feed-forward connections
                 self.wh.append(nn.Linear(current_input, self.ligru_lay[i], bias=add_bias))
                 self.wz.append(nn.Linear(current_input, self.ligru_lay[i], bias=add_bias))
-                 
+
                 # Recurrent connections
                 self.uh.append(nn.Linear(self.ligru_lay[i], self.ligru_lay[i], bias=False))
                 self.uz.append(nn.Linear(self.ligru_lay[i], self.ligru_lay[i], bias=False))
-                
+
                 if self.ligru_orthinit:
                     nn.init.orthogonal_(self.uh[i].weight)
                     nn.init.orthogonal_(self.uz[i].weight)
-                
+
                 # batch norm initialization
                 self.bn_wh.append(nn.BatchNorm1d(self.ligru_lay[i], momentum=0.05))
                 self.bn_wz.append(nn.BatchNorm1d(self.ligru_lay[i], momentum=0.05))
 
                 self.ln.append(LayerNorm(self.ligru_lay[i]))
-             
+
             if self.bidir:
                 current_input = 2 * self.ligru_lay[i]
             else:
                 current_input = self.ligru_lay[i]
-            
+
         self.out_dim = self.ligru_lay[i] + self.bidir * self.ligru_lay[i]
 
     def forward(self, x):
