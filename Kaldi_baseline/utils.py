@@ -725,7 +725,7 @@ def check_cfg(cfg_file, config, cfg_file_proto):
     parse_model_field(cfg_file)
 
     # Create block diagram picture of the model
-    create_block_diagram(cfg_file)
+    #create_block_diagram(cfg_file)
 
     if sec_parse == False:
         sys.exit(0)
@@ -2028,7 +2028,7 @@ def compute_cw_max(fea_dict):
     return [cw_left_max, cw_right_max]
 
 
-def model_init(inp_out_dict, model, config, arch_dict, use_cuda, multi_gpu, to_do):
+def model_init(inp_out_dict, model, config, arch_dict, use_cuda, multi_gpu, to_do, batch_size):
 
     pattern = "(.*)=(.*)\((.*),(.*)\)"
 
@@ -2054,6 +2054,7 @@ def model_init(inp_out_dict, model, config, arch_dict, use_cuda, multi_gpu, to_d
             arch_freeze_flag = strtobool(config[arch_dict[inp1][0]]["arch_freeze"])
 
             # initialize the neural network
+            config[arch_dict[inp1][0]]["batches"] = str(batch_size)
             net = nn_class(config[arch_dict[inp1][0]], inp_dim)
 
             if use_cuda:

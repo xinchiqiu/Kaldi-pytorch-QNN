@@ -289,8 +289,8 @@ def quaternion_transpose_conv_rotation(input, r_weight, i_weight, j_weight, k_we
 
     return convfunc(input, cat_kernels_4_quaternion, bias, stride, padding, output_padding, groups, dilatation)
 
+def quaternion_linear(input, r_weight, i_weight, j_weight, k_weight, bias):
 
-def quaternion_linear(input, r_weight, i_weight, j_weight, k_weight, bias=True):
     """
     Applies a quaternion linear transformation to the incoming data:
 
@@ -320,8 +320,42 @@ def quaternion_linear(input, r_weight, i_weight, j_weight, k_weight, bias=True):
         else:
             return output
 
+def fusion_linear(input, r_weight, i_weight, j_weight, k_weight, bias):
 
-def quaternion_linear_rotation(input, r_weight, i_weight, j_weight, k_weight, bias=None, quaternion_format=False):
+    """
+    Applies a quaternion linear transformation to the incoming data:
+
+    It is important to notice that the forward phase of a QNN is defined
+    as W * Inputs (with * equal to the Hamilton product). The constructed
+    cat_kernels_4_quaternion is a modified version of the quaternion representation
+    so when we do torch.mm(Input,W) it's equivalent to W * Inputs.
+
+    """
+
+    cat_kernels_4_r = torch.cat([r_weight, i_weight, j_weight, k_weight], dim=0)
+    cat_kernels_4_i = torch.cat([i_weight,  r_weight, k_weight, j_weight], dim=0)
+    cat_kernels_4_j = torch.cat([j_weight,  k_weight, r_weight, i_weight], dim=0)
+    cat_kernels_4_k = torch.cat([k_weight,  j_weight, i_weight, r_weight], dim=0)
+    cat_kernels_4_quaternion   = torch.cat([cat_kernels_4_r, cat_kernels_4_i, cat_kernels_4_j, cat_kernels_4_k], dim=1)
+
+    if input.dim() == 2 :
+            a,b,c,d = torch.split(torch.mm(input, cat_kernels_4_quaternion), cat_kernels_4_quaternion.shape[1]//4, dim=-1)
+            out = a + b + c + d
+            if bias is not None:
+                return out + bias
+            else:
+                return out
+    else:
+        a,b,c,d = torch.split(torch.matmul(input, cat_kernels_4_quaternion), cat_kernels_4_quaternion.shape[1]//4, dim=-1)
+        out = a + b + c + d
+        if bias is not None:
+            return out + bias
+        else:
+            return out
+
+
+def quaternion_linear_rotation(input, r_weight, i_weight, j_weight, k_weight, bias):
+
     """
     Applies a quaternion rotation transformation to the incoming data:
 
@@ -356,19 +390,13 @@ def quaternion_linear_rotation(input, r_weight, i_weight, j_weight, k_weight, bi
 
     jk                = (norm_factor*j_weight*k_weight)
 
-    if quaternion_format:
-        zero_kernel   = torch.zeros(r_weight.shape).cuda()
-        rot_kernel_1  = torch.cat([zero_kernel, 1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-        rot_kernel_2  = torch.cat([zero_kernel, ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-        rot_kernel_3  = torch.cat([zero_kernel, ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
+    zero_kernel   = torch.zeros(r_weight.shape).cuda()
+    rot_kernel_1  = torch.cat([zero_kernel, 1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
+    rot_kernel_2  = torch.cat([zero_kernel, ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
+    rot_kernel_3  = torch.cat([zero_kernel, ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
 
-        zero_kernel2  = torch.zeros(rot_kernel_1.shape).cuda()
-        global_rot_kernel = torch.cat([zero_kernel2, rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
-    else:
-        rot_kernel_1  = torch.cat([1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-        rot_kernel_2  = torch.cat([ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-        rot_kernel_3  = torch.cat([ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
-        global_rot_kernel = torch.cat([rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
+    zero_kernel2  = torch.zeros(rot_kernel_1.shape).cuda()
+    global_rot_kernel = torch.cat([zero_kernel2, rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
 
     if input.dim() == 2 :
         if bias is not None:

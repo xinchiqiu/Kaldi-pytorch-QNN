@@ -514,7 +514,7 @@ def run_nn(
     # Reading model and initialize networks
     inp_out_dict = fea_dict
 
-    [nns, costs] = model_init(inp_out_dict, model, config, arch_dict, use_cuda, multi_gpu, to_do)
+    [nns, costs] = model_init(inp_out_dict, model, config, arch_dict, use_cuda, multi_gpu, to_do, batch_size)
 
     print(nns)
 

@@ -230,6 +230,50 @@ class QuaternionConv(Module):
             + ', seed='           + str(self.seed) \
             + ', operation='      + str(self.operation) + ')'
 
+class FusionLinear(Module):
+    r"""Applies a quaternion linear transformation to the incoming data.
+    """
+
+    def __init__(self, in_features, out_features, bias=True,seed=None):
+
+        super(FusionLinear, self).__init__()
+        self.in_features       = in_features//4
+        self.out_features      = out_features
+
+        self.r_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.i_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.j_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.k_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+
+        if bias:
+            self.bias = Parameter(torch.Tensor(self.out_features))
+        else:
+            self.bias = torch.zeros(self.out_features)
+
+        self.seed = seed if seed is not None else np.random.randint(0,1234)
+        self.rng = RandomState(self.seed)
+
+        torch.nn.init.xavier_normal_(self.r_weight.data)
+        torch.nn.init.xavier_normal_(self.i_weight.data)
+        torch.nn.init.xavier_normal_(self.j_weight.data)
+        torch.nn.init.xavier_normal_(self.k_weight.data)
+
+        if self.bias is not None:
+            self.bias.data.fill_(0)
+
+
+    def forward(self, input):
+        # See the autograd section for explanation of what happens here
+        return fusion_linear(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias)
+
+
+    def __repr__(self):
+        return self.__class__.__name__ + '(' \
+            + 'in_features=' + str(self.in_features) \
+            + ', out_features=' + str(self.out_features) \
+            + ', bias=' + str(self.bias is not None) \
+            + ', seed=' + str(self.seed) + ')'
+
 
 class QuaternionLinearAutograd(Module):
     r"""Applies a quaternion linear transformation to the incoming data.
@@ -252,7 +296,8 @@ class QuaternionLinearAutograd(Module):
         if bias:
             self.bias = Parameter(torch.Tensor(self.out_features*4))
         else:
-            self.register_parameter('bias', None)
+            self.bias = torch.zeros(self.out_features*4)
+
         self.init_criterion = init_criterion
         self.weight_init = weight_init
         self.seed = seed if seed is not None else np.random.randint(0,1234)
@@ -268,10 +313,7 @@ class QuaternionLinearAutograd(Module):
 
     def forward(self, input):
         # See the autograd section for explanation of what happens here.
-        if self.rotation:
-            return quaternion_linear_rotation(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias, self.quaternion_format)
-        else:
-            return quaternion_linear(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias)
+        return quaternion_linear(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias)
 
     def __repr__(self):
         return self.__class__.__name__ + '(' \

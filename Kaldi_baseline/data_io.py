@@ -40,6 +40,7 @@ def load_dataset(
             k: m
             for k, m in read_function("ark:" + kaldi_bin + " scp:" + fea_scp + " ark:- |" + fea_opts, output_folder)
         }
+        #print(fea)
         if not fea_only:
             lab = {
                 k: v
@@ -49,9 +50,11 @@ def load_dataset(
                 )
                 if k in fea
             }  # Note that I'm copying only the aligments of the loaded fea
+
             fea = {
                 k: v for k, v in fea.items() if k in lab
             }  # This way I remove all the features without an aligment (see log file in alidir "Did not Succeded")
+
         return fea, lab
 
     def _chunk_features_and_labels(max_sequence_length, fea, lab, fea_only, input_is_wav):
@@ -67,9 +70,9 @@ def load_dataset(
 
         def _chunk(max_sequence_length, fea, lab, fea_only):
             def _chunk_by_input_and_output_chunk_config(chunk_config, fea, lab, fea_only):
-                """ 
+                """
                 If the sequence length is above the threshold, we split it with a minimal length max/4
-                If max length = 500, then the split will start at 500 + (500/4) = 625. 
+                If max length = 500, then the split will start at 500 + (500/4) = 625.
                 A seq of length 625 will be splitted in one of 500 and one of 125
                 """
                 chunk_size_fea, chunk_step_fea, chunk_size_lab, chunk_step_lab = (
