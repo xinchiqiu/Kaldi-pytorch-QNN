@@ -1,0 +1,16 @@
+ep=00 tr=['TIMIT_tr'] loss=5.650 err=0.777 valid=TIMIT_dev loss=4.650 err=0.696 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3116
+ep=01 tr=['TIMIT_tr'] loss=3.990 err=0.642 valid=TIMIT_dev loss=4.244 err=0.645 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3292
+ep=02 tr=['TIMIT_tr'] loss=3.358 err=0.568 valid=TIMIT_dev loss=4.137 err=0.615 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3241
+ep=03 tr=['TIMIT_tr'] loss=3.076 err=0.533 valid=TIMIT_dev loss=4.141 err=0.610 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3427
+ep=04 tr=['TIMIT_tr'] loss=2.876 err=0.506 valid=TIMIT_dev loss=4.103 err=0.604 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3421
+ep=05 tr=['TIMIT_tr'] loss=2.737 err=0.488 valid=TIMIT_dev loss=4.081 err=0.596 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3405
+ep=06 tr=['TIMIT_tr'] loss=2.620 err=0.473 valid=TIMIT_dev loss=4.127 err=0.598 lr_architecture1=0.0016 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=3403
+ep=07 tr=['TIMIT_tr'] loss=2.354 err=0.431 valid=TIMIT_dev loss=4.127 err=0.586 lr_architecture1=0.0008 lr_architecture2=0.0008 lr_architecture3=0.0002 time(s)=3286
+ep=08 tr=['TIMIT_tr'] loss=2.235 err=0.413 valid=TIMIT_dev loss=4.172 err=0.586 lr_architecture1=0.0008 lr_architecture2=0.0008 lr_architecture3=0.0002 time(s)=3071
+ep=09 tr=['TIMIT_tr'] loss=2.095 err=0.390 valid=TIMIT_dev loss=4.168 err=0.581 lr_architecture1=0.0004 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=2865
+ep=10 tr=['TIMIT_tr'] loss=2.033 err=0.381 valid=TIMIT_dev loss=4.185 err=0.577 lr_architecture1=0.0004 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=2853
+ep=11 tr=['TIMIT_tr'] loss=1.991 err=0.375 valid=TIMIT_dev loss=4.232 err=0.576 lr_architecture1=0.0004 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=2857
+ep=12 tr=['TIMIT_tr'] loss=1.956 err=0.369 valid=TIMIT_dev loss=4.218 err=0.575 lr_architecture1=0.0004 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=2848
+ep=13 tr=['TIMIT_tr'] loss=1.924 err=0.365 valid=TIMIT_dev loss=4.269 err=0.577 lr_architecture1=0.0004 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=2852
+ep=14 tr=['TIMIT_tr'] loss=1.858 err=0.353 valid=TIMIT_dev loss=4.277 err=0.575 lr_architecture1=0.0002 lr_architecture2=0.0002 lr_architecture3=5e-05 time(s)=2857
+ep=15 tr=['TIMIT_tr'] loss=1.834 err=0.350 valid=TIMIT_dev loss=4.292 err=0.573 lr_architecture1=0.0002 lr_architecture2=0.0002 lr_architecture3=5e-05 time(s)=2878

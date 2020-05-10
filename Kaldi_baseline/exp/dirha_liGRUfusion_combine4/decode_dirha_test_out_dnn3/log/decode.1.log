@@ -1,0 +1,774 @@
+latgen-faster-mapped --min-active=200 --max-active=7000 --max-mem=50000000 --beam=13.0 --lattice-beam=8.0 --acoustic-scale=0.2 --allow-partial=true --word-symbol-table=/nfs-share/xinchi/kaldi/egs/dirha/s5_beam/exp/tri4/graph_tgpr_5k/words.txt /nfs-share/xinchi/kaldi/egs/dirha/s5_beam/exp/tri4_ali_real/final.mdl /nfs-share/xinchi/kaldi/egs/dirha/s5_beam/exp/tri4/graph_tgpr_5k/HCLG.fst 'ark,s,cs: cat /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/exp_files/forward_dirha_test_ep29_ck0_out_dnn3_to_decode.ark |' 'ark:|gzip -c > /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/lat.1.gz' 
+Realfemalespk02-uswsj5kdevfemalespk02snt2786 IT WAS A DIE D. ON 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2786 is 0.865981 over 209 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3419 OTHER GOOD WORKER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3419 is 0.801919 over 233 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3417 I WON A JOB 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3417 is 0.644415 over 235 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3166 OUR CUSTOMERS LAW THING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3166 is 0.832094 over 247 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3206 A WHO DOLLAR STRENGTH A 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3206 is 0.744936 over 249 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3584 I ON A STOCK HAVE STAFF AND THE <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3584 is 0.86018 over 256 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2997 FOR THE FED FOR THAT IS STILL IF THE <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2997 is 0.705103 over 265 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2745 THAT'S ANOTHER STORY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2745 is 0.890602 over 280 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3586 HART CUSTOMERS WANT TO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3586 is 0.823618 over 280 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2532 IF THIS TO EFFORTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2532 is 0.438673 over 281 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2957 WHAT IS WRONG WITH THIS PICTURE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2957 is 0.880564 over 282 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3168 THE DOLLAR WAS LITTLE CHANGE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3168 is 1.10085 over 291 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2574 THAT CAN TAKE YEARS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2574 is 0.921673 over 305 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3588 THE OFFER EXPIRES FRIDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3588 is 0.982318 over 305 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2747 AT LEAST IN THE U. S. FAVOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2747 is 0.83964 over 308 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3170 THESE POWERS OR FORM THUS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3170 is 0.928242 over 308 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3001 WHAT ABOUT IN SOUTH AFRICA ITSELF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3001 is 1.02774 over 323 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3624 F. C. FOOT ON THE SENSE OF REACHING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3624 is 0.815263 over 323 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2955 IN A MINUTES THE DEAL IS CLOSED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2955 is 0.897957 over 326 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2999 AT LEAST IN THE U. S. THEY WERE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2999 is 0.93727 over 329 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3626 FLOW FROM THE FEDERAL SUIT SUE FEW THUS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3626 is 0.764623 over 331 frames.
+WARNING (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:309) Outputting partial output for utterance Realmalespk06-uswsj5kdevmalespk06snt3590 since no final-state reached
+
+Realmalespk06-uswsj5kdevmalespk06snt3590 THESE POWERS ARE IMPORTANT RISE WHO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3590 is 1.01842 over 332 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2959 MS. AMSTERDAM DECLINED TO COMMENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2959 is 0.873015 over 338 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2788 THEIR TWO ISSUES TO CONSIDER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2788 is 0.881798 over 340 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3176 BUT THEY CAN LOOK MORE GENEROUS THAN OUR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3176 is 0.966993 over 340 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3210 THE HOSTILE WHEN STREETS GOVERNMENT FUNDED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3210 is 0.785775 over 342 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3172 SHOULD GAS FORCE REPORT ISN'T ALL THEM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3172 is 0.860107 over 344 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2794 INTEREST RATES WILL BE ANNOUNCED WEDNESDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2794 is 0.846803 over 351 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2534 THE THIRD PARTY WASN'T IDENTIFIED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2534 is 0.963001 over 353 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3630 BUT I PREFER NOT TO SAVE ANYTHING MORE THAN THAT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3630 is 0.97805 over 358 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2961 NOW ADDED TO DO IT IN A MARRIOTT CITED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2961 is 0.858121 over 366 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3425 WHICH SHE INSISTS I DON'T WANT TO GO MOTOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3425 is 0.753874 over 368 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3174 SINCE THEN OUR RESULTS A BID MORE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3174 is 0.952682 over 369 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2749 WHAT ABOUT IN SOUTH AFRICA IN SELF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2749 is 0.905824 over 371 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2790 ALL THE BONDS ARE BE DATED NEXT MONDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2790 is 0.869031 over 374 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2538 AT PREFER NOT TO SAY ANYTHING MORE THAN NOW 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2538 is 0.899477 over 376 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2792 AS THAT GIVE WE A PRICE AND THEY SAID NOW 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2792 is 0.891366 over 389 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2967 THE COMPANIES SAID THE THREE GROUPS WILL OPERATE OF THE UNIT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2967 is 1.04743 over 398 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2796 MR. WALL THE PLANS A NAME HIS NEW EMPLOYER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2796 is 0.976008 over 400 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3212 IT SHOULD BE GOVERNMENT REGULATIONS IS NOT THE WORLD 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3212 is 1.00246 over 400 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2536 CHRYSLER REDUCE SOME PRICES ON FRIDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2536 is 0.941977 over 401 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3594 HAD WHITE WHO AN OWNER AN HOUR BEFORE THINK IT HAD A HALF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3594 is 0.817842 over 407 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3602 AND WE CAN TELL YOU WHEN THEY'RE GOING TO BE THERE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3602 is 0.99067 over 408 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3429 JUST WERE FOCUS MS. C. FIVE B. APPLIED THE WORLD ARE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3429 is 0.744478 over 414 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3178 THE QUESTION IS WHETHER U. S. BANKS WILL BE ALLOWED TO COMPETE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3178 is 1.03738 over 416 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2965 WESTERN UNION SAID IT MAY AN EXTENDED SAID ONE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2965 is 1.04769 over 417 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3214 CRITICS SAY THE FEDERAL PROBE WAS WRONG FOR THE START 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3214 is 0.886999 over 422 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3628 HALL SETTLEMENT TALKS SEATS HALF FOR THE FIVE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3628 is 0.785778 over 422 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2759 THE POLICY NEEDED FOR THAT'S WILL BE FURTHER DEVELOPS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2759 is 0.879979 over 423 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3377 BUT SOUTH OPERATORS SAID N. B. C. RE RUN OF THE PROBLEMS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3377 is 0.972775 over 424 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3423 EVERYTHING IS DONE SCHOOL WE HE SAID YESTERDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3423 is 0.787165 over 424 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3421 FROM JUST SAVINGS IS BASED THE RULE STAKE ITS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3421 is 0.873964 over 428 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3598 MORGAN STANLEY AND COMPANY IS LEAD UNDERWRITER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3598 is 1.01023 over 435 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3433 WAS A BOARD IS RE SAY THIS COMPANY AND REAL REBUILDING YOUTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3433 is 0.833114 over 440 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2757 IN TODAY'S MARKET THEY ARE OUR MOST MEMBER L. OWN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2757 is 0.919234 over 441 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3005 BUT HE SAID NOW ONLY BE TRUE IF THE DOLLAR WEAK 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3005 is 0.964543 over 444 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2804 THE FIRST SALES EXPECTATIONS HE GOES MARKET SOMETIME THE SUFFERING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2804 is 0.849304 over 447 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2576 U. S. AS AND G. HAD NO COMMENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2576 is 1.00076 over 448 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2755 CORPORATE AND MUNICIPAL BOND PRICES ALSO SLUMPED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2755 is 0.899681 over 449 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2798 THE COMPANY SAID THE THREE GROUPS OR OPERATE AFTER UNIT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2798 is 1.0144 over 449 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3180 IN ADDITION I. B. M.'S PRICING STRATEGY COULD HURT COMPETITORS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3180 is 1.10723 over 452 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3634 PEOPLE DON'T KNOW PRIMARILY ON THE BASIS OF THE ISSUES HE SAYS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3634 is 1.10187 over 453 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2578 TIGHTER CREDIT CONDITIONS MAIN HIGHER INTEREST RATES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2578 is 0.961169 over 456 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3596 IN A GUN ROSE ZERO POINT FOUR FOR SENATE PAST MONTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3596 is 0.896974 over 459 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3381 STOCK PRICES WILL SOAR MIXED IN PARIS LOWER IN STOCK WILL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3381 is 0.887172 over 460 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3604 FRESH FROM FED IF YOU F. K. FOOD FOR THE OUTCOME OF FROM FIFTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3604 is 0.687561 over 465 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3007 CERTAIN PRICES ARE PRESENT AT A BRISK PACE DROUGHT THIS DECADE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3007 is 0.919983 over 470 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3188 UNDER THE LAW THE JUSTICE DEPARTMENT ELECTED TAKEOVERS PLAINTIFF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3188 is 0.980485 over 476 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3383 FEW OBSERVERS OPTIMISTIC ABOUT THE COURTS OTHER DROP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3383 is 0.882683 over 476 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3385 STOCK ROSE AN ACID AND WILL LOWERED BRUSSELS AND NEW UP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3385 is 0.839677 over 478 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2761 WE LOVE FOR HIGHER AND SEE GOOD RETURN SYSTEM SEVENTY SAYS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2761 is 0.840462 over 480 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2763 PRICES OF MUNICIPAL BONDS GAINED AS MUCH AS THREE EIGHTHS POINT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2763 is 1.07646 over 480 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3003 FEW PEOPLE PREDICTED DIVIDEND CUT AT T. AND IMPROPER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3003 is 0.964566 over 481 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3427 ALSO TWO BANKS MOST THAT FOREIGN LOAN LOSS RESERVES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3427 is 1.10098 over 481 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3013 IT WOULD TAKE A NEW CHAIRMAN THE EXECUTIVE IS THAT THERE WERE FIVE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3013 is 0.944951 over 483 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2586 IT DOESN'T TALK ABOUT THE GENERAL MUNICIPAL BOND IN THAT GIVE FELL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2586 is 0.926412 over 484 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2753 FOR THE KOREAN ECONOMY HE FAVORS STREET TRADE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2753 is 0.801051 over 484 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3216 STOCKS FELL IN NERVOUS TRADING WHILE BONDS WERE NARROWLY MIXED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3216 is 1.03449 over 484 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3186 IS S. MS. PROBABLY THE MORE BROKER IT NOW MARKET ANALYSTS SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3186 is 0.968083 over 488 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2802 MR. WALL SAID THE NEW JOB WILL BE HAD MERELY THIS IS OR EVEN TO EIGHTY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2802 is 0.828927 over 493 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3184 A SPOKESWOMAN FOR THE DEPARTMENTS AND NO SUCH DECISION HAS BEEN MAY BE A 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3184 is 0.952705 over 494 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2542 AT THE TIME THE COMPANY SAID IT WOULD EXPLORE OTHER OPTIONS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2542 is 1.04522 over 496 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2800 THE TEAM TRADER IN NEW YORK RACE OF KEY A BASE BANK AGREES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2800 is 0.987914 over 496 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3009 MANY INSTITUTIONAL PLAYERS CONFESS ARE HOLDING MORE CROP SPEND USUAL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3009 is 0.950022 over 497 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2582 IT'S WHICH IT DOESN'T SAY THAT HAS RILED ONE FUND INVESTOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2582 is 0.907538 over 504 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3387 FOUR OTHER UTILITY COMPANY OWNERS WAS ACT WITH IT WRITES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3387 is 0.869972 over 504 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3218 THE OFFERING SIZE WAS INCREASED FROM THE EIGHT MILLION SHARES ORIGINALLY PLANNED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3218 is 1.08747 over 505 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2963 ALSO TWO BANKS BOOSTED FOREIGN LOAN LOSS RESERVES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2963 is 1.08326 over 507 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3632 THE OFFERS FOR BOTH CLASSES OF STOCK EXPIRE FRIDAY A 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3632 is 1.06517 over 510 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3431 JUST TRADER IN REAL TO FOUR TOKYO BY ITS BANK AGREES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3431 is 0.890028 over 512 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3182 <UNK> HAS IS WERE DOWN EVERY DAY WITH THOSE THAT HAD AND ROSE AND ITS HIGH DAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3182 is 0.744359 over 513 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3015 SO CLEARLY THE ADVOCATES OF SANCTIONS WERE THE FOREIGN POLICY VICTORS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3015 is 0.951808 over 516 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2767 SELF CLEARLY THE ADVOCATES OF SANCTIONS IN THE FOREIGN POLICY THAT THERE'S 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2767 is 0.958317 over 517 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2969 THE DIVIDEND IS PAYABLE JUNE FIRST TO STOCK OF RECORD MAY EIGHTH SEVEN <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2969 is 1.05221 over 518 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3640 MY POSITION ON CONTRA AID ISN'T SOMETHING THAT'S GOING TO LOSE AN ELECTION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3640 is 0.995713 over 518 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2540 STOCK PRICES ALSO WERE MIXED IN PARIS ZURICH AND STOCKHOLM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2540 is 1.02445 over 520 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2777 CASH BACK ITS IN VOTING CONTROL OVER STAND IN FIVE PERCENT OF THE COMPANY'S COMMON 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2777 is 0.99033 over 520 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2584 CITICORP SAID IT AND A COURT HASN'T AT THIS MOMENT BEEN SIGNED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2584 is 1.00253 over 523 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2546 THE COMPANY SAID IT ENDED TALKS ON A POSSIBLE BUSINESS COMBINATION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2546 is 1.21084 over 524 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2544 STOCKS ROSE IN AMSTERDAM AND WERE LOWER IN BRUSSELS AND MILAN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2544 is 1.01871 over 526 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2765 MANY INSTITUTIONAL FACE CAN FAST OF WILL BE MORE CASH THAN USUAL OFF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2765 is 0.938329 over 529 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3190 IT SAID IT IS NEGOTIATING THE SALE OF CERTAIN ASSETS OF THE BROKERAGE UNIT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3190 is 1.04238 over 532 frames.
+WARNING (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:309) Outputting partial output for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2580 since no final-state reached
+
+Realfemalespk01-uswsj5kdevfemalespk01snt2580 WHO HIT WHO HAD ISSUED WHO WHO WHO HAD A 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2580 is 0.933529 over 534 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3636 THE OTHER WAS MITSUBISHI MOTORS CORPORATION'S U. S. SALES OPERATION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3636 is 1.05452 over 542 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2973 THE SWAP OFFER QUITE AS AT LEAST EIGHTY PERCENT OF THE TOTAL BE TENDERED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2973 is 1.00022 over 547 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3379 DREXEL BURNHAM LAMBERT INCORPORATED WAS WEAK ON THE RIGHT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3379 is 1.04749 over 550 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2552 OTHERS INCLUDE A JOINT VENTURE WITH ANOTHER COMPANY OR AN EMPLOYEE BUY OUT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2552 is 1.06586 over 552 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3638 WE'RE WAS OF THE F. T. C. ANNOUNCEMENT WAS MAY AFTER THE CLOSE OF TRADING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3638 is 1.03454 over 556 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2769 THE X. EVER RIGHTS WAS INITIALLY IMPORTED AS IT ZERO POINT TWO PERCENT DROP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2769 is 1.00451 over 559 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3435 THE RATE OF JAPANESE INVESTORS DON'T SELL DOLLARS SOMEBODY ELSE WILL BE STEPS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3435 is 0.930802 over 559 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2771 THIS OF THE SECOND CONSECUTIVE QUARTER IN WHICH THE DIVIDEND WAS REDUCED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2771 is 1.07752 over 560 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2773 IN THE FREE V. IS FOR YEARS ANNUAL INCREASES WERE WELL BELOW THREE PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2773 is 0.919725 over 561 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3401 SHOCK ONE BIG IS CURRENTLY IS SHORTAGES JAVELIN FAST NEW MANY CASES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3401 is 0.761555 over 561 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3011 SEPARATELY SHOW OIL COMPANY'S NET INCOME ROSE TWENTY ONE PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3011 is 1.14477 over 563 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3192 SUCH ACTIVITY IS ALL BUT AIDED SENT STOCK PRICES PLUNGED IN ANALYSTS SAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3192 is 0.940394 over 568 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2550 IT SAID IT IS NEGOTIATING THE SALE OF CERTAIN ASSETS OF THE BROKERAGE UNIT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2550 is 1.08225 over 569 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2809 THE CENTRAL BANKS HAVE LITTLE CHANCE TO PROTECT THEMSELVES FROM THE DOLLAR'S FALL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2809 is 0.937095 over 572 frames.
+WARNING (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:309) Outputting partial output for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2811 since no final-state reached
+
+Realfemalespk02-uswsj5kdevfemalespk02snt2811 WHO THAT IT VALUED WHO BASES THOUGH HE HAD ONLY IF WHO HEAVY L. U. THE HEAD WHO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2811 is 0.840828 over 573 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2810 THE BOSTON PROPERTY WAS FULLY OUT TO PAYING A BROKER CLOSE IN THE BUILDING SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2810 is 0.991876 over 574 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2977 THERE WERE THIRTEEN WHITE NINE MILLION CRIMES REPORTED IN NINETEEN EIGHTY EIGHT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2977 is 1.11006 over 574 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2588 AND HIGH FOR INTEREST RATES ATTRACT FOREIGN INVESTORS WHO SHOULD HAVE SHOWN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2588 is 0.872574 over 576 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3439 ON FRIDAY SAID REASON BOUGHT IF S. FELL FOUR PENCE IS THE ACTION AND L. BANK 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3439 is 0.773337 over 584 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2801 HOWEVER S. AND THE ADMINISTRATION HAVE THE DEBT IS IN SAME THE RIGHT STEPS TO IMPROVE THE CREDIT BUDGET IN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2801 is 0.876673 over 588 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3437 MEANWHILE MEXICO HAS BEEN BETTER THAN OTHER BIG DEBTORS WINNING CONCESSIONS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3437 is 0.993412 over 594 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2775 THE NEW DIVIDEND IS PAYABLE MARCH STATES SAYS STOCK OF RECORD FEBRUARY NINETEENTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2775 is 1.05478 over 595 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3399 PROCEEDS WILL BE USED FOR PRODUCT THE BELT AND WORKING CAPITAL AND GENERAL PURPOSES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3399 is 1.02016 over 597 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3222 NEW OWNER SOMETIMES OFFER ATTRACTIVE LONG TERM CONTRACTS TO SENIOR PEOPLE E. SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3222 is 1.01977 over 600 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3389 BUT THE DIP IN INFLATION ASSOCIATED WITH GOLD PRICES FLY SHOULD WHO COVER R. I. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3389 is 0.754439 over 600 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3017 THE OFFER INCLUDES ZERO COUPON BONDS CALLED CAPITAL APPRECIATION BONN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3017 is 0.969148 over 601 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2560 IT IS THE GENERIC STAND IN FOR THE SOCIAL PROBLEMS OF OUR <UNK> AGE MR. MURRAY RATES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2560 is 0.983619 over 604 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2806 ALL THE SITE AND THAT HE BACK IN SAN WE ARMS BUYING THAT THIS YIELDS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2806 is 0.841903 over 608 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3397 PROCEEDS WILL BE ADDED TO THIS YEAR'S J. L. FUNDS TO REDUCE ITS SHORT TERM BORROWINGS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3397 is 0.950148 over 609 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3194 LAST FRIDAY THE DOW JONES INDUSTRIAL AVERAGE POSTED ITS THIRD BIGGEST POINT DECLINE EVER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3194 is 1.11819 over 611 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3395 THEN OVER THE COUNTER TRADING FRIDAY WAS QUOTED AT TWENTY FIVE CENTS A SHARE BID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3395 is 1.10814 over 611 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2783 THEY'RE TOO MANY FOREIGN AND INSTITUTIONAL PLAYS ARE GOING TO PAY HIGHER PRICES THAN WE ARE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2783 is 1.04199 over 614 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2590 THE DIVIDEND WAS LAST RAISED IN OCTOBER NINETEEN EIGHTY SEVEN BY FOUR CENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2590 is 1.09671 over 615 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2556 THESE GENERALLY REACT MUCH LESS THAN LARGE DEPOSITORS TO REPORTS OF A SCANDAL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2556 is 1.01989 over 617 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3409 SEE IS AS PROVE THE BUY BACK AS MANY AS FORTY MILLION OF ITS COMMON SHARES AT SPEED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3409 is 1.03625 over 619 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3642 PAYMENTS CHARGE AS LATE AS APRIL FIFTH TEND WOULD MEET THE HIGHER REST DEADLINE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3642 is 0.967359 over 622 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2594 SOURCES SAY AT LEAST TWO BIDDERS HEADS AND DOUBTS ABOUT CITICORP'S PERFORMANCE MEMBERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2594 is 1.03718 over 624 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3393 PROCEEDS MAY ALSO BE USED TO EVENTUALLY TO BUY BACK COMMON SHARES THE COMPANY SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3393 is 1.04665 over 624 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2779 IN NOVEMBER IT WAS CUT TO SEVENTEEN POINT FIVE CENTS FOR TWENTY TWO POINT FIVE CENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2779 is 1.11087 over 632 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2975 MEANWHILE MEXICO IS DONE A BETTER THAN OTHER BIG DEBTORS IN WINNING FOR EXEMPTION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2975 is 0.95349 over 632 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2803 TRADE A STATED BY JUNE MAIN DID THIS WHEN THE DOLLAR'S CHAIN THE NEW LATE JULY IN EARLY AUGUST 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2803 is 0.827077 over 634 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2558 FRENCH OR SALES FELL ZERO POINT FIVE PERCENT AFTER RISING ZERO POINT TWO PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2558 is 1.18706 over 635 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3413 WELL SERVE KOREAN TRADERS WERE FORTY STATE HOW THE ACTION FILLED TRADE THE USE OR LEASE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3413 is 0.818652 over 635 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3205 THE SUIT WAS FILED OR THE FALSE CLAIMS ACT WHICH ALLOWS PRIVATE SAYS IS TO SUE OF AFRICA GOVERNOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3205 is 0.999769 over 638 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3407 A DROP IN OIL PRICES GOALS A PROVIDE SO PRICING WE AS IT DID IN NINETEEN EIGHTY SIX 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3407 is 1.05596 over 638 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3441 SHORT SALES OF SALE OF BORROWED STOCK BY BEST IS EXPECTING ITS PRICE TO DROP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3441 is 0.994216 over 641 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2808 INITIAL WALL STREET IN DAYS THE AS IT HAS SURPRISED EVEN PRIVATIZATION ADVOCATES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2808 is 0.981274 over 646 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2805 THE CHANGES NEGATIVE BILL UNLESS THE GOVERNMENT HAVE AUTHORITY OVER THE WHOLE WORLD 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2805 is 0.943124 over 648 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2807 SECOND DID ADMIRAL POINDEXTER BELIEVED WORKING COLONEL NORTH FOR GIVING WAS THE BILL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2807 is 0.91307 over 648 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2567 BECAUSE MOST MEMBERS ARE INDIVIDUAL BROKERS THE COMMITTEE COULD HAVE SOME DIFFICULTY WINNING APPROVAL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2567 is 1.12732 over 649 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2592 NEW WATER IS SOMETIMES OFFER ATTRACTIVE LONGER TERM CONTRACTS TO SEE WHERE PEOPLE HE SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2592 is 1.06487 over 650 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2993 HE HAS BEEN TOLD BY THE JUSTICE DEPARTMENT THAT BEFORE LONG HE MAY BE IN DAY OF FEDERAL CHARGES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2993 is 0.869535 over 651 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3405 WE BELIEVE PROGRAM TRADING IS A BOY HAS A SO SO WITH QUOTED MORGAN STANLEY SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3405 is 0.88399 over 651 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3391 PATTERN PROCESSING MAKES MACHINE RISEN SYSTEMS WERE USE IN ORDER RATED INSPECTIONS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3391 is 0.991726 over 653 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3443 TREND IS AHEAD WILL LESS THE GOVERNMENT HAS A FAR BEYOND THE ONE WHOLE WORLD 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3443 is 0.876361 over 654 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3416 CONSTRUCTION EMPLOYMENT FELL FORTY SEVEN THOUSAND IF THE FIFTY THOUSAND JOB DECLINE MONTH WHO FLEW 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3416 is 1.02165 over 660 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2983 HE IS THE HEAD OF THE FEW JUNK BOND OPERATION OF DREXEL BURNHAM LAMBERT INCORPORATED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2983 is 1.08145 over 662 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3220 ENERGY FUTURES PRICES ROSE FOLLOWING AN EXPLOSION AT A MAJOR U. S. FOR FINE A PLANT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3220 is 1.09777 over 662 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2996 DAYTON HUDSON SAID MR. SELLS THAT HAVE IMPORTING EQUITY POSITION AND THE COMPANY IS DRIVING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2996 is 0.996696 over 664 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3201 THE COMPANY WHICH MAKES MORE THE OF OVER PLACE THE HORSE ITS SALES EXCEEDED ONE BILLION DOLLARS IN HISTORY YEAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3201 is 0.938393 over 664 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2571 MOST EUROPEAN TRADERS WERE REPORTED THE STAYING OUT OF ACTION AND SO THE TRADE FIGURES ARE RELEASED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2571 is 0.998033 over 665 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2572 THE BELL COMPANIES ARE HOPING ELECTRONIC MAIL AND VOICE NOW WILL BECOME A MAJOR REVENUE SOURCE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2572 is 0.944032 over 667 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3021 ONE INVESTMENT OFFICERS AT OF MR. SMITH WITH ASKED LAST WEEK WHAT IT WOULD TAKE TO CUT THE DIVIDEND 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3021 is 1.01819 over 668 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3204 WHAT HAD SHARE INDEX WAS OFF HALF POINT TWO POINTS CASH THOUSAND SEVEN UNDER SHE HAD POINT FAST 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3204 is 0.743256 over 668 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2562 SECURITY OR INDUSTRIES INTERNATIONAL FELL THREE AND ONE QUARTER TO FIFTEEN AND ONE HALF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2562 is 1.13632 over 673 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3651 GROWTH OF THE CO THEY SURGED HASN'T BEEN ABLE TO OBTAIN TO THE BANK FINANCING FOR THE CONTINUING OPERATIONS OF HIS <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3651 is 1.02307 over 674 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2568 IN A JUST FELT IT WAS AN APPROPRIATE TIME TO PURSUE BUSINESS IDEAS OF NIGHT ON MR. SAUNDERS SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2568 is 0.996102 over 675 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2991 AND MORE THAN THAT HE IS A CENTRAL FIGURE IN THE SECURITIES INDUSTRY INSIDER TRADING SCANDAL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2991 is 1.12859 over 675 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2596 A SEPARATE LEAVING THE GOVERNMENT SAID RETAIL SALES CLIMBED ZERO POINT SIX PERCENT IN FEBRUARY A 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2596 is 1.05283 over 676 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2569 SALES OF BUILDING MATERIALS INCREASED ONE POINT THREE PERCENT AFTER A ONE POINT ONE PERCENT DROP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2569 is 1.15531 over 678 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2573 INDUSTRY ANALYSTS EXPECT THE MARKET TO DOUBLE WHAT IT BECAUSE AVAILABLE TO RESIDENTIAL CUSTOMERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2573 is 1.0369 over 678 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2985 HE EXPECTS THE JAPANESE AGENT TO SELL IT FOR TWO HUNDRED SEVENTY FIVE THOUSAND DOLLARS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2985 is 1.04432 over 679 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3196 IN A STATEMENT R. L. R. SAID THE BROKERAGE UNIT GENERATED SUBSTANTIALLY ALL OF ITS REVENUE ON 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3196 is 1.02122 over 684 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2785 THE PROPOSED PER SHARE PRICE INCLUDES TEN DOLLARS CASH INTO DOLLARS OF UNSPECIFIED SECURITIES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2785 is 0.965561 over 685 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2995 SHE ALSO WAS WORTH THE NEW YORK MAGAZINE AND OTHER WEEKLY CITY PUBLICATION AND THE WASHINGTON POSE OUT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2995 is 1.06962 over 685 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2570 YET ONE WE DISCUSSED SOCIAL POLICY WE TALK WAS IF MONEY THE POVERTY RATE WAS ALL THAT NOW HOURS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2570 is 0.999506 over 689 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2987 IT SAID VARIOUS LOCAL PLAN ISSUES MUST STILL BE HIS OFFER FOR THE CONTRACT IS CONCLUDED FULL AUTO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2987 is 1.02191 over 689 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2564 L. T. V. EIGHT SAID IT RETAINED SHEARSON LEHMAN BROTHERS INCORPORATED TO HELP WITH THE STUDY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2564 is 1.1137 over 692 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2598 A CITICORP PORTFOLIO MANAGER AND SAYS THE UNIT'S NEW OWNER COULD LOSE QUITE A FEW CURRENT MANAGERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2598 is 1.05851 over 694 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3622 WORST OF ALL HE SAYS SOME MONEY MIGHT HAVE BOUGHT THE COMPANY WITH THE INTENTION OF BREAKING IT UP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3622 is 1.06585 over 694 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3442 THEY SEE BOY STOCK SPLIT IS PAYABLE STEP WITH FOURTEEN TO STOCK OF RECORD ON OLD IS NINETY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3442 is 0.8948 over 696 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2557 WHO FRESH DIGITAL HAPPENING WE HAVE NO FEW HANDLED TEND HAFT ABOUT FINANCE WILL SELF AND SLASH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2557 is 0.647289 over 699 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3023 NOW MANY INSTITUTIONS SAY THEY'RE CRASH LOW OF OUR TIME FOR IS THAT ARE MORE OTHER FEW ARE OUT THIRD WAS THAT ARE MORE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3023 is 0.989319 over 701 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3200 IN NINETEEN EIGHTY FOUR THE COMPANY WON SEVERAL WILL BE MILLION DOLLAR COUNTS IN SALES AND EARNINGS SOARED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3200 is 1.11134 over 702 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2601 SUCH A RULE CHANGE IF ACTIVELY WOULD REMOVE ONE TECHNICALITY THAT ITS LOW A TAKEOVER ATTEMPT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2601 is 0.964184 over 705 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3203 THE DOW JONES INDUSTRIALS DROPPED TWENTY FIVE POINT TWO OH TO ONE THOUSAND NINE HUNDRED THIRTY FIVE POINT OH ONE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3203 is 1.19837 over 705 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3226 SOME LOCAL MANUFACTURERS HAVE AVOIDED THE TIGHT LABOR MARKET BY CONTRACT THE WORK TO FACTORIES IN CHINA 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3226 is 1.0287 over 712 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2979 THE STOCK FIRM FOUR POINT SEVEN OH TO THREE HUNDRED THIRTY FED IN POINT FIVE OH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2979 is 1.11594 over 715 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3198 WE COULD DISTRIBUTE THE BONDS IN JAPAN IN EUROPE IN THE U. K. BUT NOT IN THE U. S. MR. WILL BREAK SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3198 is 1.09621 over 715 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3202 IF JOB SECURITY CLAUSES IT UNION SOMETHING POSITIVE TAKE THAT CASH AND WORKS AND MODEST COST OF TOWARD IS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3202 is 0.876001 over 715 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3644 LEASE OWN WAS ONE OF ONLY TWO JAPANESE COMPANIES TO REPORT HIGHER SALES FOR LARGE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3644 is 1.10727 over 715 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2992 MR. BARRETT SAID C. PAID ONE HUNDRED FIFTY FIVE THOUSAND OUT AS FOR THE WHOLE FUND FIFTH A 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2992 is 0.890922 over 716 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3199 IT JUST CALL FOR ELIMINATING SOME GOVERNMENT OBSTACLES TO THE DEVELOPMENT OF A HEALTHY LONG TERM CARE INSURANCE MARKET 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3199 is 1.01026 over 716 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3648 FOR TEXAS AIR'S CHIEF ADVANTAGE OF PAYING VIA THEIR CREDIT CARDS WOULD BE BACK STREET TIED TO PAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3648 is 0.982737 over 716 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2776 CONSUMER PRICES ROSE ONE POINT SIX PERCENT IN FEBRUARY THE HIGHEST MONTHLY INCREASE ITS MAY NINETEEN EIGHTY LINES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2776 is 1.01257 over 717 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2561 BUT THE DISCUSSIONS SUBSEQUENTLY ENDED BECAUSE THE TWO SIDES COULDN'T AGREE ON FINANCIAL AND OTHER TERMS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2561 is 1.06087 over 718 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3650 I JUST FELT IT WAS IN THE PROBE OR A TIME TO PURSUE BUSINESS IDEAS OF MY OWN MR. SUN OR SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3650 is 0.949603 over 718 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2559 THOUGH THERE WAS LITTLE EVIDENCE THE STOCK MARKET PLUNGE HAD AFFECTED SALES THAT ALL LIVE REMAINS UNCERTAIN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2559 is 0.980369 over 720 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3646 AT AN UP FRONT HAVE IN A FEW OUT OFFER HAD HER HEAD OF MOOD HARDER WITH F. HUTTON HAVE BEEN A SUCCESS IN ON AN <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3646 is 0.782677 over 720 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2780 IF WHO HAVE IOWA HE OF CASES THAT FOOD <UNK> THROUGH FEDERALLY ISSUES FELL TO A LITTLE A SHOT OF WHO HAD WHO <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2780 is 0.794218 over 723 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3621 THE THING THAT MOTIVATES WALL STREET A SHORT TERM EARNINGS RESULTS AND THEY'RE JUST NOT THERE HE SAYS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3621 is 1.09542 over 724 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3414 REGULATORS AREN'T ALLOWED NEW JOB IN MAY BE PERCENT OVER THE PROJECT TO PASS THAT IT WILL TO CUSTOMERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3414 is 0.950902 over 726 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3612 THAT'S NOT TO SAY HE IS LOOKING FOR RE VALUED IN THE NEXT COUPLE OF WEEKS FORTY EVEN MONTHS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3612 is 0.910401 over 727 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3610 THE FIVE PERMANENT MEMBERS ARE THE U. S. RATE TO FRANCE CHINA AND SOVIET UNION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3610 is 1.06689 over 728 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3228 ALTHOUGH THAT IS UP FROM FORTY SIX PERCENT IN NINETEEN EIGHTY SIX TEXACO'S PRODUCTION ALSO FELL LAST YEAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3228 is 1.16715 over 729 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3415 THIS FARM AROUND WALL STREET FIRMS ARGUE THAT PROGRAM TRADING HAS ITS USE AND IS MS. SO THIS GROUP 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3415 is 0.960457 over 730 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2782 NOW MANY INSTITUTION FE THEIR CASH LEVELS OR TEN PERCENT OR MORE AND OF YOU ARE A THIRTY PERCENT OR MORE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2782 is 0.993652 over 731 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2784 THE THREE OUT OR PENSION PLAY AND HAVE MORE THAN ONE BILLION DOLLARS IN ASSETS THOUGH EVEN LARGER LIABILITIES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2784 is 0.973221 over 732 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3430 SPOKESMEN FOR WELL GOVERNMENT SAID THEY ENDED THE NEGOTIATIONS BECAUSE IT VIA THAT THE MERGER WOULD BE COMPLETE BY THAT DAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3430 is 1.02415 over 732 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3224 A CITICORP PORTFOLIO MANAGER SAYS THE UNIT'S NEW OWNER COULD LOSE QUITE A FEW CURRENT MANAGERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3224 is 1.09074 over 734 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3195 AND THE IDEA OF LETTING EMPLOYEES FREE FUND POST RETIREMENT MEDICAL EXPENSES ASSURE WOULD BETTER THAN EVER GOVERNMENT DO IS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3195 is 1.01027 over 737 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3616 U. S. ANALYSTS ARE SETTING FLIGHT SOVIETS AND PUTS A POST UNTIL AFTER WITH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3616 is 0.78467 over 738 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2593 THE LATEST GOVERNMENT FIGURES THOUGH SHOW THE PRODUCER PRICE INDEX FELL ZERO POINT TWO PERCENT LAST MONTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2593 is 1.14145 over 745 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2989 MURDERS ROSE TWO POINT NINE PERCENT TO TWENTY VALUED SIX HUNDRED SEVENTY FIVE IN A BID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2989 is 1.02233 over 745 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2563 CONSTRUCTION EMPLOYMENT FELL FORTY SEVEN THOUSAND AFTER A FIFTEEN THOUSAND JOB DECLINE OF THE MONTH BEFORE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2563 is 1.10042 over 752 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3403 PHILADELPHIA BASED CONCERN DEVELOPS AND DESIGNS ADVANCE FELT CAN YOU FE SHOVE SYSTEM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3403 is 0.773766 over 754 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3614 IF ALSO FOR FLOWS TO FREEZE IN LARGE IF THEY HAVE OVER CLIENTS FOR TRADING FOR THE FUTURES EXCHANGE WITH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3614 is 0.898214 over 755 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2565 AUTO SALES ROSE TWO POINT FOUR PERCENT IN DECEMBER AFTER DECLINING ZERO POINT SEVEN PERCENT IN NOVEMBER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2565 is 1.16567 over 758 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2778 HE ADDED THAT MORE EFFORT SHOULD BE MADE TO REALIZE AT THEIR DISTRIBUTION OF INCOME THAT HE IS SHORT ON SPECIFICS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2778 is 1.04035 over 758 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3191 OF RANK FOR CONNECTICUT LEAVE THE COMPANY HAD STOPPED OFFER IF A NINETEEN TO SIX IN NINETEEN EIGHTY SEVEN TO REDUCE DEBT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3191 is 0.847433 over 758 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2566 IN A STATEMENT R. L. R. SAID THE BROKERAGE UNIT GENERATED SUBSTANTIALLY ALL OF ITS REVENUE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2566 is 1.06806 over 761 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3438 REGIONAL BANKS OF THE ROY TO ACCEPT BIG LOSSES ON THEM X. CAN BET PLAN FOR THE PRESSURE ON BIG BANKS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3438 is 0.995064 over 762 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2772 BUT I SPEND SOME FOREIGN INVESTORS SOLD SACHS OR REALIZE CURRENCY GAINS OF THE RECENT RISE OF THE S. JURY IN DOLLAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2772 is 1.00109 over 768 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3197 IT ALSO INDIVIDUAL INVESTORS WHO CERTAINLY VOLATILE A FEW FINANCIAL MARKETS MAY HAVE TO THIRTY TO FIFTY OFFICIALS SAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3197 is 0.854077 over 769 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3232 MANUFACTURERS ALSO ARE URGING THE GOVERNMENT TO EASE IMMIGRATION RULES A VACANT IMPORT WORKERS FROM NEIGHBORING COUNTRIES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3232 is 1.06654 over 774 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3189 AUTO CONTRACTS RISE OF JOB SECURITY LOT BECAUSE THEY LIVE IN THE FILES A DAY WITH FORD ADDED PREVENTED SIZABLE LAYOFFS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3189 is 0.893087 over 776 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3024 PHILLIPS PETROLEUM CORPORATION'S PROFIT MEANWHILE PLUNGED SIXTY THREE PERCENT OF NEW WEEK NATIONAL GAS PRICES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3024 is 1.00044 over 777 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3227 THE DOLLAR ROSE ZERO POINT NINE PERCENT AGAINST THE YEN WAS SOME LONG TERM TREASURY BONDS RATES THE HIGHS LEVEL ITALY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3227 is 1.10588 over 777 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3404 THE BOSS SAID THE DECLINE IN FACTORY JOBS WAS COST TRADING MOTOR VEHICLES AND ELECTRICAL AND ELECTRONIC EQUIPMENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3404 is 1.0267 over 777 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2547 THE DEPARTMENT SAID THE DECLINE IN FACTORY JOBS WAS CONCENTRATED IN MOTOR VEHICLES AND ELECTRICAL AND ELECTRONIC EQUIPMENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2547 is 1.11397 over 780 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3022 THE GOVERNMENT IS EXPECTED TO SELL ABOUT TWENTY NINE POINT FIVE BILLION DOLLARS OF NEW NOTES AND BONDS STARTING TOMORROW 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3022 is 1.18041 over 780 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2994 LAST NOVEMBER OFFERED A NOW BE INCORPORATED WHO BOOK PUBLISHER KNEW HIS ANSWER THAN THE SENIOR EDITOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2994 is 0.920761 over 782 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3187 I. B. M. B. C.'S TRADITIONALLY A PRICE HIGHER THAN RIVAL BRANDS WHICH TYPICALLY LESS OTHER CUT IDEA PRICING BY FIFTY PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3187 is 0.999554 over 784 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3620 IF OF HAVE SHOWN ARE OF FED FIVE FRENCH IS FOR THAT HAVE A HISTORY AND FOR THE POUND AN ACTION THAT MOVE FOR THIRD IN CASH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3620 is 0.706903 over 784 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2555 HAVING A NOT RUN TO RETIRE BUT ON UNLIKELY TO GO TO ANY LARGE INVESTMENT BANKING FIRM THAT RIVALS MORGAN STANLEY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2555 is 1.01776 over 787 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3647 IN REPRESENTATIVES FOR THE TWO THE IMPORTERS SAID THE PROGRAMS HAVE ENDED AND NEW INCENTIVES HAVEN'T BEEN ANNOUNCED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3647 is 1.08784 over 787 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2799 A PILOT LOAN SALE PROGRAM APPROVED LAST YEAR THAT PROVIDE A VIRTUALLY A RISK RE TASK OF THIS APPROACH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2799 is 1.06952 over 790 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2971 ANY E. G. KLEIN AND TWO PRIDE FOUR OH TO TWO HUNDRED TEN POINT FOUR OH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2971 is 1.03803 over 790 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3020 RATES ARE EXPECTED TO REMAIN AT THOSE LEVELS ARE MOVE A LITTLE HIGHER THIS WEEK AT THE TREASURY DEPARTMENT'S QUARTERLY AUCTION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3020 is 1.11374 over 790 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2774 HUGE GREEN AND CALLS FOR HALF THE EIGHT ON OF CLOSELY HELD INVESTMENT KOREA TO OPERATE ME AND HOLDERS TOP DOLLARS A SHARE FOR AN END 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2774 is 0.920418 over 792 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2990 REGIONAL BANKS IF YOU'RE WILLING TO ACCEPT A BIG LOSS OF EITHER THE MEXICAN DEBT PLAN PUTTING PRESSURE ON BIG BANKS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2990 is 1.05623 over 792 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3185 WHERE THE NEW B. C.'S OFFICE OWNS DOLLAR THEM AROUND SLIGHTLY MORE STORES OR ELEVEN PERCENT LESS THAN A COMPETING COME BACK CHIEF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3185 is 0.840214 over 793 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3645 G. M.'S SHARE OF THE TOTAL CAR MARKET FELL A THIRTY FIVE POINT SIX PERCENT AND FOR THIRTY NINE POINT TWO PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3645 is 1.09475 over 794 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2597 MANUFACTURERS NATIONAL CORPORATION RAISED THE QUARTERLY DIVIDEND ON ITS COMMON STOCK TO FORTY SIX CENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2597 is 1.1165 over 796 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3408 MIGHT BE EMPLOYED WHICH INCLUDES YOU A GAS ITS STRUCTURE BEEN TO STREET ROSE THREE THOUSAND IF THEIR ONE THOUSAND JOB RISE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3408 is 0.835082 over 801 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3432 THE DOLLAR STILL G. SAID JACK BE BIG THE HEAD OF BLOCK TRADING AT SHEARSON LEHMAN BROTHERS INCORPORATED YOU'LL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3432 is 1.08421 over 801 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2595 AFTER EXCLUDING FOOD AND ENERGY PRICES WHICH ARE FALL ITS I'LL PRICES ROSE ZERO POINT THREE PERCENT LAST MONTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2595 is 1.13365 over 803 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2797 WAY POSSIBLE THEY TRY TO REDUCE THEY U. S. CURRENCY PORTFOLIOS BY SELLING DOLLARS BACK IN TO CALM OR RECKONED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2797 is 0.92628 over 804 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3229 THE FINANCIAL TIMES THIRTY SHARE INDEX CLOSED AT SEVEN POINT SIX POINTS AT ONE THOUSAND THREE HUNDRED NINETY EIGHT POINT SEVEN HIM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3229 is 1.214 over 806 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3231 BUT E. OFFER THE OPINION THE ROBERT WAY THE UNIT'S CHEAP AND AFTER DOZEN OTHERS IN THE PEOPLE WILL GO WITH U. S. F. IN JUNE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3231 is 0.912124 over 806 frames.
+WARNING (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:309) Outputting partial output for utterance Realmalespk05-uswsj5kdevmalespk05snt3412 since no final-state reached
+
+Realmalespk05-uswsj5kdevmalespk05snt3412 THREE FAILS SECOND OFFER TO SALE TWO HUNDRED MILLION DOLLARS NOTES DUE AUGUST FIRST NINETEEN NINETY SIX FOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3412 is 1.03693 over 809 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2766 IN FUTURES TRADING UNITS FOR BONDS FOR JUNE DELIVERY ROSE SIX THIRTY SECONDS TO EIGHT THOUSAND FIVE HUNDRED TWENTIES THAT IN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2766 is 1.13461 over 810 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3193 THE FINANCIAL TIMES THIRTY SHARE INDEX CLOSED OFF SEVEN POINT FOUR POINTS AT ONE THOUSAND FOUR HUNDRED THIRTY POINT SEVEN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3193 is 1.28576 over 811 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2764 THE ECONOMIC PLANNING BOARD WHICH ANNOUNCED FOR MEASURES SAID THE GOVERNMENT'S GOAL IS TO HOLD INFLATION WERE LOW FIVE PERCENT THIS YEAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2764 is 1.01015 over 814 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3394 BUT THOSE CHANGES ARE APPLIED TO BE MADE TO THE NINETEEN EIGHTY EIGHT FIRST COURT WERE ON THE CERTAIN CIRCUMSTANCES EVEN WAIT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3394 is 1.02371 over 820 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2587 AND MINUTES NOTE THAT THE VALUE WITH THE DOLLAR ON FOREIGN EXCHANGE MARKETS COULD AFFECT THE TIMING OF POLICY CHANGES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2587 is 1.05208 over 822 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3428 INVESTORS EXPECT THE PROBLEM A DIFFERENCE TO THREE THE PRICE REALIZE IT WAS SALE AND THE COST OF REPLACING THE BORROWED SHARES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3428 is 0.999399 over 822 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2553 L. T. V. THE NATION'S NUMBER TWO STEELMAKER SAID THE SALE WAS AMONG AND NUMBER OF OPTIONS UNDER STUDY FOR THE PLANT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2553 is 1.12095 over 825 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3181 THE U. ON THE LATEST THIRTY YEAR TREASURY BONDS SURGED AT EIGHT POINT EIGHT THREE PERCENT FROM EIGHT POINT FIVE SIX PERCENT A WEEK EARLIER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3181 is 1.1885 over 825 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3173 INSTITUTIONAL INVESTORS FUEL THE RACE BY SHIFTING ASSETS OF THE FUNDS IN RESPONSE TO DECLINE IN RATES OF A ONE SHORTER AND SECURITIES IN THE MARKET 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3173 is 1.00482 over 833 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3402 MANY APPLE SUED A SOVIET BASE COMPANY SAID THE OFFERING WILL BE GIVEN SEPTEMBER WHO HAS IN SECOND RECORD DATE OR BREAKS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3402 is 0.992096 over 833 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3411 AS OF JUNE THIRTIETH SEARS AT THREE AVERAGED FORTY FIVE CAN'T EIGHT MILLION SHARES OUTSTANDING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3411 is 1.10512 over 833 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3643 ANOTHER GROWING TO RETIRE BUT ON LIKELY TO GO TO ANY LARGE INVESTMENT BANKING FIRM THAT RIVALS MORNING STEM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3643 is 1.02988 over 833 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3434 IN NATIONAL OVER THE COUNTER TRADING INFORMATION RESOURCES CLOSED AT TWENTY ONE DOLLARS UP TWO POINT ONE TWO FIVE DOLLARS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3434 is 1.0824 over 838 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2589 THE REPORT IN SEEN IS FAILS TO MENTION ANYTHING ABOUT NEW YORK'S TRADE CONDITIONS OR FACTORS TRY TO ABOUT MARKET 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2589 is 1.07854 over 840 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3169 VOLUME WAS A MODERATE FOUR HUNDRED FIFTY FOUR POINT SEVEN MILLION SHARES BANKING UP SLIGHTLY FROM WEDNESDAY'S FOUR HUNDRED TWENTY SEVEN POINT FOUR MILLION SHARES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3169 is 1.1533 over 840 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3179 THE BEAR COMPANY ADDED THAT IT MAY SEEK OTHER BUSINESS OPPORTUNITIES SUCH IT TO BE NO BILLION FINANCING WHICH MAY NOT BE AVAILABLE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3179 is 1.03718 over 840 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2795 FIRST WHILE AS ADMIRAL POINDEXTER'S VOTING ABOUT THE PRESIDENT'S POLICY OF HELPING THE NICARAGUAN DEMOCRATIC RESISTANCE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2795 is 1.01721 over 845 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3230 THE ONE HUNDRED SHARE INDEX WAS UP TEN POINTS OH POINTS AT ONE THOUSAND SEVEN HUNDRED FORTY THREE POINT FOUR AT THE CLOSE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3230 is 1.25021 over 846 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2768 ACTIVELY TRADED THIRTY YEAR BONDS DROPPED ABOUT A POINT OR AROUND TEN DOLLARS FOR EACH ONE THOUSAND DOLLAR FACE AMOUNT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2768 is 1.11065 over 848 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3410 DEAN WITTER REYNOLDS INCORPORATED CALLED AND SACHS AND COMPANY AND MORGAN STANLEY AND COMPANY A HEAVILY THE SALE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3410 is 0.985391 over 852 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2770 YESTERDAY'S ACTION DIDN'T AFFECT A FOURTH ALLEN T. B. PLAN THE PENSION AGENCY TOOK OVER IN SEPTEMBER NINETEEN EIGHTY SIX 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2770 is 1.06452 over 856 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3183 FOR EXAMPLE THE COMPANY PLANS BIG DISCOUNTS ON THE NEW ONE THOUSAND SIX HUNDRED NINETY FIVE DOLLAR SHE FOR SCHOOLS A MAY NOT A MARKET 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3183 is 1.11156 over 857 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2545 IN ADDITION THE BANK HAS ALWAYS PURSUED A POLICY OF KEEPING ITS BALANCE SHEET RELATIVELY LATELY INSIDERS AND COMPETITORS SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2545 is 1.08999 over 858 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3615 VOLUME ROSE TO AN ESTIMATED ONE BILLION SHARES FROM AN ESTIMATED SEVEN HUNDRED FIFTY MILLION SHARES ON THURSDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3615 is 1.21347 over 860 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3398 AND THE MERRILL LYNCH SPOKESMAN SAID ALONG THESE FIRMS PROGRAM TRADING SIMPLY REFLECTS A CLASS FROM CUSTOMERS WITH SUCH TRADING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3398 is 1.03261 over 865 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3637 MR. GREENSPAN APPEARS TO BELIEVE THAT THE BEST CORPS TO PROCEED WITH THE CAUTIOUS MOVE TOWARD OF USE AND TO HOPE FOR A SOFT LANDING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3637 is 1.03012 over 865 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2980 THE COME TO TRAVEL WHAT SHE CASH IT ADDED ACTIONS WERE SHOULD THREAT IT HAD AN I TURNED THAT THE NEW FOR IF <UNK> J. AND ON FRIDAY F. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2980 is 0.793642 over 868 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2970 WITH SUCH NOW LYNCH PLAN AS COULD BAD TERM AND WHETHER MORE THAN HUNDRED BE CARE FACILITY FROM COULD REDUCE THE NEED FOR YEARS THE POSE OR OPTION OF FISH FIFTH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2970 is 0.934594 over 870 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3440 THAT'S THERE'S USE SHORT INTEREST FIGURES TO THE FAIR WOULD HAVE ITS SHORT SELLING IS GOING ON IN INDIVIDUAL STOCKS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3440 is 0.915388 over 878 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3225 AN ISSUE OF TEN MILLION COMMON SHARES OF THAT PLAN STEEL WAS PRICED AT NINETEEN DOLLARS A SHARE THROUGH SALOMON BROTHERS INCORPORATED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3225 is 1.14151 over 880 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3223 THE GOVERNMENT PREDICTS SPENDING FOR PLANT IN THE SHARE WILL GROW TWENTY FIVE PERCENT THIS YEAR UP FROM NINE POINT EIGHT PERCENT LAST YEAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3223 is 1.1493 over 888 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3619 WE COULD DISTRIBUTE THE BONDS IN JAPAN IN EUROPE IN THE U. K. BUT NOT IN THE U. S. MR. LOVE RANK SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3619 is 1.10561 over 889 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2591 INSTEAD AND SECURITIES FIRMS MAKER ACQUIRED TO MAKE FILINGS OF LARGE SHARE PURCHASES MADE ON THE HAVE WITH CLIENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2591 is 1.03708 over 892 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3617 COMPANIES ARE LISTED FOR TRANSACTIONS GENERALLY EFFORT IF HEADED THOUSAND SHARES FROM ONE HUNDRED VALUED OFFS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3617 is 0.985917 over 892 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2986 THE FOREST PRODUCTS COULD SEND SAID THE WORKERS OF THE EFFECT THE PLANTS RETURN TO WORK YESTERDAY AND AN END TO ONE STRIKE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2986 is 1.02592 over 893 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3396 STEPS IS TO MOVE THE LATE NINE MILE POINT TWO WHO DO A PLANE KEPT FOR TWO HUNDRED SIXTY NINE MILLION DOLLARS OF THE RIVAL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3396 is 1.02204 over 894 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2982 IT SAID IT PUT THREE KEY EXECUTIVES IN CHARGE OF THE GROUP'S TO FOCUS EFFORTS ON INCREASING SALES PRODUCTIVITY IN THE U. S. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2982 is 1.07755 over 900 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2988 MR. SELLS WHO WASN'T AVAILABLE FOR COMMENT SAID IN A VERY STATEMENT I ALWAYS WANTED TO LET HIGH OF HEALTHY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2988 is 0.891402 over 902 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2549 LAST MONTH OVERALL GOODS PRODUCING EMPLOYMENT FELL SIXTY EIGHT THOUSAND AFTER A THIRTY TWO THOUSAND JOB RISE IN FEBRUARY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2549 is 1.16146 over 904 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3018 HOPE CARE INFLATION FOR INSTANCE HIGHLY DROP BELOW SIX PERCENT ANNUALLY OF THE COST OF EDUCATION HAS RISEN EVEN PROCESS ARE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3018 is 0.966398 over 904 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3424 IN COMPOSITE TRADING ON NEW YORK STOCK EXCHANGE'S SURVEY THAT CLOSE TO FIFTY ONE DOLLARS AND FIFTY CENTS UP ONE DOLLAR AND FIFTY CENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3424 is 1.06295 over 904 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2541 TO THE PANIC HARDLY ARE AT HER THAT WHO ARE THOUGH HIS OFFER WHEN IT HOWEVER FOR THE A GROW GROUP AND A FINE A THING AND WE AFTER THEIR O. <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2541 is 0.759839 over 912 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3175 ONE OF THE FEW AIR IS A STRONG GROWTH <UNK> EARLIER IN NINETEEN EIGHTY SEVEN WAS THE NEW ISSUE MARKET FOR INTERNATIONAL EQUITIES AND EQUITY RELATED BONDS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3175 is 1.16895 over 912 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3635 BUT CONSUMERS GENERALLY WOULD HAVE ANOTHER MONTH UNTIL CREDIT CARD BILLS CAME DUE AND CONSIDERABLY MORE TIME IF THEY WERE WILLING TO PAY INTEREST 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3635 is 1.13221 over 918 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2793 IT'S ADDING PUT THREE KEY EXECUTIVES IN CHARGE OF THE GROUP'S TO BELL DOES AFTER A SON INCREASING SALES PRODUCTIVITY IN THE U. S. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2793 is 1.05924 over 920 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3219 THE RALLY FIELD BY A STRONGER DOLLAR AND BOND MARKETS THAT THE FIVE DAY DECLINE IN WHICH THE INDUSTRIALS LOSS OVER ONE HUNDRED TWENTY POINTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3219 is 1.15075 over 920 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3400 NO THE COUNTER TRADING FRIDAY THE COMPANY'S COMMON CLOSED AT TEN THOUSAND TWENTY FIVE CENTS A SHARE DOWN FIFTY CENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3400 is 1.10528 over 921 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3609 THERE WERE FOUR HUNDRED EIGHTY TWO DECLINING ISSUES THREE HUNDRED FORTY NINE IN THE BAN SAYING AND ONE HUNDRED LEVY EIGHT ON CHANGE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3609 is 1.04755 over 921 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2543 THE MANAGEMENT COMMITTEES PLAN FOR THE NEW GOVERNING BODY CAN TAKE EFFECT IF APPROVED BY THE SEVENTY FIVE PERCENT OF THE EXCHANGE'S MEMBERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2543 is 1.18368 over 923 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3010 THE LOGIC APPARENTLY IS THAT WILL HAVE TO RAISE OUR RATES TO DEFEND THE DOLLAR IT SAID PETER CANELO A PORTFOLIO STRATEGIST AT BEAR STEARNS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3010 is 1.01214 over 928 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3221 EXXON CORPORATION'S SAID EARLIER THIS WEEK THAT IT REPLACE ONE HUNDRED FOURTEEN PERCENT OF ITS OIL AND GAS PRODUCTION IN NINETEEN EIGHTY SEVEN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3221 is 1.18184 over 928 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2579 OUR EARNINGS ARE GOOD AND WE WANT THE PAYOUT RATE TO INCREASE OVER TIME A SPOKESWOMAN FOR THE TO TRADE BANK HOLDING COMPANY SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2579 is 1.08492 over 929 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3611 THE DOLLAR STILL THE KEY SAID JET HE BAKER'S HEAD OF BLOCK TRADING SAID SHEARSON LEHMAN BROTHERS INCORPORATED NEW YORK 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3611 is 1.0959 over 933 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3171 PER SHARE EARNINGS FOR THE FISCAL YEAR FELL ABOUT FORTY ONE PERCENT THE COMPANY ESTIMATED REFLECTED IN EIGHTEEN PERCENT INCREASE IN AVERAGE SHARES OUTSTANDING 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3171 is 1.12806 over 936 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2756 HE AND HIS DAILY ON ABOUT TWENTY NINE PERCENT OF THE COMPANY'S COST EIGHT COMMON SHARES AND ABOUT NINETY ONE POINT FIVE PERCENT OF THE CLASS B. COMMON 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2756 is 1.19828 over 939 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3603 IN YESTERDAY'S <UNK> OF THE DOLLAR USE SLIGHTLY AGAINST MOST MAJOR FOREIGN CURRENCIES OR M. SHARES UP STOCK MARKET ACQUIRES OR OF ITS RELATIVE STABILITY <UNK> OUT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3603 is 0.962121 over 940 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3016 YIELDS ON LONG TERM BONDS AFTER DROPPING AS LOW AS SEVEN POINT EIGHT THREE PERCENT EARLY LAST WEEK ARE ABOUT UP ABOVE EIGHT WITH THEN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3016 is 1.10637 over 944 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2583 BUT THE PLAN WON'T BE FILED WITH THE BANKRUPTCY COURT UNTIL THE CREDITORS AND L. T. V. AGREE ON HOW THE DEBT WILL BE PAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2583 is 1.14411 over 947 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3406 LAST MONTH OF WORLD GOODS PRODUCING EMPLOYMENT FELL SIXTY EIGHT THOUSAND IT DEBT THIRTY TWO THOUSAND JOB RISE IN VICTOR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3406 is 1.03742 over 948 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3014 YIELDS RANGE FROM FOUR POINT EIGHT PERCENT IN NINETEEN NINETY EIGHT TO SEVEN POINT TWO PERCENT ON ZERO COMBINED BONDS DUE IN TWO THOUSAND TWO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3014 is 1.10034 over 959 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3215 VOLUME WAS A VERY MODEST THREE HUNDRED FIFTY TWO POINT TWO MILLION SHARES DOWN FROM THREE HUNDRED SIXTY SIX POINT FOUR MILLION SHARES A DAY EARLIER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3215 is 1.2502 over 960 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2758 MR. FICKLING STARTED THE COMPANY IN NINETEEN SIXTY NINE WITH EIGHT GENERAL HOSPITALS AND NURSING HOMES OWN WITH THE SMALL CONSTRUCTION OPERATION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2758 is 1.09327 over 963 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3177 ACTIVELY TRADED THIRTY YEAR TREASURY ISSUES LAST WEEK PLUNGED ABOUT THREE POINTS OR ABOUT THIRTY DOLLARS FOR EACH ONE THOUSAND DOLLAR FACE A MILE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3177 is 1.16151 over 966 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3213 TEXACO INCORPORATED WHICH HAS HAD WERE THE WORST RECORDS OF THE BIG INTEGRATED OIL COMPANIES REPLACE SEVENTY PERCENT OF ITS PRODUCTION LAST YEAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3213 is 1.14541 over 966 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3422 COME THE SPOKESMAN SAID THAT AFTER THIS WITH THE COURT WE DID THEN WILL BE REDUCED TO TEN CENTS A SHARE CONTINUING THE CURRENT CASH THE L. RATE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3422 is 0.973397 over 966 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3209 ALL TOLD AMOCO SAID ARE ADVICE ONE HUNDRED THIRTY PERCENT OF THE RESERVES THAT IT PRODUCE LAST YEAR RECOVERING FOR WEAK RECORD IN NINETEEN EIGHTY SIX 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3209 is 1.14299 over 968 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2978 STERLING DRUG INCORPORATED INCREASED THE QUARTERLY DIVIDEND FIFTEEN PERCENT TO THIRTY EIGHT CENTS A SHARE FROM THIRTY THREE CENTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2978 is 1.0489 over 970 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2976 OF THIS MOBILE FACE AMOUNT OUTSTANDING OF TWELVE WESTERN UNION DEBT THEORY EIGHTEEN POINT SIX PERCENT HAD BEEN TENDERED OUT OF THURSDAY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2976 is 0.988415 over 971 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2984 FIRST SECTION VOLUME WITH ESTIMATED AT HAVE WON FIGHT FIXED MILLION SHARES FROM HEALTH FOR FLIGHT FUND RE MILLION SHARES POINTS A. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2984 is 0.944057 over 976 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3008 OCCIDENTAL PETROLEUM CORPORATION REPORTED A TWENTY THREE PERCENT PROFIT JUMP THOUGH THE COMPANY WHETHER PRIVATE LOSS ABOUT A ONE TIME ITEM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3008 is 1.11955 over 982 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3641 FORD'S SHARE ROSE TO TWENTY POINT EIGHT PERCENT CHRYSLER'S TO ELEVEN POINT FOUR PERCENT AND HARD LIST TO TEN POINT TWO PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3641 is 1.1881 over 990 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2791 ALLEN FACT MR. MACK WHO ALREADY THREE YEARS AND WOULD HAVE IF LEAVING AFTER THIRTEEN YEARS OF THE COMPANY HAD IT WAS A SHARE HAD THE TEXAS HEALTH CARE CONSIDERING I. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2791 is 0.864913 over 994 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3211 THE N. A. S. B. REALLY SHORT INTEREST FIGURES FOR THE FIRST TIME OF EVER TWENTY FIFTH FOR ALL STOCKS CARRIED ON ITS NASDAQ AUTOMATIC ADDITION SYSTEM 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3211 is 1.05924 over 996 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3004 SINCE THE U. S. CURRENCY HAS STRENGTH IN SHARPLY IN RECENT WEEKS HE SEES NO NEED FOR THE FEDERAL RESERVE TO RAISE INTEREST RATES TO PROTECT THE DOLLAR 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3004 is 1.1329 over 1000 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3167 I SINCE THE EARLY NINETEEN YOU FIGURE GENERAL HAS TRIED IT COULD BE HAVE ALL THE INTERNATIONAL BUSINESS MACHINES CORPORATION AND DIGITAL IT IN A RATIO FOR MORE TRUST ENOUGH AND 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3167 is 0.896391 over 1000 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3217 IN NEW YORK STOCK EXCHANGE COMPOSITE TRADING YESTERDAY THE COMPANY'S STOCK ROSE SIXTY TWO POINT FIVE CENTS TO NINETEEN POINT SIX TWO FIVE DOLLARS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3217 is 1.26941 over 1001 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3388 THE A. C. ALSO PREDICTED THAT THE NUMBER OF BANKRUPTCY FILINGS WHY SEVENTY PERCENT A YEAR AND EXPAND OR THIRTY NINETEEN EIGHTY SAID 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3388 is 0.99419 over 1003 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2762 PUT THE AUDIT LAWYERS AND PAYS INDEX WHICH FELL ENDED FLAT FEE IF A FIFTH ONE POINT FIVE TO ONE THOUSAND FROM FOUR WHO FULLY FEE FOURTH C. <UNK> GROUP WITH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2762 is 0.805178 over 1004 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2968 THE NEED FOR ECONOMY HAS ALSO HELPED TO AN FULL THE EXPENSIVE BUT ALL IMPORTED LONGER TO BE NO SURVEYED THAT FOLLOW GROUP OF PEOPLE OVER MANY YEARS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2968 is 1.02773 over 1004 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3392 INTERNATIONAL MOBILE MACHINES CORPORATION NATURAL DRAW ON MILLION SHARES OF TWO DOLLAR AND FIFTY CENT WHO DID FOR FRESH HAD TWENTY FIVE DOLLARS EACH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3392 is 0.94709 over 1008 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3613 THE NIKKEI INDEX ADDED EIGHTY POINT OH SIX POINTS TO FINISH HAVE TWENTY EIGHT THOUSAND THE TWO HUNDRED NINE POINT FOUR TWO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3613 is 1.11233 over 1008 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3426 YESTERDAY THE DOLLAR YOU SLIGHTLY AGAINST MOST MAJOR FOREIGN CURRENCIES SHARING SOME STOCK NO GOOD PLAYS WITH ITS RELATIVE STABILITY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3426 is 0.989774 over 1012 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2760 IN THE BULL MARKET OF NINETEEN EIGHTY SIX TO EIGHTY SEVEN CASH POSITIONS EXCEEDING FIVE PERCENT OF X. F. WOULD HAVE HELD DOWN OVERALL RETURNS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2760 is 1.05297 over 1019 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3390 RECENT DAILY OR HE MIGHT HOLD IT IS ASIAN OF WITH DROVE THE NEXT FORTY COUNTRIES THREE TO AN AGREEMENT LIMITING PRODUCTION SUGGEST PRICES MIGHT FULL SERVE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3390 is 0.886849 over 1019 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3386 BOARD OF A. M. IN A STRAIN YOU'LL SAYS OF U. S. COURTS ONLY HAVE A WEEK FIFTY BACK OF C. JET THE SUIT STEMS EXPIRE BY NINETEEN EIGHTY EIGHT WILL RETIRE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3386 is 0.884754 over 1028 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2537 IF FLOW JOB FILLED IT OVER THE <UNK> A FOOD HEADED FOR <UNK> FOOD IS HEAD OF WHITE WHO HAS SAID HOWEVER THE FOOD WHO HAS WHO HAD A <UNK> IF 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2537 is 0.763442 over 1041 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2966 AN F. B. I. OR WORK INCLUDED THAT THE NUMBER OF VIOLENT CRIMES REPORTED IN THE U. S. LAST YEAR INCREASED FIVE POINT FIVE PERCENT FOR NINETEEN EIGHTY SEVEN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2966 is 1.13193 over 1051 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3605 UNLESS OTHERWISE NOTED CHANGES INVOLVED DIRECT HOLDINGS OF COMMON STOCK AND TOOK PLACE IN OCTOBER AND NOVEMBER NINETEEN EIGHTY SEVEN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3605 is 1.20412 over 1065 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2581 BUT THE OFFERING THE OPINION THAT RATHER WADE THE UNITS CHIEF AND HALF A DOZEN OTHER SENIOR PEOPLE WILL GO WITH THE U. S. F. AND G. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2581 is 1.10089 over 1067 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3597 FREE FLIGHTS O. THAT SINCE THE OCTOBER NINETEENTH FUND FOR DOLLAR JONES TRANSPORTATION AVERAGE HAS DROPPED FEW LOW THE LOAD IT FLOWS TO DOING CRASH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3597 is 0.886993 over 1070 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3382 THE STOCK IS CONVERTIBLE AT ANY THOUGHT OF THE COMMON AT AN INITIAL PRICE OF TWELVE DOLLARS A SHARE SUBJECT TO ADJUST IN DECEMBER FIFTY NINETEEN EIGHTY EIGHT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3382 is 1.02888 over 1072 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2752 IN YESTERDAY'S AT LEAST THE DEPARTMENT ALSO REVISED ITS SEPTEMBER PER FARM AND SERVE ZERO POINT TWO PERCENT RISE AFTER PREVIOUSLY IMPORTING IT AS UNCHANGED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2752 is 1.05561 over 1076 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2539 IN JANUARY THE BEAVERTON OREGON TWENTY MAKER DISCLOSED TALKS CONCERNING ITS POSSIBLE TAKEOVER BY A THIRD PARTY WHO PROPOSED A FRIENDLY TRANSACTION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2539 is 1.1572 over 1078 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2972 IN THE ELECTRICAL SECTOR SIEMENS RECOVERED SOME OF THE LOSS IT HAD TO STATE ONE EVER FOR THE NINE PERCENT DECLINE IN FIRST HALF THROUGH FRAUD <UNK> 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2972 is 0.990209 over 1084 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2754 THE AMERICANS ACTED SIZED TO HOW OPPOSITE TRADING EX TO OUT THEN CITY POSE FIRM DOLLARS FIFTY CENTS A SHARE UP FLY FLEET EIGHT SEVEN FIVE DOLLARS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2754 is 0.929058 over 1086 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3599 IT HAS SINCE REBOUNDED TO SEVEN HUNDRED FORTY FIVE POINT FIVE SEVEN CAN WHERE CLOSED DRIVING LOSING FOUR POINT FIVE SEVEN POINTS IN THE SESSION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3599 is 1.14689 over 1087 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2748 BUT THAT HAVE <UNK> UP EDGED INSURER EXPECTED THIS FINE HIGH JUST SEVEN THOUSAND SEVEN HUNDRED DOLLARS IN AID TWO WEEKS YEAR HUNDRED THIRTY MILLION DOLLAR IS IN OBLIGATIONS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2748 is 1.06077 over 1102 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3420 PROBABLY SAID ITS QUARTERLY CASH GIVEN THE FORTY CENTS A SHARE WILL BE PAID IF LOOKS WITH ON SEPTEMBER TENTH TO STOCK OF RECORD ON ORDERS NINETY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3420 is 0.972727 over 1120 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3418 BUT DO FINANCIAL SERVICES CONCERNS SAID THEY PREVIOUSLY AGREED TO END THE AGREEMENT IF THE TRANSACTION WASN'T COMPLETED BY MARCH TWENTY FOURTH NINETEEN EIGHTY SEVEN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3418 is 1.18576 over 1121 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2750 ALTHOUGH THE FOREIGN EXCHANGE MARKET RALLY HAS MUCH IMPACT ON TAX EXEMPT SECURITIES TRADERS HAVE THE DOLLAR'S WEEK RALLY YESTERDAY HELPED BILLION MINISTRY PAUL PRICES 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2750 is 1.09233 over 1131 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2746 THE NOVEMBER A DROP PROBABLY INDEX TO ONE HUNDRED NINETY POINTS TWO PERCENT OF ITS NINETEEN SIXTY SEVEN AVERAGE FROM ONE HUNDRED NINETY THREE POINT FIVE PERCENT IN OCTOBER 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2746 is 1.12902 over 1134 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3000 HALF SLIGHT ITS OWN RECENTLY <UNK> CONFESS AN INTEL SHE HAS AGAIN SHOULD HAVE TO OTHER SESSION SWISS HEALTH THAT HIGH FLAT HOTEL THE SITE SAYS SMITH ANY MAJOR FACTS HE SAYS IS SIZE HIS SAYS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3000 is 0.726214 over 1140 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2535 MOREOVER B. C. C. I. OFFICIALS AND INDUSTRY ANALYSTS STRESSED THAT AS MUCH AS SEVENTY FIVE PERCENT OF THE BANK'S DEPOSIT BASE IS MADE UP OF RETAIL DEPOSITS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2535 is 1.15063 over 1142 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3629 PRIOR TO THE FILING THE COMPANY SAID IT HAVE BEEN ATTEMPTING TO SETTLE ITS DEBT WITH THE CREDITORS CAN TO GAIN ADDITIONAL BANK FINANCING TO CONTINUE GOING CORPORATIONS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3629 is 1.08234 over 1143 frames.
+Realmalespk04-uswsj5kdevmalespk04snt3207 STOCKS REBOUNDED SHARPLY BUSH IN THE DOW JONES INDUSTRIALS UP A RECORD SEVENTY FIVE POINT TWO THREE POINTS TO TWO THOUSAND FIVE HUNDRED SIXTY EIGHT POINT OH FIVE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk04-uswsj5kdevmalespk04snt3207 is 1.18279 over 1144 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3601 DESPITE THE UNEXPECTED STRENGTH ECONOMISTS SAY SPENDING WAS SLOW SOON DUE TO SLUGGISH INCOME GROWTH RISING PRICES AND HIGH CONSUMER DEBT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3601 is 1.09575 over 1153 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt3002 THE DISCOUNT TRADE ON WITH AND RUSH TREASURY BILL FELL AS WHAT WAS SEVEN POINT SIX FOUR PERCENT L. WAS QUOTED LATE FRIDAY AT SEVEN POINT EIGHT SIX BUT SUCH C. 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt3002 is 0.907522 over 1154 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3633 BOTH COMPANIES OFFER DEALERS CASH INCENTIVES DURING THE MONTH NISSAN HUNDRED THREE AT ITS BEST SELLING CARS AND ITS AGREE SHEET ON OLD ONE OF ITS PASSENGER COVERS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3633 is 1.04514 over 1159 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2964 RECOGNITION SAID IT REORGANIZED ITS U. S. BUSINESS INTO THREE UNITS SALES AND SERVICE FEDERAL GOVERNMENT SALES AND SALES OF OTHER MEN AND SPECIAL PRODUCTS WHO WILL 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2964 is 1.03771 over 1165 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3384 REBELS WILL GRAY AT INTERESTS THAT EIGHT POINT FLY BOUGHT PERCENT THEY WILL FEBRUARY FIRST AND AUGUST FIRST TO REACH YEAR BEGINNING THAT WORD FIRST NINETEEN NINETY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3384 is 0.952565 over 1180 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2974 THE TOKYO STOCK EXCHANGE'S FIRST SECTION INDEX FELL ONE POINT SEVEN EIGHT BANKS TO CLOSED AT TWO THOUSAND E. ONE HUNDRED TWO POINT FIVE FIVE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2974 is 1.10923 over 1183 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3593 THE FOLLOWING OFFICERS DIRECTORS AND LARGE STOCKHOLDERS OF COMPANIES REPORTED CHANGES IN HOLDINGS UNDER THE SECURITIES EXCHANGE ACT OF NINETEEN THIRTY HIM BACK 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3593 is 1.2158 over 1194 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3591 AS PREVIOUSLY REPORTED THOMPSON HAS A TENDER OFFER OUTSTANDING TO FIVE THIRTY ONE POINT FIVE MILLION SOUTHLAND COMMON SHARES FOR SEVENTY SEVEN DOLLARS A SHARE 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3591 is 1.21127 over 1203 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3631 DOFASCO HAMILTON ONTARIO SAID ABOUT THREE POINT THREE MILLION CONVERTIBLE PREFERRED SHARES ABOUT EIGHTY SIX PERCENT WITH TOTAL UP STAND IN WERE TENDERED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3631 is 1.11774 over 1219 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3380 A SPOKESMAN SAID THE COMPANY EXPECTS THE MORE THAN DOUBLED SHARES OUTSTANDING TO ABOUT NINETEEN POINT TWO MILLION FROM EIGHT POINT TWO MILLION AS A RESULT OF THE U. OFFERED 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3380 is 1.09705 over 1226 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2577 THE NEW DIVIDEND IS A FIFTEEN PERCENT INCREASE FROM THE PREVIOUS FORTY CENT DISTRIBUTION AND IS PAYABLE SEPTEMBER THIRTIETH TO STOCK OF RECORD AUGUST THIRTY FIRST 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2577 is 1.18597 over 1232 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2789 RECOGNITION SAID IT REORGANIZED ITS YOU ASKED BUSINESS INTO THREE UNITS SALES AND SERVICE FEDERAL GOVERNMENT SALES AND SALES DEVELOPMENT AND SPECIAL PRODUCTS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2789 is 1.04433 over 1241 frames.
+Realfemalespk01-uswsj5kdevfemalespk01snt2533 SHE KNEW RESOURCES PUSH IN ESTIMATES THE ELECTRONIC HOW LIKE F. AT ABOUT TWO HUNDRED NINETY SIX MILLION DOLLARS A YEAR F. AND WHICH HAD HAD OUT CENTER FIFTH MILLION DOLLAR BANK WHO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk01-uswsj5kdevfemalespk01snt2533 is 0.91607 over 1249 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3587 FOR OTHER FIVE DIRECTOR OF HAVE LITTLE FOR NOW SAYS HAVE MERRILL LYNCH TAKES DOLLAR THEORY HIM TO CONSIDER A SHOVE AND STEADY THE MARKET FOR ITS NOT HIS SOLE FORECAST AND TWO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3587 is 0.886157 over 1251 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3589 AND IT SAID TRADERS SHOULD BE ABLE TO DELIVER ACTUAL STOCKS TO SEVERAL FUTURES CONTRACT OBLIGATIONS STOCK INDEX FUTURES CURRENTLY ARE SETTLED IN CASH A CARD EXPIRATION 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3589 is 1.16498 over 1259 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3627 DOMESTIC CARS ACCOUNTED FOR SEVENTY THREE POINT FIVE PERCENT OF A PROBE LOT OF SALES BY THE IMPORT SHARE GREW ONE POINT FIVE PERCENT TO TWENTY SIX POINT FIVE PERCENT 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3627 is 1.19763 over 1264 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2958 THE NIKKEI INDEX OF TWO HUNDRED TWENTY FIVE SELECTED ISSUES EDGED UP TWELVE POINT FOUR THREE POINTS TO CLOSE AT TWENTY FIVE THOUSAND SIX HUNDRED SEVENTEEN POINT EIGHT TWO 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2958 is 1.27062 over 1276 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2956 IN A ONE HUNDRED EIGHTY FOUR PAGE THE BILL COMPLAINT THE SECURITIES AND EXCHANGE COMMISSION LAST MONTH ACCUSED THE POWERFUL FINANCE SHAME OF A CATALOG OF SECURITIES LAW VIOLATIONS 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2956 is 1.04832 over 1277 frames.
+Realmalespk06-uswsj5kdevmalespk06snt3585 HAVE ALL MADE SEVERAL OTHER RECOMMENDATIONS CONCERNING PROGRAM TRADING IN INCLUDE IN CONSOLIDATED IN REGULAR INTO AN AUTHORITY OVER OF ALL U. S. FINANCIAL MARKETS AND UNDER ONE GOVERNMENT AGENCY IN 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk06-uswsj5kdevmalespk06snt3585 is 0.992662 over 1288 frames.
+Realfemalespk02-uswsj5kdevfemalespk02snt2787 EACH SIDE TO HAVE BEEN PRICED SEVEN TODAY SIXTY SEVEN KNOW IF VALUE SHOULD CASH DO KNOW THAT LESS ACTIVE AND SIX HUNDRED AFTER THE EIGHT MILLION OF ALL S. L. F. WHICH AREA X. FEBRUARY SHOWS SOME <UNK> FISH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk02-uswsj5kdevfemalespk02snt2787 is 0.840108 over 1312 frames.
+Realmalespk05-uswsj5kdevmalespk05snt3378 ALSO CABLE OPERATORS ALREADY OF SIGNING UP FOR ANOTHER PROPOSE NEW CABLE THAT DART A BROADCASTING SYSTEM INCORPORATED'S THE END G. SCHEDULE FOR NOT THOUGH THE THIRD WATCH 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realmalespk05-uswsj5kdevmalespk05snt3378 is 1.06101 over 1480 frames.
+Realfemalespk03-uswsj5kdevfemalespk03snt2998 UNDERWRITERS LED BY MERRILL LYNCH CAPITAL MARKETS TENTATIVELY PRICED A PROPOSED ONE HUNDRED NINETY SIX POINT SEVEN MILLION DOLLAR OFFERING OF MORTGAGE REVENUE BONDS BY THE CALIFORNIA HOUSING FINANCE AGENCY 
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance Realfemalespk03-uswsj5kdevfemalespk03snt2998 is 1.19105 over 1486 frames.
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:main():latgen-faster-mapped.cc:164) Time taken 72.809s: real-time factor assuming 100 frames/sec is 0.0266451
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:main():latgen-faster-mapped.cc:167) Done 381 utterances, failed for 0
+LOG (latgen-faster-mapped[5.5.678~1-3b68c]:main():latgen-faster-mapped.cc:169) Overall log-likelihood per frame is 1.01699 over 273255 frames.

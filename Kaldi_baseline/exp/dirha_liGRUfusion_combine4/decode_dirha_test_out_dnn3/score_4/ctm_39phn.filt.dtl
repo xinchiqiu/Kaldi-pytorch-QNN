@@ -1,0 +1,3399 @@
+DETAILED OVERALL REPORT FOR THE SYSTEM: /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_4/ctm_39phn
+
+SENTENCE RECOGNITION PERFORMANCE
+
+ sentences                                         409
+ with errors                             90.2%   ( 369)
+
+   with substitions                      82.2%   ( 336)
+   with deletions                        27.1%   ( 111)
+   with insertions                       56.2%   ( 230)
+
+
+WORD RECOGNITION PERFORMANCE
+
+Percent Total Error       =   40.3%   (2723)
+
+Percent Correct           =   68.2%   (4612)
+
+Percent Substitution      =   22.8%   (1539)
+Percent Deletions         =    9.0%   ( 611)
+Percent Insertions        =    8.5%   ( 573)
+Percent Word Accuracy     =   59.7%
+
+
+Ref. words                =           (6762)
+Hyp. words                =           (6724)
+Aligned words             =           (7335)
+
+CONFUSION PAIRS                  Total                 (1372)
+                                 With >=  1 occurances (1372)
+
+   1:   17  ->  s ==> s.
+   2:   17  ->  u ==> u.
+   3:    9  ->  a ==> the
+   4:    9  ->  mr ==> mr.
+   5:    8  ->  and ==> in
+   6:    4  ->  b ==> b.
+   7:    4  ->  c ==> c.
+   8:    4  ->  from ==> for
+   9:    4  ->  l ==> l.
+  10:    4  ->  of ==> a
+  11:    4  ->  r ==> r.
+  12:    4  ->  t ==> t.
+  13:    4  ->  the ==> a
+  14:    4  ->  to ==> a
+  15:    3  ->  a ==> of
+  16:    3  ->  fifteen ==> fifty
+  17:    3  ->  g ==> g.
+  18:    3  ->  i ==> i.
+  19:    3  ->  of ==> with
+  20:    3  ->  or ==> are
+  21:    3  ->  the ==> have
+  22:    3  ->  the ==> to
+  23:    3  ->  the ==> with
+  24:    3  ->  u ==> s.
+  25:    2  ->  a ==> after
+  26:    2  ->  a ==> an
+  27:    2  ->  a ==> and
+  28:    2  ->  a ==> other
+  29:    2  ->  a ==> their
+  30:    2  ->  after ==> if
+  31:    2  ->  agreement ==> and
+  32:    2  ->  an ==> in
+  33:    2  ->  and ==> a
+  34:    2  ->  are ==> or
+  35:    2  ->  as ==> was
+  36:    2  ->  at ==> and
+  37:    2  ->  at ==> had
+  38:    2  ->  at ==> have
+  39:    2  ->  august ==> is
+  40:    2  ->  available ==> a
+  41:    2  ->  b ==> be
+  42:    2  ->  based ==> base
+  43:    2  ->  below ==> low
+  44:    2  ->  closed ==> close
+  45:    2  ->  dow ==> dollar
+  46:    2  ->  f ==> f.
+  47:    2  ->  for ==> were
+  48:    2  ->  had ==> at
+  49:    2  ->  had ==> have
+  50:    2  ->  has ==> have
+  51:    2  ->  has ==> is
+  52:    2  ->  hasn't ==> has
+  53:    2  ->  he ==> e.
+  54:    2  ->  i ==> a
+  55:    2  ->  i'm ==> a
+  56:    2  ->  i'm ==> on
+  57:    2  ->  in ==> and
+  58:    2  ->  into ==> the
+  59:    2  ->  k ==> k.
+  60:    2  ->  m's ==> m.'s
+  61:    2  ->  n ==> n.
+  62:    2  ->  of ==> at
+  63:    2  ->  of ==> the
+  64:    2  ->  offered ==> offer
+  65:    2  ->  on ==> of
+  66:    2  ->  own ==> on
+  67:    2  ->  percent ==> that
+  68:    2  ->  point ==> points
+  69:    2  ->  replaced ==> replace
+  70:    2  ->  s ==> mr.
+  71:    2  ->  said ==> that
+  72:    2  ->  sears ==> is
+  73:    2  ->  seven ==> in
+  74:    2  ->  seven ==> said
+  75:    2  ->  slow ==> low
+  76:    2  ->  the ==> is
+  77:    2  ->  the ==> we
+  78:    2  ->  the ==> who
+  79:    2  ->  they ==> big
+  80:    2  ->  thousand ==> valued
+  81:    2  ->  three ==> <unk>
+  82:    2  ->  to ==> in
+  83:    2  ->  training ==> trading
+  84:    2  ->  v ==> v.
+  85:    2  ->  was ==> with
+  86:    2  ->  will ==> the
+  87:    2  ->  with ==> of
+  88:    2  ->  would ==> that
+  89:    2  ->  zero ==> who
+  90:    1  ->  a ==> a.
+  91:    1  ->  a ==> are
+  92:    1  ->  a ==> at
+  93:    1  ->  a ==> come
+  94:    1  ->  a ==> debt
+  95:    1  ->  a ==> e.
+  96:    1  ->  a ==> effective
+  97:    1  ->  a ==> eight
+  98:    1  ->  a ==> food
+  99:    1  ->  a ==> for
+ 100:    1  ->  a ==> four
+ 101:    1  ->  a ==> it
+ 102:    1  ->  a ==> on
+ 103:    1  ->  a ==> or
+ 104:    1  ->  a ==> predicted
+ 105:    1  ->  a ==> private
+ 106:    1  ->  a ==> re
+ 107:    1  ->  a ==> same
+ 108:    1  ->  a ==> second
+ 109:    1  ->  a ==> serve
+ 110:    1  ->  a ==> site
+ 111:    1  ->  able ==> unable
+ 112:    1  ->  about ==> out
+ 113:    1  ->  about ==> who
+ 114:    1  ->  accord ==> court
+ 115:    1  ->  according ==> in
+ 116:    1  ->  accounted ==> kept
+ 117:    1  ->  accounts ==> counts
+ 118:    1  ->  added ==> her
+ 119:    1  ->  adds ==> added
+ 120:    1  ->  adjustment ==> in
+ 121:    1  ->  administrative ==> you'll
+ 122:    1  ->  advanced ==> fe
+ 123:    1  ->  advancing ==> saying
+ 124:    1  ->  advocates ==> gets
+ 125:    1  ->  affected ==> the
+ 126:    1  ->  after ==> for
+ 127:    1  ->  after ==> it
+ 128:    1  ->  after ==> who
+ 129:    1  ->  after ==> with
+ 130:    1  ->  again ==> an
+ 131:    1  ->  agency ==> c.
+ 132:    1  ->  aggregate ==> if
+ 133:    1  ->  ago ==> a
+ 134:    1  ->  alfred ==> offered
+ 135:    1  ->  all ==> and
+ 136:    1  ->  all ==> hall
+ 137:    1  ->  allowed ==> of
+ 138:    1  ->  allowing ==> new
+ 139:    1  ->  almost ==> member
+ 140:    1  ->  almost ==> office
+ 141:    1  ->  along ==> own
+ 142:    1  ->  along ==> will
+ 143:    1  ->  also ==> a
+ 144:    1  ->  also ==> so
+ 145:    1  ->  also ==> will
+ 146:    1  ->  american ==> sized
+ 147:    1  ->  amid ==> new
+ 148:    1  ->  amount ==> mile
+ 149:    1  ->  amount ==> out
+ 150:    1  ->  amsterdam ==> acid
+ 151:    1  ->  amsterdam ==> than
+ 152:    1  ->  an ==> a
+ 153:    1  ->  an ==> may
+ 154:    1  ->  an ==> or
+ 155:    1  ->  an ==> though
+ 156:    1  ->  analysis ==> says
+ 157:    1  ->  and ==> <unk>
+ 158:    1  ->  and ==> around
+ 159:    1  ->  and ==> can
+ 160:    1  ->  and ==> few
+ 161:    1  ->  and ==> have
+ 162:    1  ->  and ==> of
+ 163:    1  ->  and ==> size
+ 164:    1  ->  and ==> stock
+ 165:    1  ->  and ==> thousand
+ 166:    1  ->  and ==> to
+ 167:    1  ->  and ==> working
+ 168:    1  ->  another ==> hit
+ 169:    1  ->  another ==> other
+ 170:    1  ->  any ==> the
+ 171:    1  ->  appear ==> the
+ 172:    1  ->  appear ==> your
+ 173:    1  ->  appeared ==> via
+ 174:    1  ->  approach ==> probe
+ 175:    1  ->  appropriate ==> a
+ 176:    1  ->  appropriate ==> it
+ 177:    1  ->  approved ==> prove
+ 178:    1  ->  april ==> lot
+ 179:    1  ->  are ==> a
+ 180:    1  ->  are ==> for
+ 181:    1  ->  are ==> i
+ 182:    1  ->  are ==> off
+ 183:    1  ->  are ==> our
+ 184:    1  ->  are ==> real
+ 185:    1  ->  are ==> that
+ 186:    1  ->  are ==> their
+ 187:    1  ->  are ==> they're
+ 188:    1  ->  areas ==> is
+ 189:    1  ->  aren't ==> are
+ 190:    1  ->  aren't ==> arms
+ 191:    1  ->  as ==> has
+ 192:    1  ->  as ==> of
+ 193:    1  ->  as ==> out
+ 194:    1  ->  as ==> takeovers
+ 195:    1  ->  assessment ==> s.
+ 196:    1  ->  assets ==> f.
+ 197:    1  ->  at ==> a
+ 198:    1  ->  at ==> new
+ 199:    1  ->  at ==> of
+ 200:    1  ->  at ==> pose
+ 201:    1  ->  at ==> said
+ 202:    1  ->  at ==> that
+ 203:    1  ->  at ==> the
+ 204:    1  ->  at ==> third
+ 205:    1  ->  at ==> to
+ 206:    1  ->  australian ==> in
+ 207:    1  ->  authority ==> be
+ 208:    1  ->  auto ==> of
+ 209:    1  ->  automated ==> automatic
+ 210:    1  ->  automated ==> rated
+ 211:    1  ->  autos ==> had
+ 212:    1  ->  availability ==> a
+ 213:    1  ->  availability ==> no
+ 214:    1  ->  available ==> <unk>
+ 215:    1  ->  available ==> own
+ 216:    1  ->  b ==> i.
+ 217:    1  ->  back ==> about
+ 218:    1  ->  back ==> that
+ 219:    1  ->  bad ==> them
+ 220:    1  ->  baker ==> baker's
+ 221:    1  ->  baker ==> to
+ 222:    1  ->  bankruptcy ==> jet
+ 223:    1  ->  banks ==> for
+ 224:    1  ->  based ==> its
+ 225:    1  ->  based ==> the
+ 226:    1  ->  be ==> history
+ 227:    1  ->  be ==> maker
+ 228:    1  ->  be ==> o.
+ 229:    1  ->  be ==> outcome
+ 230:    1  ->  be ==> r.
+ 231:    1  ->  be ==> who
+ 232:    1  ->  becomes ==> because
+ 233:    1  ->  been ==> and
+ 234:    1  ->  been ==> bid
+ 235:    1  ->  been ==> big
+ 236:    1  ->  before ==> flew
+ 237:    1  ->  before ==> for
+ 238:    1  ->  before ==> if
+ 239:    1  ->  before ==> ms.
+ 240:    1  ->  begin ==> be
+ 241:    1  ->  begun ==> is
+ 242:    1  ->  behalf ==> have
+ 243:    1  ->  behind ==> if
+ 244:    1  ->  belief ==> voting
+ 245:    1  ->  bethlehem ==> plan
+ 246:    1  ->  better ==> term
+ 247:    1  ->  between ==> three
+ 248:    1  ->  billion ==> million
+ 249:    1  ->  bond ==> on
+ 250:    1  ->  bonds ==> bonn
+ 251:    1  ->  bonds ==> know
+ 252:    1  ->  bonds ==> which
+ 253:    1  ->  boosted ==> that
+ 254:    1  ->  boston ==> in
+ 255:    1  ->  both ==> well
+ 256:    1  ->  boy's ==> boy
+ 257:    1  ->  britain ==> to
+ 258:    1  ->  brokers ==> i
+ 259:    1  ->  bull ==> all
+ 260:    1  ->  bundesbank ==> main
+ 261:    1  ->  buoy ==> ministry
+ 262:    1  ->  burnham ==> martin
+ 263:    1  ->  business ==> growth
+ 264:    1  ->  business ==> to
+ 265:    1  ->  but ==> for
+ 266:    1  ->  but ==> its
+ 267:    1  ->  but ==> l.
+ 268:    1  ->  but ==> lot
+ 269:    1  ->  but ==> old
+ 270:    1  ->  but ==> that
+ 271:    1  ->  but ==> those
+ 272:    1  ->  but ==> which
+ 273:    1  ->  buy ==> five
+ 274:    1  ->  by ==> high
+ 275:    1  ->  by ==> via
+ 276:    1  ->  calmer ==> or
+ 277:    1  ->  came ==> he
+ 278:    1  ->  can ==> from
+ 279:    1  ->  can ==> vacant
+ 280:    1  ->  can't ==> can
+ 281:    1  ->  capacity ==> fast
+ 282:    1  ->  capital ==> over
+ 283:    1  ->  card ==> current
+ 284:    1  ->  cars ==> covers
+ 285:    1  ->  cash ==> crop
+ 286:    1  ->  cash ==> our
+ 287:    1  ->  ceased ==> half
+ 288:    1  ->  cents ==> fed
+ 289:    1  ->  certain ==> are
+ 290:    1  ->  changed ==> change
+ 291:    1  ->  channel ==> javelin
+ 292:    1  ->  charged ==> charge
+ 293:    1  ->  charges ==> changes
+ 294:    1  ->  cheering ==> shares
+ 295:    1  ->  cheering ==> sharing
+ 296:    1  ->  chief ==> cheap
+ 297:    1  ->  chief ==> just
+ 298:    1  ->  chief ==> team
+ 299:    1  ->  china ==> puts
+ 300:    1  ->  christmas ==> c.
+ 301:    1  ->  citicorp ==> court
+ 302:    1  ->  citizens ==> is
+ 303:    1  ->  civil ==> bill
+ 304:    1  ->  class ==> cost
+ 305:    1  ->  climbed ==> and
+ 306:    1  ->  climbed ==> let
+ 307:    1  ->  close ==> closed
+ 308:    1  ->  combination ==> that
+ 309:    1  ->  committee's ==> committees
+ 310:    1  ->  commodities ==> says
+ 311:    1  ->  common ==> is
+ 312:    1  ->  community ==> be
+ 313:    1  ->  companies ==> government
+ 314:    1  ->  company ==> added
+ 315:    1  ->  company ==> at
+ 316:    1  ->  company ==> co
+ 317:    1  ->  company ==> companies
+ 318:    1  ->  company ==> healthy
+ 319:    1  ->  company ==> probably
+ 320:    1  ->  company ==> the
+ 321:    1  ->  compaq ==> back
+ 322:    1  ->  compete ==> be
+ 323:    1  ->  compete ==> fifth
+ 324:    1  ->  composite ==> opposite
+ 325:    1  ->  comprise ==> priced
+ 326:    1  ->  concentrated ==> cost
+ 327:    1  ->  concern ==> a
+ 328:    1  ->  concern ==> i.
+ 329:    1  ->  concern ==> send
+ 330:    1  ->  concessions ==> exemption
+ 331:    1  ->  concluded ==> included
+ 332:    1  ->  confess ==> of
+ 333:    1  ->  congress ==> as
+ 334:    1  ->  connecticut ==> fleet
+ 335:    1  ->  consideration ==> shove
+ 336:    1  ->  consolidating ==> into
+ 337:    1  ->  contracting ==> the
+ 338:    1  ->  corporation ==> corporation's
+ 339:    1  ->  corporation ==> in
+ 340:    1  ->  corporation ==> ratio
+ 341:    1  ->  could ==> can
+ 342:    1  ->  could ==> goals
+ 343:    1  ->  could ==> its
+ 344:    1  ->  council ==> should
+ 345:    1  ->  counter ==> to
+ 346:    1  ->  coupon ==> combined
+ 347:    1  ->  court's ==> courts
+ 348:    1  ->  credit ==> trade
+ 349:    1  ->  criminal ==> federal
+ 350:    1  ->  cs ==> b.
+ 351:    1  ->  cs ==> c.'s
+ 352:    1  ->  cumulative ==> for
+ 353:    1  ->  customers ==> and
+ 354:    1  ->  d ==> b.
+ 355:    1  ->  data ==> a
+ 356:    1  ->  date ==> day
+ 357:    1  ->  deadline ==> one
+ 358:    1  ->  deal ==> on
+ 359:    1  ->  debt ==> bet
+ 360:    1  ->  debt ==> death
+ 361:    1  ->  decline ==> fly
+ 362:    1  ->  declined ==> plans
+ 363:    1  ->  declining ==> in
+ 364:    1  ->  delayed ==> late
+ 365:    1  ->  department ==> boss
+ 366:    1  ->  department ==> departments
+ 367:    1  ->  determine ==> and
+ 368:    1  ->  determine ==> would
+ 369:    1  ->  detroit ==> trade
+ 370:    1  ->  developed ==> develops
+ 371:    1  ->  development ==> and
+ 372:    1  ->  development ==> men
+ 373:    1  ->  didn't ==> to
+ 374:    1  ->  discuss ==> discussed
+ 375:    1  ->  dividend ==> given
+ 376:    1  ->  dividend ==> then
+ 377:    1  ->  do ==> few
+ 378:    1  ->  doctor ==> the
+ 379:    1  ->  does ==> doesn't
+ 380:    1  ->  does ==> just
+ 381:    1  ->  doing ==> giving
+ 382:    1  ->  dollar ==> chain
+ 383:    1  ->  dollar ==> shown
+ 384:    1  ->  dollar ==> think
+ 385:    1  ->  dollars ==> as
+ 386:    1  ->  dollars ==> cash
+ 387:    1  ->  dollars ==> is
+ 388:    1  ->  dollars ==> l.
+ 389:    1  ->  dollars ==> offs
+ 390:    1  ->  dollars ==> who
+ 391:    1  ->  don't ==> though
+ 392:    1  ->  don't ==> who
+ 393:    1  ->  done ==> been
+ 394:    1  ->  done ==> d.
+ 395:    1  ->  double ==> owns
+ 396:    1  ->  dropped ==> drop
+ 397:    1  ->  dropped ==> jobs
+ 398:    1  ->  due ==> that
+ 399:    1  ->  dun ==> that
+ 400:    1  ->  durable ==> food
+ 401:    1  ->  during ==> to
+ 402:    1  ->  e ==> eight
+ 403:    1  ->  e ==> g.
+ 404:    1  ->  each ==> reach
+ 405:    1  ->  ease ==> use
+ 406:    1  ->  eased ==> use
+ 407:    1  ->  eased ==> you
+ 408:    1  ->  economic ==> i
+ 409:    1  ->  education ==> have
+ 410:    1  ->  effectively ==> actively
+ 411:    1  ->  efforts ==> a
+ 412:    1  ->  eighteen ==> be
+ 413:    1  ->  eighties ==> fate
+ 414:    1  ->  eighty ==> she
+ 415:    1  ->  eighty ==> to
+ 416:    1  ->  elaborate ==> efforts
+ 417:    1  ->  eleven ==> flat
+ 418:    1  ->  eliminating ==> aides
+ 419:    1  ->  else ==> lose
+ 420:    1  ->  embargo ==> after
+ 421:    1  ->  employers ==> is
+ 422:    1  ->  employment ==> and
+ 423:    1  ->  ended ==> aided
+ 424:    1  ->  ending ==> expand
+ 425:    1  ->  ending ==> in
+ 426:    1  ->  enthusiasm ==> it
+ 427:    1  ->  equipment ==> a
+ 428:    1  ->  european ==> korean
+ 429:    1  ->  even ==> he
+ 430:    1  ->  even ==> rate
+ 431:    1  ->  even ==> the
+ 432:    1  ->  exchange ==> exchange's
+ 433:    1  ->  exchange ==> how
+ 434:    1  ->  exchanged ==> and
+ 435:    1  ->  exchanges ==> with
+ 436:    1  ->  excited ==> cited
+ 437:    1  ->  excluding ==> who
+ 438:    1  ->  expected ==> due
+ 439:    1  ->  expenses ==> to
+ 440:    1  ->  expired ==> expire
+ 441:    1  ->  exporting ==> forty
+ 442:    1  ->  extend ==> extended
+ 443:    1  ->  extra ==> street
+ 444:    1  ->  extraction ==> to
+ 445:    1  ->  f ==> as
+ 446:    1  ->  f ==> b.
+ 447:    1  ->  f ==> june
+ 448:    1  ->  f ==> the
+ 449:    1  ->  facilities ==> from
+ 450:    1  ->  failure ==> hall
+ 451:    1  ->  fair ==> their
+ 452:    1  ->  fall ==> full
+ 453:    1  ->  falling ==> he's
+ 454:    1  ->  family ==> daily
+ 455:    1  ->  farm ==> his
+ 456:    1  ->  farrell ==> five
+ 457:    1  ->  faster ==> are
+ 458:    1  ->  february ==> victor
+ 459:    1  ->  february ==> word
+ 460:    1  ->  fed's ==> f.
+ 461:    1  ->  federal ==> up
+ 462:    1  ->  few ==> you
+ 463:    1  ->  fifteenth ==> tend
+ 464:    1  ->  figures ==> use
+ 465:    1  ->  filing ==> five
+ 466:    1  ->  finally ==> b.
+ 467:    1  ->  financial ==> from
+ 468:    1  ->  financier ==> shame
+ 469:    1  ->  financing ==> and
+ 470:    1  ->  firm's ==> firms
+ 471:    1  ->  firmed ==> firm
+ 472:    1  ->  first ==> fell
+ 473:    1  ->  first ==> fish
+ 474:    1  ->  fiscal ==> history
+ 475:    1  ->  five ==> bought
+ 476:    1  ->  five ==> fast
+ 477:    1  ->  five ==> fly
+ 478:    1  ->  five ==> half
+ 479:    1  ->  focus ==> after
+ 480:    1  ->  focus ==> pence
+ 481:    1  ->  for ==> a
+ 482:    1  ->  for ==> day
+ 483:    1  ->  for ==> facts
+ 484:    1  ->  for ==> key
+ 485:    1  ->  for ==> the
+ 486:    1  ->  for ==> to
+ 487:    1  ->  for ==> was
+ 488:    1  ->  for ==> with
+ 489:    1  ->  for ==> world
+ 490:    1  ->  forecasting ==> and
+ 491:    1  ->  forty ==> already
+ 492:    1  ->  forty ==> c.
+ 493:    1  ->  four ==> back
+ 494:    1  ->  four ==> for
+ 495:    1  ->  fourteenth ==> fourteen
+ 496:    1  ->  free ==> re
+ 497:    1  ->  free ==> street
+ 498:    1  ->  friday ==> driving
+ 499:    1  ->  friday ==> private
+ 500:    1  ->  from ==> move
+ 501:    1  ->  frontier ==> just
+ 502:    1  ->  fueled ==> field
+ 503:    1  ->  fueled ==> fuel
+ 504:    1  ->  fund ==> fine
+ 505:    1  ->  funds ==> files
+ 506:    1  ->  furniture ==> or
+ 507:    1  ->  g ==> are
+ 508:    1  ->  g ==> klein
+ 509:    1  ->  g ==> t.
+ 510:    1  ->  general ==> l.
+ 511:    1  ->  get ==> added
+ 512:    1  ->  get ==> who
+ 513:    1  ->  give ==> it
+ 514:    1  ->  gives ==> its
+ 515:    1  ->  going ==> growing
+ 516:    1  ->  going ==> run
+ 517:    1  ->  goldman ==> and
+ 518:    1  ->  goods ==> headed
+ 519:    1  ->  goods ==> is
+ 520:    1  ->  government ==> governor
+ 521:    1  ->  group ==> fraud
+ 522:    1  ->  group ==> korea
+ 523:    1  ->  groups ==> group's
+ 524:    1  ->  had ==> heads
+ 525:    1  ->  had ==> high
+ 526:    1  ->  had ==> whether
+ 527:    1  ->  half ==> have
+ 528:    1  ->  handful ==> full
+ 529:    1  ->  handling ==> heavily
+ 530:    1  ->  has ==> as
+ 531:    1  ->  has ==> its
+ 532:    1  ->  has ==> was
+ 533:    1  ->  hasn't ==> highly
+ 534:    1  ->  have ==> a
+ 535:    1  ->  have ==> are
+ 536:    1  ->  have ==> half
+ 537:    1  ->  have ==> was
+ 538:    1  ->  have ==> were
+ 539:    1  ->  haven't ==> added
+ 540:    1  ->  having ==> ever
+ 541:    1  ->  he ==> be
+ 542:    1  ->  he ==> believed
+ 543:    1  ->  he ==> c.
+ 544:    1  ->  he ==> fee
+ 545:    1  ->  he ==> had
+ 546:    1  ->  he ==> head
+ 547:    1  ->  he ==> it
+ 548:    1  ->  he ==> the
+ 549:    1  ->  head ==> have
+ 550:    1  ->  health ==> hope
+ 551:    1  ->  health ==> should
+ 552:    1  ->  heavy ==> have
+ 553:    1  ->  held ==> help
+ 554:    1  ->  higher ==> fed
+ 555:    1  ->  highest ==> highs
+ 556:    1  ->  highest ==> its
+ 557:    1  ->  him ==> in
+ 558:    1  ->  his ==> these
+ 559:    1  ->  holding ==> be
+ 560:    1  ->  homes ==> pose
+ 561:    1  ->  honda's ==> list
+ 562:    1  ->  hope ==> no
+ 563:    1  ->  hospital ==> hostile
+ 564:    1  ->  hospitals ==> fifth
+ 565:    1  ->  hour ==> four
+ 566:    1  ->  how ==> have
+ 567:    1  ->  however ==> improper
+ 568:    1  ->  however ==> our
+ 569:    1  ->  huge ==> few
+ 570:    1  ->  hundred ==> averaged
+ 571:    1  ->  hundred ==> fourth
+ 572:    1  ->  hundred ==> had
+ 573:    1  ->  hundred ==> today
+ 574:    1  ->  hundred ==> under
+ 575:    1  ->  i ==> as
+ 576:    1  ->  i ==> at
+ 577:    1  ->  i ==> higher
+ 578:    1  ->  i ==> might
+ 579:    1  ->  i ==> or
+ 580:    1  ->  i've ==> i
+ 581:    1  ->  if ==> had
+ 582:    1  ->  if ==> of
+ 583:    1  ->  important ==> be
+ 584:    1  ->  important ==> board
+ 585:    1  ->  important ==> boy
+ 586:    1  ->  important ==> importing
+ 587:    1  ->  important ==> or
+ 588:    1  ->  in ==> <unk>
+ 589:    1  ->  in ==> a
+ 590:    1  ->  in ==> acted
+ 591:    1  ->  in ==> again
+ 592:    1  ->  in ==> an
+ 593:    1  ->  in ==> given
+ 594:    1  ->  in ==> had
+ 595:    1  ->  in ==> it
+ 596:    1  ->  in ==> lowered
+ 597:    1  ->  in ==> new
+ 598:    1  ->  in ==> over
+ 599:    1  ->  in ==> rule
+ 600:    1  ->  in ==> that
+ 601:    1  ->  in ==> then
+ 602:    1  ->  in ==> to
+ 603:    1  ->  in ==> trading
+ 604:    1  ->  in ==> who
+ 605:    1  ->  in ==> z.
+ 606:    1  ->  including ==> regular
+ 607:    1  ->  income ==> coming
+ 608:    1  ->  income ==> gun
+ 609:    1  ->  increase ==> fifty
+ 610:    1  ->  increased ==> who
+ 611:    1  ->  indicted ==> day
+ 612:    1  ->  industrial ==> it
+ 613:    1  ->  industry ==> street
+ 614:    1  ->  industry ==> when
+ 615:    1  ->  industry's ==> industry
+ 616:    1  ->  inevitable ==> bill
+ 617:    1  ->  inevitable ==> will
+ 618:    1  ->  inflation ==> has
+ 619:    1  ->  institutions ==> institution
+ 620:    1  ->  intended ==> if
+ 621:    1  ->  interest ==> gray
+ 622:    1  ->  interest ==> just
+ 623:    1  ->  into ==> a
+ 624:    1  ->  into ==> calm
+ 625:    1  ->  investors ==> if
+ 626:    1  ->  investors ==> investments
+ 627:    1  ->  investors ==> is
+ 628:    1  ->  investors ==> there's
+ 629:    1  ->  investors ==> was
+ 630:    1  ->  investors' ==> volatile
+ 631:    1  ->  is ==> a
+ 632:    1  ->  is ==> assure
+ 633:    1  ->  is ==> corps
+ 634:    1  ->  is ==> dollar's
+ 635:    1  ->  is ==> if
+ 636:    1  ->  is ==> ms.
+ 637:    1  ->  is ==> negative
+ 638:    1  ->  is ==> of
+ 639:    1  ->  is ==> sales
+ 640:    1  ->  is ==> should
+ 641:    1  ->  is ==> streets
+ 642:    1  ->  is ==> was
+ 643:    1  ->  is ==> you
+ 644:    1  ->  it ==> a
+ 645:    1  ->  it ==> adding
+ 646:    1  ->  it ==> aid
+ 647:    1  ->  it ==> ford
+ 648:    1  ->  it ==> gulf
+ 649:    1  ->  it ==> had
+ 650:    1  ->  it ==> if
+ 651:    1  ->  it ==> is
+ 652:    1  ->  it ==> seen
+ 653:    1  ->  it ==> surge
+ 654:    1  ->  it ==> this
+ 655:    1  ->  it ==> who
+ 656:    1  ->  it ==> with
+ 657:    1  ->  it ==> youth
+ 658:    1  ->  it's ==> its
+ 659:    1  ->  its ==> doubled
+ 660:    1  ->  its ==> said
+ 661:    1  ->  itself ==> self
+ 662:    1  ->  jack ==> jet
+ 663:    1  ->  japanese ==> only
+ 664:    1  ->  joining ==> driving
+ 665:    1  ->  judges ==> the
+ 666:    1  ->  key ==> e.
+ 667:    1  ->  knopf ==> be
+ 668:    1  ->  know ==> mood
+ 669:    1  ->  knowledge ==> plan
+ 670:    1  ->  l ==> allen
+ 671:    1  ->  l ==> t.
+ 672:    1  ->  la ==> they
+ 673:    1  ->  labrecque ==> break
+ 674:    1  ->  labrecque ==> rank
+ 675:    1  ->  large ==> <unk>
+ 676:    1  ->  las ==> stake
+ 677:    1  ->  last ==> food
+ 678:    1  ->  last ==> her
+ 679:    1  ->  last ==> past
+ 680:    1  ->  late ==> week
+ 681:    1  ->  later ==> wait
+ 682:    1  ->  launch ==> watch
+ 683:    1  ->  lead ==> the
+ 684:    1  ->  leadership ==> reaching
+ 685:    1  ->  legal ==> bill
+ 686:    1  ->  levels ==> time
+ 687:    1  ->  levels ==> who
+ 688:    1  ->  levy ==> v.
+ 689:    1  ->  likely ==> who
+ 690:    1  ->  limit ==> in
+ 691:    1  ->  link ==> knew
+ 692:    1  ->  liquid ==> lately
+ 693:    1  ->  liquidity ==> quoted
+ 694:    1  ->  long ==> <unk>
+ 695:    1  ->  longitudinal ==> no
+ 696:    1  ->  look ==> love
+ 697:    1  ->  losses ==> of
+ 698:    1  ->  lost ==> loss
+ 699:    1  ->  low ==> load
+ 700:    1  ->  low ==> why
+ 701:    1  ->  lower ==> will
+ 702:    1  ->  lowest ==> of
+ 703:    1  ->  m ==> a
+ 704:    1  ->  m ==> and
+ 705:    1  ->  m ==> in
+ 706:    1  ->  machine ==> chief
+ 707:    1  ->  machine ==> she
+ 708:    1  ->  machinery ==> share
+ 709:    1  ->  machines ==> machine
+ 710:    1  ->  made ==> be
+ 711:    1  ->  made ==> may
+ 712:    1  ->  mail ==> had
+ 713:    1  ->  mail ==> like
+ 714:    1  ->  mail ==> now
+ 715:    1  ->  manufactured ==> says
+ 716:    1  ->  many ==> he
+ 717:    1  ->  march ==> large
+ 718:    1  ->  margin ==> they
+ 719:    1  ->  market ==> f.
+ 720:    1  ->  market ==> give
+ 721:    1  ->  market ==> good
+ 722:    1  ->  market ==> light
+ 723:    1  ->  market ==> markets
+ 724:    1  ->  markets ==> office
+ 725:    1  ->  markets ==> reckoned
+ 726:    1  ->  matters ==> hours
+ 727:    1  ->  maturing ==> area
+ 728:    1  ->  may ==> after
+ 729:    1  ->  may ==> for
+ 730:    1  ->  may ==> re
+ 731:    1  ->  me ==> we
+ 732:    1  ->  mean ==> main
+ 733:    1  ->  measures ==> air's
+ 734:    1  ->  meet ==> weeks
+ 735:    1  ->  members ==> works
+ 736:    1  ->  memory ==> them
+ 737:    1  ->  mexican ==> can
+ 738:    1  ->  mid ==> may
+ 739:    1  ->  might ==> white
+ 740:    1  ->  milan ==> up
+ 741:    1  ->  million ==> should
+ 742:    1  ->  mining ==> employed
+ 743:    1  ->  minneapolis ==> a
+ 744:    1  ->  minnesota ==> soviet
+ 745:    1  ->  minute ==> minutes
+ 746:    1  ->  misunderstood ==> group
+ 747:    1  ->  mitsubishi ==> sheet
+ 748:    1  ->  mixed ==> mix
+ 749:    1  ->  month ==> one
+ 750:    1  ->  month ==> rush
+ 751:    1  ->  months ==> <unk>
+ 752:    1  ->  months ==> fifth
+ 753:    1  ->  more ==> hour
+ 754:    1  ->  more ==> white
+ 755:    1  ->  morgan ==> morning
+ 756:    1  ->  most ==> serve
+ 757:    1  ->  motor ==> over
+ 758:    1  ->  mr ==> love
+ 759:    1  ->  mr ==> mack
+ 760:    1  ->  mr ==> sun
+ 761:    1  ->  mr ==> system
+ 762:    1  ->  mr ==> wall
+ 763:    1  ->  mr ==> we
+ 764:    1  ->  mr ==> will
+ 765:    1  ->  ms ==> answer
+ 766:    1  ->  ms ==> ms.
+ 767:    1  ->  much ==> its
+ 768:    1  ->  multimillion ==> million
+ 769:    1  ->  municipal ==> bull
+ 770:    1  ->  municipal ==> paul
+ 771:    1  ->  must ==> other
+ 772:    1  ->  my ==> high
+ 773:    1  ->  my ==> night
+ 774:    1  ->  n ==> end
+ 775:    1  ->  named ==> his
+ 776:    1  ->  natural ==> national
+ 777:    1  ->  network ==> dart
+ 778:    1  ->  never ==> l.
+ 779:    1  ->  new ==> for
+ 780:    1  ->  news ==> was
+ 781:    1  ->  next ==> out
+ 782:    1  ->  next ==> x.
+ 783:    1  ->  nine ==> had
+ 784:    1  ->  nine ==> million
+ 785:    1  ->  nineteen ==> ninety
+ 786:    1  ->  nineteenth ==> ninety
+ 787:    1  ->  ninety ==> the
+ 788:    1  ->  nissan ==> own
+ 789:    1  ->  no ==> now
+ 790:    1  ->  not ==> another
+ 791:    1  ->  not ==> their
+ 792:    1  ->  notes ==> rebels
+ 793:    1  ->  november ==> ever
+ 794:    1  ->  november ==> if
+ 795:    1  ->  november ==> rest
+ 796:    1  ->  now ==> thus
+ 797:    1  ->  nuclear ==> a
+ 798:    1  ->  numbers ==> members
+ 799:    1  ->  nursing ==> the
+ 800:    1  ->  occupied ==> paying
+ 801:    1  ->  october ==> hover
+ 802:    1  ->  october ==> the
+ 803:    1  ->  of ==> along
+ 804:    1  ->  of ==> billion
+ 805:    1  ->  of ==> capital
+ 806:    1  ->  of ==> do
+ 807:    1  ->  of ==> haft
+ 808:    1  ->  of ==> in
+ 809:    1  ->  of ==> move
+ 810:    1  ->  of ==> shortages
+ 811:    1  ->  of ==> that
+ 812:    1  ->  of ==> thing
+ 813:    1  ->  of ==> threat
+ 814:    1  ->  of ==> to
+ 815:    1  ->  of ==> were
+ 816:    1  ->  of ==> where
+ 817:    1  ->  off ==> rival
+ 818:    1  ->  offer ==> me
+ 819:    1  ->  offered ==> it's
+ 820:    1  ->  offered ==> offering
+ 821:    1  ->  offering ==> have
+ 822:    1  ->  offering ==> offer
+ 823:    1  ->  offering ==> offered
+ 824:    1  ->  offerings ==> if
+ 825:    1  ->  offers ==> c.'s
+ 826:    1  ->  officer ==> at
+ 827:    1  ->  offices ==> says
+ 828:    1  ->  offs ==> writes
+ 829:    1  ->  offset ==> that
+ 830:    1  ->  oil ==> you
+ 831:    1  ->  old ==> have
+ 832:    1  ->  on ==> all
+ 833:    1  ->  on ==> for
+ 834:    1  ->  on ==> hud
+ 835:    1  ->  on ==> one
+ 836:    1  ->  on ==> problem
+ 837:    1  ->  on ==> son
+ 838:    1  ->  one ==> a
+ 839:    1  ->  one ==> cash
+ 840:    1  ->  one ==> flight
+ 841:    1  ->  one ==> lines
+ 842:    1  ->  one ==> on
+ 843:    1  ->  one ==> what
+ 844:    1  ->  one ==> who
+ 845:    1  ->  one ==> won
+ 846:    1  ->  only ==> high
+ 847:    1  ->  only ==> whole
+ 848:    1  ->  operations ==> corporations
+ 849:    1  ->  opportunities ==> move
+ 850:    1  ->  or ==> an
+ 851:    1  ->  or ==> forty
+ 852:    1  ->  or ==> from
+ 853:    1  ->  or ==> of
+ 854:    1  ->  or ==> on
+ 855:    1  ->  or ==> that
+ 856:    1  ->  or ==> were
+ 857:    1  ->  ordinaries ==> pays
+ 858:    1  ->  organization ==> asian
+ 859:    1  ->  oriented ==> eighty
+ 860:    1  ->  other ==> a
+ 861:    1  ->  other ==> in
+ 862:    1  ->  other ==> or
+ 863:    1  ->  our ==> about
+ 864:    1  ->  our ==> are
+ 865:    1  ->  out ==> how
+ 866:    1  ->  out ==> l.
+ 867:    1  ->  out ==> o.
+ 868:    1  ->  outlook ==> live
+ 869:    1  ->  outstanding ==> be
+ 870:    1  ->  outstanding ==> in
+ 871:    1  ->  outstanding ==> speed
+ 872:    1  ->  outstanding ==> stand
+ 873:    1  ->  over ==> a
+ 874:    1  ->  over ==> elected
+ 875:    1  ->  over ==> few
+ 876:    1  ->  over ==> of
+ 877:    1  ->  overall ==> the
+ 878:    1  ->  overall ==> world
+ 879:    1  ->  own ==> of
+ 880:    1  ->  owners ==> is
+ 881:    1  ->  owners ==> owner
+ 882:    1  ->  p ==> b.
+ 883:    1  ->  p ==> big
+ 884:    1  ->  p ==> he
+ 885:    1  ->  paid ==> half
+ 886:    1  ->  panel ==> all
+ 887:    1  ->  parent ==> are
+ 888:    1  ->  parent ==> bear
+ 889:    1  ->  parts ==> horse
+ 890:    1  ->  payable ==> will
+ 891:    1  ->  pension ==> edged
+ 892:    1  ->  percent ==> a
+ 893:    1  ->  percent ==> c.
+ 894:    1  ->  percent ==> had
+ 895:    1  ->  percent ==> have
+ 896:    1  ->  percent ==> senate
+ 897:    1  ->  percent ==> their
+ 898:    1  ->  percent ==> then
+ 899:    1  ->  performance ==> farm
+ 900:    1  ->  period ==> bid
+ 901:    1  ->  petroleum ==> next
+ 902:    1  ->  picking ==> banking
+ 903:    1  ->  plan ==> hutton
+ 904:    1  ->  planners ==> as
+ 905:    1  ->  plans ==> and
+ 906:    1  ->  plant ==> in
+ 907:    1  ->  plant ==> plan
+ 908:    1  ->  plant ==> plane
+ 909:    1  ->  players ==> are
+ 910:    1  ->  players ==> fast
+ 911:    1  ->  players ==> or
+ 912:    1  ->  players ==> plays
+ 913:    1  ->  plunge ==> fund
+ 914:    1  ->  point ==> can't
+ 915:    1  ->  point ==> fee
+ 916:    1  ->  point ==> fight
+ 917:    1  ->  point ==> fleet
+ 918:    1  ->  point ==> food
+ 919:    1  ->  point ==> fund
+ 920:    1  ->  point ==> group
+ 921:    1  ->  point ==> has
+ 922:    1  ->  point ==> plane
+ 923:    1  ->  point ==> pride
+ 924:    1  ->  point ==> white
+ 925:    1  ->  point ==> who
+ 926:    1  ->  points ==> banks
+ 927:    1  ->  points ==> flights
+ 928:    1  ->  poor ==> more
+ 929:    1  ->  position ==> share
+ 930:    1  ->  post ==> out
+ 931:    1  ->  posted ==> flows
+ 932:    1  ->  poverty ==> he
+ 933:    1  ->  pre ==> free
+ 934:    1  ->  predict ==> predicted
+ 935:    1  ->  preferred ==> fresh
+ 936:    1  ->  preferred ==> third
+ 937:    1  ->  prepared ==> its
+ 938:    1  ->  previous ==> is
+ 939:    1  ->  price ==> a
+ 940:    1  ->  price ==> breaks
+ 941:    1  ->  price ==> pricing
+ 942:    1  ->  priced ==> price
+ 943:    1  ->  prices ==> age
+ 944:    1  ->  prices ==> he
+ 945:    1  ->  prices ==> is
+ 946:    1  ->  prices ==> pricing
+ 947:    1  ->  primarily ==> even
+ 948:    1  ->  problems ==> drop
+ 949:    1  ->  problems ==> finance
+ 950:    1  ->  produced ==> produce
+ 951:    1  ->  profit ==> <unk>
+ 952:    1  ->  profit ==> the
+ 953:    1  ->  proposed ==> large
+ 954:    1  ->  proposed ==> propose
+ 955:    1  ->  provide ==> rise
+ 956:    1  ->  purchased ==> have
+ 957:    1  ->  pushing ==> in
+ 958:    1  ->  pushing ==> who
+ 959:    1  ->  putting ==> the
+ 960:    1  ->  quarter ==> were
+ 961:    1  ->  quarterly ==> give
+ 962:    1  ->  question ==> if
+ 963:    1  ->  quotation ==> addition
+ 964:    1  ->  r ==> or
+ 965:    1  ->  raising ==> if
+ 966:    1  ->  rarely ==> really
+ 967:    1  ->  rate ==> trade
+ 968:    1  ->  ratified ==> an
+ 969:    1  ->  reached ==> rates
+ 970:    1  ->  realized ==> rely
+ 971:    1  ->  rebound ==> valued
+ 972:    1  ->  reduced ==> reduce
+ 973:    1  ->  refining ==> a
+ 974:    1  ->  reflecting ==> reflected
+ 975:    1  ->  regulated ==> regulate
+ 976:    1  ->  regulatory ==> an
+ 977:    1  ->  release ==> lease
+ 978:    1  ->  released ==> lease
+ 979:    1  ->  released ==> really
+ 980:    1  ->  relief ==> we
+ 981:    1  ->  remaining ==> and
+ 982:    1  ->  replaced ==> vice
+ 983:    1  ->  replacement ==> the
+ 984:    1  ->  replied ==> five
+ 985:    1  ->  report ==> work
+ 986:    1  ->  reported ==> imported
+ 987:    1  ->  reported ==> or
+ 988:    1  ->  reportedly ==> forty
+ 989:    1  ->  reportedly ==> the
+ 990:    1  ->  reporting ==> importing
+ 991:    1  ->  requests ==> class
+ 992:    1  ->  required ==> acquired
+ 993:    1  ->  required ==> applied
+ 994:    1  ->  requirements ==> clients
+ 995:    1  ->  requires ==> as
+ 996:    1  ->  reserve ==> sue
+ 997:    1  ->  resolution ==> with
+ 998:    1  ->  resolved ==> offer
+ 999:    1  ->  rest ==> tend
+1000:    1  ->  retailer ==> fails
+1001:    1  ->  returned ==> return
+1002:    1  ->  returns ==> return
+1003:    1  ->  riddle ==> digital
+1004:    1  ->  rise ==> a
+1005:    1  ->  rise ==> race
+1006:    1  ->  rise ==> rights
+1007:    1  ->  rise ==> why
+1008:    1  ->  risen ==> present
+1009:    1  ->  robert ==> other
+1010:    1  ->  robert ==> rather
+1011:    1  ->  robins ==> fact
+1012:    1  ->  run ==> let
+1013:    1  ->  s ==> asked
+1014:    1  ->  s ==> fine
+1015:    1  ->  s ==> food
+1016:    1  ->  s ==> in
+1017:    1  ->  s ==> rate
+1018:    1  ->  said ==> and
+1019:    1  ->  said ==> day
+1020:    1  ->  said ==> have
+1021:    1  ->  said ==> it's
+1022:    1  ->  said ==> mr.
+1023:    1  ->  said ==> san
+1024:    1  ->  said ==> say
+1025:    1  ->  said ==> second
+1026:    1  ->  said ==> spend
+1027:    1  ->  said ==> to
+1028:    1  ->  said ==> up
+1029:    1  ->  sales ==> <unk>
+1030:    1  ->  sales ==> issued
+1031:    1  ->  sank ==> <unk>
+1032:    1  ->  saunders ==> or
+1033:    1  ->  saved ==> say
+1034:    1  ->  say ==> by
+1035:    1  ->  say ==> fe
+1036:    1  ->  say ==> said
+1037:    1  ->  say ==> save
+1038:    1  ->  says ==> of
+1039:    1  ->  says ==> said
+1040:    1  ->  says ==> steps
+1041:    1  ->  says ==> who
+1042:    1  ->  scheduled ==> schedule
+1043:    1  ->  sears's ==> j.
+1044:    1  ->  second ==> active
+1045:    1  ->  seek ==> the
+1046:    1  ->  seems ==> is
+1047:    1  ->  sell ==> heavy
+1048:    1  ->  senior ==> the
+1049:    1  ->  senior ==> where
+1050:    1  ->  separately ==> leaving
+1051:    1  ->  september ==> or
+1052:    1  ->  september ==> with
+1053:    1  ->  series ==> theory
+1054:    1  ->  services ==> swiss
+1055:    1  ->  set ==> in
+1056:    1  ->  settle ==> several
+1057:    1  ->  seventeen ==> seventy
+1058:    1  ->  seventh ==> <unk>
+1059:    1  ->  seventy ==> center
+1060:    1  ->  seventy ==> fifty
+1061:    1  ->  seventy ==> in
+1062:    1  ->  shares ==> for
+1063:    1  ->  she ==> five
+1064:    1  ->  she ==> officials
+1065:    1  ->  shell ==> show
+1066:    1  ->  short ==> shorter
+1067:    1  ->  shortage ==> is
+1068:    1  ->  since ==> its
+1069:    1  ->  six ==> fifth
+1070:    1  ->  six ==> fixed
+1071:    1  ->  six ==> fund
+1072:    1  ->  sixth ==> states
+1073:    1  ->  slightly ==> day
+1074:    1  ->  slipped ==> fifth
+1075:    1  ->  snapped ==> that
+1076:    1  ->  so ==> self
+1077:    1  ->  sold ==> draw
+1078:    1  ->  solve ==> and
+1079:    1  ->  solve ==> who
+1080:    1  ->  some ==> and
+1081:    1  ->  some ==> food
+1082:    1  ->  some ==> in
+1083:    1  ->  some ==> serve
+1084:    1  ->  some ==> so
+1085:    1  ->  some ==> south
+1086:    1  ->  some ==> up
+1087:    1  ->  somebody ==> money
+1088:    1  ->  somebody ==> really
+1089:    1  ->  somebody ==> you
+1090:    1  ->  sometime ==> few
+1091:    1  ->  sometime ==> turn
+1092:    1  ->  source ==> so
+1093:    1  ->  sperling ==> seventy
+1094:    1  ->  split ==> court
+1095:    1  ->  split ==> with
+1096:    1  ->  standard ==> good
+1097:    1  ->  stanley ==> stem
+1098:    1  ->  staying ==> state
+1099:    1  ->  stepped ==> expected
+1100:    1  ->  still ==> spoke
+1101:    1  ->  stock ==> no
+1102:    1  ->  stock ==> to
+1103:    1  ->  stockholm ==> will
+1104:    1  ->  stocks ==> sachs
+1105:    1  ->  storage ==> stores
+1106:    1  ->  story ==> <unk>
+1107:    1  ->  strengthened ==> a
+1108:    1  ->  strengthened ==> in
+1109:    1  ->  strengthened ==> the
+1110:    1  ->  studying ==> steady
+1111:    1  ->  subject ==> and
+1112:    1  ->  subject ==> it
+1113:    1  ->  successful ==> <unk>
+1114:    1  ->  sudden ==> and
+1115:    1  ->  suggests ==> suggest
+1116:    1  ->  summer ==> suffering
+1117:    1  ->  sun ==> then
+1118:    1  ->  superior ==> or
+1119:    1  ->  support ==> smith
+1120:    1  ->  surely ==> would
+1121:    1  ->  surveys ==> surveyed
+1122:    1  ->  systems ==> cases
+1123:    1  ->  systems ==> system
+1124:    1  ->  t ==> g.
+1125:    1  ->  t ==> the
+1126:    1  ->  t ==> v.
+1127:    1  ->  take ==> same
+1128:    1  ->  take ==> with
+1129:    1  ->  task ==> gas
+1130:    1  ->  taxpayers ==> texas
+1131:    1  ->  technical ==> now
+1132:    1  ->  telecommunications ==> shove
+1133:    1  ->  temporary ==> i.
+1134:    1  ->  ten ==> firm
+1135:    1  ->  ten ==> headed
+1136:    1  ->  ten ==> is
+1137:    1  ->  term ==> and
+1138:    1  ->  term ==> through
+1139:    1  ->  terms ==> stems
+1140:    1  ->  terms ==> turned
+1141:    1  ->  test ==> task
+1142:    1  ->  than ==> sea
+1143:    1  ->  than ==> spend
+1144:    1  ->  than ==> the
+1145:    1  ->  that ==> about
+1146:    1  ->  that ==> added
+1147:    1  ->  that ==> back
+1148:    1  ->  that ==> now
+1149:    1  ->  that ==> the
+1150:    1  ->  that's ==> if
+1151:    1  ->  the ==> <unk>
+1152:    1  ->  the ==> africa
+1153:    1  ->  the ==> air's
+1154:    1  ->  the ==> all
+1155:    1  ->  the ==> and
+1156:    1  ->  the ==> be
+1157:    1  ->  the ==> but
+1158:    1  ->  the ==> doing
+1159:    1  ->  the ==> dollar
+1160:    1  ->  the ==> fed
+1161:    1  ->  the ==> filled
+1162:    1  ->  the ==> fine
+1163:    1  ->  the ==> flight
+1164:    1  ->  the ==> food
+1165:    1  ->  the ==> for
+1166:    1  ->  the ==> fresh
+1167:    1  ->  the ==> from
+1168:    1  ->  the ==> gap
+1169:    1  ->  the ==> green
+1170:    1  ->  the ==> handled
+1171:    1  ->  the ==> in
+1172:    1  ->  the ==> invest
+1173:    1  ->  the ==> its
+1174:    1  ->  the ==> job
+1175:    1  ->  the ==> june
+1176:    1  ->  the ==> l.
+1177:    1  ->  the ==> looks
+1178:    1  ->  the ==> much
+1179:    1  ->  the ==> probably
+1180:    1  ->  the ==> s.
+1181:    1  ->  the ==> sheets
+1182:    1  ->  the ==> should
+1183:    1  ->  the ==> strain
+1184:    1  ->  the ==> sued
+1185:    1  ->  the ==> this
+1186:    1  ->  the ==> three
+1187:    1  ->  the ==> was
+1188:    1  ->  the ==> x.
+1189:    1  ->  their ==> and
+1190:    1  ->  their ==> of
+1191:    1  ->  their ==> shot
+1192:    1  ->  their ==> they
+1193:    1  ->  them ==> thing
+1194:    1  ->  them ==> to
+1195:    1  ->  themselves ==> slash
+1196:    1  ->  there ==> big
+1197:    1  ->  they ==> a
+1198:    1  ->  they ==> and
+1199:    1  ->  they ==> ford
+1200:    1  ->  they ==> if
+1201:    1  ->  thirtieth ==> thirty
+1202:    1  ->  thirty ==> the
+1203:    1  ->  thirty ==> was
+1204:    1  ->  this ==> that's
+1205:    1  ->  this ==> the
+1206:    1  ->  though ==> fell
+1207:    1  ->  three ==> and
+1208:    1  ->  three ==> had
+1209:    1  ->  three ==> if
+1210:    1  ->  three ==> is
+1211:    1  ->  three ==> re
+1212:    1  ->  three ==> the
+1213:    1  ->  throughout ==> drought
+1214:    1  ->  thursday ==> in
+1215:    1  ->  tied ==> try
+1216:    1  ->  time ==> farm
+1217:    1  ->  time ==> of
+1218:    1  ->  time ==> tied
+1219:    1  ->  to ==> <unk>
+1220:    1  ->  to ==> act
+1221:    1  ->  to ==> and
+1222:    1  ->  to ==> are
+1223:    1  ->  to ==> at
+1224:    1  ->  to ==> cash
+1225:    1  ->  to ==> could
+1226:    1  ->  to ==> cover
+1227:    1  ->  to ==> form
+1228:    1  ->  to ==> from
+1229:    1  ->  to ==> goes
+1230:    1  ->  to ==> of
+1231:    1  ->  to ==> or
+1232:    1  ->  to ==> rise
+1233:    1  ->  to ==> says
+1234:    1  ->  to ==> the
+1235:    1  ->  to ==> there
+1236:    1  ->  to ==> toward
+1237:    1  ->  to ==> two
+1238:    1  ->  to ==> will
+1239:    1  ->  tool ==> two
+1240:    1  ->  total ==> mobile
+1241:    1  ->  toy ==> twenty
+1242:    1  ->  traders ==> face
+1243:    1  ->  traders ==> stated
+1244:    1  ->  treasury ==> federally
+1245:    1  ->  trend ==> changes
+1246:    1  ->  tuesday ==> a
+1247:    1  ->  tuesday ==> one
+1248:    1  ->  turner ==> a
+1249:    1  ->  twelve ==> top
+1250:    1  ->  twenty ==> forty
+1251:    1  ->  twenty ==> that
+1252:    1  ->  two ==> do
+1253:    1  ->  two ==> into
+1254:    1  ->  two ==> it
+1255:    1  ->  two ==> to
+1256:    1  ->  two ==> with
+1257:    1  ->  two ==> year
+1258:    1  ->  u ==> f.
+1259:    1  ->  u ==> for
+1260:    1  ->  u ==> k.
+1261:    1  ->  u ==> you
+1262:    1  ->  unchanged ==> change
+1263:    1  ->  under ==> either
+1264:    1  ->  under ==> or
+1265:    1  ->  under ==> the
+1266:    1  ->  under ==> them
+1267:    1  ->  undercut ==> cut
+1268:    1  ->  underwriter ==> right
+1269:    1  ->  unions ==> union
+1270:    1  ->  unit's ==> units
+1271:    1  ->  unless ==> less
+1272:    1  ->  unlikely ==> likely
+1273:    1  ->  unspecified ==> bite
+1274:    1  ->  until ==> own
+1275:    1  ->  until ==> so
+1276:    1  ->  until ==> to
+1277:    1  ->  up ==> at
+1278:    1  ->  up ==> should
+1279:    1  ->  upon ==> card
+1280:    1  ->  us ==> thus
+1281:    1  ->  us ==> who
+1282:    1  ->  used ==> reviews
+1283:    1  ->  uses ==> use
+1284:    1  ->  utility ==> in
+1285:    1  ->  v ==> b.
+1286:    1  ->  v ==> eight
+1287:    1  ->  vegas ==> its
+1288:    1  ->  vehicle ==> place
+1289:    1  ->  very ==> marriott
+1290:    1  ->  victors ==> there's
+1291:    1  ->  vision ==> risen
+1292:    1  ->  voice ==> which
+1293:    1  ->  volatile ==> i'll
+1294:    1  ->  volatility ==> flat
+1295:    1  ->  vote ==> no
+1296:    1  ->  wade ==> way
+1297:    1  ->  want ==> law
+1298:    1  ->  want ==> won
+1299:    1  ->  was ==> as
+1300:    1  ->  was ==> health
+1301:    1  ->  we ==> it
+1302:    1  ->  we ==> re
+1303:    1  ->  we'll ==> of
+1304:    1  ->  we'll ==> will
+1305:    1  ->  weak ==> week
+1306:    1  ->  wednesday ==> a.
+1307:    1  ->  week ==> head
+1308:    1  ->  week ==> italy
+1309:    1  ->  welfare ==> are
+1310:    1  ->  welfare ==> motor
+1311:    1  ->  were ==> and
+1312:    1  ->  were ==> for
+1313:    1  ->  were ==> in
+1314:    1  ->  were ==> soar
+1315:    1  ->  western ==> or
+1316:    1  ->  what ==> fourth
+1317:    1  ->  what ==> which
+1318:    1  ->  what ==> while
+1319:    1  ->  when ==> ahead
+1320:    1  ->  when ==> ever
+1321:    1  ->  when ==> fund
+1322:    1  ->  when ==> have
+1323:    1  ->  when ==> one
+1324:    1  ->  when ==> way
+1325:    1  ->  when ==> what
+1326:    1  ->  where ==> for
+1327:    1  ->  whether ==> and
+1328:    1  ->  whether ==> f.
+1329:    1  ->  whether ==> harder
+1330:    1  ->  which ==> we
+1331:    1  ->  while ==> by
+1332:    1  ->  while ==> was
+1333:    1  ->  whose ==> suit
+1334:    1  ->  will ==> a
+1335:    1  ->  will ==> approach
+1336:    1  ->  will ==> are
+1337:    1  ->  will ==> been
+1338:    1  ->  will ==> or
+1339:    1  ->  will ==> was
+1340:    1  ->  willing ==> going
+1341:    1  ->  willing ==> roy
+1342:    1  ->  with ==> had
+1343:    1  ->  with ==> that
+1344:    1  ->  with ==> the
+1345:    1  ->  without ==> about
+1346:    1  ->  wolf ==> the
+1347:    1  ->  wolf ==> wall
+1348:    1  ->  wolf ==> who
+1349:    1  ->  wolfe ==> world
+1350:    1  ->  worked ==> worth
+1351:    1  ->  workers ==> had
+1352:    1  ->  worst ==> worse
+1353:    1  ->  would ==> now
+1354:    1  ->  wouldn't ==> would
+1355:    1  ->  write ==> it
+1356:    1  ->  writes ==> rates
+1357:    1  ->  wrong ==> robert
+1358:    1  ->  year ==> j.
+1359:    1  ->  year ==> offer
+1360:    1  ->  year ==> owner
+1361:    1  ->  years ==> head
+1362:    1  ->  yesterday ==> of
+1363:    1  ->  yesterday ==> out
+1364:    1  ->  yesterday ==> rate
+1365:    1  ->  yesterday ==> survey
+1366:    1  ->  yet ==> a
+1367:    1  ->  yield ==> u.
+1368:    1  ->  yield ==> yields
+1369:    1  ->  york ==> real
+1370:    1  ->  york ==> you'll
+1371:    1  ->  z ==> see
+1372:    1  ->  zurich ==> been
+     -------
+      1539
+
+
+
+INSERTIONS                       Total                 (279)
+                                 With >=  1 occurances (279)
+
+   1:   26  ->  a
+   2:   25  ->  in
+   3:   25  ->  the
+   4:   21  ->  of
+   5:   14  ->  to
+   6:   13  ->  for
+   7:   13  ->  that
+   8:   11  ->  and
+   9:   11  ->  it
+  10:   11  ->  who
+  11:    8  ->  <unk>
+  12:    8  ->  if
+  13:    8  ->  on
+  14:    6  ->  at
+  15:    6  ->  or
+  16:    6  ->  out
+  17:    6  ->  u.
+  18:    5  ->  f.
+  19:    4  ->  an
+  20:    4  ->  but
+  21:    4  ->  from
+  22:    4  ->  its
+  23:    4  ->  s.
+  24:    4  ->  this
+  25:    4  ->  with
+  26:    3  ->  are
+  27:    3  ->  be
+  28:    3  ->  can
+  29:    3  ->  fed
+  30:    3  ->  had
+  31:    3  ->  have
+  32:    3  ->  him
+  33:    3  ->  i
+  34:    3  ->  is
+  35:    3  ->  now
+  36:    3  ->  says
+  37:    3  ->  she
+  38:    3  ->  some
+  39:    3  ->  x.
+  40:    2  ->  a.
+  41:    2  ->  as
+  42:    2  ->  back
+  43:    2  ->  c.
+  44:    2  ->  cash
+  45:    2  ->  come
+  46:    2  ->  e.
+  47:    2  ->  five
+  48:    2  ->  fly
+  49:    2  ->  french
+  50:    2  ->  half
+  51:    2  ->  having
+  52:    2  ->  high
+  53:    2  ->  his
+  54:    2  ->  how
+  55:    2  ->  know
+  56:    2  ->  l.
+  57:    2  ->  less
+  58:    2  ->  little
+  59:    2  ->  m.
+  60:    2  ->  might
+  61:    2  ->  more
+  62:    2  ->  most
+  63:    2  ->  mr.
+  64:    2  ->  off
+  65:    2  ->  offer
+  66:    2  ->  old
+  67:    2  ->  over
+  68:    2  ->  probe
+  69:    2  ->  see
+  70:    2  ->  so
+  71:    2  ->  stand
+  72:    2  ->  state
+  73:    2  ->  strength
+  74:    2  ->  such
+  75:    2  ->  though
+  76:    2  ->  up
+  77:    2  ->  were
+  78:    2  ->  will
+  79:    2  ->  you
+  80:    1  ->  acquires
+  81:    1  ->  action
+  82:    1  ->  adjust
+  83:    1  ->  advance
+  84:    1  ->  after
+  85:    1  ->  agree
+  86:    1  ->  ahead
+  87:    1  ->  air
+  88:    1  ->  all
+  89:    1  ->  allen
+  90:    1  ->  allowed
+  91:    1  ->  americans
+  92:    1  ->  any
+  93:    1  ->  apple
+  94:    1  ->  audit
+  95:    1  ->  auto
+  96:    1  ->  average
+  97:    1  ->  bad
+  98:    1  ->  ban
+  99:    1  ->  bar
+ 100:    1  ->  bases
+ 101:    1  ->  been
+ 102:    1  ->  belt
+ 103:    1  ->  best
+ 104:    1  ->  billion
+ 105:    1  ->  board
+ 106:    1  ->  boss
+ 107:    1  ->  bought
+ 108:    1  ->  broker
+ 109:    1  ->  bush
+ 110:    1  ->  by
+ 111:    1  ->  called
+ 112:    1  ->  confess
+ 113:    1  ->  consider
+ 114:    1  ->  considering
+ 115:    1  ->  consolidated
+ 116:    1  ->  contract
+ 117:    1  ->  could
+ 118:    1  ->  court
+ 119:    1  ->  crash
+ 120:    1  ->  daily
+ 121:    1  ->  days
+ 122:    1  ->  debt
+ 123:    1  ->  decline
+ 124:    1  ->  did
+ 125:    1  ->  die
+ 126:    1  ->  do
+ 127:    1  ->  dollar
+ 128:    1  ->  dollar's
+ 129:    1  ->  doubt
+ 130:    1  ->  drove
+ 131:    1  ->  due
+ 132:    1  ->  each
+ 133:    1  ->  effect
+ 134:    1  ->  effort
+ 135:    1  ->  eighth
+ 136:    1  ->  ended
+ 137:    1  ->  ex
+ 138:    1  ->  exchange
+ 139:    1  ->  face
+ 140:    1  ->  facility
+ 141:    1  ->  fair
+ 142:    1  ->  fall
+ 143:    1  ->  fast
+ 144:    1  ->  fee
+ 145:    1  ->  felt
+ 146:    1  ->  few
+ 147:    1  ->  fifth
+ 148:    1  ->  filled
+ 149:    1  ->  finance
+ 150:    1  ->  fish
+ 151:    1  ->  flow
+ 152:    1  ->  flows
+ 153:    1  ->  focus
+ 154:    1  ->  forecast
+ 155:    1  ->  free
+ 156:    1  ->  freeze
+ 157:    1  ->  fresh
+ 158:    1  ->  front
+ 159:    1  ->  full
+ 160:    1  ->  fully
+ 161:    1  ->  hard
+ 162:    1  ->  hardly
+ 163:    1  ->  has
+ 164:    1  ->  he
+ 165:    1  ->  health
+ 166:    1  ->  hit
+ 167:    1  ->  hotel
+ 168:    1  ->  however
+ 169:    1  ->  hud
+ 170:    1  ->  huge
+ 171:    1  ->  hundred
+ 172:    1  ->  imported
+ 173:    1  ->  include
+ 174:    1  ->  intel
+ 175:    1  ->  interests
+ 176:    1  ->  investors
+ 177:    1  ->  job
+ 178:    1  ->  jury
+ 179:    1  ->  knew
+ 180:    1  ->  lawyers
+ 181:    1  ->  lease
+ 182:    1  ->  letting
+ 183:    1  ->  limited
+ 184:    1  ->  live
+ 185:    1  ->  longer
+ 186:    1  ->  loss
+ 187:    1  ->  low
+ 188:    1  ->  lower
+ 189:    1  ->  lynch
+ 190:    1  ->  many
+ 191:    1  ->  may
+ 192:    1  ->  merely
+ 193:    1  ->  ms.
+ 194:    1  ->  natural
+ 195:    1  ->  new
+ 196:    1  ->  no
+ 197:    1  ->  not
+ 198:    1  ->  officers
+ 199:    1  ->  offs
+ 200:    1  ->  one
+ 201:    1  ->  only
+ 202:    1  ->  operate
+ 203:    1  ->  order
+ 204:    1  ->  other
+ 205:    1  ->  others
+ 206:    1  ->  our
+ 207:    1  ->  panic
+ 208:    1  ->  parent
+ 209:    1  ->  per
+ 210:    1  ->  phase
+ 211:    1  ->  planned
+ 212:    1  ->  play
+ 213:    1  ->  plays
+ 214:    1  ->  points
+ 215:    1  ->  pose
+ 216:    1  ->  process
+ 217:    1  ->  push
+ 218:    1  ->  put
+ 219:    1  ->  quite
+ 220:    1  ->  race
+ 221:    1  ->  rank
+ 222:    1  ->  reported
+ 223:    1  ->  school
+ 224:    1  ->  seats
+ 225:    1  ->  security
+ 226:    1  ->  self
+ 227:    1  ->  separate
+ 228:    1  ->  serve
+ 229:    1  ->  session
+ 230:    1  ->  seven
+ 231:    1  ->  shock
+ 232:    1  ->  show
+ 233:    1  ->  shown
+ 234:    1  ->  shows
+ 235:    1  ->  side
+ 236:    1  ->  sites
+ 237:    1  ->  size
+ 238:    1  ->  slight
+ 239:    1  ->  slim
+ 240:    1  ->  staff
+ 241:    1  ->  step
+ 242:    1  ->  steps
+ 243:    1  ->  still
+ 244:    1  ->  stop
+ 245:    1  ->  structure
+ 246:    1  ->  successor
+ 247:    1  ->  suit
+ 248:    1  ->  than
+ 249:    1  ->  that's
+ 250:    1  ->  them
+ 251:    1  ->  these
+ 252:    1  ->  they
+ 253:    1  ->  they're
+ 254:    1  ->  think
+ 255:    1  ->  thirty
+ 256:    1  ->  three
+ 257:    1  ->  through
+ 258:    1  ->  trade
+ 259:    1  ->  trend
+ 260:    1  ->  trust
+ 261:    1  ->  twenties
+ 262:    1  ->  units
+ 263:    1  ->  v.
+ 264:    1  ->  value
+ 265:    1  ->  valued
+ 266:    1  ->  very
+ 267:    1  ->  vote
+ 268:    1  ->  water
+ 269:    1  ->  we'd
+ 270:    1  ->  we're
+ 271:    1  ->  well
+ 272:    1  ->  when
+ 273:    1  ->  white
+ 274:    1  ->  would
+ 275:    1  ->  year
+ 276:    1  ->  year's
+ 277:    1  ->  years
+ 278:    1  ->  yes
+ 279:    1  ->  yesterday's
+     -------
+       573
+
+
+
+DELETIONS                        Total                 (330)
+                                 With >=  1 occurances (330)
+
+   1:   45  ->  the
+   2:   20  ->  a
+   3:   18  ->  to
+   4:   16  ->  and
+   5:   16  ->  in
+   6:   11  ->  of
+   7:   11  ->  one
+   8:   10  ->  for
+   9:    8  ->  point
+  10:    7  ->  dollars
+  11:    6  ->  five
+  12:    6  ->  percent
+  13:    5  ->  are
+  14:    5  ->  at
+  15:    5  ->  it
+  16:    5  ->  million
+  17:    5  ->  will
+  18:    4  ->  all
+  19:    4  ->  dollar
+  20:    4  ->  four
+  21:    4  ->  from
+  22:    4  ->  has
+  23:    4  ->  have
+  24:    4  ->  new
+  25:    4  ->  with
+  26:    3  ->  about
+  27:    3  ->  company's
+  28:    3  ->  finance
+  29:    3  ->  hundred
+  30:    3  ->  is
+  31:    3  ->  its
+  32:    3  ->  on
+  33:    3  ->  s
+  34:    3  ->  said
+  35:    3  ->  seven
+  36:    3  ->  shares
+  37:    3  ->  that
+  38:    3  ->  thirty
+  39:    3  ->  three
+  40:    3  ->  twenty
+  41:    3  ->  u
+  42:    3  ->  was
+  43:    3  ->  who
+  44:    3  ->  would
+  45:    2  ->  an
+  46:    2  ->  aren't
+  47:    2  ->  as
+  48:    2  ->  be
+  49:    2  ->  been
+  50:    2  ->  began
+  51:    2  ->  by
+  52:    2  ->  closed
+  53:    2  ->  companies
+  54:    2  ->  company
+  55:    2  ->  consumer
+  56:    2  ->  decline
+  57:    2  ->  eight
+  58:    2  ->  eighty
+  59:    2  ->  he
+  60:    2  ->  i
+  61:    2  ->  i'm
+  62:    2  ->  market
+  63:    2  ->  ministry
+  64:    2  ->  mr
+  65:    2  ->  oil
+  66:    2  ->  open
+  67:    2  ->  or
+  68:    2  ->  rise
+  69:    2  ->  sales
+  70:    2  ->  seventy
+  71:    2  ->  stock
+  72:    2  ->  strength
+  73:    2  ->  ten
+  74:    2  ->  there
+  75:    2  ->  they
+  76:    2  ->  those
+  77:    2  ->  thousand
+  78:    2  ->  two
+  79:    2  ->  we
+  80:    2  ->  year
+  81:    2  ->  york
+  82:    1  ->  according
+  83:    1  ->  acquire
+  84:    1  ->  action
+  85:    1  ->  add
+  86:    1  ->  adding
+  87:    1  ->  affect
+  88:    1  ->  after
+  89:    1  ->  ago
+  90:    1  ->  also
+  91:    1  ->  apparently
+  92:    1  ->  arms
+  93:    1  ->  assets
+  94:    1  ->  auto
+  95:    1  ->  away
+  96:    1  ->  bank
+  97:    1  ->  bear
+  98:    1  ->  begin
+  99:    1  ->  behalf
+ 100:    1  ->  behind
+ 101:    1  ->  believe
+ 102:    1  ->  beneficial
+ 103:    1  ->  board's
+ 104:    1  ->  branford
+ 105:    1  ->  brought
+ 106:    1  ->  bull
+ 107:    1  ->  business
+ 108:    1  ->  but
+ 109:    1  ->  cable
+ 110:    1  ->  called
+ 111:    1  ->  can
+ 112:    1  ->  canadian
+ 113:    1  ->  car
+ 114:    1  ->  care
+ 115:    1  ->  cash
+ 116:    1  ->  causing
+ 117:    1  ->  centerior
+ 118:    1  ->  cents
+ 119:    1  ->  charge
+ 120:    1  ->  china
+ 121:    1  ->  chrysler
+ 122:    1  ->  citicorp
+ 123:    1  ->  cleveland
+ 124:    1  ->  committees
+ 125:    1  ->  common
+ 126:    1  ->  community
+ 127:    1  ->  composite
+ 128:    1  ->  concern
+ 129:    1  ->  confidence
+ 130:    1  ->  congeniality
+ 131:    1  ->  considering
+ 132:    1  ->  construction
+ 133:    1  ->  continued
+ 134:    1  ->  continuing
+ 135:    1  ->  contributed
+ 136:    1  ->  controlling
+ 137:    1  ->  corporation
+ 138:    1  ->  course
+ 139:    1  ->  creditor
+ 140:    1  ->  currency
+ 141:    1  ->  cut
+ 142:    1  ->  day
+ 143:    1  ->  demand
+ 144:    1  ->  direction
+ 145:    1  ->  directly
+ 146:    1  ->  dividend
+ 147:    1  ->  doing
+ 148:    1  ->  double
+ 149:    1  ->  down
+ 150:    1  ->  drexel
+ 151:    1  ->  each
+ 152:    1  ->  earlier
+ 153:    1  ->  early
+ 154:    1  ->  economy
+ 155:    1  ->  efforts
+ 156:    1  ->  elderly
+ 157:    1  ->  elect
+ 158:    1  ->  electric
+ 159:    1  ->  employment
+ 160:    1  ->  energy
+ 161:    1  ->  equipment
+ 162:    1  ->  equity
+ 163:    1  ->  estimates
+ 164:    1  ->  example
+ 165:    1  ->  exceeding
+ 166:    1  ->  exchange
+ 167:    1  ->  extraction
+ 168:    1  ->  fearing
+ 169:    1  ->  fee
+ 170:    1  ->  fell
+ 171:    1  ->  first
+ 172:    1  ->  focus
+ 173:    1  ->  ford
+ 174:    1  ->  friday
+ 175:    1  ->  gas
+ 176:    1  ->  general
+ 177:    1  ->  get
+ 178:    1  ->  go
+ 179:    1  ->  government
+ 180:    1  ->  grew
+ 181:    1  ->  growth
+ 182:    1  ->  half
+ 183:    1  ->  held
+ 184:    1  ->  hold
+ 185:    1  ->  home
+ 186:    1  ->  honda
+ 187:    1  ->  hospital
+ 188:    1  ->  hour
+ 189:    1  ->  however
+ 190:    1  ->  identified
+ 191:    1  ->  identifies
+ 192:    1  ->  improving
+ 193:    1  ->  includes
+ 194:    1  ->  income
+ 195:    1  ->  independence
+ 196:    1  ->  independent
+ 197:    1  ->  indicated
+ 198:    1  ->  industry
+ 199:    1  ->  intend
+ 200:    1  ->  investors
+ 201:    1  ->  iran
+ 202:    1  ->  isn't
+ 203:    1  ->  japanese
+ 204:    1  ->  job
+ 205:    1  ->  july
+ 206:    1  ->  jump
+ 207:    1  ->  june
+ 208:    1  ->  know
+ 209:    1  ->  l
+ 210:    1  ->  largely
+ 211:    1  ->  late
+ 212:    1  ->  least
+ 213:    1  ->  led
+ 214:    1  ->  like
+ 215:    1  ->  line
+ 216:    1  ->  living
+ 217:    1  ->  many
+ 218:    1  ->  markets
+ 219:    1  ->  may
+ 220:    1  ->  meeting
+ 221:    1  ->  members
+ 222:    1  ->  membership
+ 223:    1  ->  midwest
+ 224:    1  ->  milken
+ 225:    1  ->  mining
+ 226:    1  ->  more
+ 227:    1  ->  motor
+ 228:    1  ->  move
+ 229:    1  ->  net
+ 230:    1  ->  next
+ 231:    1  ->  nine
+ 232:    1  ->  nineteen
+ 233:    1  ->  november
+ 234:    1  ->  now
+ 235:    1  ->  nursing
+ 236:    1  ->  offering
+ 237:    1  ->  office
+ 238:    1  ->  often
+ 239:    1  ->  oh
+ 240:    1  ->  our
+ 241:    1  ->  overall
+ 242:    1  ->  owner
+ 243:    1  ->  owners
+ 244:    1  ->  p
+ 245:    1  ->  pennzoil
+ 246:    1  ->  people
+ 247:    1  ->  perhaps
+ 248:    1  ->  pharmaceutical
+ 249:    1  ->  plan
+ 250:    1  ->  positions
+ 251:    1  ->  possible
+ 252:    1  ->  predict
+ 253:    1  ->  present
+ 254:    1  ->  price
+ 255:    1  ->  prices
+ 256:    1  ->  principal
+ 257:    1  ->  proceeds
+ 258:    1  ->  products
+ 259:    1  ->  program
+ 260:    1  ->  proxy
+ 261:    1  ->  public
+ 262:    1  ->  purpose
+ 263:    1  ->  purposes
+ 264:    1  ->  quoted
+ 265:    1  ->  rate
+ 266:    1  ->  reach
+ 267:    1  ->  reason
+ 268:    1  ->  reflects
+ 269:    1  ->  report
+ 270:    1  ->  requires
+ 271:    1  ->  returns
+ 272:    1  ->  rolls
+ 273:    1  ->  rose
+ 274:    1  ->  rule
+ 275:    1  ->  running
+ 276:    1  ->  sale
+ 277:    1  ->  securities
+ 278:    1  ->  seemed
+ 279:    1  ->  sense
+ 280:    1  ->  share
+ 281:    1  ->  six
+ 282:    1  ->  so
+ 283:    1  ->  someone
+ 284:    1  ->  sources
+ 285:    1  ->  southeast
+ 286:    1  ->  spending
+ 287:    1  ->  split
+ 288:    1  ->  stakes
+ 289:    1  ->  statement
+ 290:    1  ->  still
+ 291:    1  ->  stores
+ 292:    1  ->  supplier
+ 293:    1  ->  surged
+ 294:    1  ->  sydney
+ 295:    1  ->  t
+ 296:    1  ->  take
+ 297:    1  ->  tendered
+ 298:    1  ->  them
+ 299:    1  ->  thing
+ 300:    1  ->  think
+ 301:    1  ->  throughout
+ 302:    1  ->  time
+ 303:    1  ->  tokyo
+ 304:    1  ->  too
+ 305:    1  ->  toy
+ 306:    1  ->  traders
+ 307:    1  ->  trading
+ 308:    1  ->  tumbled
+ 309:    1  ->  twentieth
+ 310:    1  ->  unchanged
+ 311:    1  ->  union's
+ 312:    1  ->  unit
+ 313:    1  ->  until
+ 314:    1  ->  up
+ 315:    1  ->  used
+ 316:    1  ->  utility's
+ 317:    1  ->  v
+ 318:    1  ->  value
+ 319:    1  ->  vote
+ 320:    1  ->  want
+ 321:    1  ->  way
+ 322:    1  ->  week
+ 323:    1  ->  well
+ 324:    1  ->  were
+ 325:    1  ->  western
+ 326:    1  ->  what
+ 327:    1  ->  which
+ 328:    1  ->  whose
+ 329:    1  ->  write
+ 330:    1  ->  zero
+     -------
+       611
+
+
+
+SUBSTITUTIONS                    Total                 (737)
+                                 With >=  1 occurances (737)
+
+   1:   57  ->  the
+   2:   43  ->  a
+   3:   26  ->  to
+   4:   25  ->  of
+   5:   24  ->  s
+   6:   24  ->  u
+   7:   21  ->  and
+   8:   20  ->  in
+   9:   16  ->  mr
+  10:   15  ->  at
+  11:   14  ->  it
+  12:   14  ->  point
+  13:   13  ->  is
+  14:   13  ->  said
+  15:   11  ->  are
+  16:   11  ->  for
+  17:   10  ->  he
+  18:   10  ->  i
+  19:   10  ->  or
+  20:    9  ->  percent
+  21:    8  ->  but
+  22:    8  ->  on
+  23:    8  ->  one
+  24:    8  ->  three
+  25:    8  ->  will
+  26:    7  ->  b
+  27:    7  ->  company
+  28:    7  ->  had
+  29:    7  ->  has
+  30:    7  ->  some
+  31:    7  ->  t
+  32:    7  ->  when
+  33:    6  ->  after
+  34:    6  ->  an
+  35:    6  ->  as
+  36:    6  ->  be
+  37:    6  ->  dollars
+  38:    6  ->  f
+  39:    6  ->  g
+  40:    6  ->  l
+  41:    6  ->  they
+  42:    6  ->  two
+  43:    5  ->  from
+  44:    5  ->  have
+  45:    5  ->  hundred
+  46:    5  ->  important
+  47:    5  ->  investors
+  48:    5  ->  market
+  49:    5  ->  r
+  50:    5  ->  that
+  51:    5  ->  with
+  52:    4  ->  available
+  53:    4  ->  based
+  54:    4  ->  before
+  55:    4  ->  c
+  56:    4  ->  five
+  57:    4  ->  i'm
+  58:    4  ->  into
+  59:    4  ->  offered
+  60:    4  ->  outstanding
+  61:    4  ->  over
+  62:    4  ->  players
+  63:    4  ->  prices
+  64:    4  ->  rise
+  65:    4  ->  say
+  66:    4  ->  says
+  67:    4  ->  seven
+  68:    4  ->  their
+  69:    4  ->  under
+  70:    4  ->  v
+  71:    4  ->  was
+  72:    4  ->  were
+  73:    4  ->  yesterday
+  74:    3  ->  also
+  75:    3  ->  been
+  76:    3  ->  bonds
+  77:    3  ->  chief
+  78:    3  ->  concern
+  79:    3  ->  corporation
+  80:    3  ->  could
+  81:    3  ->  dollar
+  82:    3  ->  even
+  83:    3  ->  fifteen
+  84:    3  ->  hasn't
+  85:    3  ->  last
+  86:    3  ->  m
+  87:    3  ->  mail
+  88:    3  ->  may
+  89:    3  ->  n
+  90:    3  ->  november
+  91:    3  ->  offering
+  92:    3  ->  other
+  93:    3  ->  out
+  94:    3  ->  own
+  95:    3  ->  p
+  96:    3  ->  plant
+  97:    3  ->  price
+  98:    3  ->  replaced
+  99:    3  ->  seventy
+ 100:    3  ->  six
+ 101:    3  ->  somebody
+ 102:    3  ->  strengthened
+ 103:    3  ->  ten
+ 104:    3  ->  than
+ 105:    3  ->  time
+ 106:    3  ->  until
+ 107:    3  ->  what
+ 108:    3  ->  whether
+ 109:    3  ->  wolf
+ 110:    3  ->  would
+ 111:    3  ->  year
+ 112:    2  ->  about
+ 113:    2  ->  agreement
+ 114:    2  ->  all
+ 115:    2  ->  almost
+ 116:    2  ->  along
+ 117:    2  ->  amount
+ 118:    2  ->  amsterdam
+ 119:    2  ->  another
+ 120:    2  ->  appear
+ 121:    2  ->  appropriate
+ 122:    2  ->  aren't
+ 123:    2  ->  august
+ 124:    2  ->  automated
+ 125:    2  ->  availability
+ 126:    2  ->  back
+ 127:    2  ->  baker
+ 128:    2  ->  below
+ 129:    2  ->  business
+ 130:    2  ->  by
+ 131:    2  ->  can
+ 132:    2  ->  cash
+ 133:    2  ->  cheering
+ 134:    2  ->  climbed
+ 135:    2  ->  closed
+ 136:    2  ->  compete
+ 137:    2  ->  cs
+ 138:    2  ->  debt
+ 139:    2  ->  department
+ 140:    2  ->  determine
+ 141:    2  ->  development
+ 142:    2  ->  dividend
+ 143:    2  ->  does
+ 144:    2  ->  don't
+ 145:    2  ->  done
+ 146:    2  ->  dow
+ 147:    2  ->  dropped
+ 148:    2  ->  e
+ 149:    2  ->  eased
+ 150:    2  ->  eighty
+ 151:    2  ->  ending
+ 152:    2  ->  exchange
+ 153:    2  ->  february
+ 154:    2  ->  first
+ 155:    2  ->  focus
+ 156:    2  ->  forty
+ 157:    2  ->  four
+ 158:    2  ->  free
+ 159:    2  ->  friday
+ 160:    2  ->  fueled
+ 161:    2  ->  get
+ 162:    2  ->  going
+ 163:    2  ->  goods
+ 164:    2  ->  group
+ 165:    2  ->  health
+ 166:    2  ->  highest
+ 167:    2  ->  however
+ 168:    2  ->  if
+ 169:    2  ->  income
+ 170:    2  ->  industry
+ 171:    2  ->  inevitable
+ 172:    2  ->  interest
+ 173:    2  ->  its
+ 174:    2  ->  k
+ 175:    2  ->  labrecque
+ 176:    2  ->  levels
+ 177:    2  ->  low
+ 178:    2  ->  m's
+ 179:    2  ->  machine
+ 180:    2  ->  made
+ 181:    2  ->  markets
+ 182:    2  ->  month
+ 183:    2  ->  months
+ 184:    2  ->  more
+ 185:    2  ->  ms
+ 186:    2  ->  municipal
+ 187:    2  ->  my
+ 188:    2  ->  next
+ 189:    2  ->  nine
+ 190:    2  ->  not
+ 191:    2  ->  october
+ 192:    2  ->  only
+ 193:    2  ->  our
+ 194:    2  ->  overall
+ 195:    2  ->  owners
+ 196:    2  ->  parent
+ 197:    2  ->  points
+ 198:    2  ->  preferred
+ 199:    2  ->  problems
+ 200:    2  ->  profit
+ 201:    2  ->  proposed
+ 202:    2  ->  pushing
+ 203:    2  ->  released
+ 204:    2  ->  reported
+ 205:    2  ->  reportedly
+ 206:    2  ->  required
+ 207:    2  ->  robert
+ 208:    2  ->  sales
+ 209:    2  ->  sears
+ 210:    2  ->  senior
+ 211:    2  ->  september
+ 212:    2  ->  she
+ 213:    2  ->  slow
+ 214:    2  ->  solve
+ 215:    2  ->  sometime
+ 216:    2  ->  split
+ 217:    2  ->  stock
+ 218:    2  ->  subject
+ 219:    2  ->  systems
+ 220:    2  ->  take
+ 221:    2  ->  term
+ 222:    2  ->  terms
+ 223:    2  ->  them
+ 224:    2  ->  thirty
+ 225:    2  ->  this
+ 226:    2  ->  thousand
+ 227:    2  ->  traders
+ 228:    2  ->  training
+ 229:    2  ->  tuesday
+ 230:    2  ->  twenty
+ 231:    2  ->  up
+ 232:    2  ->  us
+ 233:    2  ->  want
+ 234:    2  ->  we
+ 235:    2  ->  we'll
+ 236:    2  ->  week
+ 237:    2  ->  welfare
+ 238:    2  ->  while
+ 239:    2  ->  willing
+ 240:    2  ->  yield
+ 241:    2  ->  york
+ 242:    2  ->  zero
+ 243:    1  ->  able
+ 244:    1  ->  accord
+ 245:    1  ->  according
+ 246:    1  ->  accounted
+ 247:    1  ->  accounts
+ 248:    1  ->  added
+ 249:    1  ->  adds
+ 250:    1  ->  adjustment
+ 251:    1  ->  administrative
+ 252:    1  ->  advanced
+ 253:    1  ->  advancing
+ 254:    1  ->  advocates
+ 255:    1  ->  affected
+ 256:    1  ->  again
+ 257:    1  ->  agency
+ 258:    1  ->  aggregate
+ 259:    1  ->  ago
+ 260:    1  ->  alfred
+ 261:    1  ->  allowed
+ 262:    1  ->  allowing
+ 263:    1  ->  american
+ 264:    1  ->  amid
+ 265:    1  ->  analysis
+ 266:    1  ->  any
+ 267:    1  ->  appeared
+ 268:    1  ->  approach
+ 269:    1  ->  approved
+ 270:    1  ->  april
+ 271:    1  ->  areas
+ 272:    1  ->  assessment
+ 273:    1  ->  assets
+ 274:    1  ->  australian
+ 275:    1  ->  authority
+ 276:    1  ->  auto
+ 277:    1  ->  autos
+ 278:    1  ->  bad
+ 279:    1  ->  bankruptcy
+ 280:    1  ->  banks
+ 281:    1  ->  becomes
+ 282:    1  ->  begin
+ 283:    1  ->  begun
+ 284:    1  ->  behalf
+ 285:    1  ->  behind
+ 286:    1  ->  belief
+ 287:    1  ->  bethlehem
+ 288:    1  ->  better
+ 289:    1  ->  between
+ 290:    1  ->  billion
+ 291:    1  ->  bond
+ 292:    1  ->  boosted
+ 293:    1  ->  boston
+ 294:    1  ->  both
+ 295:    1  ->  boy's
+ 296:    1  ->  britain
+ 297:    1  ->  brokers
+ 298:    1  ->  bull
+ 299:    1  ->  bundesbank
+ 300:    1  ->  buoy
+ 301:    1  ->  burnham
+ 302:    1  ->  buy
+ 303:    1  ->  calmer
+ 304:    1  ->  came
+ 305:    1  ->  can't
+ 306:    1  ->  capacity
+ 307:    1  ->  capital
+ 308:    1  ->  card
+ 309:    1  ->  cars
+ 310:    1  ->  ceased
+ 311:    1  ->  cents
+ 312:    1  ->  certain
+ 313:    1  ->  changed
+ 314:    1  ->  channel
+ 315:    1  ->  charged
+ 316:    1  ->  charges
+ 317:    1  ->  china
+ 318:    1  ->  christmas
+ 319:    1  ->  citicorp
+ 320:    1  ->  citizens
+ 321:    1  ->  civil
+ 322:    1  ->  class
+ 323:    1  ->  close
+ 324:    1  ->  combination
+ 325:    1  ->  committee's
+ 326:    1  ->  commodities
+ 327:    1  ->  common
+ 328:    1  ->  community
+ 329:    1  ->  companies
+ 330:    1  ->  compaq
+ 331:    1  ->  composite
+ 332:    1  ->  comprise
+ 333:    1  ->  concentrated
+ 334:    1  ->  concessions
+ 335:    1  ->  concluded
+ 336:    1  ->  confess
+ 337:    1  ->  congress
+ 338:    1  ->  connecticut
+ 339:    1  ->  consideration
+ 340:    1  ->  consolidating
+ 341:    1  ->  contracting
+ 342:    1  ->  council
+ 343:    1  ->  counter
+ 344:    1  ->  coupon
+ 345:    1  ->  court's
+ 346:    1  ->  credit
+ 347:    1  ->  criminal
+ 348:    1  ->  cumulative
+ 349:    1  ->  customers
+ 350:    1  ->  d
+ 351:    1  ->  data
+ 352:    1  ->  date
+ 353:    1  ->  deadline
+ 354:    1  ->  deal
+ 355:    1  ->  decline
+ 356:    1  ->  declined
+ 357:    1  ->  declining
+ 358:    1  ->  delayed
+ 359:    1  ->  detroit
+ 360:    1  ->  developed
+ 361:    1  ->  didn't
+ 362:    1  ->  discuss
+ 363:    1  ->  do
+ 364:    1  ->  doctor
+ 365:    1  ->  doing
+ 366:    1  ->  double
+ 367:    1  ->  due
+ 368:    1  ->  dun
+ 369:    1  ->  durable
+ 370:    1  ->  during
+ 371:    1  ->  each
+ 372:    1  ->  ease
+ 373:    1  ->  economic
+ 374:    1  ->  education
+ 375:    1  ->  effectively
+ 376:    1  ->  efforts
+ 377:    1  ->  eighteen
+ 378:    1  ->  eighties
+ 379:    1  ->  elaborate
+ 380:    1  ->  eleven
+ 381:    1  ->  eliminating
+ 382:    1  ->  else
+ 383:    1  ->  embargo
+ 384:    1  ->  employers
+ 385:    1  ->  employment
+ 386:    1  ->  ended
+ 387:    1  ->  enthusiasm
+ 388:    1  ->  equipment
+ 389:    1  ->  european
+ 390:    1  ->  exchanged
+ 391:    1  ->  exchanges
+ 392:    1  ->  excited
+ 393:    1  ->  excluding
+ 394:    1  ->  expected
+ 395:    1  ->  expenses
+ 396:    1  ->  expired
+ 397:    1  ->  exporting
+ 398:    1  ->  extend
+ 399:    1  ->  extra
+ 400:    1  ->  extraction
+ 401:    1  ->  facilities
+ 402:    1  ->  failure
+ 403:    1  ->  fair
+ 404:    1  ->  fall
+ 405:    1  ->  falling
+ 406:    1  ->  family
+ 407:    1  ->  farm
+ 408:    1  ->  farrell
+ 409:    1  ->  faster
+ 410:    1  ->  fed's
+ 411:    1  ->  federal
+ 412:    1  ->  few
+ 413:    1  ->  fifteenth
+ 414:    1  ->  figures
+ 415:    1  ->  filing
+ 416:    1  ->  finally
+ 417:    1  ->  financial
+ 418:    1  ->  financier
+ 419:    1  ->  financing
+ 420:    1  ->  firm's
+ 421:    1  ->  firmed
+ 422:    1  ->  fiscal
+ 423:    1  ->  forecasting
+ 424:    1  ->  fourteenth
+ 425:    1  ->  frontier
+ 426:    1  ->  fund
+ 427:    1  ->  funds
+ 428:    1  ->  furniture
+ 429:    1  ->  general
+ 430:    1  ->  give
+ 431:    1  ->  gives
+ 432:    1  ->  goldman
+ 433:    1  ->  government
+ 434:    1  ->  groups
+ 435:    1  ->  half
+ 436:    1  ->  handful
+ 437:    1  ->  handling
+ 438:    1  ->  haven't
+ 439:    1  ->  having
+ 440:    1  ->  head
+ 441:    1  ->  heavy
+ 442:    1  ->  held
+ 443:    1  ->  higher
+ 444:    1  ->  him
+ 445:    1  ->  his
+ 446:    1  ->  holding
+ 447:    1  ->  homes
+ 448:    1  ->  honda's
+ 449:    1  ->  hope
+ 450:    1  ->  hospital
+ 451:    1  ->  hospitals
+ 452:    1  ->  hour
+ 453:    1  ->  how
+ 454:    1  ->  huge
+ 455:    1  ->  i've
+ 456:    1  ->  including
+ 457:    1  ->  increase
+ 458:    1  ->  increased
+ 459:    1  ->  indicted
+ 460:    1  ->  industrial
+ 461:    1  ->  industry's
+ 462:    1  ->  inflation
+ 463:    1  ->  institutions
+ 464:    1  ->  intended
+ 465:    1  ->  investors'
+ 466:    1  ->  it's
+ 467:    1  ->  itself
+ 468:    1  ->  jack
+ 469:    1  ->  japanese
+ 470:    1  ->  joining
+ 471:    1  ->  judges
+ 472:    1  ->  key
+ 473:    1  ->  knopf
+ 474:    1  ->  know
+ 475:    1  ->  knowledge
+ 476:    1  ->  la
+ 477:    1  ->  large
+ 478:    1  ->  las
+ 479:    1  ->  late
+ 480:    1  ->  later
+ 481:    1  ->  launch
+ 482:    1  ->  lead
+ 483:    1  ->  leadership
+ 484:    1  ->  legal
+ 485:    1  ->  levy
+ 486:    1  ->  likely
+ 487:    1  ->  limit
+ 488:    1  ->  link
+ 489:    1  ->  liquid
+ 490:    1  ->  liquidity
+ 491:    1  ->  long
+ 492:    1  ->  longitudinal
+ 493:    1  ->  look
+ 494:    1  ->  losses
+ 495:    1  ->  lost
+ 496:    1  ->  lower
+ 497:    1  ->  lowest
+ 498:    1  ->  machinery
+ 499:    1  ->  machines
+ 500:    1  ->  manufactured
+ 501:    1  ->  many
+ 502:    1  ->  march
+ 503:    1  ->  margin
+ 504:    1  ->  matters
+ 505:    1  ->  maturing
+ 506:    1  ->  me
+ 507:    1  ->  mean
+ 508:    1  ->  measures
+ 509:    1  ->  meet
+ 510:    1  ->  members
+ 511:    1  ->  memory
+ 512:    1  ->  mexican
+ 513:    1  ->  mid
+ 514:    1  ->  might
+ 515:    1  ->  milan
+ 516:    1  ->  million
+ 517:    1  ->  mining
+ 518:    1  ->  minneapolis
+ 519:    1  ->  minnesota
+ 520:    1  ->  minute
+ 521:    1  ->  misunderstood
+ 522:    1  ->  mitsubishi
+ 523:    1  ->  mixed
+ 524:    1  ->  morgan
+ 525:    1  ->  most
+ 526:    1  ->  motor
+ 527:    1  ->  much
+ 528:    1  ->  multimillion
+ 529:    1  ->  must
+ 530:    1  ->  named
+ 531:    1  ->  natural
+ 532:    1  ->  network
+ 533:    1  ->  never
+ 534:    1  ->  new
+ 535:    1  ->  news
+ 536:    1  ->  nineteen
+ 537:    1  ->  nineteenth
+ 538:    1  ->  ninety
+ 539:    1  ->  nissan
+ 540:    1  ->  no
+ 541:    1  ->  notes
+ 542:    1  ->  now
+ 543:    1  ->  nuclear
+ 544:    1  ->  numbers
+ 545:    1  ->  nursing
+ 546:    1  ->  occupied
+ 547:    1  ->  off
+ 548:    1  ->  offer
+ 549:    1  ->  offerings
+ 550:    1  ->  offers
+ 551:    1  ->  officer
+ 552:    1  ->  offices
+ 553:    1  ->  offs
+ 554:    1  ->  offset
+ 555:    1  ->  oil
+ 556:    1  ->  old
+ 557:    1  ->  operations
+ 558:    1  ->  opportunities
+ 559:    1  ->  ordinaries
+ 560:    1  ->  organization
+ 561:    1  ->  oriented
+ 562:    1  ->  outlook
+ 563:    1  ->  paid
+ 564:    1  ->  panel
+ 565:    1  ->  parts
+ 566:    1  ->  payable
+ 567:    1  ->  pension
+ 568:    1  ->  performance
+ 569:    1  ->  period
+ 570:    1  ->  petroleum
+ 571:    1  ->  picking
+ 572:    1  ->  plan
+ 573:    1  ->  planners
+ 574:    1  ->  plans
+ 575:    1  ->  plunge
+ 576:    1  ->  poor
+ 577:    1  ->  position
+ 578:    1  ->  post
+ 579:    1  ->  posted
+ 580:    1  ->  poverty
+ 581:    1  ->  pre
+ 582:    1  ->  predict
+ 583:    1  ->  prepared
+ 584:    1  ->  previous
+ 585:    1  ->  priced
+ 586:    1  ->  primarily
+ 587:    1  ->  produced
+ 588:    1  ->  provide
+ 589:    1  ->  purchased
+ 590:    1  ->  putting
+ 591:    1  ->  quarter
+ 592:    1  ->  quarterly
+ 593:    1  ->  question
+ 594:    1  ->  quotation
+ 595:    1  ->  raising
+ 596:    1  ->  rarely
+ 597:    1  ->  rate
+ 598:    1  ->  ratified
+ 599:    1  ->  reached
+ 600:    1  ->  realized
+ 601:    1  ->  rebound
+ 602:    1  ->  reduced
+ 603:    1  ->  refining
+ 604:    1  ->  reflecting
+ 605:    1  ->  regulated
+ 606:    1  ->  regulatory
+ 607:    1  ->  release
+ 608:    1  ->  relief
+ 609:    1  ->  remaining
+ 610:    1  ->  replacement
+ 611:    1  ->  replied
+ 612:    1  ->  report
+ 613:    1  ->  reporting
+ 614:    1  ->  requests
+ 615:    1  ->  requirements
+ 616:    1  ->  requires
+ 617:    1  ->  reserve
+ 618:    1  ->  resolution
+ 619:    1  ->  resolved
+ 620:    1  ->  rest
+ 621:    1  ->  retailer
+ 622:    1  ->  returned
+ 623:    1  ->  returns
+ 624:    1  ->  riddle
+ 625:    1  ->  risen
+ 626:    1  ->  robins
+ 627:    1  ->  run
+ 628:    1  ->  sank
+ 629:    1  ->  saunders
+ 630:    1  ->  saved
+ 631:    1  ->  scheduled
+ 632:    1  ->  sears's
+ 633:    1  ->  second
+ 634:    1  ->  seek
+ 635:    1  ->  seems
+ 636:    1  ->  sell
+ 637:    1  ->  separately
+ 638:    1  ->  series
+ 639:    1  ->  services
+ 640:    1  ->  set
+ 641:    1  ->  settle
+ 642:    1  ->  seventeen
+ 643:    1  ->  seventh
+ 644:    1  ->  shares
+ 645:    1  ->  shell
+ 646:    1  ->  short
+ 647:    1  ->  shortage
+ 648:    1  ->  since
+ 649:    1  ->  sixth
+ 650:    1  ->  slightly
+ 651:    1  ->  slipped
+ 652:    1  ->  snapped
+ 653:    1  ->  so
+ 654:    1  ->  sold
+ 655:    1  ->  source
+ 656:    1  ->  sperling
+ 657:    1  ->  standard
+ 658:    1  ->  stanley
+ 659:    1  ->  staying
+ 660:    1  ->  stepped
+ 661:    1  ->  still
+ 662:    1  ->  stockholm
+ 663:    1  ->  stocks
+ 664:    1  ->  storage
+ 665:    1  ->  story
+ 666:    1  ->  studying
+ 667:    1  ->  successful
+ 668:    1  ->  sudden
+ 669:    1  ->  suggests
+ 670:    1  ->  summer
+ 671:    1  ->  sun
+ 672:    1  ->  superior
+ 673:    1  ->  support
+ 674:    1  ->  surely
+ 675:    1  ->  surveys
+ 676:    1  ->  task
+ 677:    1  ->  taxpayers
+ 678:    1  ->  technical
+ 679:    1  ->  telecommunications
+ 680:    1  ->  temporary
+ 681:    1  ->  test
+ 682:    1  ->  that's
+ 683:    1  ->  themselves
+ 684:    1  ->  there
+ 685:    1  ->  thirtieth
+ 686:    1  ->  though
+ 687:    1  ->  throughout
+ 688:    1  ->  thursday
+ 689:    1  ->  tied
+ 690:    1  ->  tool
+ 691:    1  ->  total
+ 692:    1  ->  toy
+ 693:    1  ->  treasury
+ 694:    1  ->  trend
+ 695:    1  ->  turner
+ 696:    1  ->  twelve
+ 697:    1  ->  unchanged
+ 698:    1  ->  undercut
+ 699:    1  ->  underwriter
+ 700:    1  ->  unions
+ 701:    1  ->  unit's
+ 702:    1  ->  unless
+ 703:    1  ->  unlikely
+ 704:    1  ->  unspecified
+ 705:    1  ->  upon
+ 706:    1  ->  used
+ 707:    1  ->  uses
+ 708:    1  ->  utility
+ 709:    1  ->  vegas
+ 710:    1  ->  vehicle
+ 711:    1  ->  very
+ 712:    1  ->  victors
+ 713:    1  ->  vision
+ 714:    1  ->  voice
+ 715:    1  ->  volatile
+ 716:    1  ->  volatility
+ 717:    1  ->  vote
+ 718:    1  ->  wade
+ 719:    1  ->  weak
+ 720:    1  ->  wednesday
+ 721:    1  ->  western
+ 722:    1  ->  where
+ 723:    1  ->  which
+ 724:    1  ->  whose
+ 725:    1  ->  without
+ 726:    1  ->  wolfe
+ 727:    1  ->  worked
+ 728:    1  ->  workers
+ 729:    1  ->  worst
+ 730:    1  ->  wouldn't
+ 731:    1  ->  write
+ 732:    1  ->  writes
+ 733:    1  ->  wrong
+ 734:    1  ->  years
+ 735:    1  ->  yet
+ 736:    1  ->  z
+ 737:    1  ->  zurich
+     -------
+      1539
+
+
+* NOTE: The 'Substitution' words are those reference words
+        for which the recognizer supplied an incorrect word.
+
+
+FALSELY RECOGNIZED               Total                 (608)
+                                 With >=  1 occurances (608)
+
+   1:   53  ->  a
+   2:   50  ->  the
+   3:   38  ->  in
+   4:   35  ->  and
+   5:   26  ->  of
+   6:   24  ->  is
+   7:   23  ->  who
+   8:   22  ->  have
+   9:   22  ->  s.
+  10:   22  ->  to
+  11:   21  ->  that
+  12:   20  ->  for
+  13:   19  ->  or
+  14:   18  ->  u.
+  15:   17  ->  with
+  16:   16  ->  <unk>
+  17:   16  ->  if
+  18:   15  ->  are
+  19:   14  ->  be
+  20:   14  ->  had
+  21:   12  ->  it
+  22:   12  ->  its
+  23:   12  ->  mr.
+  24:   12  ->  was
+  25:   10  ->  at
+  26:   10  ->  b.
+  27:   10  ->  l.
+  28:    9  ->  c.
+  29:    9  ->  on
+  30:    9  ->  will
+  31:    8  ->  as
+  32:    7  ->  an
+  33:    7  ->  f.
+  34:    7  ->  food
+  35:    6  ->  from
+  36:    6  ->  he
+  37:    6  ->  i.
+  38:    6  ->  out
+  39:    6  ->  said
+  40:    6  ->  should
+  41:    6  ->  t.
+  42:    6  ->  their
+  43:    6  ->  we
+  44:    6  ->  were
+  45:    6  ->  you
+  46:    5  ->  added
+  47:    5  ->  after
+  48:    5  ->  big
+  49:    5  ->  day
+  50:    5  ->  few
+  51:    5  ->  fifth
+  52:    5  ->  fifty
+  53:    5  ->  five
+  54:    5  ->  g.
+  55:    5  ->  has
+  56:    5  ->  no
+  57:    5  ->  now
+  58:    5  ->  offer
+  59:    5  ->  one
+  60:    5  ->  other
+  61:    5  ->  r.
+  62:    5  ->  re
+  63:    5  ->  says
+  64:    4  ->  about
+  65:    4  ->  all
+  66:    4  ->  can
+  67:    4  ->  e.
+  68:    4  ->  forty
+  69:    4  ->  fund
+  70:    4  ->  half
+  71:    4  ->  high
+  72:    4  ->  i
+  73:    4  ->  just
+  74:    4  ->  low
+  75:    4  ->  new
+  76:    4  ->  own
+  77:    4  ->  so
+  78:    4  ->  then
+  79:    4  ->  up
+  80:    4  ->  use
+  81:    4  ->  v.
+  82:    4  ->  which
+  83:    3  ->  back
+  84:    3  ->  been
+  85:    3  ->  bill
+  86:    3  ->  cash
+  87:    3  ->  court
+  88:    3  ->  dollar
+  89:    3  ->  eight
+  90:    3  ->  ever
+  91:    3  ->  fast
+  92:    3  ->  fed
+  93:    3  ->  fine
+  94:    3  ->  head
+  95:    3  ->  k.
+  96:    3  ->  may
+  97:    3  ->  million
+  98:    3  ->  move
+  99:    3  ->  ms.
+ 100:    3  ->  our
+ 101:    3  ->  over
+ 102:    3  ->  plan
+ 103:    3  ->  rate
+ 104:    3  ->  really
+ 105:    3  ->  serve
+ 106:    3  ->  street
+ 107:    3  ->  them
+ 108:    3  ->  they
+ 109:    3  ->  trade
+ 110:    3  ->  trading
+ 111:    3  ->  valued
+ 112:    3  ->  white
+ 113:    3  ->  world
+ 114:    3  ->  would
+ 115:    2  ->  a.
+ 116:    2  ->  air's
+ 117:    2  ->  base
+ 118:    2  ->  bid
+ 119:    2  ->  boy
+ 120:    2  ->  by
+ 121:    2  ->  c.'s
+ 122:    2  ->  change
+ 123:    2  ->  changes
+ 124:    2  ->  close
+ 125:    2  ->  cost
+ 126:    2  ->  do
+ 127:    2  ->  driving
+ 128:    2  ->  drop
+ 129:    2  ->  farm
+ 130:    2  ->  fe
+ 131:    2  ->  fee
+ 132:    2  ->  fell
+ 133:    2  ->  firm
+ 134:    2  ->  flat
+ 135:    2  ->  fleet
+ 136:    2  ->  flight
+ 137:    2  ->  fly
+ 138:    2  ->  ford
+ 139:    2  ->  four
+ 140:    2  ->  fourth
+ 141:    2  ->  fresh
+ 142:    2  ->  full
+ 143:    2  ->  give
+ 144:    2  ->  given
+ 145:    2  ->  good
+ 146:    2  ->  group
+ 147:    2  ->  hall
+ 148:    2  ->  headed
+ 149:    2  ->  her
+ 150:    2  ->  his
+ 151:    2  ->  history
+ 152:    2  ->  how
+ 153:    2  ->  importing
+ 154:    2  ->  into
+ 155:    2  ->  it's
+ 156:    2  ->  j.
+ 157:    2  ->  jet
+ 158:    2  ->  june
+ 159:    2  ->  large
+ 160:    2  ->  lease
+ 161:    2  ->  let
+ 162:    2  ->  lot
+ 163:    2  ->  love
+ 164:    2  ->  m.'s
+ 165:    2  ->  main
+ 166:    2  ->  n.
+ 167:    2  ->  ninety
+ 168:    2  ->  o.
+ 169:    2  ->  offered
+ 170:    2  ->  office
+ 171:    2  ->  owner
+ 172:    2  ->  plane
+ 173:    2  ->  points
+ 174:    2  ->  pose
+ 175:    2  ->  predicted
+ 176:    2  ->  pricing
+ 177:    2  ->  private
+ 178:    2  ->  probably
+ 179:    2  ->  rates
+ 180:    2  ->  real
+ 181:    2  ->  replace
+ 182:    2  ->  return
+ 183:    2  ->  rise
+ 184:    2  ->  same
+ 185:    2  ->  say
+ 186:    2  ->  second
+ 187:    2  ->  self
+ 188:    2  ->  seventy
+ 189:    2  ->  share
+ 190:    2  ->  she
+ 191:    2  ->  shove
+ 192:    2  ->  spend
+ 193:    2  ->  system
+ 194:    2  ->  tend
+ 195:    2  ->  there's
+ 196:    2  ->  thing
+ 197:    2  ->  third
+ 198:    2  ->  this
+ 199:    2  ->  though
+ 200:    2  ->  three
+ 201:    2  ->  thus
+ 202:    2  ->  two
+ 203:    2  ->  via
+ 204:    2  ->  wall
+ 205:    2  ->  way
+ 206:    2  ->  week
+ 207:    2  ->  what
+ 208:    2  ->  where
+ 209:    2  ->  why
+ 210:    2  ->  won
+ 211:    2  ->  x.
+ 212:    2  ->  you'll
+ 213:    1  ->  acid
+ 214:    1  ->  acquired
+ 215:    1  ->  act
+ 216:    1  ->  acted
+ 217:    1  ->  active
+ 218:    1  ->  actively
+ 219:    1  ->  adding
+ 220:    1  ->  addition
+ 221:    1  ->  africa
+ 222:    1  ->  again
+ 223:    1  ->  age
+ 224:    1  ->  ahead
+ 225:    1  ->  aid
+ 226:    1  ->  aided
+ 227:    1  ->  aides
+ 228:    1  ->  allen
+ 229:    1  ->  along
+ 230:    1  ->  already
+ 231:    1  ->  another
+ 232:    1  ->  answer
+ 233:    1  ->  applied
+ 234:    1  ->  approach
+ 235:    1  ->  area
+ 236:    1  ->  arms
+ 237:    1  ->  around
+ 238:    1  ->  asian
+ 239:    1  ->  asked
+ 240:    1  ->  assure
+ 241:    1  ->  automatic
+ 242:    1  ->  averaged
+ 243:    1  ->  baker's
+ 244:    1  ->  banking
+ 245:    1  ->  banks
+ 246:    1  ->  bear
+ 247:    1  ->  because
+ 248:    1  ->  believed
+ 249:    1  ->  bet
+ 250:    1  ->  billion
+ 251:    1  ->  bite
+ 252:    1  ->  board
+ 253:    1  ->  bonn
+ 254:    1  ->  boss
+ 255:    1  ->  bought
+ 256:    1  ->  break
+ 257:    1  ->  breaks
+ 258:    1  ->  bull
+ 259:    1  ->  but
+ 260:    1  ->  calm
+ 261:    1  ->  can't
+ 262:    1  ->  capital
+ 263:    1  ->  card
+ 264:    1  ->  cases
+ 265:    1  ->  center
+ 266:    1  ->  chain
+ 267:    1  ->  charge
+ 268:    1  ->  cheap
+ 269:    1  ->  chief
+ 270:    1  ->  cited
+ 271:    1  ->  class
+ 272:    1  ->  clients
+ 273:    1  ->  closed
+ 274:    1  ->  co
+ 275:    1  ->  combined
+ 276:    1  ->  come
+ 277:    1  ->  coming
+ 278:    1  ->  committees
+ 279:    1  ->  companies
+ 280:    1  ->  corporation's
+ 281:    1  ->  corporations
+ 282:    1  ->  corps
+ 283:    1  ->  could
+ 284:    1  ->  counts
+ 285:    1  ->  courts
+ 286:    1  ->  cover
+ 287:    1  ->  covers
+ 288:    1  ->  crop
+ 289:    1  ->  current
+ 290:    1  ->  cut
+ 291:    1  ->  d.
+ 292:    1  ->  daily
+ 293:    1  ->  dart
+ 294:    1  ->  death
+ 295:    1  ->  debt
+ 296:    1  ->  departments
+ 297:    1  ->  develops
+ 298:    1  ->  digital
+ 299:    1  ->  discussed
+ 300:    1  ->  doesn't
+ 301:    1  ->  doing
+ 302:    1  ->  dollar's
+ 303:    1  ->  doubled
+ 304:    1  ->  draw
+ 305:    1  ->  drought
+ 306:    1  ->  due
+ 307:    1  ->  edged
+ 308:    1  ->  effective
+ 309:    1  ->  efforts
+ 310:    1  ->  eighty
+ 311:    1  ->  either
+ 312:    1  ->  elected
+ 313:    1  ->  employed
+ 314:    1  ->  end
+ 315:    1  ->  even
+ 316:    1  ->  exchange's
+ 317:    1  ->  exemption
+ 318:    1  ->  expand
+ 319:    1  ->  expected
+ 320:    1  ->  expire
+ 321:    1  ->  extended
+ 322:    1  ->  face
+ 323:    1  ->  fact
+ 324:    1  ->  facts
+ 325:    1  ->  fails
+ 326:    1  ->  fate
+ 327:    1  ->  federal
+ 328:    1  ->  federally
+ 329:    1  ->  field
+ 330:    1  ->  fight
+ 331:    1  ->  files
+ 332:    1  ->  filled
+ 333:    1  ->  finance
+ 334:    1  ->  firms
+ 335:    1  ->  fish
+ 336:    1  ->  fixed
+ 337:    1  ->  flew
+ 338:    1  ->  flights
+ 339:    1  ->  flows
+ 340:    1  ->  form
+ 341:    1  ->  fourteen
+ 342:    1  ->  fraud
+ 343:    1  ->  free
+ 344:    1  ->  fuel
+ 345:    1  ->  gap
+ 346:    1  ->  gas
+ 347:    1  ->  gets
+ 348:    1  ->  giving
+ 349:    1  ->  goals
+ 350:    1  ->  goes
+ 351:    1  ->  going
+ 352:    1  ->  government
+ 353:    1  ->  governor
+ 354:    1  ->  gray
+ 355:    1  ->  green
+ 356:    1  ->  group's
+ 357:    1  ->  growing
+ 358:    1  ->  growth
+ 359:    1  ->  gulf
+ 360:    1  ->  gun
+ 361:    1  ->  haft
+ 362:    1  ->  handled
+ 363:    1  ->  harder
+ 364:    1  ->  he's
+ 365:    1  ->  heads
+ 366:    1  ->  health
+ 367:    1  ->  healthy
+ 368:    1  ->  heavily
+ 369:    1  ->  heavy
+ 370:    1  ->  help
+ 371:    1  ->  higher
+ 372:    1  ->  highly
+ 373:    1  ->  highs
+ 374:    1  ->  hit
+ 375:    1  ->  hope
+ 376:    1  ->  horse
+ 377:    1  ->  hostile
+ 378:    1  ->  hour
+ 379:    1  ->  hours
+ 380:    1  ->  hover
+ 381:    1  ->  hud
+ 382:    1  ->  hutton
+ 383:    1  ->  i'll
+ 384:    1  ->  imported
+ 385:    1  ->  improper
+ 386:    1  ->  included
+ 387:    1  ->  industry
+ 388:    1  ->  institution
+ 389:    1  ->  invest
+ 390:    1  ->  investments
+ 391:    1  ->  issued
+ 392:    1  ->  italy
+ 393:    1  ->  javelin
+ 394:    1  ->  job
+ 395:    1  ->  jobs
+ 396:    1  ->  kept
+ 397:    1  ->  key
+ 398:    1  ->  klein
+ 399:    1  ->  knew
+ 400:    1  ->  know
+ 401:    1  ->  korea
+ 402:    1  ->  korean
+ 403:    1  ->  late
+ 404:    1  ->  lately
+ 405:    1  ->  law
+ 406:    1  ->  leaving
+ 407:    1  ->  less
+ 408:    1  ->  light
+ 409:    1  ->  like
+ 410:    1  ->  likely
+ 411:    1  ->  lines
+ 412:    1  ->  list
+ 413:    1  ->  live
+ 414:    1  ->  load
+ 415:    1  ->  looks
+ 416:    1  ->  lose
+ 417:    1  ->  loss
+ 418:    1  ->  lowered
+ 419:    1  ->  machine
+ 420:    1  ->  mack
+ 421:    1  ->  maker
+ 422:    1  ->  markets
+ 423:    1  ->  marriott
+ 424:    1  ->  martin
+ 425:    1  ->  me
+ 426:    1  ->  member
+ 427:    1  ->  members
+ 428:    1  ->  men
+ 429:    1  ->  might
+ 430:    1  ->  mile
+ 431:    1  ->  ministry
+ 432:    1  ->  minutes
+ 433:    1  ->  mix
+ 434:    1  ->  mobile
+ 435:    1  ->  money
+ 436:    1  ->  mood
+ 437:    1  ->  more
+ 438:    1  ->  morning
+ 439:    1  ->  motor
+ 440:    1  ->  much
+ 441:    1  ->  national
+ 442:    1  ->  negative
+ 443:    1  ->  next
+ 444:    1  ->  night
+ 445:    1  ->  off
+ 446:    1  ->  offering
+ 447:    1  ->  officials
+ 448:    1  ->  offs
+ 449:    1  ->  old
+ 450:    1  ->  only
+ 451:    1  ->  opposite
+ 452:    1  ->  outcome
+ 453:    1  ->  owns
+ 454:    1  ->  past
+ 455:    1  ->  paul
+ 456:    1  ->  paying
+ 457:    1  ->  pays
+ 458:    1  ->  pence
+ 459:    1  ->  place
+ 460:    1  ->  plans
+ 461:    1  ->  plays
+ 462:    1  ->  present
+ 463:    1  ->  price
+ 464:    1  ->  priced
+ 465:    1  ->  pride
+ 466:    1  ->  probe
+ 467:    1  ->  problem
+ 468:    1  ->  produce
+ 469:    1  ->  propose
+ 470:    1  ->  prove
+ 471:    1  ->  puts
+ 472:    1  ->  quoted
+ 473:    1  ->  race
+ 474:    1  ->  rank
+ 475:    1  ->  rated
+ 476:    1  ->  rather
+ 477:    1  ->  ratio
+ 478:    1  ->  reach
+ 479:    1  ->  reaching
+ 480:    1  ->  rebels
+ 481:    1  ->  reckoned
+ 482:    1  ->  reduce
+ 483:    1  ->  reflected
+ 484:    1  ->  regular
+ 485:    1  ->  regulate
+ 486:    1  ->  rely
+ 487:    1  ->  rest
+ 488:    1  ->  reviews
+ 489:    1  ->  right
+ 490:    1  ->  rights
+ 491:    1  ->  risen
+ 492:    1  ->  rival
+ 493:    1  ->  robert
+ 494:    1  ->  roy
+ 495:    1  ->  rule
+ 496:    1  ->  run
+ 497:    1  ->  rush
+ 498:    1  ->  sachs
+ 499:    1  ->  sales
+ 500:    1  ->  san
+ 501:    1  ->  save
+ 502:    1  ->  saying
+ 503:    1  ->  schedule
+ 504:    1  ->  sea
+ 505:    1  ->  see
+ 506:    1  ->  seen
+ 507:    1  ->  senate
+ 508:    1  ->  send
+ 509:    1  ->  several
+ 510:    1  ->  shame
+ 511:    1  ->  shares
+ 512:    1  ->  sharing
+ 513:    1  ->  sheet
+ 514:    1  ->  sheets
+ 515:    1  ->  shortages
+ 516:    1  ->  shorter
+ 517:    1  ->  shot
+ 518:    1  ->  show
+ 519:    1  ->  shown
+ 520:    1  ->  site
+ 521:    1  ->  size
+ 522:    1  ->  sized
+ 523:    1  ->  slash
+ 524:    1  ->  smith
+ 525:    1  ->  soar
+ 526:    1  ->  son
+ 527:    1  ->  south
+ 528:    1  ->  soviet
+ 529:    1  ->  speed
+ 530:    1  ->  spoke
+ 531:    1  ->  stake
+ 532:    1  ->  stand
+ 533:    1  ->  state
+ 534:    1  ->  stated
+ 535:    1  ->  states
+ 536:    1  ->  steady
+ 537:    1  ->  stem
+ 538:    1  ->  stems
+ 539:    1  ->  steps
+ 540:    1  ->  stock
+ 541:    1  ->  stores
+ 542:    1  ->  strain
+ 543:    1  ->  streets
+ 544:    1  ->  sue
+ 545:    1  ->  sued
+ 546:    1  ->  suffering
+ 547:    1  ->  suggest
+ 548:    1  ->  suit
+ 549:    1  ->  sun
+ 550:    1  ->  surge
+ 551:    1  ->  survey
+ 552:    1  ->  surveyed
+ 553:    1  ->  swiss
+ 554:    1  ->  takeovers
+ 555:    1  ->  task
+ 556:    1  ->  team
+ 557:    1  ->  term
+ 558:    1  ->  texas
+ 559:    1  ->  than
+ 560:    1  ->  that's
+ 561:    1  ->  theory
+ 562:    1  ->  there
+ 563:    1  ->  these
+ 564:    1  ->  they're
+ 565:    1  ->  think
+ 566:    1  ->  thirty
+ 567:    1  ->  those
+ 568:    1  ->  thousand
+ 569:    1  ->  threat
+ 570:    1  ->  through
+ 571:    1  ->  tied
+ 572:    1  ->  time
+ 573:    1  ->  today
+ 574:    1  ->  top
+ 575:    1  ->  toward
+ 576:    1  ->  try
+ 577:    1  ->  turn
+ 578:    1  ->  turned
+ 579:    1  ->  twenty
+ 580:    1  ->  unable
+ 581:    1  ->  under
+ 582:    1  ->  union
+ 583:    1  ->  units
+ 584:    1  ->  vacant
+ 585:    1  ->  vice
+ 586:    1  ->  victor
+ 587:    1  ->  volatile
+ 588:    1  ->  voting
+ 589:    1  ->  wait
+ 590:    1  ->  watch
+ 591:    1  ->  weeks
+ 592:    1  ->  well
+ 593:    1  ->  when
+ 594:    1  ->  whether
+ 595:    1  ->  while
+ 596:    1  ->  whole
+ 597:    1  ->  word
+ 598:    1  ->  work
+ 599:    1  ->  working
+ 600:    1  ->  works
+ 601:    1  ->  worse
+ 602:    1  ->  worth
+ 603:    1  ->  writes
+ 604:    1  ->  year
+ 605:    1  ->  yields
+ 606:    1  ->  your
+ 607:    1  ->  youth
+ 608:    1  ->  z.
+     -------
+      1539
+
+
+* NOTE: The 'Falsely Recognized' words are those hypothesis words
+        which the recognizer incorrectly substituted for a reference word.
+

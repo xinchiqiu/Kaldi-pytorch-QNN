@@ -1105,6 +1105,7 @@ class liGRUfusion(nn.Module):
         self.bidir = strtobool(options["ligru_bidir"])
         self.use_cuda = strtobool(options["use_cuda"])
         self.to_do = options["to_do"]
+        self.ligru_use_quanternion = list(map(strtobool, options["ligru_use_quanternion"].split(",")))
         #self.quaternion_init=str(options['quaternion_init'])
         #self.autograd=strtobool(options['autograd'])
         #self.quaternion_norm = strtobool(options['quaternion_norm'])
@@ -1151,7 +1152,7 @@ class liGRUfusion(nn.Module):
             if self.ligru_use_laynorm[i] or self.ligru_use_batchnorm[i]:
                 add_bias = False
             
-            if i == 0 :
+            if self.ligru_use_quanternion[i]:
                 # Feed-forward connections
                 self.wh.append(QuaternionLinearAutograd(current_input, self.ligru_lay[i],bias=add_bias))
                 self.wz.append(QuaternionLinearAutograd(current_input, self.ligru_lay[i],bias=add_bias))

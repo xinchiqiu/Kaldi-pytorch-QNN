@@ -1,0 +1,5 @@
+# mkdir /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/LSTM_combine_mfcc/decode_TIMIT_test_out_dnn2/score_9 ; cat /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/LSTM_combine_mfcc/decode_TIMIT_test_out_dnn2/scoring/9.ctm | utils/int2sym.pl -f 5 /nfs-share/xinchi/kaldi/egs/timit/s5_beam/exp/tri3/graph/words.txt | local/timit_norm_trans.pl -i - -m conf/phones.60-48-39.map -from 48 -to 39 > /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/LSTM_combine_mfcc/decode_TIMIT_test_out_dnn2/scoring/9.ctm_39phn 
+# Started at Tue May  5 00:59:34 BST 2020
+#
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue May  5 00:59:35 BST 2020, elapsed time 1 seconds

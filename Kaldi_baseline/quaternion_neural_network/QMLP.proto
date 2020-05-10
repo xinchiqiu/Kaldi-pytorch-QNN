@@ -1,0 +1,10 @@
+[proto]
+dnn_lay=str_list
+dnn_drop=str_list
+dnn_act=str_list
+quaternion_init=str
+autograd=bool
+proj_layer=bool
+proj_dim=int
+proj_norm=bool
+quaternion_norm=bool

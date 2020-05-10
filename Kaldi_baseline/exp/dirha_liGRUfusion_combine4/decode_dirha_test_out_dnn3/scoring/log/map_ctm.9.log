@@ -1,0 +1,5 @@
+# mkdir /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_9 ; cat /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/scoring/9.ctm | utils/int2sym.pl -f 5 /nfs-share/xinchi/kaldi/egs/dirha/s5_beam/exp/tri4/graph_tgpr_5k/words.txt | local/timit_norm_trans.pl -i - -m conf/phones.60-48-39.map -from 48 -to 39 > /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/scoring/9.ctm_39phn 
+# Started at Wed Apr 22 11:08:37 BST 2020
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Apr 22 11:08:37 BST 2020, elapsed time 0 seconds

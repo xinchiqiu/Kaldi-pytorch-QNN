@@ -1,0 +1,869 @@
+# cp /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/scoring/stm_39phn /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/stm_39phn && cp /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/scoring/10.ctm_39phn /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn && /nfs-share/xinchi/kaldi/tools/sctk/bin/hubscr.pl -p /nfs-share/xinchi/kaldi/tools/sctk/bin -V -l english -h hub5 -g /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/scoring/glm_39phn -r /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/stm_39phn /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn 
+# Started at Wed Apr 22 11:08:37 BST 2020
+#
+Filtering Files:
+   Filtering english file '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/stm_39phn', stm format
+   Filtering english file '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn', ctm format
+Scoring english Hyp '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt' against ref '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/stm_39phn.filt'
+sclite: 2.10 TK Version 1.3
+Begin alignment of Ref File: '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/stm_39phn.filt' and Hyp File: '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt'
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2532'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2533'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2534'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2535'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2536'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2537'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2538'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2539'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2540'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2541'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2542'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2543'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2544'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2545'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2546'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2547'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2548' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2549' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2548'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2549'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2550'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2551' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2552' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2551'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2552'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2553'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2554' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2555' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2554'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2555'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2556'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2557'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2558'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2559'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2560'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2561'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2562'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2563'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2564'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2565'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2566'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2567'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2568'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2569'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2570'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2571'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2572'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2573'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2574'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2575' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2576' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2575'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2576'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2577'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2578'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2579'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2580'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2581'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2582'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2583'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2584'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2585' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2586' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2585'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2586'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2587'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2588'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2589'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2590'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2591'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2592'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2593'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2594'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2595'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2596'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2597'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2598'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2599' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2601' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2599'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk01-uswsj5kdevfemalespk01snt2600' '1', next hyp 'realfemalespk01-uswsj5kdevfemalespk01snt2601' '1'.
+    
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2600'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk01-uswsj5kdevfemalespk01snt2601'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2745'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2746'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2747'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2748'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2749'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2750'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk02-uswsj5kdevfemalespk02snt2751' '1', next hyp 'realfemalespk02-uswsj5kdevfemalespk02snt2752' '1'.
+    
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2751'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2752'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2753'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2754'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2755'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2756'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2757'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2758'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2759'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2760'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2761'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2762'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2763'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2764'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2765'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2766'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2767'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2768'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2769'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2770'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2771'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2772'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2773'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2774'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2775'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2776'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2777'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2778'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2779'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2780'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk02-uswsj5kdevfemalespk02snt2781' '1', next hyp 'realfemalespk02-uswsj5kdevfemalespk02snt2782' '1'.
+    
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2781'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2782'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2783'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2784'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2785'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2786'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2787'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2788'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2789'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2790'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2791'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2792'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2793'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2794'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2795'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2796'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2797'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2798'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2799'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2800'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2801'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2802'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2803'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2804'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2805'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2806'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2807'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2808'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2809'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2810'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk02-uswsj5kdevfemalespk02snt2811'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2955'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2956'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2957'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2958'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2959'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk03-uswsj5kdevfemalespk03snt2960' '1', next hyp 'realfemalespk03-uswsj5kdevfemalespk03snt2961' '1'.
+    
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2960'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2961'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk03-uswsj5kdevfemalespk03snt2962' '1', next hyp 'realfemalespk03-uswsj5kdevfemalespk03snt2963' '1'.
+    
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2962'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2963'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2964'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2965'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2966'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2967'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2968'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2969'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2970'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2971'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2972'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2973'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2974'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2975'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2976'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2977'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2978'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2979'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2980'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk03-uswsj5kdevfemalespk03snt2981' '1', next hyp 'realfemalespk03-uswsj5kdevfemalespk03snt2982' '1'.
+    
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2981'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2982'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2983'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2984'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2985'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2986'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2987'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2988'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2989'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2990'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2991'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2992'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2993'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2994'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2995'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2996'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2997'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2998'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt2999'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3000'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3001'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3002'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3003'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3004'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3005'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk03-uswsj5kdevfemalespk03snt3006' '1', next hyp 'realfemalespk03-uswsj5kdevfemalespk03snt3007' '1'.
+    
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3006'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3007'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3008'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3009'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3010'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3011'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk03-uswsj5kdevfemalespk03snt3012' '1', next hyp 'realfemalespk03-uswsj5kdevfemalespk03snt3013' '1'.
+    
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3012'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3013'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3014'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3015'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3016'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3017'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3018'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realfemalespk03-uswsj5kdevfemalespk03snt3019' '1', next hyp 'realfemalespk03-uswsj5kdevfemalespk03snt3020' '1'.
+    
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3019'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3020'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3021'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3022'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3023'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realfemalespk03-uswsj5kdevfemalespk03snt3024'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3166'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3167'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3168'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3169'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3170'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3171'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3172'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3173'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3174'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3175'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3176'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3177'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3178'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3179'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3180'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3181'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3182'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3183'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3184'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3185'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3186'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3187'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3188'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3189'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3190'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3191'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3192'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3193'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3194'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3195'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3196'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3197'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3198'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3199'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3200'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3201'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3202'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3203'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3204'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3205'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3206'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3207'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk04-uswsj5kdevmalespk04snt3208' '1', next hyp 'realmalespk04-uswsj5kdevmalespk04snt3209' '1'.
+    
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3208'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3209'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3210'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3211'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3212'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3213'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3214'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3215'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3216'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3217'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3218'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3219'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3220'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3221'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3222'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3223'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3224'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3225'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3226'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3227'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3228'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3229'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3230'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3231'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk04-uswsj5kdevmalespk04snt3232'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3377'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3378'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3379'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3380'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3381'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3382'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3383'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3384'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3385'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3386'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3387'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3388'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3389'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3390'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3391'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3392'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3393'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3394'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3395'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3396'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3397'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3398'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3399'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3400'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3401'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3402'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3403'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3404'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3405'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3406'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3407'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3408'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3409'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3410'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3411'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3412'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3413'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3414'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3415'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3416'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3417'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3418'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3419'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3420'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3421'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3422'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3423'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3424'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3425'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3426'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3427'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3428'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3429'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3430'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3431'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3432'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3433'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3434'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3435'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk05-uswsj5kdevmalespk05snt3436' '1', next hyp 'realmalespk05-uswsj5kdevmalespk05snt3437' '1'.
+    
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3436'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3437'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3438'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3439'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3440'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3441'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3442'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk05-uswsj5kdevmalespk05snt3443'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3584'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3585'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3586'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3587'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3588'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3589'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3590'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3591'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3592' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3593' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3592'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3593'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3594'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3595' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3596' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3595'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3596'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3597'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3598'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3599'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3600' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3601' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3600'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3601'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3602'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3603'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3604'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3605'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3606' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3609' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3606'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3607' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3609' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3607'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3608' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3609' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3608'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3609'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3610'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3611'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3612'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3613'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3614'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3615'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3616'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3617'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3618' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3619' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3618'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3619'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3620'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3621'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3622'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3623' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3624' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3623'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3624'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3625' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3626' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3625'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3626'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3627'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3628'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3629'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3630'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3631'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3632'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3633'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3634'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3635'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3636'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3637'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3638'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3639' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3640' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3639'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3640'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3641'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3642'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3643'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3644'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3645'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3646'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3647'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3648'.
+        1 of 1 Segments For Channel 1. align_ctm_to_stm: File identifiers do not match but continuing. ref file/channel 'realmalespk06-uswsj5kdevmalespk06snt3649' '1', next hyp 'realmalespk06-uswsj5kdevmalespk06snt3650' '1'.
+    
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3649'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3650'.
+        1 of 1 Segments For Channel 1.     
+    Performing alignments for file 'realmalespk06-uswsj5kdevmalespk06snt3651'.
+        1 of 1 Segments For Channel 1.     
+    Writing scoring report to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.sys'
+    Writing raw scoring report to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.raw'
+    Writing overall detailed scoring report '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.dtl'
+    Writing LUR scoring report to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.lur'
+    Writing string alignments to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.pra'
+    Writing string alignments to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.prf'
+    Writing SGML string alignments to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.sgml'
+    Writing DET Curve to '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.det.[plt,dat]'
+    Writing Confidence Histogram '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.hist.[plt,dat]'
+    Writing Scaled Binned Histogram '/home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.sbhist.[plt,dat]'
+
+Successful Completion
+# Accounting: time=2 threads=1
+# Ended (code 0) at Wed Apr 22 11:08:39 BST 2020, elapsed time 2 seconds

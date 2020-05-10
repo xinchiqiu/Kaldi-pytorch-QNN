@@ -1,0 +1,32 @@
+ep=00 tr=['dirha_tr'] loss=5.499 err=0.697 valid=dirha_dirha_sim loss=4.900 err=0.658 lr_architecture1=0.0004 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=776
+ep=01 tr=['dirha_tr'] loss=3.656 err=0.536 valid=dirha_dirha_sim loss=4.060 err=0.575 lr_architecture1=0.0004 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=1057
+ep=02 tr=['dirha_tr'] loss=3.066 err=0.472 valid=dirha_dirha_sim loss=3.812 err=0.555 lr_architecture1=0.0004 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=1371
+ep=03 tr=['dirha_tr'] loss=2.791 err=0.440 valid=dirha_dirha_sim loss=3.687 err=0.534 lr_architecture1=0.0004 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=1502
+ep=04 tr=['dirha_tr'] loss=2.620 err=0.421 valid=dirha_dirha_sim loss=3.602 err=0.526 lr_architecture1=0.0004 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=1479
+ep=05 tr=['dirha_tr'] loss=2.495 err=0.407 valid=dirha_dirha_sim loss=3.547 err=0.526 lr_architecture1=0.0004 lr_architecture2=0.0016 lr_architecture3=0.0004 time(s)=1479
+ep=06 tr=['dirha_tr'] loss=2.307 err=0.383 valid=dirha_dirha_sim loss=3.416 err=0.509 lr_architecture1=0.0002 lr_architecture2=0.0008 lr_architecture3=0.0002 time(s)=1475
+ep=07 tr=['dirha_tr'] loss=2.233 err=0.374 valid=dirha_dirha_sim loss=3.401 err=0.508 lr_architecture1=0.0002 lr_architecture2=0.0008 lr_architecture3=0.0002 time(s)=1474
+ep=08 tr=['dirha_tr'] loss=2.180 err=0.368 valid=dirha_dirha_sim loss=3.411 err=0.509 lr_architecture1=0.0002 lr_architecture2=0.0008 lr_architecture3=0.0002 time(s)=1476
+ep=09 tr=['dirha_tr'] loss=2.094 err=0.356 valid=dirha_dirha_sim loss=3.374 err=0.501 lr_architecture1=0.0001 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=1474
+ep=10 tr=['dirha_tr'] loss=2.061 err=0.353 valid=dirha_dirha_sim loss=3.356 err=0.502 lr_architecture1=0.0001 lr_architecture2=0.0004 lr_architecture3=0.0001 time(s)=1472
+ep=11 tr=['dirha_tr'] loss=2.021 err=0.347 valid=dirha_dirha_sim loss=3.350 err=0.500 lr_architecture1=5e-05 lr_architecture2=0.0002 lr_architecture3=5e-05 time(s)=1475
+ep=12 tr=['dirha_tr'] loss=2.001 err=0.345 valid=dirha_dirha_sim loss=3.351 err=0.501 lr_architecture1=5e-05 lr_architecture2=0.0002 lr_architecture3=5e-05 time(s)=1475
+ep=13 tr=['dirha_tr'] loss=1.984 err=0.343 valid=dirha_dirha_sim loss=3.351 err=0.498 lr_architecture1=2.5e-05 lr_architecture2=0.0001 lr_architecture3=2.5e-05 time(s)=1476
+ep=14 tr=['dirha_tr'] loss=1.971 err=0.341 valid=dirha_dirha_sim loss=3.354 err=0.498 lr_architecture1=2.5e-05 lr_architecture2=0.0001 lr_architecture3=2.5e-05 time(s)=1470
+ep=15 tr=['dirha_tr'] loss=1.958 err=0.339 valid=dirha_dirha_sim loss=3.348 err=0.498 lr_architecture1=1.25e-05 lr_architecture2=5e-05 lr_architecture3=1.25e-05 time(s)=1469
+ep=16 tr=['dirha_tr'] loss=1.955 err=0.339 valid=dirha_dirha_sim loss=3.336 err=0.496 lr_architecture1=6.25e-06 lr_architecture2=2.5e-05 lr_architecture3=6.25e-06 time(s)=1472
+ep=17 tr=['dirha_tr'] loss=1.955 err=0.338 valid=dirha_dirha_sim loss=3.354 err=0.498 lr_architecture1=6.25e-06 lr_architecture2=2.5e-05 lr_architecture3=6.25e-06 time(s)=1471
+ep=18 tr=['dirha_tr'] loss=1.950 err=0.338 valid=dirha_dirha_sim loss=3.347 err=0.498 lr_architecture1=3.125e-06 lr_architecture2=1.25e-05 lr_architecture3=3.125e-06 time(s)=1471
+ep=19 tr=['dirha_tr'] loss=1.948 err=0.338 valid=dirha_dirha_sim loss=3.348 err=0.498 lr_architecture1=3.125e-06 lr_architecture2=1.25e-05 lr_architecture3=3.125e-06 time(s)=1470
+ep=20 tr=['dirha_tr'] loss=1.947 err=0.338 valid=dirha_dirha_sim loss=3.343 err=0.498 lr_architecture1=1.5625e-06 lr_architecture2=6.25e-06 lr_architecture3=1.5625e-06 time(s)=1473
+ep=21 tr=['dirha_tr'] loss=1.945 err=0.337 valid=dirha_dirha_sim loss=3.348 err=0.497 lr_architecture1=7.8125e-07 lr_architecture2=3.125e-06 lr_architecture3=7.8125e-07 time(s)=1470
+ep=22 tr=['dirha_tr'] loss=1.947 err=0.338 valid=dirha_dirha_sim loss=3.346 err=0.498 lr_architecture1=7.8125e-07 lr_architecture2=3.125e-06 lr_architecture3=7.8125e-07 time(s)=1472
+ep=23 tr=['dirha_tr'] loss=1.944 err=0.337 valid=dirha_dirha_sim loss=3.344 err=0.498 lr_architecture1=3.90625e-07 lr_architecture2=1.5625e-06 lr_architecture3=3.90625e-07 time(s)=1470
+ep=24 tr=['dirha_tr'] loss=1.945 err=0.337 valid=dirha_dirha_sim loss=3.353 err=0.498 lr_architecture1=1.953125e-07 lr_architecture2=7.8125e-07 lr_architecture3=1.953125e-07 time(s)=1468
+ep=25 tr=['dirha_tr'] loss=1.947 err=0.338 valid=dirha_dirha_sim loss=3.348 err=0.497 lr_architecture1=9.765625e-08 lr_architecture2=3.90625e-07 lr_architecture3=9.765625e-08 time(s)=1477
+ep=26 tr=['dirha_tr'] loss=1.943 err=0.337 valid=dirha_dirha_sim loss=3.348 err=0.497 lr_architecture1=9.765625e-08 lr_architecture2=3.90625e-07 lr_architecture3=9.765625e-08 time(s)=1475
+ep=27 tr=['dirha_tr'] loss=1.947 err=0.338 valid=dirha_dirha_sim loss=3.350 err=0.498 lr_architecture1=4.8828125e-08 lr_architecture2=1.953125e-07 lr_architecture3=4.8828125e-08 time(s)=1473
+ep=28 tr=['dirha_tr'] loss=1.945 err=0.338 valid=dirha_dirha_sim loss=3.341 err=0.497 lr_architecture1=2.44140625e-08 lr_architecture2=9.765625e-08 lr_architecture3=2.44140625e-08 time(s)=1476
+ep=29 tr=['dirha_tr'] loss=1.952 err=0.338 valid=dirha_dirha_sim loss=3.344 err=0.498 lr_architecture1=2.44140625e-08 lr_architecture2=9.765625e-08 lr_architecture3=2.44140625e-08 time(s)=1478
+%WER 34.8 | 409 6762 | 70.9 20.0 9.2 5.7 34.8 86.8 | -2.196 | /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRUfusion_combine4/decode_dirha_test_out_dnn3/score_10/ctm_39phn.filt.sys
+

@@ -1,0 +1,3702 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/dirha_liGRU_combine4/decode_dirha_test_out_dnn3/score_7/ctm_39phn
+
+Speakers: 
+    0:  realfemalespk01
+    1:  realfemalespk02
+    2:  realfemalespk03
+    3:  realmalespk04
+    4:  realmalespk05
+    5:  realmalespk06
+
+Speaker sentences   0:  realfemalespk01   #utts: 70
+id: (realfemalespk01-000)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2532
+Channel: 1
+Scores: (#C #S #D #I) 0 3 0 1
+REF:  ** IT   DIDN'T ELABORATE 
+HYP:  IF THIS TO     EFFORTS   
+Eval: I  S    S      S         
+
+id: (realfemalespk01-001)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2533
+Channel: 1
+Scores: (#C #S #D #I) 15 12 0 5
+REF:  *** LINK resources corporation estimates the electronic *** MAIL MARKET at * ABOUT two hundred ninety six million dollars a year AND     VOICE MAIL AT  ABOUT SEVENTY SIX   million ****** ***** DOLLARS 
+HYP:  SHE KNEW resources corporation estimates the electronic HAD MY   HALF   at A BOSS  two hundred ninety six million dollars a year ASHLAND FORCE HAVE HAD OUT   SEVEN   SHIFT million DOLLAR <UNK> UP      
+Eval: I   S                                                   I   S    S         I S                                                   S       S     S    S   S     S       S             I      I     S       
+
+id: (realfemalespk01-002)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2534
+Channel: 1
+Scores: (#C #S #D #I) 5 0 0 0
+REF:  the third party wasn't identified 
+HYP:  the third party wasn't identified 
+Eval:                                   
+
+id: (realfemalespk01-003)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2535
+Channel: 1
+Scores: (#C #S #D #I) 24 4 0 0
+REF:  moreover B  C  C  I  officials and industry analysts stressed that as much as seventy five percent of the bank's deposit base is made up of retail deposits 
+HYP:  moreover B. C. C. I. officials and industry analysts stressed that as much as seventy five percent of the bank's deposit base is made up of retail deposits 
+Eval:          S  S  S  S                                                                                                                                         
+
+id: (realfemalespk01-004)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2536
+Channel: 1
+Scores: (#C #S #D #I) 5 1 0 0
+REF:  chrysler REDUCED some prices on friday 
+HYP:  chrysler REDUCE  some prices on friday 
+Eval:          S                             
+
+id: (realfemalespk01-005)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2537
+Channel: 1
+Scores: (#C #S #D #I) 0 26 0 0
+REF:  OVERALL SALES OF    DURABLE GOODS INTENDED TO   LAST  THREE YEARS OR MORE CLIMBED ONE POINT SEVEN PERCENT AFTER A       ZERO POINT TWO  PERCENT RISE  IN      NOVEMBER 
+HYP:  <UNK>   GIANT FIELD WHO     VOTED LATE     FOOD <UNK> FOOD  IS    HE HAD  WHILE   YOU KNOW  WHO   FAVOR   SAID  FEDERAL FOOD WHO   FLEW TO      HIGHS RELATED <UNK>    
+Eval: S       S     S     S       S     S        S    S     S     S     S  S    S       S   S     S     S       S     S       S    S     S    S       S     S       S        
+
+id: (realfemalespk01-006)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2538
+Channel: 1
+Scores: (#C #S #D #I) 7 2 0 0
+REF:  I  prefer not to say anything more than THAT 
+HYP:  AT prefer not to say anything more than NOW  
+Eval: S                                       S    
+
+id: (realfemalespk01-007)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2539
+Channel: 1
+Scores: (#C #S #D #I) 21 1 0 0
+REF:  in january the beaverton oregon TOY    maker disclosed talks concerning its possible takeover by a third party who proposed a friendly transaction 
+HYP:  in january the beaverton oregon TWENTY maker disclosed talks concerning its possible takeover by a third party who proposed a friendly transaction 
+Eval:                                 S                                                                                                                  
+
+id: (realfemalespk01-008)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2540
+Channel: 1
+Scores: (#C #S #D #I) 8 2 0 2
+REF:  stock prices also were mixed in paris ** ZURICH and ***** STOCKHOLM 
+HYP:  stock prices also were mixed in paris IS VERY   and STOCK OWN       
+Eval:                                       I  S          I     S         
+
+id: (realfemalespk01-009)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2541
+Channel: 1
+Scores: (#C #S #D #I) 3 19 0 4
+REF:  ** the PARENT COMPANY ADDED THAT   IT  MAY   SEEK OTHER business ***** ****** OPPORTUNITIES SUBJECT TO   THE     AVAILABILITY OF financing ** WHICH MAY NOT     BE  AVAILABLE 
+HYP:  IN the PAN    HARDLY  ARE   LIQUID AND <UNK> ARE  NO    business OFFER MARKET HOWEVER       WHO     GROW THROUGH IN           A  financing F. WAY   UP  THROUGH OIL HOW       
+Eval: I      S      S       S     S      S   S     S    S              I     I      S             S       S    S       S            S            I  S     S   S       S   S         
+
+id: (realfemalespk01-010)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2542
+Channel: 1
+Scores: (#C #S #D #I) 11 0 0 0
+REF:  at the time the company said it would explore other options 
+HYP:  at the time the company said it would explore other options 
+Eval:                                                             
+
+id: (realfemalespk01-011)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2543
+Channel: 1
+Scores: (#C #S #D #I) 22 1 0 0
+REF:  the management COMMITTEE'S plan for the new governing body can take effect if approved by the seventy five percent of the exchange's members 
+HYP:  the management COMMITTEES  plan for the new governing body can take effect if approved by the seventy five percent of the exchange's members 
+Eval:                S                                                                                                                             
+
+id: (realfemalespk01-012)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2544
+Channel: 1
+Scores: (#C #S #D #I) 11 0 0 0
+REF:  stocks rose in amsterdam and were lower in brussels and milan 
+HYP:  stocks rose in amsterdam and were lower in brussels and milan 
+Eval:                                                               
+
+id: (realfemalespk01-013)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2545
+Channel: 1
+Scores: (#C #S #D #I) 20 0 0 0
+REF:  in addition the bank has always pursued a policy of keeping its balance sheet relatively liquid insiders and competitors said 
+HYP:  in addition the bank has always pursued a policy of keeping its balance sheet relatively liquid insiders and competitors said 
+Eval:                                                                                                                               
+
+id: (realfemalespk01-014)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2546
+Channel: 1
+Scores: (#C #S #D #I) 11 0 0 0
+REF:  the company said it ended talks on a possible business combination 
+HYP:  the company said it ended talks on a possible business combination 
+Eval:                                                                    
+
+id: (realfemalespk01-015)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2547
+Channel: 1
+Scores: (#C #S #D #I) 18 0 0 0
+REF:  the department said the decline in factory jobs was concentrated in motor vehicles and electrical and electronic equipment 
+HYP:  the department said the decline in factory jobs was concentrated in motor vehicles and electrical and electronic equipment 
+Eval:                                                                                                                            
+
+id: (realfemalespk01-016)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2548
+Channel: 1
+Scores: (#C #S #D #I) 0 0 13 0
+REF:  A MEMBERSHIP MEETING HAS BEEN CALLED FOR JULY TWENTIETH TO VOTE ON IT 
+HYP:  * ********** ******* *** **** ****** *** **** ********* ** **** ** ** 
+Eval: D D          D       D   D    D      D   D    D         D  D    D  D  
+
+id: (realfemalespk01-017)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2549
+Channel: 1
+Scores: (#C #S #D #I) 19 0 0 0
+REF:  last month overall goods producing employment fell sixty eight thousand after a thirty two thousand job rise in february 
+HYP:  last month overall goods producing employment fell sixty eight thousand after a thirty two thousand job rise in february 
+Eval:                                                                                                                          
+
+id: (realfemalespk01-018)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2550
+Channel: 1
+Scores: (#C #S #D #I) 14 0 0 0
+REF:  it said it is negotiating the sale of certain assets of the brokerage unit 
+HYP:  it said it is negotiating the sale of certain assets of the brokerage unit 
+Eval:                                                                            
+
+id: (realfemalespk01-019)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2551
+Channel: 1
+Scores: (#C #S #D #I) 0 0 19 0
+REF:  MINING EMPLOYMENT WHICH INCLUDES THE OIL AND GAS EXTRACTION INDUSTRY ROSE THREE THOUSAND AFTER A ONE THOUSAND JOB RISE 
+HYP:  ****** ********** ***** ******** *** *** *** *** ********** ******** **** ***** ******** ***** * *** ******** *** **** 
+Eval: D      D          D     D        D   D   D   D   D          D        D    D     D        D     D D   D        D   D    
+
+id: (realfemalespk01-020)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2552
+Channel: 1
+Scores: (#C #S #D #I) 13 0 0 0
+REF:  others include a joint venture with another company or an employee buy out 
+HYP:  others include a joint venture with another company or an employee buy out 
+Eval:                                                                            
+
+id: (realfemalespk01-021)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2553
+Channel: 1
+Scores: (#C #S #D #I) 18 4 0 0
+REF:  L  T  V  the nation's number two steelmaker said the sale IS  among a number of options under study for the plant 
+HYP:  L. T. V. the nation's number two steelmaker said the sale WAS among a number of options under study for the plant 
+Eval: S  S  S                                                   S                                                       
+
+id: (realfemalespk01-022)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2554
+Channel: 1
+Scores: (#C #S #D #I) 0 0 16 0
+REF:  U S CAR SALES FELL TEN POINT ONE PERCENT IN EARLY NOVEMBER FROM A YEAR AGO 
+HYP:  * * *** ***** **** *** ***** *** ******* ** ***** ******** **** * **** *** 
+Eval: D D D   D     D    D   D     D   D       D  D     D        D    D D    D   
+
+id: (realfemalespk01-023)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2555
+Channel: 1
+Scores: (#C #S #D #I) 13 6 1 2
+REF:  ** *** I'M not GOING TO   retire but I'M UNLIKELY TO    GO  to any large investment banking firm that rivals morgan stanley 
+HYP:  TO HIM AND not ***** RUNS retire but I   MIGHT    WEEKS AGO to any large investment banking firm that rivals morgan stanley 
+Eval: I  I   S       D     S               S   S        S     S                                                                   
+
+id: (realfemalespk01-024)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2556
+Channel: 1
+Scores: (#C #S #D #I) 13 0 0 0
+REF:  these generally react much less than large depositors to reports of a scandal 
+HYP:  these generally react much less than large depositors to reports of a scandal 
+Eval:                                                                               
+
+id: (realfemalespk01-025)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2557
+Channel: 1
+Scores: (#C #S #D #I) 6 12 2 4
+REF:  *** ******** SOLVE THE  RIDDLE of POVERTY we have OFTEN SEEMED to *** HOPE AND THE REST OF OUR  PROBLEMS will solve **** THEMSELVES 
+HYP:  WHO STRESSED IT    WILL CAUSE  of THE     we have ***** ****** to SEE HIM  OF  TEN HAS  TO BOTH HAPPENS  will solve THAN SLASH      
+Eval: I   I        S     S    S         S               D     D         I   S    S   S   S    S  S    S                   I    S          
+
+id: (realfemalespk01-026)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2558
+Channel: 1
+Scores: (#C #S #D #I) 12 1 0 1
+REF:  ****** FURNITURE sales fell zero point five percent after rising zero point two percent 
+HYP:  FRENCH OR        sales fell zero point five percent after rising zero point two percent 
+Eval: I      S                                                                                
+
+id: (realfemalespk01-027)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2559
+Channel: 1
+Scores: (#C #S #D #I) 15 1 0 0
+REF:  though there was little evidence the stock market PLUNGE had affected sales the outlook remains uncertain 
+HYP:  though there was little evidence the stock market FUNDS  had affected sales the outlook remains uncertain 
+Eval:                                                   S                                                       
+
+id: (realfemalespk01-028)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2560
+Channel: 1
+Scores: (#C #S #D #I) 12 4 0 1
+REF:  it is the generic stand in for the social problems of ** OUR AGE MR  murray WRITES 
+HYP:  it is the generic stand in for the social problems of R. N.  H.  MR. murray RIGHTS 
+Eval:                                                       I  S   S   S          S      
+
+id: (realfemalespk01-029)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2561
+Channel: 1
+Scores: (#C #S #D #I) 16 0 0 0
+REF:  but the discussions subsequently ended because the two sides couldn't agree on financial and other terms 
+HYP:  but the discussions subsequently ended because the two sides couldn't agree on financial and other terms 
+Eval:                                                                                                          
+
+id: (realfemalespk01-030)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2562
+Channel: 1
+Scores: (#C #S #D #I) 12 1 0 1
+REF:  ******** SUPERIOR industries international fell three and one quarter to fifteen and one half 
+HYP:  SECURITY OR       industries international fell three and one quarter to fifteen and one half 
+Eval: I        S                                                                                    
+
+id: (realfemalespk01-031)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2563
+Channel: 1
+Scores: (#C #S #D #I) 14 1 0 3
+REF:  construction *** ***** EMPLOYMENT fell forty seven thousand after a fifteen thousand job decline ** the month before 
+HYP:  construction AND POINT AND        fell forty seven thousand after a fifteen thousand job decline IN the month before 
+Eval:              I   I     S                                                                         I                   
+
+id: (realfemalespk01-032)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2564
+Channel: 1
+Scores: (#C #S #D #I) 12 3 0 0
+REF:  L  T  V  said it retained shearson lehman brothers incorporated to help with the study 
+HYP:  L. T. V. said it retained shearson lehman brothers incorporated to help with the study 
+Eval: S  S  S                                                                                
+
+id: (realfemalespk01-033)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2565
+Channel: 1
+Scores: (#C #S #D #I) 17 0 0 0
+REF:  auto sales rose two point four percent in december after declining zero point seven percent in november 
+HYP:  auto sales rose two point four percent in december after declining zero point seven percent in november 
+Eval:                                                                                                         
+
+id: (realfemalespk01-034)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2566
+Channel: 1
+Scores: (#C #S #D #I) 13 3 0 0
+REF:  in a statement R  L  R  said the brokerage unit generated substantially all of its revenue 
+HYP:  in a statement R. L. R. said the brokerage unit generated substantially all of its revenue 
+Eval:                S  S  S                                                                     
+
+id: (realfemalespk01-035)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2567
+Channel: 1
+Scores: (#C #S #D #I) 14 0 0 0
+REF:  because most members are individual brokers the committee could have some difficulty winning approval 
+HYP:  because most members are individual brokers the committee could have some difficulty winning approval 
+Eval:                                                                                                       
+
+id: (realfemalespk01-036)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2568
+Channel: 1
+Scores: (#C #S #D #I) 14 4 0 1
+REF:  ** I just felt it was an appropriate time to pursue business ideas of MY    OWN MR  saunders said 
+HYP:  IN A just felt it was an appropriate time to pursue business ideas of NIGHT ON  MR. saunders said 
+Eval: I  S                                                                  S     S   S                 
+
+id: (realfemalespk01-037)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2569
+Channel: 1
+Scores: (#C #S #D #I) 16 0 0 0
+REF:  sales of building materials increased one point three percent after a one point one percent drop 
+HYP:  sales of building materials increased one point three percent after a one point one percent drop 
+Eval:                                                                                                  
+
+id: (realfemalespk01-038)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2570
+Channel: 1
+Scores: (#C #S #D #I) 13 5 0 0
+REF:  yet when we DISCUSS   social policy WE    TALK AS  if money the poverty rate was all that MATTERS 
+HYP:  yet when we DISCUSSED social policy WOULD STOP WAS if money the poverty rate was all that HOURS   
+Eval:             S                       S     S    S                                          S       
+
+id: (realfemalespk01-039)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2571
+Channel: 1
+Scores: (#C #S #D #I) 14 1 0 1
+REF:  most european traders were ******** REPORTEDLY staying out of action until the trade figures are released 
+HYP:  most european traders were REPORTED THE        staying out of action until the trade figures are released 
+Eval:                            I        S                                                                     
+
+id: (realfemalespk01-040)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2572
+Channel: 1
+Scores: (#C #S #D #I) 14 2 0 1
+REF:  *** the bell companies are hoping electronic mail AND voice MAIL will become a major revenue source 
+HYP:  WHO the bell companies are hoping electronic mail A   voice NOW  will become a major revenue source 
+Eval: I                                                 S         S                                       
+
+id: (realfemalespk01-041)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2573
+Channel: 1
+Scores: (#C #S #D #I) 12 2 0 0
+REF:  industry analysts expect the market to double WHEN it BECOMES available to residential customers 
+HYP:  industry analysts expect the market to double WHAT it BECAUSE available to residential customers 
+Eval:                                               S       S                                          
+
+id: (realfemalespk01-042)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2574
+Channel: 1
+Scores: (#C #S #D #I) 3 1 0 1
+REF:  that COULD take *** years 
+HYP:  that CAN   take THE years 
+Eval:      S          I         
+
+id: (realfemalespk01-043)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2575
+Channel: 1
+Scores: (#C #S #D #I) 0 0 29 0
+REF:  THE FINANCE MINISTRY IS CONSIDERING DOING AWAY WITH A RULE THAT REQUIRES INVESTORS WHO INTEND TO ACQUIRE CONTROLLING STAKES IN JAPANESE COMPANIES TO REPORT DIRECTLY TO THE FINANCE MINISTRY 
+HYP:  *** ******* ******** ** *********** ***** **** **** * **** **** ******** ********* *** ****** ** ******* *********** ****** ** ******** ********* ** ****** ******** ** *** ******* ******** 
+Eval: D   D       D        D  D           D     D    D    D D    D    D        D         D   D      D  D       D           D      D  D        D         D  D      D        D  D   D       D        
+
+id: (realfemalespk01-044)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2576
+Channel: 1
+Scores: (#C #S #D #I) 4 4 0 0
+REF:  U  S  F  and G  had no comment 
+HYP:  U. S. F. and G. had no comment 
+Eval: S  S  S      S                 
+
+id: (realfemalespk01-045)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2577
+Channel: 1
+Scores: (#C #S #D #I) 26 0 0 0
+REF:  the new dividend is a fifteen percent increase from the previous forty cent distribution and is payable september thirtieth to stock of record august thirty first 
+HYP:  the new dividend is a fifteen percent increase from the previous forty cent distribution and is payable september thirtieth to stock of record august thirty first 
+Eval:                                                                                                                                                                    
+
+id: (realfemalespk01-046)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2578
+Channel: 1
+Scores: (#C #S #D #I) 7 0 0 0
+REF:  tighter credit conditions mean higher interest rates 
+HYP:  tighter credit conditions mean higher interest rates 
+Eval:                                                      
+
+id: (realfemalespk01-047)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2579
+Channel: 1
+Scores: (#C #S #D #I) 22 1 0 0
+REF:  our earnings are good and we want the payout rate to increase over time a spokeswoman for the DETROIT bank holding company said 
+HYP:  our earnings are good and we want the payout rate to increase over time a spokeswoman for the TRADE   bank holding company said 
+Eval:                                                                                               S                                 
+
+id: (realfemalespk01-048)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2580
+Channel: 1
+Scores: (#C #S #D #I) 0 8 0 0
+REF:  EXCLUDING AUTOS SALES INCREASED ZERO POINT THREE PERCENT 
+HYP:  USUALLY   HIGH  USUAL USUALLY   IS   AN    <UNK> USUALLY 
+Eval: S         S     S     S         S    S     S     S       
+
+id: (realfemalespk01-049)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2581
+Channel: 1
+Scores: (#C #S #D #I) 20 6 0 1
+REF:  but HE  OFFERED the opinion that robert wade the unit's chief and half a dozen other senior people will go with *** U  S  F  and G  
+HYP:  but THE OFFER   the opinion that robert wade the unit's chief and half a dozen other senior people will go with THE U. S. F. and G. 
+Eval:     S   S                                                                                                       I   S  S  S      S  
+
+id: (realfemalespk01-050)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2582
+Channel: 1
+Scores: (#C #S #D #I) 8 3 0 0
+REF:  it's WHAT  HE DOESN'T    say that has riled one fund investor 
+HYP:  it's WHICH IN GOVERNMENT say that has riled one fund investor 
+Eval:      S     S  S                                               
+
+id: (realfemalespk01-051)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2583
+Channel: 1
+Scores: (#C #S #D #I) 22 3 0 0
+REF:  but the plan won't be filed with the bankruptcy court until the creditors and L  T  V  agree on how the debt will be paid 
+HYP:  but the plan won't be filed with the bankruptcy court until the creditors and L. T. V. agree on how the debt will be paid 
+Eval:                                                                               S  S  S                                     
+
+id: (realfemalespk01-052)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2584
+Channel: 1
+Scores: (#C #S #D #I) 8 2 0 2
+REF:  citicorp said ** *** AN ACCORD hasn't at this moment been signed 
+HYP:  citicorp said IT AND A  COURT  hasn't at this moment been signed 
+Eval:               I  I   S  S                                        
+
+id: (realfemalespk01-053)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2585
+Channel: 1
+Scores: (#C #S #D #I) 0 0 20 0
+REF:  THE PRICE FOR THE CITICORP UNIT WAS ABOUT ONE HUNDRED MILLION DOLLARS THE SOURCES ADD IN LINE WITH EARLIER ESTIMATES 
+HYP:  *** ***** *** *** ******** **** *** ***** *** ******* ******* ******* *** ******* *** ** **** **** ******* ********* 
+Eval: D   D     D   D   D        D    D   D     D   D       D       D       D   D       D   D  D    D    D       D         
+
+id: (realfemalespk01-054)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2586
+Channel: 1
+Scores: (#C #S #D #I) 8 2 0 0
+REF:  it DOES    talk about the general municipal bond market THOUGH 
+HYP:  it DOESN'T talk about the general municipal bond market FELL   
+Eval:    S                                                    S      
+
+id: (realfemalespk01-055)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2587
+Channel: 1
+Scores: (#C #S #D #I) 18 2 0 2
+REF:  the minutes *** ** NOTE that the value OF   the dollar on foreign exchange markets could affect the timing of policy changes 
+HYP:  the minutes AND L. OF   that the value WITH the dollar on foreign exchange markets could affect the timing of policy changes 
+Eval:             I   I  S                   S                                                                                     
+
+id: (realfemalespk01-056)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2588
+Channel: 1
+Scores: (#C #S #D #I) 6 5 0 1
+REF:  and **** HIGHER interest rates attract foreign investors PUSHING UP   THE  DOLLAR 
+HYP:  and HIGH FOR    interest rates attract foreign investors FOR     SOME HAVE SHOT   
+Eval:     I    S                                               S       S    S    S      
+
+id: (realfemalespk01-057)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2589
+Channel: 1
+Scores: (#C #S #D #I) 16 3 0 1
+REF:  the report ** IT   SEEMS fails to mention anything about new york's credit conditions or factors tied to THAT  market 
+HYP:  the report IN SEEN HIS   fails to mention anything about new york's credit conditions or factors tied to ABOUT market 
+Eval:            I  S    S                                                                                     S            
+
+id: (realfemalespk01-058)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2590
+Channel: 1
+Scores: (#C #S #D #I) 13 0 0 0
+REF:  the dividend was last raised in october nineteen eighty seven by four cents 
+HYP:  the dividend was last raised in october nineteen eighty seven by four cents 
+Eval:                                                                             
+
+id: (realfemalespk01-059)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2591
+Channel: 1
+Scores: (#C #S #D #I) 14 3 1 1
+REF:  instead *** securities firms MAY BE    REQUIRED TO  make filings of large share purchases made on behalf of clients 
+HYP:  instead AND securities firms *** MAKER REQUIRE  ITS make filings of large share purchases made on behalf of clients 
+Eval:         I                    D   S     S        S                                                                   
+
+id: (realfemalespk01-060)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2592
+Channel: 1
+Scores: (#C #S #D #I) 12 1 0 0
+REF:  new OWNERS sometimes offer attractive longer term contracts to senior people he said 
+HYP:  new WATER  sometimes offer attractive longer term contracts to senior people he said 
+Eval:     S                                                                                
+
+id: (realfemalespk01-061)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2593
+Channel: 1
+Scores: (#C #S #D #I) 16 1 0 0
+REF:  the latest government figures THOUGH show the producer price index fell zero point two percent last month 
+HYP:  the latest government figures BUILD  show the producer price index fell zero point two percent last month 
+Eval:                               S                                                                           
+
+id: (realfemalespk01-062)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2594
+Channel: 1
+Scores: (#C #S #D #I) 10 2 1 0
+REF:  sources say at least two bidders HAD SOME   doubts about citicorp's performance NUMBERS 
+HYP:  sources say at least two bidders *** HUDSON doubts about citicorp's performance MEMBERS 
+Eval:                                  D   S                                          S       
+
+id: (realfemalespk01-063)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2595
+Channel: 1
+Scores: (#C #S #D #I) 16 1 0 2
+REF:  after excluding food and energy prices which are **** *** VOLATILE prices rose zero point three percent last month 
+HYP:  after excluding food and energy prices which are FALL ITS I'LL     prices rose zero point three percent last month 
+Eval:                                                  I    I   S                                                        
+
+id: (realfemalespk01-064)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2596
+Channel: 1
+Scores: (#C #S #D #I) 13 0 0 2
+REF:  * separately the government said retail sales climbed zero point six percent in february * 
+HYP:  A separately the government said retail sales climbed zero point six percent in february A 
+Eval: I                                                                                        I 
+
+id: (realfemalespk01-065)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2597
+Channel: 1
+Scores: (#C #S #D #I) 15 0 0 0
+REF:  manufacturers national corporation raised the quarterly dividend on its common stock to forty six cents 
+HYP:  manufacturers national corporation raised the quarterly dividend on its common stock to forty six cents 
+Eval:                                                                                                         
+
+id: (realfemalespk01-066)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2598
+Channel: 1
+Scores: (#C #S #D #I) 14 2 0 4
+REF:  ** a ***** *** CITICORP PORTFOLIO manager ** says the unit's new owner could lose quite a few current managers 
+HYP:  AS a COURT FOR THE      OLD       manager IT says the unit's new owner could lose quite a few current managers 
+Eval: I    I     I   S        S                 I                                                                    
+
+id: (realfemalespk01-067)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2599
+Channel: 1
+Scores: (#C #S #D #I) 0 0 16 0
+REF:  THE COMPANY HAS THIRTY FOUR TOY STORES THROUGHOUT THE MIDWEST AND SOUTHEAST THAT ARE STILL OPEN 
+HYP:  *** ******* *** ****** **** *** ****** ********** *** ******* *** ********* **** *** ***** **** 
+Eval: D   D       D   D      D    D   D      D          D   D       D   D         D    D   D     D    
+
+id: (realfemalespk01-068)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2600
+Channel: 1
+Scores: (#C #S #D #I) 0 0 19 0
+REF:  L T V WILL PRESENT THE PLAN TO ALL THE MEMBERS OF ITS BANK AND CREDITOR COMMITTEES NEXT WEEK 
+HYP:  * * * **** ******* *** **** ** *** *** ******* ** *** **** *** ******** ********** **** **** 
+Eval: D D D D    D       D   D    D  D   D   D       D  D   D    D   D        D          D    D    
+
+id: (realfemalespk01-069)
+Labels: <o,m>
+File: realfemalespk01-uswsj5kdevfemalespk01snt2601
+Channel: 1
+Scores: (#C #S #D #I) 12 3 0 1
+REF:  such a rule change ******** EFFECTIVELY would remove one technicality that COULD SLOW a takeover attempt 
+HYP:  such a rule change AFFECTED LEAGUE      would remove one technicality that ITS   LOW  a takeover attempt 
+Eval:                    I        S                                              S     S                       
+
+Speaker sentences   1:  realfemalespk02   #utts: 67
+id: (realfemalespk02-000)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2745
+Channel: 1
+Scores: (#C #S #D #I) 3 0 0 0
+REF:  that's another story 
+HYP:  that's another story 
+Eval:                      
+
+id: (realfemalespk02-001)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2746
+Channel: 1
+Scores: (#C #S #D #I) 26 3 0 1
+REF:  the november drop brought the index to one hundred ninety POINT  two percent of its **** NINETEEN sixty seven AVERAGE from one hundred ninety three point five percent in october 
+HYP:  the november drop brought the index to one hundred ninety POINTS two percent of its MANY TEAM     sixty seven OPERATE from one hundred ninety three point five percent in october 
+Eval:                                                           S                         I    S                    S                                                                   
+
+id: (realfemalespk02-002)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2747
+Channel: 1
+Scores: (#C #S #D #I) 4 3 1 0
+REF:  at least in the U S  THEY WERE   
+HYP:  at least in the * U. S.   FIGURE 
+Eval:                 D S  S    S      
+
+id: (realfemalespk02-003)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2748
+Channel: 1
+Scores: (#C #S #D #I) 16 10 1 2
+REF:  ** **** WHEN THE   FEDERAL pension insurer STEPPED IN       THIS FUND HAD  just seven thousand seven hundred dollars in IT TO  MEET two hundred thirty million dollars in obligations 
+HYP:  BY THAT HAVE <UNK> UP      pension insurer ******* EXPECTED IS   FINE HIGH just seven thousand seven hundred dollars in A  TWO WEEK two hundred thirty million dollars in obligations 
+Eval: I  I    S    S     S                       D       S        S    S    S                                                 S  S   S                                                      
+
+id: (realfemalespk02-004)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2749
+Channel: 1
+Scores: (#C #S #D #I) 4 2 0 2
+REF:  what ** ABOUT in south africa ** ITSELF 
+HYP:  what IT OUT   in south africa IN SELF   
+Eval:      I  S                     I  S      
+
+id: (realfemalespk02-005)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2750
+Channel: 1
+Scores: (#C #S #D #I) 19 5 0 2
+REF:  although the foreign exchange market RARELY has much impact on tax exempt securities traders SAID the dollar's LATE rally yesterday helped ******* **** BUOY MUNICIPAL prices 
+HYP:  although the foreign exchange market RALLY  has much impact on tax exempt securities traders HAD  the dollar's WEEK rally yesterday helped BILLION THAT MR.  PAUL      prices 
+Eval:                                      S                                                       S                 S                           I       I    S    S                
+
+id: (realfemalespk02-006)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2751
+Channel: 1
+Scores: (#C #S #D #I) 0 0 8 0
+REF:  I THINK WE HAVE TO OPEN OUR MARKETS 
+HYP:  * ***** ** **** ** **** *** ******* 
+Eval: D D     D  D    D  D    D   D       
+
+id: (realfemalespk02-007)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2752
+Channel: 1
+Scores: (#C #S #D #I) 16 4 2 4
+REF:  in yesterday's * RELEASE the department also REVISED the ***** september performance TO A     zero point two percent rise after previously REPORTING it ** ** UNCHANGED 
+HYP:  in yesterday's A LEASE   the department also ******* the RISES september performance ** SERVE zero point two percent rise after previously IMPORTING it AS ON CHANGED   
+Eval:                I S                           D           I                           D  S                                                  S            I  I  S         
+
+id: (realfemalespk02-008)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2753
+Channel: 1
+Scores: (#C #S #D #I) 8 0 0 2
+REF:  for the korean economy he favors free trade ** **** 
+HYP:  for the korean economy he favors free trade IN JUNE 
+Eval:                                             I  I    
+
+id: (realfemalespk02-009)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2754
+Channel: 1
+Scores: (#C #S #D #I) 13 10 2 3
+REF:  in american ***** ******* STOCK EXCHANGE COMPOSITE trading yesterday *** SUN  city CLOSED AT   TEN     dollars AND FIFTY cents a share UP ONE POINT  eight seven five dollars 
+HYP:  in american SACHS EXCITED TO    HOW      OPPOSITE  trading yesterday OUT THEN city ****** POSE HUNDRED dollars OR  SIXTY cents a share ** OFF LIKELY eight seven five dollars 
+Eval:             I     I       S     S        S                           I   S         D      S    S               S   S                   D  S   S                               
+
+id: (realfemalespk02-010)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2755
+Channel: 1
+Scores: (#C #S #D #I) 7 0 0 0
+REF:  corporate and municipal bond prices also slumped 
+HYP:  corporate and municipal bond prices also slumped 
+Eval:                                                  
+
+id: (realfemalespk02-011)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2756
+Channel: 1
+Scores: (#C #S #D #I) 25 3 0 0
+REF:  he and his FAMILY OWN about twenty nine percent of the company's class a common shares and about ninety one point five percent of the class B  common 
+HYP:  he and his DAILY  ON  about twenty nine percent of the company's class a common shares and about ninety one point five percent of the class B. common 
+Eval:            S      S                                                                                                                         S         
+
+id: (realfemalespk02-012)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2757
+Channel: 1
+Scores: (#C #S #D #I) 6 2 0 1
+REF:  in today's market they are ALMOST never ** AVAILABLE 
+HYP:  in today's market they are WAS    never L. LOAN      
+Eval:                            S            I  S         
+
+id: (realfemalespk02-013)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2758
+Channel: 1
+Scores: (#C #S #D #I) 18 4 0 0
+REF:  MR  fickling started the company in nineteen sixty nine with eight general hospitals and nursing homes ALONG WITH A   small construction operation 
+HYP:  MR. fickling started the company in nineteen sixty nine with eight general hospitals and nursing homes OF    OIL  THE small construction operation 
+Eval: S                                                                                                      S     S    S                                
+
+id: (realfemalespk02-014)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2759
+Channel: 1
+Scores: (#C #S #D #I) 7 2 0 0
+REF:  the policy needed for THIS WILL be further developed 
+HYP:  the policy needed for THAT SORT be further developed 
+Eval:                       S    S                         
+
+id: (realfemalespk02-015)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2760
+Channel: 1
+Scores: (#C #S #D #I) 22 2 0 1
+REF:  in the bull market of nineteen eighty six to eighty seven cash positions exceeding five percent of ** ASSETS WOULD have held down overall returns 
+HYP:  in the bull market of nineteen eighty six to eighty seven cash positions exceeding five percent of X. F.     BUT   have held down overall returns 
+Eval:                                                                                                    I  S      S                                    
+
+id: (realfemalespk02-016)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2761
+Channel: 1
+Scores: (#C #S #D #I) 5 5 0 1
+REF:  we LOOK for higher than *** STANDARD RETURNS MR     SPERLING says 
+HYP:  we LOVE for higher than SAY GOOD     RETURN  SYSTEM SEVENTY  says 
+Eval:    S                    I   S        S       S      S             
+
+id: (realfemalespk02-017)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2762
+Channel: 1
+Scores: (#C #S #D #I) 10 13 0 10
+REF:  ** the ALL       ORDINARIES index which fell * *** **** ELEVEN POINT THREE TUESDAY SLIPPED one point five to one thousand **** **** **** *** ******** *** FOUR HUNDRED FORTY THREE POINT TWO   
+HYP:  OF the OPERATION A.'S       index which fell A RED FIVE HE     DID   FE    FOR     FIFTY   one point five to one thousand FROM FORD WITH WHO ACTUALLY FEE FOR  E.      C.    WITH  HUGE  FIFTH 
+Eval: I      S         S                           I I   I    S      S     S     S       S                                      I    I    I    I   I        I   S    S       S     S     S     S     
+
+id: (realfemalespk02-018)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2763
+Channel: 1
+Scores: (#C #S #D #I) 9 2 0 0
+REF:  prices OF    MUNICIPAL bonds gained as much as three eighths point 
+HYP:  prices EVERY VISIBLE   bonds gained as much as three eighths point 
+Eval:        S     S                                                     
+
+id: (realfemalespk02-019)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2764
+Channel: 1
+Scores: (#C #S #D #I) 19 2 0 1
+REF:  ** the economic planning board which ANNOUNCED THE measures said the government's goal is to hold inflation below five percent this year 
+HYP:  IN the economic planning board which AMOUNTS   FOR measures said the government's goal is to hold inflation below five percent this year 
+Eval: I                                    S         S                                                                                         
+
+id: (realfemalespk02-020)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2765
+Channel: 1
+Scores: (#C #S #D #I) 6 4 0 2
+REF:  many institutional **** *** PLAYERS CONFESS TO   HOLDING more cash than usual 
+HYP:  many institutional FACE CAN FAST    OF      WILL BE      more cash than usual 
+Eval:                    I    I   S       S       S    S                            
+
+id: (realfemalespk02-021)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2766
+Channel: 1
+Scores: (#C #S #D #I) 18 1 0 2
+REF:  in futures trading ** * MUNICIPAL bonds for june delivery rose six thirty seconds to eight thousand five hundred twenty seven 
+HYP:  in futures trading IN A SMALL     bonds for june delivery rose six thirty seconds to eight thousand five hundred twenty seven 
+Eval:                    I  I S                                                                                                     
+
+id: (realfemalespk02-022)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2767
+Channel: 1
+Scores: (#C #S #D #I) 9 2 0 1
+REF:  so clearly the advocates of sanctions WERE the foreign policy **** VICTORS 
+HYP:  so clearly the advocates of sanctions IN   the foreign policy THAT THERE'S 
+Eval:                                       S                       I    S       
+
+id: (realfemalespk02-023)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2768
+Channel: 1
+Scores: (#C #S #D #I) 20 0 0 0
+REF:  actively traded thirty year bonds dropped about a point or around ten dollars for each one thousand dollar face amount 
+HYP:  actively traded thirty year bonds dropped about a point or around ten dollars for each one thousand dollar face amount 
+Eval:                                                                                                                        
+
+id: (realfemalespk02-024)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2769
+Channel: 1
+Scores: (#C #S #D #I) 11 2 0 1
+REF:  the ** OCTOBER rise WAS initially reported as a zero point two percent drop 
+HYP:  the X. OR      rise AS  initially reported as a zero point two percent drop 
+Eval:     I  S            S                                                       
+
+id: (realfemalespk02-025)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2770
+Channel: 1
+Scores: (#C #S #D #I) 16 4 0 1
+REF:  yesterday's action didn't affect a fourth L  T  V  plan the pension agency ** TOOK over in september nineteen eighty six 
+HYP:  yesterday's action didn't affect a fourth L. C. P. plan the pension agency TO GO   over in september nineteen eighty six 
+Eval:                                           S  S  S                          I  S                                          
+
+id: (realfemalespk02-026)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2771
+Channel: 1
+Scores: (#C #S #D #I) 12 0 0 0
+REF:  this is the second consecutive quarter in which the dividend was reduced 
+HYP:  this is the second consecutive quarter in which the dividend was reduced 
+Eval:                                                                          
+
+id: (realfemalespk02-027)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2772
+Channel: 1
+Scores: (#C #S #D #I) 15 4 0 2
+REF:  *** BROKERS SAID  some foreign investors sold stocks to realize currency gains ON the recent rise of the ** AUSTRALIAN dollar 
+HYP:  BUT I       SPENT some foreign investors sold stocks to realize currency gains OF the recent rise of the S. JURY       dollar 
+Eval: I   S       S                                                                  S                         I  S                 
+
+id: (realfemalespk02-028)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2773
+Channel: 1
+Scores: (#C #S #D #I) 9 3 0 4
+REF:  in the ***** PREVIOUS four years *** *** ** ANNUAL INCREASES were well below three percent 
+HYP:  in the THREE THESE    four years ANY ALL IN FEES   IS        were well below three percent 
+Eval:        I     S                   I   I   I  S      S                                       
+
+id: (realfemalespk02-029)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2774
+Channel: 1
+Scores: (#C #S #D #I) 14 6 0 4
+REF:  **** THE   AGREEMENT calls for F    E  a ** a closely held investment group to OFFER   remaining holders TWELVE dollars a share **** ** 
+HYP:  HUGE GROUP AND       calls for HALF IN a OF a closely held investment group to OPERATE remaining holders TOP    dollars a share WHEN N. 
+Eval: I    S     S                   S    S    I                                     S                         S                      I    I  
+
+id: (realfemalespk02-030)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2775
+Channel: 1
+Scores: (#C #S #D #I) 12 1 0 0
+REF:  the new dividend is payable march SIXTH  to stock of record february nineteenth 
+HYP:  the new dividend is payable march STAKES to stock of record february nineteenth 
+Eval:                                   S                                             
+
+id: (realfemalespk02-031)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2776
+Channel: 1
+Scores: (#C #S #D #I) 16 2 0 2
+REF:  **** **** CONSUMER prices rose one point six percent in february the highest monthly increase since mid nineteen eighty ONE   
+HYP:  FROM SEEM OF       prices rose one point six percent in february the highest monthly increase since mid nineteen eighty LINES 
+Eval: I    I    S                                                                                                             S     
+
+id: (realfemalespk02-032)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2777
+Channel: 1
+Scores: (#C #S #D #I) 8 5 0 1
+REF:  THAT GIVES   HIM voting control *** OVER SEVENTY five percent of the company's common 
+HYP:  CASH TACTICS IN  voting control THE RISK ADDING  five percent of the company's common 
+Eval: S    S       S                  I   S    S                                            
+
+id: (realfemalespk02-033)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2778
+Channel: 1
+Scores: (#C #S #D #I) 18 3 0 0
+REF:  he adds that more effort should be made to realize A  FAIR  distribution of income BUT  he is short on specifics 
+HYP:  he adds that more effort should be made to realize AT THEIR distribution of income THAT he is short on specifics 
+Eval:                                                    S  S                            S                             
+
+id: (realfemalespk02-034)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2779
+Channel: 1
+Scores: (#C #S #D #I) 16 0 0 0
+REF:  in november it was cut to seventeen point five cents from twenty two point five cents 
+HYP:  in november it was cut to seventeen point five cents from twenty two point five cents 
+Eval:                                                                                       
+
+id: (realfemalespk02-035)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2780
+Channel: 1
+Scores: (#C #S #D #I) 3 17 0 1
+REF:  ** IN   THE BOND MARKET PRICES   OF SOME LONG   TERM TREASURY  issues fell to THEIR LOWEST LEVELS IN  ABOUT THREE MONTHS 
+HYP:  TO FOOD AND VIA  HE     ADVISERS UP FOOD LAWYER WHO  FEDERALLY issues fell to LIST  OF     OTHER  WHO HAD   FOOD  <UNK>  
+Eval: I  S    S   S    S      S        S  S    S      S    S                        S     S      S      S   S     S     S      
+
+id: (realfemalespk02-036)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2781
+Channel: 1
+Scores: (#C #S #D #I) 0 0 19 0
+REF:  THE CURRENCY WAS QUOTED LATE IN THE DAY IN SYDNEY AT SEVENTY SEVEN POINT OH NINE U S CENTS 
+HYP:  *** ******** *** ****** **** ** *** *** ** ****** ** ******* ***** ***** ** **** * * ***** 
+Eval: D   D        D   D      D    D  D   D   D  D      D  D       D     D     D  D    D D D     
+
+id: (realfemalespk02-037)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2782
+Channel: 1
+Scores: (#C #S #D #I) 14 7 0 0
+REF:  now many INSTITUTIONS SAY their cash levels ARE ten percent or more and A  FEW ARE  AT thirty percent or more 
+HYP:  now many INSTITUTION  FE  their cash levels OR  ten percent or more and IF THE YEAR A  thirty percent or more 
+Eval:          S            S                     S                           S  S   S    S                         
+
+id: (realfemalespk02-038)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2783
+Channel: 1
+Scores: (#C #S #D #I) 12 2 2 1
+REF:  THERE ARE     too many foreign AND institutional players *** WILLING to pay higher prices than we are 
+HYP:  ***** THEY'RE too many foreign *** institutional players ARE GOING   to pay higher prices than we are 
+Eval: D     S                        D                         I   S                                        
+
+id: (realfemalespk02-039)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2784
+Channel: 1
+Scores: (#C #S #D #I) 12 5 0 1
+REF:  the three OTHER pension *** PLANS HAD  more than one billion dollars of assets though EVEN    LARGER liabilities 
+HYP:  the three EVER  pension LEE AND   HAVE more than one billion dollars of assets though NEITHER MARGIN liabilities 
+Eval:           S             I   S     S                                                   S       S                  
+
+id: (realfemalespk02-040)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2785
+Channel: 1
+Scores: (#C #S #D #I) 13 1 1 0
+REF:  the proposed per share price includes ten dollars cash AND TWO  dollars of unspecified securities 
+HYP:  the proposed per share price includes ten dollars cash *** INTO dollars of unspecified securities 
+Eval:                                                        D   S                                      
+
+id: (realfemalespk02-041)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2786
+Channel: 1
+Scores: (#C #S #D #I) 3 2 0 1
+REF:  it was a ******* DONE DEAL 
+HYP:  it was a DIAMOND D.   ON   
+Eval:          I       S    S    
+
+id: (realfemalespk02-042)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2787
+Channel: 1
+Scores: (#C #S #D #I) 7 20 1 11
+REF:  THE OFFERING WILL   COMPRISE seven *** HUNDRED sixty seven *** ***** ****** MILLION DOLLARS OF BONDS DUE  NOVEMBER SECOND AND  six hundred ***** THIRTY eight million ****** ** ** ** ***** ***** DOLLARS OF   BONDS MATURING NEXT  FEBRUARY FIRST 
+HYP:  *** CHICAGO  HUTTON PRICE    seven ITS IF      sixty seven WHO KNOWS DOLLAR SHOULD  CASH    DO KNOW  THAT REST     ACTIVE THAN six hundred AFTER THE    eight million DOLLAR AS I. F. WHICH TRADE LAST    FIVE YEARS SHOULD   <UNK> IF       SUCH  
+Eval: D   S        S      S              I   S                   I   I     I      S       S       S  S     S    S        S      S                I     S                    I      I  I  I  I     I     S       S    S     S        S     S        S     
+
+id: (realfemalespk02-043)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2788
+Channel: 1
+Scores: (#C #S #D #I) 5 0 1 0
+REF:  there ARE two issues to consider 
+HYP:  there *** two issues to consider 
+Eval:       D                          
+
+id: (realfemalespk02-044)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2789
+Channel: 1
+Scores: (#C #S #D #I) 21 2 0 0
+REF:  recognition said it reorganized its U   S     business into three units sales and service federal government sales and sales development and special products 
+HYP:  recognition said it reorganized its YOU ASKED business into three units sales and service federal government sales and sales development and special products 
+Eval:                                     S   S                                                                                                                     
+
+id: (realfemalespk02-045)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2790
+Channel: 1
+Scores: (#C #S #D #I) 8 0 0 0
+REF:  all the bonds will be dated next monday 
+HYP:  all the bonds will be dated next monday 
+Eval:                                         
+
+id: (realfemalespk02-046)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2791
+Channel: 1
+Scores: (#C #S #D #I) 13 12 0 8
+REF:  **** ****** ROBINS SAID MR    WOLF  FORTY three years ** ***** OLD  IS leaving after thirteen years WITH the company **** *** ** FOR a POSITION WITH A   texas health care concern *** 
+HYP:  HIGH GROUND THAN   MR.  ABOUT WHERE THE   three years AT WOULD HAVE IF leaving after thirteen years OF   the company WILL CUT IT WAS a SHARE    HAD  THE texas health care concern HAD 
+Eval: I    I      S      S    S     S     S                 I  I     S    S                               S                I    I   I  S     S        S    S                             I   
+
+id: (realfemalespk02-047)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2792
+Channel: 1
+Scores: (#C #S #D #I) 8 2 0 0
+REF:  I  SAID give me a price and they said no 
+HYP:  AS THAT give me a price and they said no 
+Eval: S  S                                     
+
+id: (realfemalespk02-048)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2793
+Channel: 1
+Scores: (#C #S #D #I) 17 6 0 2
+REF:  it said it put three key executives in charge of the GROUPS  to focus ***** * EFFORTS ON  INCREASING sales productivity in the U  S  
+HYP:  it said it put three key executives in charge of the GROUP'S to focus AFTER A SON     HIS OWN        sales productivity in the U. S. 
+Eval:                                                      S                I     I S       S   S                                    S  S  
+
+id: (realfemalespk02-049)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2794
+Channel: 1
+Scores: (#C #S #D #I) 5 1 0 3
+REF:  ** INTEREST rates will be announced wednesday ** **** 
+HYP:  IT JUST     rates will be announced wednesday IN JUNE 
+Eval: I  S                                          I  I    
+
+id: (realfemalespk02-050)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2795
+Channel: 1
+Scores: (#C #S #D #I) 13 3 0 0
+REF:  first WHAT  WAS admiral poindexter's BELIEF about the president's policy of helping the nicaraguan democratic resistance 
+HYP:  first WHILE AS  admiral poindexter's BARNEY about the president's policy of helping the nicaraguan democratic resistance 
+Eval:       S     S                        S                                                                                   
+
+id: (realfemalespk02-051)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2796
+Channel: 1
+Scores: (#C #S #D #I) 5 3 0 1
+REF:  *** MR   WOLF DECLINED to name his new employer 
+HYP:  MR. WALL THE  PLAN     to name his new employer 
+Eval: I   S    S    S                                 
+
+id: (realfemalespk02-052)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2797
+Channel: 1
+Scores: (#C #S #D #I) 13 5 0 0
+REF:  when possible THEY try to reduce THEIR U  S  currency portfolios by selling dollars back into calmer MARKETS  
+HYP:  when possible MAY  try to reduce THE   U. S. currency portfolios by selling dollars back into calmer RECKONED 
+Eval:               S                  S     S  S                                                          S        
+
+id: (realfemalespk02-053)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2798
+Channel: 1
+Scores: (#C #S #D #I) 8 2 1 0
+REF:  the company said the three groups WILL operate AS A     unit 
+HYP:  the company said the three groups OR   operate ** AFTER unit 
+Eval:                                   S            D  S          
+
+id: (realfemalespk02-054)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2799
+Channel: 1
+Scores: (#C #S #D #I) 12 6 0 0
+REF:  a PILOT   LOAN sale program approved last year WOULD provide a virtually risk FREE TEST  OF   this approach 
+HYP:  a PRIVATE NO   sale program approved last year THAT  provide a virtually risk RE   TYPES THAT this approach 
+Eval:   S       S                                    S                              S    S     S                  
+
+id: (realfemalespk02-055)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2800
+Channel: 1
+Scores: (#C #S #D #I) 11 1 0 0
+REF:  the chief trader in new york for A   tokyo based bank agrees 
+HYP:  the chief trader in new york for ITS tokyo based bank agrees 
+Eval:                                  S                           
+
+id: (realfemalespk02-056)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2801
+Channel: 1
+Scores: (#C #S #D #I) 9 7 0 2
+REF:  ** CONGRESS and the administration have BEGUN TO      take the RIGHT  STEPS TO   IMPROVE the credit budget ** 
+HYP:  IN PARIS    and the administration have THE   BENTSEN take the RIGHTS TAX   ROOM PROVE   the credit budget IN 
+Eval: I  S                                    S     S                S      S     S    S                         I  
+
+id: (realfemalespk02-057)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2802
+Channel: 1
+Scores: (#C #S #D #I) 6 5 0 3
+REF:  MR  WOLF said the new job will be *** ****** **** PRIMARILY BUSINESS ORIENTED 
+HYP:  MR. LOVE said the new job will be HAD MERELY THIS IS        OR       ENTITY   
+Eval: S   S                             I   I      I    S         S        S        
+
+id: (realfemalespk02-058)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2803
+Channel: 1
+Scores: (#C #S #D #I) 12 4 0 3
+REF:  traders say the ***** *** BUNDESBANK did this when the DOLLAR   STRENGTHENED in ***** late july AND early august 
+HYP:  traders say the BONDS ARE MADE       did this when the DOLLAR'S CHANGE       in THEIR late july IN  early august 
+Eval:                 I     I   S                            S        S               I               S                
+
+id: (realfemalespk02-059)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2804
+Channel: 1
+Scores: (#C #S #D #I) 8 3 1 0
+REF:  the first sales are expected to GO TO    market sometime THIS SUMMER    
+HYP:  the first sales are expected to ** GOODS market sometime THE  SUFFERING 
+Eval:                                 D  S                     S    S         
+
+id: (realfemalespk02-060)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2805
+Channel: 1
+Scores: (#C #S #D #I) 10 2 1 0
+REF:  the TREND IS      inevitable unless the government HAS  authority over the whole world 
+HYP:  the ***** CHANGES inevitable unless the government HAVE authority over the whole world 
+Eval:     D     S                                        S                                   
+
+id: (realfemalespk02-061)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2806
+Channel: 1
+Scores: (#C #S #D #I) 9 6 0 0
+REF:  all OF  A    SUDDEN they came back and said we AREN'T buying AT   this YIELD  
+HYP:  all THE SITE AND    they came back and said we ARMS   buying THAT this YIELDS 
+Eval:     S   S    S                                 S             S         S      
+
+id: (realfemalespk02-062)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2807
+Channel: 1
+Scores: (#C #S #D #I) 6 6 2 0
+REF:  second DID admiral poindexter believe WHAT HE AND     COLONEL NORTH WERE     DOING was legal 
+HYP:  second TO  admiral poindexter believe **** ** WORKING CURRENT OWNER APPROVED IT    was legal 
+Eval:        S                              D    D  S       S       S     S        S               
+
+id: (realfemalespk02-063)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2808
+Channel: 1
+Scores: (#C #S #D #I) 8 1 0 3
+REF:  initial wall street ** **** ** ENTHUSIASM has surprised even privatization advocates 
+HYP:  initial wall street IN BUSY AS IT         has surprised even privatization advocates 
+Eval:                     I  I    I  S                                                     
+
+id: (realfemalespk02-064)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2809
+Channel: 1
+Scores: (#C #S #D #I) 13 0 0 0
+REF:  the central banks have little chance to protect themselves from the dollar's fall 
+HYP:  the central banks have little chance to protect themselves from the dollar's fall 
+Eval:                                                                                   
+
+id: (realfemalespk02-065)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2810
+Channel: 1
+Scores: (#C #S #D #I) 10 3 0 2
+REF:  the boston property was fully *** ** OCCUPIED a broker close TO THE building said 
+HYP:  the boston property was fully OUT TO PRIDE    a broker close OF A   building said 
+Eval:                               I   I  S                       S  S                 
+
+id: (realfemalespk02-066)
+Labels: <o,m>
+File: realfemalespk02-uswsj5kdevfemalespk02snt2811
+Channel: 1
+Scores: (#C #S #D #I) 1 11 0 11
+REF:  EVEN IF   JAPANESE INVESTORS DON'T SELL DOLLARS SOMEBODY ELSE WILL   he *** * ***** ** * *** ***** ** ******* *** *** SAYS 
+HYP:  THE  MOOD AT       A         VALUE FOR  THAT    IS       AS   THOUGH he HAD A VALUE IS A NEW HEAVY NO DILUTED HAD WHO LOSE 
+Eval: S    S    S        S         S     S    S       S        S    S         I   I I     I  I I   I     I  I       I   I   S    
+
+Speaker sentences   2:  realfemalespk03   #utts: 70
+id: (realfemalespk03-000)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2955
+Channel: 1
+Scores: (#C #S #D #I) 6 1 0 0
+REF:  in a MINUTE   the deal is closed 
+HYP:  in a MEETINGS the deal is closed 
+Eval:      S                           
+
+id: (realfemalespk03-001)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2956
+Channel: 1
+Scores: (#C #S #D #I) 23 4 0 3
+REF:  in a one hundred eighty four page civil complaint the securities and exchange commission last month accused the **** **** POWERFUL FINANCIER of *** A       CATALOG of securities law violations 
+HYP:  in a one hundred eighty four page civil complaint the securities and exchange commission last month accused the PART WILL FINANCE  CHAIN     of THE PATTERN LOT     of securities law violations 
+Eval:                                                                                                                 I    I    S        S            I   S       S                                    
+
+id: (realfemalespk03-002)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2957
+Channel: 1
+Scores: (#C #S #D #I) 6 0 0 0
+REF:  what is wrong with this picture 
+HYP:  what is wrong with this picture 
+Eval:                                 
+
+id: (realfemalespk03-003)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2958
+Channel: 1
+Scores: (#C #S #D #I) 29 0 0 0
+REF:  the nikkei index of two hundred twenty five selected issues edged up twelve point four three points to close at twenty five thousand six hundred seventeen point eight two 
+HYP:  the nikkei index of two hundred twenty five selected issues edged up twelve point four three points to close at twenty five thousand six hundred seventeen point eight two 
+Eval:                                                                                                                                                                            
+
+id: (realfemalespk03-004)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2959
+Channel: 1
+Scores: (#C #S #D #I) 4 1 0 0
+REF:  MS  amsterdam declined to comment 
+HYP:  MS. amsterdam declined to comment 
+Eval: S                                 
+
+id: (realfemalespk03-005)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2960
+Channel: 1
+Scores: (#C #S #D #I) 0 0 28 0
+REF:  FOR EXAMPLE THE GOVERNMENT WOULD LIKE TO KNOW MORE ABOUT THE WAY ELDERLY PEOPLE MOVE FROM INDEPENDENT LIVING TO COMMUNITY CARE TO PERHAPS A NURSING HOME OR HOSPITAL 
+HYP:  *** ******* *** ********** ***** **** ** **** **** ***** *** *** ******* ****** **** **** *********** ****** ** ********* **** ** ******* * ******* **** ** ******** 
+Eval: D   D       D   D          D     D    D  D    D    D     D   D   D       D      D    D    D           D      D  D         D    D  D       D D       D    D  D        
+
+id: (realfemalespk03-006)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2961
+Channel: 1
+Scores: (#C #S #D #I) 6 4 0 0
+REF:  now i get to do it AND I'M VERY     EXCITED 
+HYP:  now i get to do it IN  A   MARRIOTT CITED   
+Eval:                    S   S   S        S       
+
+id: (realfemalespk03-007)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2962
+Channel: 1
+Scores: (#C #S #D #I) 0 0 24 0
+REF:  THE NEW YORK PHARMACEUTICAL AND CONSUMER PRODUCTS CONCERN SAID THE RATE REFLECTS THE BOARD'S CONFIDENCE IN THE CONTINUING STRENGTH AND GROWTH OF THE BUSINESS 
+HYP:  *** *** **** ************** *** ******** ******** ******* **** *** **** ******** *** ******* ********** ** *** ********** ******** *** ****** ** *** ******** 
+Eval: D   D   D    D              D   D        D        D       D    D   D    D        D   D       D          D  D   D          D        D   D      D  D   D        
+
+id: (realfemalespk03-008)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2963
+Channel: 1
+Scores: (#C #S #D #I) 8 0 0 0
+REF:  also two banks boosted foreign loan loss reserves 
+HYP:  also two banks boosted foreign loan loss reserves 
+Eval:                                                   
+
+id: (realfemalespk03-009)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2964
+Channel: 1
+Scores: (#C #S #D #I) 20 3 0 4
+REF:  recognition said it reorganized its U  S  business into three units sales and service federal government sales and sales *** ***** DEVELOPMENT and special products ** **** 
+HYP:  recognition said it reorganized its U. S. business into three units sales and service federal government sales and sales AND OTHER MEN         and special products OF RULE 
+Eval:                                     S  S                                                                                 I   I     S                                I  I    
+
+id: (realfemalespk03-010)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2965
+Channel: 1
+Scores: (#C #S #D #I) 4 5 0 0
+REF:  western union said it MAY  AGAIN EXTEND   ITS  DEADLINE 
+HYP:  western union said it MADE AN    EXTENDED SAID ONE      
+Eval:                       S    S     S        S    S        
+
+id: (realfemalespk03-011)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2966
+Channel: 1
+Scores: (#C #S #D #I) 20 8 0 1
+REF:  an ** F  B  I  REPORT CONCLUDED that the number of violent crimes reported in the U  S  last year increased five point five percent FROM nineteen eighty seven 
+HYP:  an F. B. I. OR WORK   INCLUDED  that the number of violent crimes reported in the U. S. last year increased five point five percent FOR  nineteen eighty seven 
+Eval:    I  S  S  S  S      S                                                           S  S                                              S                          
+
+id: (realfemalespk03-012)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2967
+Channel: 1
+Scores: (#C #S #D #I) 9 2 0 0
+REF:  the company said the three groups will operate AS A   unit 
+HYP:  the company said the three groups will operate OF THE unit 
+Eval:                                                S  S        
+
+id: (realfemalespk03-013)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2968
+Channel: 1
+Scores: (#C #S #D #I) 21 5 0 3
+REF:  the need for economy has also held to A   HANDFUL THE expensive but all important ****** ** ** LONGITUDINAL SURVEYS that follow a group of people over many years 
+HYP:  the need for economy has also held to AND WILL    BE  expensive but all important LONGER TO BE NO           SERVICE that follow a group of people over many years 
+Eval:                                       S   S       S                               I      I  I  S            S                                                     
+
+id: (realfemalespk03-014)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2969
+Channel: 1
+Scores: (#C #S #D #I) 10 2 0 1
+REF:  the dividend is payable june first to stock of record ***** MAY   SEVENTH 
+HYP:  the dividend is payable june first to stock of record EIGHT SEVEN OH      
+Eval:                                                       I     S     S       
+
+id: (realfemalespk03-015)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2970
+Channel: 1
+Scores: (#C #S #D #I) 11 10 0 7
+REF:  with such knowledge **** ** PLANNERS COULD BETTER DETERMINE whether **** MORE COMMUNITY care ******** FACILITIES could reduce the need for nursing ****** *** *** HOMES OR   HOSPITALS 
+HYP:  with such knowledge PLAN IS FOR      BAD   TERM   AND       whether LOAN IN   THE       care FACILITY FROM       could reduce the need for nursing OTHERS ARE OFF SHOW  FISH THAT      
+Eval:                     I    I  S        S     S      S                 I    S    S              I        S                                            I      I   I   S     S    S         
+
+id: (realfemalespk03-016)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2971
+Channel: 1
+Scores: (#C #S #D #I) 12 3 0 0
+REF:  A  E  G  climbed two point four oh to two hundred ten point four oh 
+HYP:  A. E. G. climbed two point four oh to two hundred ten point four oh 
+Eval: S  S  S                                                             
+
+id: (realfemalespk03-017)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2972
+Channel: 1
+Scores: (#C #S #D #I) 18 7 0 2
+REF:  in the electrical sector siemens recovered some of the loss it had ** TUESDAY WHEN IT   REPORTED A   nine percent decline in first half ******* GROUP PROFIT 
+HYP:  in the electrical sector siemens recovered some of the loss it had TO STATE   ONE  EVER FOR      THE nine percent decline in first half THROUGH FRAUD OFFICE 
+Eval:                                                                    I  S       S    S    S        S                                      I       S     S      
+
+id: (realfemalespk03-018)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2973
+Channel: 1
+Scores: (#C #S #D #I) 12 1 0 1
+REF:  the swap offer ***** REQUIRES at least eighty percent of the total be tendered 
+HYP:  the swap offer QUITE AS       at least eighty percent of the total be tendered 
+Eval:                I     S                                                         
+
+id: (realfemalespk03-019)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2974
+Channel: 1
+Scores: (#C #S #D #I) 22 2 0 0
+REF:  the tokyo stock exchange's first section index fell one point seven eight points to CLOSE  at two THOUSAND one hundred two point five five 
+HYP:  the tokyo stock exchange's first section index fell one point seven eight points to CLOSED at two BELLI    one hundred two point five five 
+Eval:                                                                                     S             S                                        
+
+id: (realfemalespk03-020)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2975
+Channel: 1
+Scores: (#C #S #D #I) 10 2 0 1
+REF:  meanwhile mexico HAS done better than other big debtors in winning *** CONCESSIONS 
+HYP:  meanwhile mexico IF  done better than other big debtors in winning FOR EXEMPTION   
+Eval:                  S                                                 I   S           
+
+id: (realfemalespk03-021)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2976
+Channel: 1
+Scores: (#C #S #D #I) 14 7 1 1
+REF:  OF THE    TOTAL  face amount outstanding of twelve western union debt SERIES eighteen point six percent HAD  been tendered ** AS  OF    THURSDAY 
+HYP:  ** OTHERS MOBILE face amount outstanding of twelve western union debt THEORY eighteen point six percent HIGH been tendered AT THE FARES DAY      
+Eval: D  S      S                                                           S                                 S                  I  S   S     S        
+
+id: (realfemalespk03-022)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2977
+Channel: 1
+Scores: (#C #S #D #I) 12 0 0 0
+REF:  there were thirteen point nine million crimes reported in nineteen eighty eight 
+HYP:  there were thirteen point nine million crimes reported in nineteen eighty eight 
+Eval:                                                                                 
+
+id: (realfemalespk03-023)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2978
+Channel: 1
+Scores: (#C #S #D #I) 19 0 0 0
+REF:  sterling drug incorporated increased the quarterly dividend fifteen percent to thirty eight cents a share from thirty three cents 
+HYP:  sterling drug incorporated increased the quarterly dividend fifteen percent to thirty eight cents a share from thirty three cents 
+Eval:                                                                                                                                   
+
+id: (realfemalespk03-024)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2979
+Channel: 1
+Scores: (#C #S #D #I) 13 2 0 1
+REF:  the stock FIRMED four point seven oh to three hundred thirty *** SEVEN point five oh 
+HYP:  the stock FIRM   four point seven oh to three hundred thirty FED IN    point five oh 
+Eval:           S                                                  I   S                   
+
+id: (realfemalespk03-025)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2980
+Channel: 1
+Scores: (#C #S #D #I) 4 16 0 7
+REF:  ** **** ** ****** **** THE COMPANY SAID THE WESTERN COUNCIL OF     INDUSTRIAL WORKERS RATIFIED ECONOMIC TERMS OF   the new **** THREE YEAR AGREEMENT on friday **** 
+HYP:  TO COME TO TRAVEL WHAT SHE CASH    AND  A   JUSTICE OR      SHOULD FRAUD      HAD     AND      <UNK>    PLAN  THAT the new FREE A     J.   AND       on friday HALF 
+Eval: I  I    I  I      I    S   S       S    S   S       S       S      S          S       S        S        S     S            I    S     S    S                   I    
+
+id: (realfemalespk03-026)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2981
+Channel: 1
+Scores: (#C #S #D #I) 0 0 14 0
+REF:  WELL TO BEGIN WITH MR MILKEN ISN'T RUNNING FOR OFFICE OR FOR MR CONGENIALITY 
+HYP:  **** ** ***** **** ** ****** ***** ******* *** ****** ** *** ** ************ 
+Eval: D    D  D     D    D  D      D     D       D   D      D  D   D  D            
+
+id: (realfemalespk03-027)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2982
+Channel: 1
+Scores: (#C #S #D #I) 19 4 0 0
+REF:  it said it put three key executives in charge of the GROUPS  to focus efforts on increasing SALES productivity in the U  S  
+HYP:  it said it put three key executives in charge of the GROUP'S to focus efforts on increasing SAYS  productivity in the U. S. 
+Eval:                                                      S                                      S                         S  S  
+
+id: (realfemalespk03-028)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2983
+Channel: 1
+Scores: (#C #S #D #I) 14 1 0 0
+REF:  he is the head of the HUGE junk bond operation of drexel burnham lambert incorporated 
+HYP:  he is the head of the FEW  junk bond operation of drexel burnham lambert incorporated 
+Eval:                       S                                                               
+
+id: (realfemalespk03-029)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2984
+Channel: 1
+Scores: (#C #S #D #I) 11 8 2 3
+REF:  first section volume was estimated at A HEAVY  ONE POINT  six billion shares UP from ***** *** ONE    POINT THREE BILLION shares ***** WEDNESDAY 
+HYP:  first section volume was estimated at * HADN'T WON THANKS six billion shares ** from HOUSE FOR FLIGHT FUND  RE    MILLION shares POINT SAID      
+Eval:                                       D S      S   S                         D       I     I   S      S     S     S              I     S         
+
+id: (realfemalespk03-030)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2985
+Channel: 1
+Scores: (#C #S #D #I) 15 0 0 0
+REF:  he expects the japanese agent to sell it for two hundred seventy five thousand dollars 
+HYP:  he expects the japanese agent to sell it for two hundred seventy five thousand dollars 
+Eval:                                                                                        
+
+id: (realfemalespk03-031)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2986
+Channel: 1
+Scores: (#C #S #D #I) 16 4 0 2
+REF:  the forest products ***** CONCERN said the workers AT the ****** AFFECTED plants RETURNED to work yesterday ending a two month strike 
+HYP:  the forest products COULD SEND    said the workers OF the EFFECT THE      plants RETURN   to work yesterday ending a two month strike 
+Eval:                     I     S                        S      I      S               S                                                    
+
+id: (realfemalespk03-032)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2987
+Channel: 1
+Scores: (#C #S #D #I) 12 3 0 2
+REF:  it said various local PLANT issues must still be ***** RESOLVED BEFORE the contract is concluded **** 
+HYP:  it said various local PLAN  issues must still be LIVES OFFER    FOR    the contract is concluded FLOW 
+Eval:                       S                          I     S        S                                I    
+
+id: (realfemalespk03-033)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2988
+Channel: 1
+Scores: (#C #S #D #I) 14 5 1 0
+REF:  MR  sells who wasn't available for COMMENT said in a prepared statement I'VE always wanted to RUN MY  OWN    company 
+HYP:  MR. sells who wasn't available for HIGH    said in a prepared statement I    always wanted to *** LET HIGHLY company 
+Eval: S                                  S                                    S                     D   S   S              
+
+id: (realfemalespk03-034)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2989
+Channel: 1
+Scores: (#C #S #D #I) 12 4 0 0
+REF:  murders rose two point nine percent to twenty THOUSAND SIX    hundred seventy five in THE PERIOD 
+HYP:  murders rose two point nine percent to twenty VALUE    THINKS hundred seventy five in A   BID    
+Eval:                                               S        S                              S   S      
+
+id: (realfemalespk03-035)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2990
+Channel: 1
+Scores: (#C #S #D #I) 15 3 0 3
+REF:  regional banks ** APPEAR willing to accept * big **** LOSSES UNDER  the mexican debt plan putting pressure on big banks 
+HYP:  regional banks IF YOU'RE willing to accept A big LOSS OF     EITHER the mexican debt plan putting pressure on big banks 
+Eval:                I  S                        I     I    S      S                                                          
+
+id: (realfemalespk03-036)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2991
+Channel: 1
+Scores: (#C #S #D #I) 15 1 0 0
+REF:  and more than that he is a central figure in the securities INDUSTRY'S insider trading scandal 
+HYP:  and more than that he is a central figure in the securities INDUSTRY   insider trading scandal 
+Eval:                                                             S                                  
+
+id: (realfemalespk03-037)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2992
+Channel: 1
+Scores: (#C #S #D #I) 10 5 3 0
+REF:  MR  barrett SAYS HE paid one hundred seventy five thousand dollars for the ROLLS ONLY SIX MONTHS AGO   
+HYP:  MR. barrett SAID C. paid one hundred seventy five thousand dollars for the ***** **** *** HEALTH <UNK> 
+Eval: S           S    S                                                         D     D    D   S      S     
+
+id: (realfemalespk03-038)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2993
+Channel: 1
+Scores: (#C #S #D #I) 16 2 0 0
+REF:  he has been told by the justice department that before long he may be indicted ON CRIMINAL charges 
+HYP:  he has been told by the justice department that before long he may be indicted OF FEDERAL  charges 
+Eval:                                                                                S  S                
+
+id: (realfemalespk03-039)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2994
+Channel: 1
+Scores: (#C #S #D #I) 8 6 1 5
+REF:  last november *** ALFRED a KNOPF INCORPORATED the ********* ** *** BOOK publisher ** NAMED MS     AMSTERDAM a senior editor 
+HYP:  last november OUT FOR    a ***** NOW          the CORPORATE OF WHO VOTE publisher IN HIS   ANSWER THAN      a senior editor 
+Eval:               I   S        D     S                I         I  I   S              I  S     S      S                         
+
+id: (realfemalespk03-040)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2995
+Channel: 1
+Scores: (#C #S #D #I) 12 4 0 2
+REF:  she also HAS WORKED AT  new york magazine *** ANOTHER weekly city publication and the washington post ** 
+HYP:  she also WAS WORTH  THE new york magazine AND OTHER   weekly city publication and the washington post AT 
+Eval:          S   S      S                     I   S                                                       I  
+
+id: (realfemalespk03-041)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2996
+Channel: 1
+Scores: (#C #S #D #I) 12 5 0 0
+REF:  dayton hudson said MR  sells would have AN IMPORTANT equity position IN  the company he is JOINING 
+HYP:  dayton hudson said MR. sells would have IN IMPORTING equity position AND the company he is DRIVING 
+Eval:                    S                    S  S                         S                     S       
+
+id: (realfemalespk03-042)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2997
+Channel: 1
+Scores: (#C #S #D #I) 0 3 0 6
+REF:  ****** *** ** ***** ***** * THAT'S ANOTHER STORY 
+HYP:  SHOULD FED TO OTHER STILL A FOOD   IS      <UNK> 
+Eval: I      I   I  I     I     I S      S       S     
+
+id: (realfemalespk03-043)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2998
+Channel: 1
+Scores: (#C #S #D #I) 29 1 0 2
+REF:  underwriters led by merrill lynch capital markets tentatively priced a proposed one hundred ninety six point seven million dollar offering of mortgage revenue bonds by the ***** ****** CALIFORNIA housing finance agency 
+HYP:  underwriters led by merrill lynch capital markets tentatively priced a proposed one hundred ninety six point seven million dollar offering of mortgage revenue bonds by the TRIAL AFFORD TO         housing finance agency 
+Eval:                                                                                                                                                                             I     I      S                                 
+
+id: (realfemalespk03-044)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt2999
+Channel: 1
+Scores: (#C #S #D #I) 5 3 0 0
+REF:  at least in the U  S  they WERE  
+HYP:  at least in the U. S. they WORRY 
+Eval:                 S  S       S     
+
+id: (realfemalespk03-045)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3000
+Channel: 1
+Scores: (#C #S #D #I) 3 21 0 9
+REF:  **** ****** *** **** BUT      UNTIL   RECENTLY INFLATION IN HEALTH EDUCATION and *** OTHER SERVICES was ***** **** OFFSET BY    FLAT  OR  FALLING PRICES FOR  many ***** ****** MANUFACTURED GOODS AND FARM COMMODITIES 
+HYP:  CASH SLIGHT ITS ONLY SOLUTION SESSION INTEL    SHARES    TO GAIN   SHOULD    and TIE THE   SESSIONS was HOUSE THAT I      SLASH HOTEL THE SITE    SAYS   THAT many MAJOR STOCKS HE           SAYS  HIS SIZE SUCH        
+Eval: I    I      I   I    S        S       S        S         S  S      S             I   S     S            I     I    S      S     S     S   S       S      S         I     I      S            S     S   S    S           
+
+id: (realfemalespk03-046)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3001
+Channel: 1
+Scores: (#C #S #D #I) 6 0 0 0
+REF:  what about in south africa itself 
+HYP:  what about in south africa itself 
+Eval:                                   
+
+id: (realfemalespk03-047)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3002
+Channel: 1
+Scores: (#C #S #D #I) 22 7 0 1
+REF:  the discount RATE  on the THREE MONTH   TREASURY bill fell as low as seven point six four percent BUT was QUOTED  late friday at seven point eight six *** PERCENT 
+HYP:  the discount TRADE on the TIME  ASSURES RE       bill fell as low as seven point six four percent L.  was QUARTER late friday at seven point eight six BUT SUCH    
+Eval:              S            S     S       S                                                         S       S                                            I   S       
+
+id: (realfemalespk03-048)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3003
+Channel: 1
+Scores: (#C #S #D #I) 5 4 1 1
+REF:  few people PREDICT A         dividend cut at ** G   M       HOWEVER 
+HYP:  few people ******* PREDICTED dividend cut at T. END PRODUCT OR      
+Eval:            D       S                         I  S   S       S       
+
+id: (realfemalespk03-049)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3004
+Channel: 1
+Scores: (#C #S #D #I) 25 2 0 0
+REF:  since the U  S  currency has strengthened sharply in recent weeks he sees no need for the federal reserve to raise interest rates to protect the dollar 
+HYP:  since the U. S. currency has strengthened sharply in recent weeks he sees no need for the federal reserve to raise interest rates to protect the dollar 
+Eval:           S  S                                                                                                                                          
+
+id: (realfemalespk03-050)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3005
+Channel: 1
+Scores: (#C #S #D #I) 11 2 0 0
+REF:  but he said that would only be true if the dollar WERE WEAK  
+HYP:  but he said that would only be true if the dollar WILL LEAVE 
+Eval:                                                   S    S     
+
+id: (realfemalespk03-051)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3006
+Channel: 1
+Scores: (#C #S #D #I) 0 0 24 0
+REF:  IN THE BULL MARKET OF NINETEEN EIGHTY SIX TO EIGHTY SEVEN CASH POSITIONS EXCEEDING FIVE PERCENT OF ASSETS WOULD HAVE HELD DOWN OVERALL RETURNS 
+HYP:  ** *** **** ****** ** ******** ****** *** ** ****** ***** **** ********* ********* **** ******* ** ****** ***** **** **** **** ******* ******* 
+Eval: D  D   D    D      D  D        D      D   D  D      D     D    D         D         D    D       D  D      D     D    D    D    D       D       
+
+id: (realfemalespk03-052)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3007
+Channel: 1
+Scores: (#C #S #D #I) 9 2 0 0
+REF:  certain prices HAVE RISEN   at a brisk pace throughout this decade 
+HYP:  certain prices ARE  PRESENT at a brisk pace throughout this decade 
+Eval:                S    S                                              
+
+id: (realfemalespk03-053)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3008
+Channel: 1
+Scores: (#C #S #D #I) 18 3 2 0
+REF:  occidental petroleum corporation reported a twenty three percent profit jump though the company WOULD HAVE HAD     A       loss WITHOUT a one time item 
+HYP:  occidental petroleum corporation reported a twenty three percent profit jump though the company ***** **** WHETHER PRIVATE loss ABOUT   a one time item 
+Eval:                                                                                                 D     D    S       S            S                       
+
+id: (realfemalespk03-054)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3009
+Channel: 1
+Scores: (#C #S #D #I) 7 3 0 0
+REF:  many institutional players confess TO  holding MORE CASH  than usual 
+HYP:  many institutional players confess ARE holding MARK CRASH than usual 
+Eval:                                    S           S    S                
+
+id: (realfemalespk03-055)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3010
+Channel: 1
+Scores: (#C #S #D #I) 22 2 0 0
+REF:  the logic apparently is that WE'LL have to raise our RATES to defend the dollar said peter canelo a portfolio strategist at bear stearns 
+HYP:  the logic apparently is that WILL  have to raise our REACH to defend the dollar said peter canelo a portfolio strategist at bear stearns 
+Eval:                              S                       S                                                                                   
+
+id: (realfemalespk03-056)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3011
+Channel: 1
+Scores: (#C #S #D #I) 10 0 0 0
+REF:  separately shell oil company's net income rose twenty one percent 
+HYP:  separately shell oil company's net income rose twenty one percent 
+Eval:                                                                   
+
+id: (realfemalespk03-057)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3012
+Channel: 1
+Scores: (#C #S #D #I) 0 0 24 0
+REF:  THE DECLINE IN THE DOLLAR AND THE CONTINUED STRENGTH IN THE ECONOMY HOWEVER ARE NOW ADDING DEMAND AND CAUSING THOSE PRICES TO RISE TOO 
+HYP:  *** ******* ** *** ****** *** *** ********* ******** ** *** ******* ******* *** *** ****** ****** *** ******* ***** ****** ** **** *** 
+Eval: D   D       D  D   D      D   D   D         D        D  D   D       D       D   D   D      D      D   D       D     D      D  D    D   
+
+id: (realfemalespk03-058)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3013
+Channel: 1
+Scores: (#C #S #D #I) 10 2 1 0
+REF:  it would take a new chairman the executive is SAID to HAVE REPLIED 
+HYP:  it would take a new chairman the executive is THAT to **** PROVIDE 
+Eval:                                               S       D    S       
+
+id: (realfemalespk03-059)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3014
+Channel: 1
+Scores: (#C #S #D #I) 23 1 0 1
+REF:  yields range from four point eight percent in nineteen ninety ***** to seven point two percent on zero COUPON  bonds due in two thousand two 
+HYP:  yields range from four point eight percent in nineteen ninety EIGHT to seven point two percent on zero PROVIDE bonds due in two thousand two 
+Eval:                                                               I                                        S                                     
+
+id: (realfemalespk03-060)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3015
+Channel: 1
+Scores: (#C #S #D #I) 10 1 0 0
+REF:  so clearly the advocates of sanctions WERE the foreign policy victors 
+HYP:  so clearly the advocates of sanctions WITH the foreign policy victors 
+Eval:                                       S                               
+
+id: (realfemalespk03-061)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3016
+Channel: 1
+Scores: (#C #S #D #I) 23 1 0 0
+REF:  yields on long term bonds after dropping as low as seven point eight three percent early last week are BACK   up above eight percent 
+HYP:  yields on long term bonds after dropping as low as seven point eight three percent early last week are BACKED up above eight percent 
+Eval:                                                                                                        S                             
+
+id: (realfemalespk03-062)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3017
+Channel: 1
+Scores: (#C #S #D #I) 6 4 0 3
+REF:  the OFFERING includes zero ***** ***** ** COUPON BONDS called capital appreciation BONDS 
+HYP:  the OFFER    includes zero GROUP OWNED BY <UNK>  WAS   called capital appreciation BONN  
+Eval:     S                      I     I     I  S      S                                 S     
+
+id: (realfemalespk03-063)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3018
+Channel: 1
+Scores: (#C #S #D #I) 15 5 0 2
+REF:  HEALTH care inflation for instance **** HASN'T DROPPED below six percent annually AND the cost of education has risen even ******* FASTER 
+HYP:  HOPE   care inflation for instance HIGH THE    DROP    below six percent annually ON  the cost of education has risen even PROCESS ARE    
+Eval: S                                  I    S      S                                  S                                        I       S      
+
+id: (realfemalespk03-064)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3019
+Channel: 1
+Scores: (#C #S #D #I) 0 0 15 0
+REF:  AND PENNZOIL COMPANY'S NET INCOME TUMBLED SEVENTY ONE PERCENT LARGELY FROM A ONE TIME CHARGE 
+HYP:  *** ******** ********* *** ****** ******* ******* *** ******* ******* **** * *** **** ****** 
+Eval: D   D        D         D   D      D       D       D   D       D       D    D D   D    D      
+
+id: (realfemalespk03-065)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3020
+Channel: 1
+Scores: (#C #S #D #I) 20 1 0 0
+REF:  rates are expected to remain at those levels OR  move a little higher this week at the treasury department's quarterly auction 
+HYP:  rates are expected to remain at those levels ARE move a little higher this week at the treasury department's quarterly auction 
+Eval:                                              S                                                                                 
+
+id: (realfemalespk03-066)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3021
+Channel: 1
+Scores: (#C #S #D #I) 13 5 0 0
+REF:  one investment OFFICER  SAYS MR  smith WAS  ASKED last week what it would take to cut the dividend 
+HYP:  one investment OFFICERS AT   MR. smith WITH OUTS  last week what it would take to cut the dividend 
+Eval:                S        S    S         S    S                                                      
+
+id: (realfemalespk03-067)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3022
+Channel: 1
+Scores: (#C #S #D #I) 20 0 0 0
+REF:  the government is expected to sell about twenty nine point five billion dollars of new notes and bonds starting tomorrow 
+HYP:  the government is expected to sell about twenty nine point five billion dollars of new notes and bonds starting tomorrow 
+Eval:                                                                                                                          
+
+id: (realfemalespk03-068)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3023
+Channel: 1
+Scores: (#C #S #D #I) 7 13 1 3
+REF:  now many institutions say ******* ***** THEIR CASH LEVELS ARE  TEN PERCENT OR  more AND A  FEW are *** AT    THIRTY PERCENT OR  more 
+HYP:  now many institutions say THEY'RE CRASH LOW   OF   OUR    TIME HAS THAT    ARE more *** IF YOU are OUT THIRD WAS    THAT    ARE more 
+Eval:                           I       I     S     S    S      S    S   S       S        D   S  S       I   S     S      S       S        
+
+id: (realfemalespk03-069)
+Labels: <o,m>
+File: realfemalespk03-uswsj5kdevfemalespk03snt3024
+Channel: 1
+Scores: (#C #S #D #I) 10 4 0 4
+REF:  phillips ***** ****** ****** PETROLEUM CORPORATION'S profit meanwhile plunged sixty three percent ** AMID WEAK natural gas prices 
+HYP:  phillips WHICH REALLY RUBBER A         SENSE         profit meanwhile plunged sixty three percent OF NEW  WEEK natural gas prices 
+Eval:          I     I      I      S         S                                                          I  S    S                       
+
+Speaker sentences   3:  realmalespk04   #utts: 67
+id: (realmalespk04-000)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3166
+Channel: 1
+Scores: (#C #S #D #I) 2 2 0 0
+REF:  our customers WANT THEM 
+HYP:  our customers LONG THIN 
+Eval:               S    S    
+
+id: (realmalespk04-001)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3167
+Channel: 1
+Scores: (#C #S #D #I) 17 8 0 6
+REF:  ***** SINCE the early nineteen *** EIGHTIES DATA general has tried to compete head ON  WITH international business machines corporation and digital EQUIPMENT CORPORATION for large ***** *** ***** *** CUSTOMERS 
+HYP:  <UNK> SAYS  the early nineteen NEW TRADE    A    general has tried to compete head ALL THE  international business machines corporation and digital <UNK>     OPERATION   for large TRUST AND <UNK> PAN AM        
+Eval: I     S                        I   S        S                                      S   S                                                            S         S                     I     I   I     I   S         
+
+id: (realmalespk04-002)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3168
+Channel: 1
+Scores: (#C #S #D #I) 4 1 0 0
+REF:  the dollar was little CHANGED 
+HYP:  the dollar was little CHANGE  
+Eval:                       S       
+
+id: (realmalespk04-003)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3169
+Channel: 1
+Scores: (#C #S #D #I) 24 1 0 0
+REF:  volume was a moderate four hundred fifty four point seven million shares PICKING up slightly from wednesday's four hundred twenty seven point four million shares 
+HYP:  volume was a moderate four hundred fifty four point seven million shares BANKING up slightly from wednesday's four hundred twenty seven point four million shares 
+Eval:                                                                          S                                                                                        
+
+id: (realmalespk04-004)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3170
+Channel: 1
+Scores: (#C #S #D #I) 3 2 1 0
+REF:  these powers are IMPORTANT TO     US   
+HYP:  these powers are ********* FORMED THUS 
+Eval:                  D         S      S    
+
+id: (realmalespk04-005)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3171
+Channel: 1
+Scores: (#C #S #D #I) 21 3 0 0
+REF:  per share earnings for the fiscal year fell about TWENTY one percent the company estimated REFLECTING AN eighteen percent increase in average shares outstanding 
+HYP:  per share earnings for the fiscal year fell about FORTY  one percent the company estimated REFLECTED  IN eighteen percent increase in average shares outstanding 
+Eval:                                                   S                                        S          S                                                          
+
+id: (realmalespk04-006)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3172
+Channel: 1
+Scores: (#C #S #D #I) 4 3 0 0
+REF:  THE    TASK force report isn't all BAD  
+HYP:  SHOULD GAS  force report isn't all THEM 
+Eval: S      S                           S    
+
+id: (realmalespk04-007)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3173
+Channel: 1
+Scores: (#C #S #D #I) 16 8 0 1
+REF:  institutional investors FUELED the RISE by SHIFTING assets TO the FUNDS in response to declining rates ** AVAILABLE ON  short TERM securities in the market 
+HYP:  institutional investors FEEL   the RACE by SHIPPING assets OF the FILES in response to declining rates OF A         ONE short OF   securities in the market 
+Eval:                         S          S       S               S      S                                    I  S         S         S                             
+
+id: (realmalespk04-008)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3174
+Channel: 1
+Scores: (#C #S #D #I) 4 3 0 0
+REF:  since then however results HAVE BEEN POOR 
+HYP:  since then however results A    BID  MORE 
+Eval:                            S    S    S    
+
+id: (realmalespk04-009)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3175
+Channel: 1
+Scores: (#C #S #D #I) 25 0 0 0
+REF:  one of the few areas of strong growth earlier in nineteen eighty seven was the new issue market for international equities and equity related bonds 
+HYP:  one of the few areas of strong growth earlier in nineteen eighty seven was the new issue market for international equities and equity related bonds 
+Eval:                                                                                                                                                     
+
+id: (realmalespk04-010)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3176
+Channel: 1
+Scores: (#C #S #D #I) 6 1 2 0
+REF:  but they CAN look more generous than THEY ARE 
+HYP:  but they *** look more generous than **** OUR 
+Eval:          D                           D    S   
+
+id: (realmalespk04-011)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3177
+Channel: 1
+Scores: (#C #S #D #I) 19 4 0 1
+REF:  actively traded thirty year treasury issues last week plunged about three points OR   ABOUT THIRTY dollars for each one thousand dollar face * AMOUNT 
+HYP:  actively traded thirty year treasury issues last week plunged about three points WERE OUT   VERY   dollars for each one thousand dollar face A MILE   
+Eval:                                                                                  S    S     S                                                I S      
+
+id: (realmalespk04-012)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3178
+Channel: 1
+Scores: (#C #S #D #I) 10 2 0 0
+REF:  the question is whether U  S  banks will be allowed to compete 
+HYP:  the question is whether U. S. banks will be allowed to compete 
+Eval:                         S  S                                   
+
+id: (realmalespk04-013)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3179
+Channel: 1
+Scores: (#C #S #D #I) 21 1 0 1
+REF:  the parent company added that it may seek other business opportunities **** SUBJECT to the availability of financing which may not be available 
+HYP:  the parent company added that it may seek other business opportunities SUCH IT      to the availability of financing which may not be available 
+Eval:                                                                        I    S                                                                   
+
+id: (realmalespk04-014)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3180
+Channel: 1
+Scores: (#C #S #D #I) 7 3 0 0
+REF:  in addition I  B  M'S  pricing strategy could hurt competitors 
+HYP:  in addition I. B. M.'S pricing strategy could hurt competitors 
+Eval:             S  S  S                                            
+
+id: (realmalespk04-015)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3181
+Channel: 1
+Scores: (#C #S #D #I) 23 2 0 0
+REF:  the YIELD ON    the latest thirty year treasury bonds surged to eight point eight three percent from eight point five six percent a week earlier 
+HYP:  the U.    <UNK> the latest thirty year treasury bonds surged to eight point eight three percent from eight point five six percent a week earlier 
+Eval:     S     S                                                                                                                                      
+
+id: (realmalespk04-016)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3182
+Channel: 1
+Scores: (#C #S #D #I) 4 8 0 3
+REF:  **** PRICES were down every DAY  BUT   THURSDAY WHEN THEY rose *** ***** ONLY SLIGHTLY 
+HYP:  HIGH SAYS   were down every DEBT WOULD FIRST    AND  HAND rose AND MAKES HIGH DAY      
+Eval: I    S                      S    S     S        S    S         I   I     S    S        
+
+id: (realmalespk04-017)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3183
+Channel: 1
+Scores: (#C #S #D #I) 21 3 0 1
+REF:  for example the company plans big discounts on the new one thousand six hundred ninety five dollar MACHINE for schools a *** MAIN APPLE market 
+HYP:  for example the company plans big discounts on the new one thousand six hundred ninety five dollar SHE     for schools a MAY NOT  A     market 
+Eval:                                                                                                    S                     I   S    S            
+
+id: (realmalespk04-018)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3184
+Channel: 1
+Scores: (#C #S #D #I) 6 7 0 1
+REF:  a spokeswoman FOR  THE DEPARTMENT said no such decision ** HAS  BEEN MADE YET 
+HYP:  a spokeswoman FOOD ARE THAT       said no such decision IS THAT MAY  BE   A   
+Eval:               S    S   S                                I  S    S    S    S   
+
+id: (realmalespk04-019)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3185
+Channel: 1
+Scores: (#C #S #D #I) 10 10 4 0
+REF:  ONE OF   the new P  CS   OFFERS almost DOUBLE THE    MEMORY AND    slightly more STORAGE FOR eleven percent LESS THAN the COMPETING compaq machine 
+HYP:  *** WHAT the new B. C.'S OFFICE almost ****** DOLLAR THEM   AROUND slightly more STORES  OR  eleven percent **** LAND the ********* compaq machine 
+Eval: D   S            S  S    S             D      S      S      S                    S       S                  D    S        D                        
+
+id: (realmalespk04-020)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3186
+Channel: 1
+Scores: (#C #S #D #I) 6 5 0 1
+REF:  THE ASSESSMENT IS  probably EVEN more ****** APPROPRIATE now market analysts say 
+HYP:  IT  SAYS       MS. probably THE  more BROKER IT          now market analysts say 
+Eval: S   S          S            S         I      S                                   
+
+id: (realmalespk04-021)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3187
+Channel: 1
+Scores: (#C #S #D #I) 10 12 1 0
+REF:  I  B  M  P  CS  traditionally ARE PRICED higher than rival brands which typically MUST UNDERCUT I    B   M    PRICES  by fifteen percent 
+HYP:  I. B. M. P. C.S traditionally A   PRICE  higher than rival brands which typically **** LESS     OVER CUT IDEA PRICING by fifteen percent 
+Eval: S  S  S  S  S                 S   S                                               D    S        S    S   S    S                          
+
+id: (realmalespk04-022)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3188
+Channel: 1
+Scores: (#C #S #D #I) 7 4 2 0
+REF:  under the law the justice department CAN ELECT to TAKE    OVER      AS   PLAINTIFF 
+HYP:  under the law the justice department *** ***** to ELECTED TAKEOVERS BITE OF        
+Eval:                                      D   D        S       S         S    S         
+
+id: (realmalespk04-023)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3189
+Channel: 1
+Scores: (#C #S #D #I) 11 9 0 1
+REF:  auto contracts PROVIDE for job security BUT because they **** LIMIT the FUNDS AVAILABLE FOR IT   THEY HAVEN'T prevented sizable layoffs 
+HYP:  auto contracts RIGHT   for job security LOT because they LEAD IN    the FILES A         DAY WITH FORD ADDED   prevented sizable layoffs 
+Eval:                S                        S                I    S         S     S         S   S    S    S                                 
+
+id: (realmalespk04-024)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3190
+Channel: 1
+Scores: (#C #S #D #I) 14 0 0 0
+REF:  it said it is negotiating the sale of certain assets of the brokerage unit 
+HYP:  it said it is negotiating the sale of certain assets of the brokerage unit 
+Eval:                                                                            
+
+id: (realmalespk04-025)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3191
+Channel: 1
+Scores: (#C #S #D #I) 11 7 1 1
+REF:  * THE    BRANFORD connecticut BASED company had stock OFFERINGS IN     NINETEEN EIGHTY six AND nineteen eighty seven to reduce debt 
+HYP:  A BRIGHT FOR      connecticut PLACE company had stock ********* OPTION LIFE     AND    six IN  nineteen eighty seven to reduce debt 
+Eval: I S      S                    S                       D         S      S        S          S                                        
+
+id: (realmalespk04-026)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3192
+Channel: 1
+Scores: (#C #S #D #I) 11 2 0 0
+REF:  such activity HAS all but ENDED since stock prices plunged the analysts say 
+HYP:  such activity IS  all but AIDED since stock prices plunged the analysts say 
+Eval:               S           S                                                 
+
+id: (realmalespk04-027)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3193
+Channel: 1
+Scores: (#C #S #D #I) 20 0 0 0
+REF:  the financial times thirty share index closed off seven point four points at one thousand four hundred thirty point seven 
+HYP:  the financial times thirty share index closed off seven point four points at one thousand four hundred thirty point seven 
+Eval:                                                                                                                           
+
+id: (realmalespk04-028)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3194
+Channel: 1
+Scores: (#C #S #D #I) 14 0 0 0
+REF:  last friday the dow jones industrial average posted its third biggest point decline ever 
+HYP:  last friday the dow jones industrial average posted its third biggest point decline ever 
+Eval:                                                                                          
+
+id: (realmalespk04-029)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3195
+Channel: 1
+Scores: (#C #S #D #I) 14 5 1 0
+REF:  and the idea of letting EMPLOYERS PRE  fund post retirement medical expenses IS SURELY  better than HAVING government do IT 
+HYP:  and the idea of letting EMPLOYEES FREE fund post retirement medical expenses ** ASSURED better than HAVE   government do IS 
+Eval:                         S         S                                          D  S                   S                    S  
+
+id: (realmalespk04-030)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3196
+Channel: 1
+Scores: (#C #S #D #I) 13 3 0 1
+REF:  in a statement R  L  R  said the brokerage unit generated substantially all of its revenue * 
+HYP:  in a statement R. L. R. said the brokerage unit generated substantially all of its revenue A 
+Eval:                S  S  S                                                                     I 
+
+id: (realmalespk04-031)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3197
+Channel: 1
+Scores: (#C #S #D #I) 5 11 1 5
+REF:  ***** *** ** ALSO        INDIVIDUAL INVESTORS' CONCERN   OVER     VOLATILITY IN  financial MARKETS may have CONTRIBUTED to ****** THE INCREASE SHE       said ***** 
+HYP:  <UNK> HOW SO INDIVIDUALS JUSTICE    WHO        CERTAINLY VOLATILE A          FEW financial OFFICE  may have *********** to THIRTY TO  FIFTY    OFFICIALS said <UNK> 
+Eval: I     I   I  S           S          S          S         S        S          S             S                D              I      S   S        S              I     
+
+id: (realmalespk04-032)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3198
+Channel: 1
+Scores: (#C #S #D #I) 17 5 0 0
+REF:  we could distribute the bonds in japan in europe in the U  K  but not in the U  S  MR  labrecque said 
+HYP:  we could distribute the bonds in japan in europe in the U. K. but not in the U. S. MR. labrecque said 
+Eval:                                                         S  S                 S  S  S                  
+
+id: (realmalespk04-033)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3199
+Channel: 1
+Scores: (#C #S #D #I) 18 1 0 1
+REF:  it does call for eliminating some government obstacles to the development of *** A    healthy long term care insurance market 
+HYP:  it does call for eliminating some government obstacles to the development of THE HELP healthy long term care insurance market 
+Eval:                                                                              I   S                                            
+
+id: (realmalespk04-034)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3200
+Channel: 1
+Scores: (#C #S #D #I) 12 4 0 2
+REF:  in nineteen eighty four the company won several **** ** MULTIMILLION dollar ACCOUNTS AND sales AND earnings soared 
+HYP:  in nineteen eighty four the company won several WILL BE MILLION      dollar COUNTS   IN  sales IN  earnings soared 
+Eval:                                                 I    I  S                   S        S         S                   
+
+id: (realmalespk04-035)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3201
+Channel: 1
+Scores: (#C #S #D #I) 13 4 1 1
+REF:  the company which makes motor vehicle ******* REPLACEMENT PARTS said sales exceeded one billion dollars FOR THE FISCAL  year 
+HYP:  the company which makes motor vehicle REPLACE THE         HART  said sales exceeded one billion dollars *** IN  HISTORY year 
+Eval:                                       I       S           S                                             D   S   S            
+
+id: (realmalespk04-036)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3202
+Channel: 1
+Scores: (#C #S #D #I) 9 7 2 1
+REF:  ** job security clauses give UNIONS something positive TO take BACK TO   THEIR  MEMBERS AT  modest cost TO EMPLOYERS 
+HYP:  IF job security clauses give UNION  something positive ** take **** THAT CHANCE WORDS   AND modest cost OF TRADERS   
+Eval: I                            S                         D       D    S    S      S       S               S  S         
+
+id: (realmalespk04-037)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3203
+Channel: 1
+Scores: (#C #S #D #I) 20 0 0 0
+REF:  the dow jones industrials dropped twenty five point two oh to one thousand nine hundred thirty five point oh one 
+HYP:  the dow jones industrials dropped twenty five point two oh to one thousand nine hundred thirty five point oh one 
+Eval:                                                                                                                  
+
+id: (realmalespk04-038)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3204
+Channel: 1
+Scores: (#C #S #D #I) 13 6 1 0
+REF:  the one HUNDRED share index was off FIVE point two points AT ONE  thousand seven HUNDRED EIGHTY NINE point five 
+HYP:  the one HALF    share index was off HALF point two points ** CASH thousand seven OTHER   SHE    HAD  point five 
+Eval:         S                           S                     D  S                   S       S      S               
+
+id: (realmalespk04-039)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3205
+Channel: 1
+Scores: (#C #S #D #I) 15 3 2 1
+REF:  the suit was filed UNDER the false claims act which allows private **** CITIZENS to sue ON BEHALF of THE    government 
+HYP:  the suit was filed OR    the false claims act which allows private SAYS IS       to sue ** ****** of AFRICA government 
+Eval:                    S                                               I    S               D  D         S                 
+
+id: (realmalespk04-040)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3206
+Channel: 1
+Scores: (#C #S #D #I) 1 2 0 2
+REF:  * THE dollar ******** STRENGTHENED 
+HYP:  A WHO dollar STRENGTH A            
+Eval: I S          I        S            
+
+id: (realmalespk04-041)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3207
+Channel: 1
+Scores: (#C #S #D #I) 27 0 0 0
+REF:  stocks rebounded sharply pushing the dow jones industrials up a record seventy five point two three points to two thousand five hundred sixty eight point oh five 
+HYP:  stocks rebounded sharply pushing the dow jones industrials up a record seventy five point two three points to two thousand five hundred sixty eight point oh five 
+Eval:                                                                                                                                                                   
+
+id: (realmalespk04-042)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3208
+Channel: 1
+Scores: (#C #S #D #I) 0 0 6 0
+REF:  AND MANY COMPANIES ARE IMPROVING EQUIPMENT 
+HYP:  *** **** ********* *** ********* ********* 
+Eval: D   D    D         D   D         D         
+
+id: (realmalespk04-043)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3209
+Channel: 1
+Scores: (#C #S #D #I) 22 4 1 0
+REF:  all told amoco said IT  REPLACED one hundred thirty percent of the reserves that it PRODUCED last year recovering FROM A   weak record in nineteen eighty six 
+HYP:  all told amoco said ARE VICE     one hundred thirty percent of the reserves that it PRODUCE  last year recovering **** FOR weak record in nineteen eighty six 
+Eval:                     S   S                                                           S                             D    S                                      
+
+id: (realmalespk04-044)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3210
+Channel: 1
+Scores: (#C #S #D #I) 2 3 1 1
+REF:  the HOSPITAL INDUSTRY IS         government **** FUNDED 
+HYP:  the ******** HOSTILE  INDUSTRIES government FIVE IN     
+Eval:     D        S        S                     I    S      
+
+id: (realmalespk04-045)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3211
+Channel: 1
+Scores: (#C #S #D #I) 18 8 0 1
+REF:  the N  A  S  D  RELEASED short interest figures for the first time ** NOVEMBER twenty fifth for all stocks carried on its nasdaq AUTOMATED QUOTATION system 
+HYP:  the N. A. S. B. REALLY   short interest figures for the first time OF EVER     twenty fifth for all stocks carried on its nasdaq AUTOMATIC ADDITION  system 
+Eval:     S  S  S  S  S                                                  I  S                                                          S         S                
+
+id: (realmalespk04-046)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3212
+Channel: 1
+Scores: (#C #S #D #I) 4 4 0 1
+REF:  it should be government *********** REGULATED SAYS DOCTOR WOLFE 
+HYP:  it should be government REGULATIONS IS        NOT  THE    WORLD 
+Eval:                         I           S         S    S      S     
+
+id: (realmalespk04-047)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3213
+Channel: 1
+Scores: (#C #S #D #I) 21 2 1 0
+REF:  texaco incorporated which has had ONE OF   the worst records of the big integrated oil companies REPLACED seventy percent of its production last year 
+HYP:  texaco incorporated which has had *** WERE the worst records of the big integrated oil companies REPLACE  seventy percent of its production last year 
+Eval:                                   D   S                                                          S                                                    
+
+id: (realmalespk04-048)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3214
+Channel: 1
+Scores: (#C #S #D #I) 9 1 0 0
+REF:  critics say the federal APPROACH was wrong from the start 
+HYP:  critics say the federal PROBE    was wrong from the start 
+Eval:                         S                                 
+
+id: (realmalespk04-049)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3215
+Channel: 1
+Scores: (#C #S #D #I) 26 0 0 0
+REF:  volume was a very modest three hundred fifty two point two million shares down from three hundred sixty six point four million shares a day earlier 
+HYP:  volume was a very modest three hundred fifty two point two million shares down from three hundred sixty six point four million shares a day earlier 
+Eval:                                                                                                                                                     
+
+id: (realmalespk04-050)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3216
+Channel: 1
+Scores: (#C #S #D #I) 10 0 0 0
+REF:  stocks fell in nervous trading while bonds were narrowly mixed 
+HYP:  stocks fell in nervous trading while bonds were narrowly mixed 
+Eval:                                                                
+
+id: (realmalespk04-051)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3217
+Channel: 1
+Scores: (#C #S #D #I) 24 0 0 0
+REF:  in new york stock exchange composite trading yesterday the company's stock rose sixty two point five cents to nineteen point six two five dollars 
+HYP:  in new york stock exchange composite trading yesterday the company's stock rose sixty two point five cents to nineteen point six two five dollars 
+Eval:                                                                                                                                                   
+
+id: (realmalespk04-052)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3218
+Channel: 1
+Scores: (#C #S #D #I) 12 0 0 0
+REF:  the offering size was increased from the eight million shares originally planned 
+HYP:  the offering size was increased from the eight million shares originally planned 
+Eval:                                                                                  
+
+id: (realmalespk04-053)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3219
+Channel: 1
+Scores: (#C #S #D #I) 18 7 0 0
+REF:  the rally FUELED by a stronger dollar and bond MARKET  SNAPPED A   five day decline in which the INDUSTRIALS LOST OVER one hundred twenty points 
+HYP:  the rally FIELD  by a stronger dollar and bond MARKETS THAT    THE five day decline in which the INVESTOR'S  LOSS EVER one hundred twenty points 
+Eval:           S                                    S       S       S                                 S           S    S                              
+
+id: (realmalespk04-054)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3220
+Channel: 1
+Scores: (#C #S #D #I) 11 3 0 2
+REF:  ** *** ENERGY futures prices rose following an explosion at a major U  S  refining plant 
+HYP:  IN OUR G.     futures prices rose following an explosion at a major U. S. refining plant 
+Eval: I  I   S                                                            S  S                 
+
+id: (realmalespk04-055)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3221
+Channel: 1
+Scores: (#C #S #D #I) 22 1 0 0
+REF:  exxon corporation said earlier this week that it REPLACED one hundred fourteen percent of its oil and gas production in nineteen eighty seven 
+HYP:  exxon corporation said earlier this week that it REPLACE  one hundred fourteen percent of its oil and gas production in nineteen eighty seven 
+Eval:                                                  S                                                                                            
+
+id: (realmalespk04-056)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3222
+Channel: 1
+Scores: (#C #S #D #I) 12 1 0 0
+REF:  new OWNERS sometimes offer attractive long term contracts to senior people he said 
+HYP:  new OWNER  sometimes offer attractive long term contracts to senior people he said 
+Eval:     S                                                                              
+
+id: (realmalespk04-057)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3223
+Channel: 1
+Scores: (#C #S #D #I) 19 4 0 1
+REF:  the government predicts spending for plant **** AND MACHINERY WILL GROW twenty five percent this year up from nine point eight percent last year 
+HYP:  the government predicts spending for plant THEM A   SHARE     A    ROW  twenty five percent this year up from nine point eight percent last year 
+Eval:                                            I    S   S         S    S                                                                             
+
+id: (realmalespk04-058)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3224
+Channel: 1
+Scores: (#C #S #D #I) 16 0 0 0
+REF:  a citicorp portfolio manager says the unit's new owner could lose quite a few current managers 
+HYP:  a citicorp portfolio manager says the unit's new owner could lose quite a few current managers 
+Eval:                                                                                                
+
+id: (realmalespk04-059)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3225
+Channel: 1
+Scores: (#C #S #D #I) 20 1 0 1
+REF:  an issue of ten million common shares of **** BETHLEHEM steel was priced at nineteen dollars a share through salomon brothers incorporated 
+HYP:  an issue of ten million common shares of THAT PLAN      steel was priced at nineteen dollars a share through salomon brothers incorporated 
+Eval:                                          I    S                                                                                            
+
+id: (realmalespk04-060)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3226
+Channel: 1
+Scores: (#C #S #D #I) 15 1 0 1
+REF:  some local manufacturers have avoided the tight labor market by ******** CONTRACTING work to factories in china 
+HYP:  some local manufacturers have avoided the tight labor market by CONTRACT THE         work to factories in china 
+Eval:                                                                 I        S                                      
+
+id: (realmalespk04-061)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3227
+Channel: 1
+Scores: (#C #S #D #I) 18 3 2 0
+REF:  the dollar rose zero point nine percent against the yen while some long term treasury bonds REACHED the HIGHEST level IN A WEEK 
+HYP:  the dollar rose zero point nine percent against the yen while some long term treasury bonds REACH   the HIGHS   level ** * ONLY 
+Eval:                                                                                             S           S             D  D S    
+
+id: (realmalespk04-062)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3228
+Channel: 1
+Scores: (#C #S #D #I) 18 0 0 0
+REF:  although that is up from forty six percent in nineteen eighty six texaco's production also fell last year 
+HYP:  although that is up from forty six percent in nineteen eighty six texaco's production also fell last year 
+Eval:                                                                                                           
+
+id: (realmalespk04-063)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3229
+Channel: 1
+Scores: (#C #S #D #I) 20 1 0 1
+REF:  the financial times thirty share index closed UP seven point six points at one thousand three hundred ninety eight point seven *** 
+HYP:  the financial times thirty share index closed AT seven point six points at one thousand three hundred ninety eight point seven HIM 
+Eval:                                               S                                                                                I   
+
+id: (realmalespk04-064)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3230
+Channel: 1
+Scores: (#C #S #D #I) 22 1 0 0
+REF:  the one hundred share index was up ten POINT  oh points at one thousand seven hundred forty three point four at the close 
+HYP:  the one hundred share index was up ten POINTS oh points at one thousand seven hundred forty three point four at the close 
+Eval:                                        S                                                                                  
+
+id: (realmalespk04-065)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3231
+Channel: 1
+Scores: (#C #S #D #I) 12 13 1 2
+REF:  but HE OFFERED the opinion THAT robert WADE the unit's CHIEF and HALF A     dozen ****** OTHER SENIOR people will go with ** U  S  F  AND G  
+HYP:  but A. OFFER   the opinion THE  robert WAY  the unit's CHEAP and **** AFTER dozen OTHERS IN    THE    people will go with U. S. F. IN DUE TO 
+Eval:     S  S                   S           S               S         D    S           I      S     S                          I  S  S  S  S   S  
+
+id: (realmalespk04-066)
+Labels: <o,m>
+File: realmalespk04-uswsj5kdevmalespk04snt3232
+Channel: 1
+Scores: (#C #S #D #I) 15 2 1 0
+REF:  manufacturers also are urging the government to ease immigration rules SO THEY CAN    import workers from neighboring countries 
+HYP:  manufacturers also are urging the government to ease immigration rules ** A    VACANT import workers from neighboring countries 
+Eval:                                                                        D  S    S                                                
+
+Speaker sentences   4:  realmalespk05   #utts: 67
+id: (realmalespk05-000)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3377
+Channel: 1
+Scores: (#C #S #D #I) 3 7 1 0
+REF:  but SOME   OPERATORS said N B  C        MAY RUN     INTO problems 
+HYP:  but SOUGHT OPERATOR  said * IT RECEIVED RE  RUNNING THE  problems 
+Eval:     S      S              D S  S        S   S       S             
+
+id: (realmalespk05-001)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3378
+Channel: 1
+Scores: (#C #S #D #I) 14 12 0 2
+REF:  also cable operators already ARE signing up for another PROPOSED new cable **** ****** NETWORK TURNER BROADCASTING system incorporated's T   N  T  SCHEDULED for AN  OCTOBER third LAUNCH 
+HYP:  also cable operators already OF  signing up for another PROPOSE  new cable THAT DURING A       BORK   ASKING       system incorporated's THE N. G. SCHEDULE  for NOT OVER    third WATCH  
+Eval:                              S                          S                  I    I      S       S      S                                  S   S  S  S             S   S             S      
+
+id: (realmalespk05-002)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3379
+Channel: 1
+Scores: (#C #S #D #I) 6 1 0 2
+REF:  drexel burnham lambert incorporated was lead ** *** UNDERWRITER 
+HYP:  drexel burnham lambert incorporated was lead ON THE RIGHT       
+Eval:                                              I  I   S           
+
+id: (realmalespk05-003)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3380
+Channel: 1
+Scores: (#C #S #D #I) 26 3 1 1
+REF:  a spokesman said the company expects TO  more than DOUBLE ITS     shares outstanding to about nineteen point two million from eight point two million as a result of the *** OFFERING 
+HYP:  a spokesman said the company expects THE more than ****** DOUBLED shares outstanding to about nineteen point two million from eight point two million as a result of the NEW OFFER    
+Eval:                                      S             D      S                                                                                                              I   S        
+
+id: (realmalespk05-004)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3381
+Channel: 1
+Scores: (#C #S #D #I) 6 4 0 0
+REF:  stock prices ALSO  were mixed in paris ZURICH AND   STOCKHOLM 
+HYP:  stock prices BILLS were mixed in paris MORGAN STOCK WILL      
+Eval:              S                         S      S     S         
+
+id: (realmalespk05-005)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3382
+Channel: 1
+Scores: (#C #S #D #I) 21 4 1 1
+REF:  the stock is convertible at any ******* TIME INTO common at an initial price of twelve DOLLARS A        share subject to adjustment december FIFTEEN nineteen eighty eight 
+HYP:  the stock is convertible at any THOUGHT OF   THE  common at an initial price of twelve ******* THOUSAND share subject to adjustment december FIFTY   nineteen eighty eight 
+Eval:                                 I       S    S                                         D       S                                             S                             
+
+id: (realmalespk05-006)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3383
+Channel: 1
+Scores: (#C #S #D #I) 7 1 1 0
+REF:  few observers ARE optimistic about the COURT'S other problems 
+HYP:  few observers *** optimistic about the BOARD'S other problems 
+Eval:               D                        S                      
+
+id: (realmalespk05-007)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3384
+Channel: 1
+Scores: (#C #S #D #I) 16 9 0 2
+REF:  *** THE NOTES WILL  BEAR INTEREST  AT   eight point five five percent **** PAYABLE february first and august first OF EACH  year beginning february first nineteen ninety 
+HYP:  NOW TO  A     BREAK A    INTERESTS THAT eight point five five percent THEY WILL    february first and august first TO REACH year beginning february first nineteen ninety 
+Eval: I   S   S     S     S    S         S                                  I    S                                       S  S                                                   
+
+id: (realmalespk05-008)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3385
+Channel: 1
+Scores: (#C #S #D #I) 4 6 1 2
+REF:  STOCK rose ** IN   AMSTERDAM and WERE LOWER IN      brussels and *** MILAN 
+HYP:  SET   rose AN ACID NAME      and **** WILL  LOWERED brussels and YOU UP    
+Eval: S          I  S    S             D    S     S                    I   S     
+
+id: (realmalespk05-009)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3386
+Channel: 1
+Scores: (#C #S #D #I) 12 13 1 4
+REF:  ***** ACCORDING TO       the ADMINISTRATIVE OFFICES of THE U  S  courts only HALF OF THE fifty **** *** *** BANKRUPTCY JUDGES WHOSE TERMS expire by nineteen eighty eight will return 
+HYP:  BOARD OF        MINISTRY the GULF           SAYS    of *** U. S. courts only HAVE A  B.  fifty BACK AND SEE JET        THE    SUIT  STEMS expire by nineteen eighty eight will return 
+Eval: I     S         S            S              S          D   S  S              S    S  S         I    I   I   S          S      S     S                                                 
+
+id: (realmalespk05-010)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3387
+Channel: 1
+Scores: (#C #S #D #I) 8 4 1 0
+REF:  the four other utility company owners will also HAVE TO TAKE WRITE OFFS   
+HYP:  the four other utility company owners will also **** AT THE  BIG   RIGHTS 
+Eval:                                                 D    S  S    S     S      
+
+id: (realmalespk05-011)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3388
+Channel: 1
+Scores: (#C #S #D #I) 12 10 1 2
+REF:  the ** AGENCY also PREDICT   that the number of bankruptcy FILINGS WILL rise SEVENTEEN percent IN THE year *** ENDING SEPTEMBER THIRTIETH nineteen eighty SEVEN 
+HYP:  the A. C.     also PREDICTED that the number of bankruptcy BOUGHT  AND  rise SEVENTY   percent ** A   year AND EXPAND OR        THIRTY    nineteen eighty SAID  
+Eval:     I  S           S                                       S       S         S                 D  S        I   S      S         S                         S     
+
+id: (realmalespk05-012)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3389
+Channel: 1
+Scores: (#C #S #D #I) 8 5 1 2
+REF:  but ANY dip in inflation associated with OIL  prices *** **** is LIKELY TO  BE    TEMPORARY 
+HYP:  but THE dip in inflation associated with GOLD prices HIS LIFE is ****** WHO COVER UP        
+Eval:     S                                    S           I   I       D      S   S     S         
+
+id: (realmalespk05-013)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3390
+Channel: 1
+Scores: (#C #S #D #I) 13 8 0 7
+REF:  THE recent failure ** **** *** of ** THE ORGANIZATION of **** ***** *** PETROLEUM EXPORTING countries to reach an agreement limiting production SUGGESTS prices might FALL SOME 
+HYP:  TWO recent failure HE THEN ALL of IT IS  ASIAN        of BOOK DROVE THE NEXT      FORTY     countries to reach an agreement limiting production SUGGEST  prices might FULL SELF 
+Eval: S                  I  I    I      I  S   S               I    I     I   S         S                                                             S                     S    S    
+
+id: (realmalespk05-014)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3391
+Channel: 1
+Scores: (#C #S #D #I) 7 4 0 2
+REF:  PATTERN processing makes machine **** VISION systems FOR  use in ***** AUTOMATED inspections 
+HYP:  HIGHER  processing makes machine LIST AND    systems WERE use in ORDER RATED     inspections 
+Eval: S                                I    S              S           I     S                     
+
+id: (realmalespk05-015)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3392
+Channel: 1
+Scores: (#C #S #D #I) 18 3 0 4
+REF:  international mobile machines corporation * SOLD one million shares of two dollar and fifty cent **** **** ** CUMULATIVE PREFERRED at twenty five dollars each 
+HYP:  international mobile machines corporation A SHOW one million shares of two dollar and fifty cent CREW WILL DO FOR        FIRST     at twenty five dollars each 
+Eval:                                           I S                                                    I    I    I  S          S                                     
+
+id: (realmalespk05-016)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3393
+Channel: 1
+Scores: (#C #S #D #I) 14 0 0 1
+REF:  proceeds may also be used ** eventually to buy back common shares the company said 
+HYP:  proceeds may also be used TO eventually to buy back common shares the company said 
+Eval:                           I                                                        
+
+id: (realmalespk05-017)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3394
+Channel: 1
+Scores: (#C #S #D #I) 12 9 0 0
+REF:  but those CHARGES AREN'T REQUIRED to be made UNTIL THE  nineteen eighty eight first QUARTER OR  UNDER certain circumstances even LATER 
+HYP:  but those CHANGES ARE    BLOCK    to be made TO    LIVE nineteen eighty eight first COURT   WON THE   certain circumstances even WAIT  
+Eval:           S       S      S                   S     S                                S       S   S                                S     
+
+id: (realmalespk05-018)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3395
+Channel: 1
+Scores: (#C #S #D #I) 13 2 1 0
+REF:  IN   over the counter trading friday IT was QUOTED at twenty five cents a share bid 
+HYP:  THEN over the counter trading friday ** was DID    at twenty five cents a share bid 
+Eval: S                                    D      S                                       
+
+id: (realmalespk05-019)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3396
+Channel: 1
+Scores: (#C #S #D #I) 14 8 0 3
+REF:  ***** EXPENSES FROM the DELAYED nine mile point two *** ** NUCLEAR PLANT ACCOUNTED for two hundred sixty nine million dollars of the WRITE OFF  
+HYP:  SPEND SYSTEM   WITH the LATE    nine mile point two WHO DO A       PLAN  KEPT      for two hundred sixty nine million dollars of the RIGHT WITH 
+Eval: I     S        S        S                           I   I  S       S     S                                                           S     S    
+
+id: (realmalespk05-020)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3397
+Channel: 1
+Scores: (#C #S #D #I) 12 2 0 1
+REF:  proceeds will be added to **** SEARS'S GENERAL funds to reduce its short term borrowings 
+HYP:  proceeds will be added to THIS YEAR'S  DALLAS  funds to reduce its short term borrowings 
+Eval:                           I    S       S                                                 
+
+id: (realmalespk05-021)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3398
+Channel: 1
+Scores: (#C #S #D #I) 15 4 1 1
+REF:  and A   merrill lynch spokesman said all OF his firm's program trading SIMPLY    reflects * REQUESTS from customers FOR  such trading 
+HYP:  and THE merrill lynch spokesman said all ** his firm's program trading CERTAINLY reflects A QUESTION from customers WITH such trading 
+Eval:     S                                    D                             S                  I S                       S                 
+
+id: (realmalespk05-022)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3399
+Channel: 1
+Scores: (#C #S #D #I) 12 0 0 0
+REF:  proceeds will be used for product development working capital and general purposes 
+HYP:  proceeds will be used for product development working capital and general purposes 
+Eval:                                                                                    
+
+id: (realmalespk05-023)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3400
+Channel: 1
+Scores: (#C #S #D #I) 20 1 1 0
+REF:  IN OVER the counter trading friday the company's common closed at ten dollars and twenty five cents a share down fifty cents 
+HYP:  ** NO   the counter trading friday the company's common closed at ten dollars and twenty five cents a share down fifty cents 
+Eval: D  S                                                                                                                         
+
+id: (realmalespk05-024)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3401
+Channel: 1
+Scores: (#C #S #D #I) 4 9 2 0
+REF:  FOR one THING THERE is currently A SHORTAGE OF        CHANNEL CAPACITY AT  many CABLE SYSTEMS 
+HYP:  OFF one ***** BIG   is currently * IS       SHORTAGES GENERAL FAST     NEW many CASES FROM    
+Eval: S       D     S                  D S        S         S       S        S        S     S       
+
+id: (realmalespk05-025)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3402
+Channel: 1
+Scores: (#C #S #D #I) 10 11 0 3
+REF:  **** ***** THE  MINNEAPOLIS MINNESOTA BASED company said the offering will BEGIN IN    september BUT  it *** HASN'T SET  A   record date or PRICE  
+HYP:  MANY APPLE SEEN A           SOVIET    BASE  company said the offering will BE    GIVEN september THAT it HAS HE     SAID THE record date or BREAKS 
+Eval: I    I     S    S           S         S                                    S     S               S       I   S      S    S                  S      
+
+id: (realmalespk05-026)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3403
+Channel: 1
+Scores: (#C #S #D #I) 6 3 1 1
+REF:  THE philadelphia based concern develops and designs ******* ADVANCED TELECOMMUNICATIONS SYSTEMS 
+HYP:  *** philadelphia based concern develops and designs ADVANCE FELT     COMMUNICATIONS     SYSTEM  
+Eval: D                                                   I       S        S                  S       
+
+id: (realmalespk05-027)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3404
+Channel: 1
+Scores: (#C #S #D #I) 14 3 0 1
+REF:  *** DEPARTMENT said the decline in factory jobs was CONCENTRATED IN      motor vehicles and electrical and electronic equipment 
+HYP:  THE PRODUCTS   said the decline in factory jobs was COST         TRADING motor vehicles and electrical and electronic equipment 
+Eval: I   S                                               S            S                                                              
+
+id: (realmalespk05-028)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3405
+Channel: 1
+Scores: (#C #S #D #I) 9 5 0 2
+REF:  we believe program trading is * IMPORTANT AS  a ** SOURCE OF   LIQUIDITY morgan stanley said 
+HYP:  we believe program trading is A BOY       HAS a SO SO     WITH QUOTED    morgan stanley said 
+Eval:                               I S         S     I  S      S    S                             
+
+id: (realmalespk05-029)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3406
+Channel: 1
+Scores: (#C #S #D #I) 14 5 0 1
+REF:  last month ** OVERALL goods producing employment FELL sixty eight thousand AFTER A    thirty two thousand job rise in FEBRUARY 
+HYP:  last month OF WORLD   goods producing employment THAT sixty eight thousand IT    DEBT thirty two thousand job rise in FIGURE   
+Eval:            I  S                                  S                         S     S                                    S        
+
+id: (realmalespk05-030)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3407
+Channel: 1
+Scores: (#C #S #D #I) 16 2 0 1
+REF:  a drop in oil prices could also provide SOME price * RELIEF as it did in nineteen eighty six 
+HYP:  a drop in oil prices could also provide SO   price A WEAK   as it did in nineteen eighty six 
+Eval:                                         S          I S                                       
+
+id: (realmalespk05-031)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3408
+Channel: 1
+Scores: (#C #S #D #I) 13 6 0 3
+REF:  ***** MINING EMPLOYMENT which includes THE oil and gas *** ***** EXTRACTION industry rose three thousand AFTER A   one thousand job rise 
+HYP:  MIGHT BE     EMPLOYED   which includes YOU oil and gas ITS TRACK SHOULD     industry rose three thousand IF    THE one thousand job rise 
+Eval: I     S      S                         S               I   I     S                                       S     S                         
+
+id: (realmalespk05-032)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3409
+Channel: 1
+Scores: (#C #S #D #I) 12 4 1 2
+REF:  *** SEARS HAS APPROVED the buy back OF as many as forty million of its common shares ** OUTSTANDING 
+HYP:  SEE IS    AS  PROVE    the buy back ** as many as forty million of its common shares AT STATE       
+Eval: I   S     S   S                     D                                                I  S           
+
+id: (realmalespk05-033)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3410
+Channel: 1
+Scores: (#C #S #D #I) 15 2 0 0
+REF:  dean witter reynolds incorporated goldman sachs and company and morgan stanley and company ARE HANDLING the sale 
+HYP:  dean witter reynolds incorporated goldman sachs and company and morgan stanley and company A   HEAVILY  the sale 
+Eval:                                                                                            S   S                 
+
+id: (realmalespk05-034)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3411
+Channel: 1
+Scores: (#C #S #D #I) 13 2 0 0
+REF:  as of june thirtieth sears HAD three hundred forty five POINT eight million shares outstanding 
+HYP:  as of june thirtieth sears AT  three hundred forty five CAN'T eight million shares outstanding 
+Eval:                            S                            S                                      
+
+id: (realmalespk05-035)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3412
+Channel: 1
+Scores: (#C #S #D #I) 12 5 2 1
+REF:  the RETAILER SAID   IT     OFFERED FOR sale two hundred million dollars IN notes due august first nineteen ninety ***** SIX  
+HYP:  the ******** RETAIL SECOND OFFER   TO  sale two hundred million dollars ** notes due august first nineteen ninety STATE HAVE 
+Eval:     D        S      S      S       S                                    D                                         I     S    
+
+id: (realmalespk05-036)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3413
+Channel: 1
+Scores: (#C #S #D #I) 5 9 1 1
+REF:  MOST  EUROPEAN traders were REPORTEDLY STAYING out the ACTION UNTIL   THE  trade *** FIGURES ARE RELEASED 
+HYP:  WHILE SERVING  traders were FORTY      STAY    out the ****** ACTIONS WILL trade THE VIEWS   OR  LEASE    
+Eval: S     S                     S          S               D      S       S          I   S       S   S        
+
+id: (realmalespk05-037)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3414
+Channel: 1
+Scores: (#C #S #D #I) 9 8 1 1
+REF:  regulators aren't ******* ALLOWING THE UTILITY AN  EIGHTEEN percent OWNER IN   the project to pass THAT  ALONG to customers 
+HYP:  regulators aren't ALLOWED NEW      JOB IN      MAY G.       percent ***** OVER the project to pass ADDED WILL  to customers 
+Eval:                   I       S        S   S       S   S                D     S                        S     S                  
+
+id: (realmalespk05-038)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3415
+Channel: 1
+Scores: (#C #S #D #I) 12 4 0 1
+REF:  this time around wall street firms ARGUED that program trading has its USES and ******** IS     MISUNDERSTOOD 
+HYP:  this time around wall street firms ONLY   that program trading has its USE  and BUSINESS OTHERS DO            
+Eval:                                    S                                   S        I        S      S             
+
+id: (realmalespk05-039)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3416
+Channel: 1
+Scores: (#C #S #D #I) 8 6 1 2
+REF:  *** CONSTRUCTION EMPLOYMENT fell forty seven thousand AFTER A   FIFTEEN thousand job decline THE month *** BEFORE 
+HYP:  WHO STRUCTURE    EMPLOYED   fell forty seven thousand IF    THE FIFTY   thousand job decline *** month WHO FLEW   
+Eval: I   S            S                                    S     S   S                            D         I   S      
+
+id: (realmalespk05-040)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3417
+Channel: 1
+Scores: (#C #S #D #I) 1 2 1 0
+REF:  i WANT A      JOB 
+HYP:  i **** WANTED JOE 
+Eval:   D    S      S   
+
+id: (realmalespk05-041)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3418
+Channel: 1
+Scores: (#C #S #D #I) 23 2 0 1
+REF:  *** THE TWO financial services concerns said they previously agreed to end the agreement if the transaction wasn't completed by march twenty fourth nineteen eighty seven 
+HYP:  BUT TO  A   financial services concerns said they previously agreed to end the agreement if the transaction wasn't completed by march twenty fourth nineteen eighty seven 
+Eval: I   S   S                                                                                                                                                                 
+
+id: (realmalespk05-042)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3419
+Channel: 1
+Scores: (#C #S #D #I) 2 1 1 0
+REF:  I'M A     good worker 
+HYP:  *** OTHER good worker 
+Eval: D   S                 
+
+id: (realmalespk05-043)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3420
+Channel: 1
+Scores: (#C #S #D #I) 22 6 0 1
+REF:  the company said its quarterly cash DIVIDEND OF  forty cents a share will be paid BEFORE THE  SPLIT on september tenth to stock of record on **** AUGUST nineteenth 
+HYP:  the company said its quarterly cash GIVEN    THE forty cents a share will be paid FOR    THIS WITH  on september tenth to stock of record on WILL THIS   nineteenth 
+Eval:                                     S        S                                    S      S    S                                              I    S                 
+
+id: (realmalespk05-044)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3421
+Channel: 1
+Scores: (#C #S #D #I) 4 3 0 1
+REF:  **** FRONTIER savings is based in LAS  VEGAS  
+HYP:  FROM HERE     savings is based in RULE STATES 
+Eval: I    S                            S    S      
+
+id: (realmalespk05-045)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3422
+Channel: 1
+Scores: (#C #S #D #I) 21 3 2 0
+REF:  A company spokesman said that after THE  SPLIT the quarterly dividend will be reduced to ten cents a share continuing the current cash PAY OUT    rate 
+HYP:  * company spokesman said that after THIS WITH  the quarterly dividend will be reduced to ten cents a share continuing the current cash *** PAYOUT rate 
+Eval: D                                   S    S                                                                                             D   S           
+
+id: (realmalespk05-046)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3423
+Channel: 1
+Scores: (#C #S #D #I) 4 3 0 0
+REF:  everything is DONE MR LEVY   said yesterday 
+HYP:  everything is GUNS TO REVIEW said yesterday 
+Eval:               S    S  S                     
+
+id: (realmalespk05-047)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3424
+Channel: 1
+Scores: (#C #S #D #I) 16 7 2 2
+REF:  in composite TRAINING on THE new york stock ****** **** EXCHANGE YESTERDAY DUN  CLOSED AT fifty one DOLLARS AND      fifty cents up one dollar and fifty cents 
+HYP:  in composite TRADING  on *** new york stock SHOULD JUST A        DAY       THAT CLOSE  TO fifty one ******* THOUSAND fifty cents up one dollar and fifty cents 
+Eval:              S           D                  I      I    S        S         S    S      S            D       S                                                  
+
+id: (realmalespk05-048)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3425
+Channel: 1
+Scores: (#C #S #D #I) 8 1 1 0
+REF:  but she insists i don't want to go ON WELFARE 
+HYP:  but she insists i don't want to go ** MOTOR   
+Eval:                                    D  S       
+
+id: (realmalespk05-049)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3426
+Channel: 1
+Scores: (#C #S #D #I) 17 2 0 0
+REF:  yesterday the dollar eased slightly against most major foreign currencies CHEERING some stock market PLAYERS with its relative stability 
+HYP:  yesterday the dollar eased slightly against most major foreign currencies JURY     some stock market PLAYS   with its relative stability 
+Eval:                                                                           S                          S                                   
+
+id: (realmalespk05-050)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3427
+Channel: 1
+Scores: (#C #S #D #I) 7 1 0 1
+REF:  **** ALSO two banks boosted foreign loan loss reserves 
+HYP:  WALL SO   two banks boosted foreign loan loss reserves 
+Eval: I    S                                                 
+
+id: (realmalespk05-051)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3428
+Channel: 1
+Scores: (#C #S #D #I) 18 3 2 0
+REF:  THE investors expect TO PROFIT ON      the difference between the price REALIZED in the sale and the cost of replacing the borrowed shares 
+HYP:  *** investors expect ** THE    PROBLEM the difference between the price REALIZE  in the sale and the cost of replacing the borrowed shares 
+Eval: D                    D  S      S                                        S                                                                  
+
+id: (realmalespk05-052)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3429
+Channel: 1
+Scores: (#C #S #D #I) 3 4 1 3
+REF:  just **** BEFORE  CHRISTMAS SHE finally *** *** APPLIED for WELFARE 
+HYP:  just WERE FOCUSED RACE      TO  finally WHY THE WELL    for ******* 
+Eval:      I    S       S         S           I   I   S           D       
+
+id: (realmalespk05-053)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3430
+Channel: 1
+Scores: (#C #S #D #I) 18 3 0 0
+REF:  spokesmen for both companies said they ended the negotiations because IT APPEARED that the merger WOULDN'T be complete by that date 
+HYP:  spokesmen for both companies said they ended the negotiations because OF P.       that the merger WOULD    be complete by that date 
+Eval:                                                                       S  S                        S                                 
+
+id: (realmalespk05-054)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3431
+Channel: 1
+Scores: (#C #S #D #I) 8 2 2 1
+REF:  THE CHIEF trader in new york for A tokyo ** BASED bank agrees 
+HYP:  *** JUST  trader in new york for * tokyo BY ITS   bank agrees 
+Eval: D   S                            D       I  S                 
+
+id: (realmalespk05-055)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3432
+Channel: 1
+Scores: (#C #S #D #I) 11 7 2 0
+REF:  the DOLLAR IS       STILL KEY said JACK     P   BAKER head of block trading at shearson lehman brothers incorporated NEW YORK   
+HYP:  the ****** DOLLAR'S SPOKE E.  said JAPANESE BIG THE   head of block trading at shearson lehman brothers incorporated *** YOU'LL 
+Eval:     D      S        S     S        S        S   S                                                                    D   S      
+
+id: (realmalespk05-056)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3433
+Channel: 1
+Scores: (#C #S #D #I) 5 5 2 1
+REF:  was * IMPORTANT is WE SAVED this company and WE ARE REBUILDING IT       
+HYP:  was A BOARD     is RE SAY   this company and ** *** MARRIED    BUILDING 
+Eval:     I S            S  S                      D  D   S          S        
+
+id: (realmalespk05-057)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3434
+Channel: 1
+Scores: (#C #S #D #I) 18 1 1 0
+REF:  IN national over the counter TRAINING information resources closed at twenty one dollars up two point one two five dollars 
+HYP:  ** national over the counter TRADING  information resources closed at twenty one dollars up two point one two five dollars 
+Eval: D                            S                                                                                             
+
+id: (realmalespk05-058)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3435
+Channel: 1
+Scores: (#C #S #D #I) 7 5 0 1
+REF:  ** EVEN  IF   japanese investors DON'T  sell dollars somebody else will HE SAYS 
+HYP:  IT WOULD HAVE japanese investors BOUGHT sell dollars somebody else will BE SETS 
+Eval: I  S     S                       S                                      S  S    
+
+id: (realmalespk05-059)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3436
+Channel: 1
+Scores: (#C #S #D #I) 0 0 20 0
+REF:  FOR ITS EFFORTS DREXEL WILL GET ACCORDING TO WESTERN UNION'S PROXY STATEMENT A TWENTY FIVE POINT FOUR MILLION DOLLAR FEE 
+HYP:  *** *** ******* ****** **** *** ********* ** ******* ******* ***** ********* * ****** **** ***** **** ******* ****** *** 
+Eval: D   D   D       D      D    D   D         D  D       D       D     D         D D      D    D     D    D       D      D   
+
+id: (realmalespk05-060)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3437
+Channel: 1
+Scores: (#C #S #D #I) 10 1 1 0
+REF:  meanwhile mexico has DONE better than other big debtors IN winning concessions 
+HYP:  meanwhile mexico has BEEN better than other big debtors ** winning concessions 
+Eval:                      S                                  D                      
+
+id: (realmalespk05-061)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3438
+Channel: 1
+Scores: (#C #S #D #I) 11 7 0 3
+REF:  regional banks ** APPEAR WILLING to accept big losses UNDER the **** *** MEXICAN DEBT  PLAN PUTTING pressure on big banks 
+HYP:  regional banks OF THE    ROY     to accept big losses ON    the NEXT CAN BET     PLANE BUT  IT      pressure on big banks 
+Eval:                I  S      S                            S         I    I   S       S     S    S                             
+
+id: (realmalespk05-062)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3439
+Channel: 1
+Scores: (#C #S #D #I) 7 8 0 1
+REF:  **** TRADERS said the reason BEHIND THE FIRST HOUR  focus is the action IN  THE DOLLAR 
+HYP:  BACK TRADE   said the reason LINE   OF  THEIR STYLE focus is the action AND L.  BANK   
+Eval: I    S                       S      S   S     S                         S   S   S      
+
+id: (realmalespk05-063)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3440
+Channel: 1
+Scores: (#C #S #D #I) 14 3 0 2
+REF:  investors use short interest figures to *** **** DETERMINE HOW  MUCH short selling is going on in individual stocks 
+HYP:  investors use short interest figures to THE FAIR AND       HAVE CUT  short selling is going on in individual stocks 
+Eval:                                         I   I    S         S    S                                                   
+
+id: (realmalespk05-064)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3441
+Channel: 1
+Scores: (#C #S #D #I) 11 3 2 0
+REF:  A short SALE IS    A  sale of borrowed stock BY  investors expecting its price to drop 
+HYP:  * short **** SALES OF sale of borrowed stock WHY investors expecting its price to drop 
+Eval: D       D    S     S                         S                                         
+
+id: (realmalespk05-065)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3442
+Channel: 1
+Scores: (#C #S #D #I) 11 5 0 1
+REF:  LA   Z  boy's stock split is payable **** SEPTEMBER FOURTEENTH to stock of record on august NINETEEN   
+HYP:  LATE Z. boy's stock split is payable STEP WITH      FOURTEEN   to stock of record on august NINETEENTH 
+Eval: S    S                               I    S         S                                       S          
+
+id: (realmalespk05-066)
+Labels: <o,m>
+File: realmalespk05-uswsj5kdevmalespk05snt3443
+Channel: 1
+Scores: (#C #S #D #I) 8 4 1 2
+REF:  THE TREND  is inevitable UNLESS the government has * *** AUTHORITY OVER  the whole world 
+HYP:  *** THREAT is inevitable LESS   the government has A BAR THE       OTHER the whole world 
+Eval: D   S                    S                         I I   S         S                     
+
+Speaker sentences   5:  realmalespk06   #utts: 68
+id: (realmalespk06-000)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3584
+Channel: 1
+Scores: (#C #S #D #I) 1 3 0 3
+REF:  ** THE stock **** *** PRICE SANK  
+HYP:  I. R.  stock HAVE SAM AND   <UNK> 
+Eval: I  S         I    I   S     S     
+
+id: (realmalespk06-001)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3585
+Channel: 1
+Scores: (#C #S #D #I) 16 7 0 5
+REF:  THE  panel made several other recommendations ** CONCERNING program trading including consolidating regulatory *** ******* AUTHORITY OVER all ** U  S  FINANCIAL markets *** under one government agency 
+HYP:  HAVE panel made several other recommendations IN SERVING    program trading including consolidating regulatory AND ALREADY HOLDER    OF   all U. S. AN ACTUAL    markets AND under one government agency 
+Eval: S                                             I  S                                                             I   I       S         S        I  S  S  S                 I                               
+
+id: (realmalespk06-002)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3586
+Channel: 1
+Scores: (#C #S #D #I) 2 2 0 0
+REF:  OUR   customers want THEM 
+HYP:  POWER customers want TO   
+Eval: S                    S    
+
+id: (realmalespk06-003)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3587
+Channel: 1
+Scores: (#C #S #D #I) 13 12 0 5
+REF:  *** ROBERT FARRELL director of **** ******* TECHNICAL analysis AT   merrill lynch TAKES DOW    theory into consideration ** WHEN STUDYING the market BUT IT'S not his sole ******** FORECASTING TOOL 
+HYP:  FOR OTHER  FILED   director of HAVE VEHICLE FOR       analysis HAVE merrill lynch FIXED DALLAS theory into consideration OF THE  STUDY    the market FOR ITS  not his sole FORECAST AND         IT   
+Eval: I   S      S                   I    I       S                  S                  S     S                                I  S    S                   S   S                 I        S           S    
+
+id: (realmalespk06-004)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3588
+Channel: 1
+Scores: (#C #S #D #I) 4 0 0 0
+REF:  the offer expires friday 
+HYP:  the offer expires friday 
+Eval:                          
+
+id: (realmalespk06-005)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3589
+Channel: 1
+Scores: (#C #S #D #I) 24 2 0 1
+REF:  and it said traders should be able to deliver actual stocks to SETTLE  futures contract obligations stock index futures currently are settled in cash * UPON    expiration 
+HYP:  and it said traders should be able to deliver actual stocks to SEVERAL futures contract obligations stock index futures currently are settled in cash A CURRENT expiration 
+Eval:                                                                S                                                                                      I S                  
+
+id: (realmalespk06-006)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3590
+Channel: 1
+Scores: (#C #S #D #I) 4 2 0 0
+REF:  these powers are important TO   US  
+HYP:  these powers are important ROSE WHO 
+Eval:                            S    S   
+
+id: (realmalespk06-007)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3591
+Channel: 1
+Scores: (#C #S #D #I) 25 0 0 0
+REF:  as previously reported thompson has a tender offer outstanding to buy thirty one point five million southland common shares for seventy seven dollars a share 
+HYP:  as previously reported thompson has a tender offer outstanding to buy thirty one point five million southland common shares for seventy seven dollars a share 
+Eval:                                                                                                                                                               
+
+id: (realmalespk06-008)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3592
+Channel: 1
+Scores: (#C #S #D #I) 0 0 7 0
+REF:  HE BEGAN FEARING A POSSIBLE DIVIDEND CUT 
+HYP:  ** ***** ******* * ******** ******** *** 
+Eval: D  D     D       D D        D        D   
+
+id: (realmalespk06-009)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3593
+Channel: 1
+Scores: (#C #S #D #I) 19 2 1 1
+REF:  THE following officers directors and large stockholders of companies reported changes in holdings under the securities exchange act OF  nineteen thirty *** FOUR 
+HYP:  *** following officers directors and large stockholders of companies reported changes in holdings under the securities exchange act HAD nineteen thirty HER BACK 
+Eval: D                                                                                                                                   S                   I   S    
+
+id: (realmalespk06-010)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3594
+Channel: 1
+Scores: (#C #S #D #I) 1 10 0 0
+REF:  IT MIGHT BE    A   YEAR  OR MORE before WE     GET PAID   
+HYP:  I  HAVE  HEARD WHO OWNER AN HOUR before LIFTED PAY HIGHER 
+Eval: S  S     S     S   S     S  S           S      S   S      
+
+id: (realmalespk06-011)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3595
+Channel: 1
+Scores: (#C #S #D #I) 0 0 25 0
+REF:  CENTERIOR ENERGY CORPORATION CLEVELAND SAID IT BEGAN A PUBLIC OFFERING OF FOUR MILLION COMMON SHARES AT TWENTY THREE POINT ONE TWO FIVE DOLLARS A SHARE 
+HYP:  ********* ****** *********** ********* **** ** ***** * ****** ******** ** **** ******* ****** ****** ** ****** ***** ***** *** *** **** ******* * ***** 
+Eval: D         D      D           D         D    D  D     D D      D        D  D    D       D      D      D  D      D     D     D   D   D    D       D D     
+
+id: (realmalespk06-012)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3596
+Channel: 1
+Scores: (#C #S #D #I) 7 1 0 2
+REF:  *** income rose zero point four percent LAST month **** 
+HYP:  AND income rose zero point four percent PAST month HIGH 
+Eval: I                                       S          I    
+
+id: (realmalespk06-013)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3597
+Channel: 1
+Scores: (#C #S #D #I) 15 9 0 3
+REF:  he points out that since the october **** ** NINETEENTH PLUNGE the DOW    jones transportation average has ****** DROPPED BELOW the low IT    POSTED DURING THE   crash 
+HYP:  he points out that since the october LAKE TO FLY        EACH   the DOLLAR jones transportation average has STRUCK FOR     LOW   the low FIFTH CLOSE  TO     DOING crash 
+Eval:                                      I    I  S          S          S                                       I      S       S             S     S      S      S           
+
+id: (realmalespk06-014)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3598
+Channel: 1
+Scores: (#C #S #D #I) 7 0 0 0
+REF:  morgan stanley and company is lead underwriter 
+HYP:  morgan stanley and company is lead underwriter 
+Eval:                                                
+
+id: (realmalespk06-015)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3599
+Channel: 1
+Scores: (#C #S #D #I) 23 1 1 0
+REF:  IT has since rebounded to seven hundred forty five point five seven where IT closed friday losing four point five seven points in the session 
+HYP:  HE has since rebounded to seven hundred forty five point five seven where ** closed friday losing four point five seven points in the session 
+Eval: S                                                                         D                                                                   
+
+id: (realmalespk06-016)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3600
+Channel: 1
+Scores: (#C #S #D #I) 0 0 9 0
+REF:  CHINA HAS BEEN A PRINCIPAL ARMS SUPPLIER FOR IRAN 
+HYP:  ***** *** **** * ********* **** ******** *** **** 
+Eval: D     D   D    D D         D    D        D   D    
+
+id: (realmalespk06-017)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3601
+Channel: 1
+Scores: (#C #S #D #I) 20 1 0 0
+REF:  despite the unexpected strength economists say spending WILL slow soon due to sluggish income growth rising prices and high consumer debt 
+HYP:  despite the unexpected strength economists say spending WAS  slow soon due to sluggish income growth rising prices and high consumer debt 
+Eval:                                                         S                                                                                 
+
+id: (realmalespk06-018)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3602
+Channel: 1
+Scores: (#C #S #D #I) 10 1 0 0
+REF:  and we CAN'T tell you when they're going to be there 
+HYP:  and we CAN   tell you when they're going to be there 
+Eval:        S                                             
+
+id: (realmalespk06-019)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3603
+Channel: 1
+Scores: (#C #S #D #I) 16 3 0 3
+REF:  yesterday the dollar eased slightly against most major foreign currencies *** CHEERING SOME stock market PLAYERS  with its relative stability ** **** 
+HYP:  yesterday the dollar eased slightly against most major foreign currencies AND SHARES   OF   stock market ACQUIRES with its relative stability OF HIGH 
+Eval:                                                                           I   S        S                 S                                    I  I    
+
+id: (realmalespk06-020)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3604
+Channel: 1
+Scores: (#C #S #D #I) 1 11 0 1
+REF:  ***** THE  QUESTION IS WHETHER U  S       BANKS WILL  BE ALLOWED to COMPETE 
+HYP:  FRESH FROM FURTHER  IF U.      S. THRIFTS WITH  ABOUT A  TOUGH   to SHIP    
+Eval: I     S    S        S  S       S  S       S     S     S  S          S       
+
+id: (realmalespk06-021)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3605
+Channel: 1
+Scores: (#C #S #D #I) 17 3 1 1
+REF:  unless otherwise noted changes involved direct holdings of common stock and took place **** IN     OCTOBER AND november OF nineteen eighty seven 
+HYP:  unless otherwise noted changes involved direct holdings of common stock and took place THAT TWELVE OR      IN  november ** nineteen eighty seven 
+Eval:                                                                                        I    S      S       S            D                        
+
+id: (realmalespk06-022)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3606
+Channel: 1
+Scores: (#C #S #D #I) 0 0 15 0
+REF:  TRADERS SAID THE REASON BEHIND THE FIRST HOUR FOCUS IS THE ACTION IN THE DOLLAR 
+HYP:  ******* **** *** ****** ****** *** ***** **** ***** ** *** ****** ** *** ****** 
+Eval: D       D    D   D      D      D   D     D    D     D  D   D      D  D   D      
+
+id: (realmalespk06-023)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3607
+Channel: 1
+Scores: (#C #S #D #I) 0 0 21 0
+REF:  IN NEW YORK STOCK EXCHANGE COMPOSITE TRADING FRIDAY THE COMPANY'S STOCK CLOSED AT TWENTY THREE POINT ONE TWO FIVE DOLLARS UNCHANGED 
+HYP:  ** *** **** ***** ******** ********* ******* ****** *** ********* ***** ****** ** ****** ***** ***** *** *** **** ******* ********* 
+Eval: D  D   D    D     D        D         D       D      D   D         D     D      D  D      D     D     D   D   D    D       D         
+
+id: (realmalespk06-024)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3608
+Channel: 1
+Scores: (#C #S #D #I) 0 0 16 0
+REF:  CONSUMER SPENDING SURGED ZERO POINT SEVEN PERCENT IN JUNE LED BY A JUMP IN AUTO SALES 
+HYP:  ******** ******** ****** **** ***** ***** ******* ** **** *** ** * **** ** **** ***** 
+Eval: D        D        D      D    D     D     D       D  D    D   D  D D    D  D    D     
+
+id: (realmalespk06-025)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3609
+Channel: 1
+Scores: (#C #S #D #I) 17 2 0 3
+REF:  there were four hundred eighty two declining issues three hundred forty nine ** *** ADVANCING and one hundred ninety eight ** UNCHANGED 
+HYP:  there were four hundred eighty two declining issues three hundred forty nine OF THE BENTSEN   and one hundred ninety eight ON CHANGE    
+Eval:                                                                              I  I   S                                      I  S         
+
+id: (realmalespk06-026)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3610
+Channel: 1
+Scores: (#C #S #D #I) 10 4 1 1
+REF:  the five permanent members are the ** U  S    BRITAIN FRANCE  china and THE soviet union 
+HYP:  the five permanent members are the U. S. RATE WILL    FRIENDS china and *** soviet union 
+Eval:                                    I  S  S    S       S                 D                
+
+id: (realmalespk06-027)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3611
+Channel: 1
+Scores: (#C #S #D #I) 17 4 0 0
+REF:  the dollar is still the key said JACK P   BAKER   head of block trading at shearson lehman brothers incorporated new YORK   
+HYP:  the dollar is still the key said JET  KEY BAKER'S head of block trading at shearson lehman brothers incorporated new YORK'S 
+Eval:                                  S    S   S                                                                          S      
+
+id: (realmalespk06-028)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3612
+Channel: 1
+Scores: (#C #S #D #I) 18 1 0 1
+REF:  that's not to say he is looking for a rebound *** in the next couple of weeks or even MONTHS 
+HYP:  that's not to say he is looking for a rebound OWN in the next couple of weeks or even LOANS  
+Eval:                                               I                                       S      
+
+id: (realmalespk06-029)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3613
+Channel: 1
+Scores: (#C #S #D #I) 18 3 0 3
+REF:  the nikkei ***** INDEX added eighty point OH   six points to finish AT   twenty eight thousand *** two hundred nine ** point four two 
+HYP:  the nikkei MOVED X.    added eighty point FOUR six points to finish HAVE twenty eight thousand THE two hundred nine IN point four two 
+Eval:            I     S                        S                         S                          I                    I                 
+
+id: (realmalespk06-030)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3614
+Channel: 1
+Scores: (#C #S #D #I) 6 8 0 4
+REF:  IT also proposed ****** * ***** ** RAISING MARGIN AND CAPITAL REQUIREMENTS for TRADING ON   the futures exchanges 
+HYP:  IF also proposed FREEZE A LARGE IF IN      HALF   OF  THE     CLIENTS      for TRADED  FUND the futures exchanges 
+Eval: S                I      I I     I  S       S      S   S       S                S       S                          
+
+id: (realmalespk06-031)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3615
+Channel: 1
+Scores: (#C #S #D #I) 18 0 0 0
+REF:  volume rose to an estimated one billion shares from an estimated seven hundred fifty million shares on thursday 
+HYP:  volume rose to an estimated one billion shares from an estimated seven hundred fifty million shares on thursday 
+Eval:                                                                                                                 
+
+id: (realmalespk06-032)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3616
+Channel: 1
+Scores: (#C #S #D #I) 6 9 0 2
+REF:  U  S  analysts AREN'T CERTAIN whether the soviets and ******* CHINA WILL SUPPORT the ***** EMBARGO RESOLUTION 
+HYP:  U. S. analysts ARE    SIGNS   whether the soviets and HAVEN'T PUTS  IT   PUTS    the TRUST ARE     WITH       
+Eval: S  S           S      S                               I       S     S    S           I     S       S          
+
+id: (realmalespk06-033)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3617
+Channel: 1
+Scores: (#C #S #D #I) 10 5 0 1
+REF:  ****** COMPANIES are listed WHERE transactions generally aggregate TEN    thousand shares OR  one hundred thousand DOLLARS 
+HYP:  HEALTH IS        are listed FOR   transactions generally aggregate HEADED thousand shares FOR one hundred thousand OFFS    
+Eval: I      S                    S                                      S                      S                        S       
+
+id: (realmalespk06-034)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3618
+Channel: 1
+Scores: (#C #S #D #I) 0 0 15 0
+REF:  THOSE IDENTIFIED AS BENEFICIAL OWNERS HOLD AT LEAST TEN PERCENT OF A COMPANY'S EQUITY SECURITIES 
+HYP:  ***** ********** ** ********** ****** **** ** ***** *** ******* ** * ********* ****** ********** 
+Eval: D     D          D  D          D      D    D  D     D   D       D  D D         D      D          
+
+id: (realmalespk06-035)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3619
+Channel: 1
+Scores: (#C #S #D #I) 16 6 0 1
+REF:  we could distribute the bonds in japan in europe in the U  K  but not in the ** U  S   MR   LABRECQUE said 
+HYP:  we could distribute the bonds in japan in europe in the U. K. but not in the U. S. MR. LOVE THE       said 
+Eval:                                                         S  S                 I  S  S   S    S              
+
+id: (realmalespk06-036)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3620
+Channel: 1
+Scores: (#C #S #D #I) 3 13 0 6
+REF:  * *** ****** ****** COMMON SHARES THAT  AREN'T PURCHASED WILL BE      EXCHANGED for the ***** **** COMBINATION OF  NEW  PREFERRED AND cash 
+HYP:  A HUD SHOULD OTHERS SAID   MY     FIRST JUST   FOR       THE  HISTORY AND       for the POWER THAN ACTION      PUT MOVE THIRD     OF  cash 
+Eval: I I   I      I      S      S      S     S      S         S    S       S                 I     I    S           S   S    S         S        
+
+id: (realmalespk06-037)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3621
+Channel: 1
+Scores: (#C #S #D #I) 15 3 0 0
+REF:  the THING THAT motivates wall street IS short term earnings results and they're just not there he says 
+HYP:  the FILM  AND  motivates wall street IN short term earnings results and they're just not there he says 
+Eval:     S     S                          S                                                                 
+
+id: (realmalespk06-038)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3622
+Channel: 1
+Scores: (#C #S #D #I) 17 1 0 1
+REF:  worst of all he says **** SOMEBODY might have bought the company with the intention of breaking it up 
+HYP:  worst of all he says SOME MONEY    might have bought the company with the intention of breaking it up 
+Eval:                      I    S                                                                           
+
+id: (realmalespk06-039)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3623
+Channel: 1
+Scores: (#C #S #D #I) 0 0 15 0
+REF:  PROCEEDS WILL BE USED TO FINANCE THE ELECTRIC UTILITY'S CONSTRUCTION PROGRAM AND FOR GENERAL PURPOSES 
+HYP:  ******** **** ** **** ** ******* *** ******** ********* ************ ******* *** *** ******* ******** 
+Eval: D        D    D  D    D  D       D   D        D         D            D       D   D   D       D        
+
+id: (realmalespk06-040)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3624
+Channel: 1
+Scores: (#C #S #D #I) 4 3 0 2
+REF:  ** THEY vote on A   sense of ***** LEADERSHIP 
+HYP:  IF C.   vote on THE sense of REACH <UNK>      
+Eval: I  S            S            I     S          
+
+id: (realmalespk06-041)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3625
+Channel: 1
+Scores: (#C #S #D #I) 0 0 27 0
+REF:  ALL THE SHARES TENDERED HAVE AN INDICATED VALUE OF ABOUT FIVE HUNDRED THIRTY EIGHT POINT FIVE MILLION CANADIAN DOLLARS FOUR HUNDRED THIRTY EIGHT MILLION U S DOLLARS 
+HYP:  *** *** ****** ******** **** ** ********* ***** ** ***** **** ******* ****** ***** ***** **** ******* ******** ******* **** ******* ****** ***** ******* * * ******* 
+Eval: D   D   D      D        D    D  D         D     D  D     D    D       D      D     D     D    D       D        D       D    D       D      D     D       D D D       
+
+id: (realmalespk06-042)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3626
+Channel: 1
+Scores: (#C #S #D #I) 2 5 0 0
+REF:  WHAT   CAN  the federal RESERVE  DO   NOW 
+HYP:  SWITCH FROM the federal SERVICES JUNE US  
+Eval: S      S                S        S    S   
+
+id: (realmalespk06-043)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3627
+Channel: 1
+Scores: (#C #S #D #I) 27 1 0 0
+REF:  domestic cars accounted for seventy three point five percent of april auto sales WHILE the import share grew one point five percent to twenty six point five percent 
+HYP:  domestic cars accounted for seventy three point five percent of april auto sales BY    the import share grew one point five percent to twenty six point five percent 
+Eval:                                                                                  S                                                                                   
+
+id: (realmalespk06-044)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3628
+Channel: 1
+Scores: (#C #S #D #I) 4 3 0 1
+REF:  ALL  settlement talks ***** CEASED AFTER the filing 
+HYP:  HALL settlement talks SUITS HALF   TO    the filing 
+Eval: S                     I     S      S                
+
+id: (realmalespk06-045)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3629
+Channel: 1
+Scores: (#C #S #D #I) 26 2 0 0
+REF:  prior to the filing the company said it had been attempting to settle its debt with the creditors AND to gain additional bank financing to continue GOING   operations 
+HYP:  prior to the filing the company said it had been attempting to settle its debt with the creditors CAN to gain additional bank financing to continue GROWING operations 
+Eval:                                                                                                   S                                                 S                  
+
+id: (realmalespk06-046)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3630
+Channel: 1
+Scores: (#C #S #D #I) 7 2 0 1
+REF:  *** I   prefer not to SAY  anything more than that 
+HYP:  BUT I'D prefer not to SAVE anything more than that 
+Eval: I   S                 S                            
+
+id: (realmalespk06-047)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3631
+Channel: 1
+Scores: (#C #S #D #I) 19 2 1 2
+REF:  dofasco hamilton ontario said about three point three million convertible preferred shares about eighty six percent OF THE  total ** ***** OUTSTANDING were tendered 
+HYP:  dofasco hamilton ontario said about three point three million convertible preferred shares about eighty six percent ** WITH total UP STAND IN          were tendered 
+Eval:                                                                                                                     D  S          I  I     S                         
+
+id: (realmalespk06-048)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3632
+Channel: 1
+Scores: (#C #S #D #I) 8 1 0 2
+REF:  ** the offers for both classes of stock EXPIRED friday * 
+HYP:  AT the offers for both classes of stock EXPIRE  friday A 
+Eval: I                                       S              I 
+
+id: (realmalespk06-049)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3633
+Channel: 1
+Scores: (#C #S #D #I) 20 7 0 2
+REF:  *** both companies OFFERED dealers cash incentives during the month nissan ON      three OF  its best selling cars and *** MITSUBISHI ON       ALL BUT one of its passenger cars 
+HYP:  OUR both companies OFFER   dealers cash incentives during the month nissan HUNDRED three AND its best selling cars and ITS OF         REACHING ONE OLD one of its passenger cars 
+Eval: I                  S                                                       S             S                             I   S          S        S   S                             
+
+id: (realmalespk06-050)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3634
+Channel: 1
+Scores: (#C #S #D #I) 9 2 0 0
+REF:  people DON'T  VOTE primarily on the basis of issues he says 
+HYP:  people THOUGH BOTH primarily on the basis of issues he says 
+Eval:        S      S                                             
+
+id: (realmalespk06-051)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3635
+Channel: 1
+Scores: (#C #S #D #I) 24 0 0 0
+REF:  but consumers generally would have another month until credit card bills came due and considerably more time if they were willing to pay interest 
+HYP:  but consumers generally would have another month until credit card bills came due and considerably more time if they were willing to pay interest 
+Eval:                                                                                                                                                   
+
+id: (realmalespk06-052)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3636
+Channel: 1
+Scores: (#C #S #D #I) 8 2 0 0
+REF:  the other was mitsubishi motors corporation's U  S  sales operation 
+HYP:  the other was mitsubishi motors corporation's U. S. sales operation 
+Eval:                                               S  S                  
+
+id: (realmalespk06-053)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3637
+Channel: 1
+Scores: (#C #S #D #I) 20 3 2 0
+REF:  MR  greenspan appears to believe that the best course IS to proceed with A   cautious move toward ease AND TO   hope for a soft landing 
+HYP:  MR. greenspan appears to believe that the best course ** to proceed with THE cautious move toward ease *** INTO hope for a soft landing 
+Eval: S                                                     D                  S                             D   S                            
+
+id: (realmalespk06-054)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3638
+Channel: 1
+Scores: (#C #S #D #I) 10 4 0 1
+REF:  ** NEWS of the F  T  C  announcement was made after the close of trading 
+HYP:  WE WAS  of the F. T. C. announcement was made after the close of trading 
+Eval: I  S           S  S  S                                                   
+
+id: (realmalespk06-055)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3639
+Channel: 1
+Scores: (#C #S #D #I) 0 0 21 0
+REF:  ITS DECLINE WAS APPARENTLY SPLIT BY FORD CHRYSLER AND HONDA MOTOR COMPANY WHOSE MARKET SHARES EACH GREW ONE POINT ONE PERCENT 
+HYP:  *** ******* *** ********** ***** ** **** ******** *** ***** ***** ******* ***** ****** ****** **** **** *** ***** *** ******* 
+Eval: D   D       D   D          D     D  D    D        D   D     D     D       D     D      D      D    D    D   D     D   D       
+
+id: (realmalespk06-056)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3640
+Channel: 1
+Scores: (#C #S #D #I) 13 0 0 0
+REF:  my position on contra aid isn't something that's going to lose an election 
+HYP:  my position on contra aid isn't something that's going to lose an election 
+Eval:                                                                            
+
+id: (realmalespk06-057)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3641
+Channel: 1
+Scores: (#C #S #D #I) 19 2 0 1
+REF:  ford's share rose to twenty point eight percent chrysler's to eleven point four percent and **** HONDA'S TO ten point two percent 
+HYP:  ford's share rose to twenty point eight percent chrysler's to eleven point four percent and HARD LIST    OF ten point two percent 
+Eval:                                                                                             I    S       S                        
+
+id: (realmalespk06-058)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3642
+Channel: 1
+Scores: (#C #S #D #I) 8 6 0 1
+REF:  payments CHARGED as late as april fifteenth would ** MEET THE  i R     S    DEADLINE 
+HYP:  payments CHARGE  as late as april fifteenth would BE MADE THAT i WRITE STEP RUN      
+Eval:          S                                        I  S    S      S     S    S        
+
+id: (realmalespk06-059)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3643
+Channel: 1
+Scores: (#C #S #D #I) 16 4 0 0
+REF:  i'm not going to retire but I'M UNLIKELY to go to any large investment banking firm that rivals MORGAN   STANLEY 
+HYP:  i'm not going to retire but ON  LIKELY   to go to any large investment banking firm that rivals WARNINGS DOWN    
+Eval:                             S   S                                                               S        S       
+
+id: (realmalespk06-060)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3644
+Channel: 1
+Scores: (#C #S #D #I) 11 3 0 2
+REF:  ***** NISSAN was one of only ** TWO japanese companies to report higher sales for MARCH 
+HYP:  LEASE OWN    was one of only TO THE japanese companies to report higher sales for LARGE 
+Eval: I     S                      I  S                                                 S     
+
+id: (realmalespk06-061)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3645
+Channel: 1
+Scores: (#C #S #D #I) 18 3 0 1
+REF:  G  M'S  share of the total car market fell to thirty five point six percent *** FROM thirty nine point two percent 
+HYP:  G. M.'S share of the total car market fell to thirty five point six percent AND FOR  thirty nine point two percent 
+Eval: S  S                                                                        I   S                                  
+
+id: (realmalespk06-062)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3646
+Channel: 1
+Scores: (#C #S #D #I) 0 16 0 8
+REF:  *** ** **** ****** * *** **** **** SOMETIME NEXT YEAR HE SAID  LAST WEEK    WE'LL KNOW WHETHER THE   FED'S PLAN    HAS BEEN SUCCESSFUL 
+HYP:  HAD UP FROM HAVING A FEW HALF HOUR HAVE     TO   HEAD ON OWNED OIL  HOWEVER WITH  HAVE TO      <UNK> A     SUCCESS OF  ON   <UNK>      
+Eval: I   I  I    I      I I   I    I    S        S    S    S  S     S    S       S     S    S       S     S     S       S   S    S          
+
+id: (realmalespk06-063)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3647
+Channel: 1
+Scores: (#C #S #D #I) 14 2 0 1
+REF:  ***** representatives for the two importers said the programs HAVE ended AND new incentives haven't been announced 
+HYP:  ASIAN representatives for the two importers said the programs AND  ended IN  new incentives haven't been announced 
+Eval: I                                                             S          S                                         
+
+id: (realmalespk06-064)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3648
+Channel: 1
+Scores: (#C #S #D #I) 12 5 0 1
+REF:  for TAXPAYERS THE   chief advantage of PAYING by their credit cards would be **** EXTRA TIME to pay 
+HYP:  for TEXAS     AIR'S chief advantage of PAINT  by their credit cards would be NEXT ARE   TIED to pay 
+Eval:     S         S                        S                                     I    S     S           
+
+id: (realmalespk06-065)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3649
+Channel: 1
+Scores: (#C #S #D #I) 0 0 17 0
+REF:  THEY WANT INDEPENDENCE SOMEONE WHO HAS A SENSE OF DIRECTION AND PURPOSE AND WHO IDENTIFIES WITH THEM 
+HYP:  **** **** ************ ******* *** *** * ***** ** ********* *** ******* *** *** ********** **** **** 
+Eval: D    D    D            D       D   D   D D     D  D         D   D       D   D   D          D    D    
+
+id: (realmalespk06-066)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3650
+Channel: 1
+Scores: (#C #S #D #I) 17 1 0 0
+REF:  i just felt it was an appropriate time to pursue business ideas of my own MR  saunders said 
+HYP:  i just felt it was an appropriate time to pursue business ideas of my own MR. saunders said 
+Eval:                                                                           S                 
+
+id: (realmalespk06-067)
+Labels: <o,m>
+File: realmalespk06-uswsj5kdevmalespk06snt3651
+Channel: 1
+Scores: (#C #S #D #I) 13 3 0 3
+REF:  ** the COMPANY SAID IT    hasn't been able to obtain the bank financing for the continuing operations *** ***** 
+HYP:  OF the CO      THEY SERVE hasn't been able to obtain the bank financing for the continuing operations HAS <UNK> 
+Eval: I      S       S    S                                                                                 I   I     
+
+

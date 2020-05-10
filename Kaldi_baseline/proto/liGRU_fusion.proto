@@ -1,0 +1,7 @@
+[proto]
+ligru_lay=str_list
+ligru_drop=float_list(0.0,1.0)
+ligru_bidir=bool
+ligru_act=str_list
+ligru_fusion_type=int
+ligru_fusion_layer_size=str_list

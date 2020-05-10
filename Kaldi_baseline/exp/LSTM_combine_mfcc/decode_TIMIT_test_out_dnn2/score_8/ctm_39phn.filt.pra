@@ -1,0 +1,1785 @@
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   /home/xinchi/Kaldi-pytorch-QNN/Kaldi_baseline/exp/LSTM_combine_mfcc/decode_TIMIT_test_out_dnn2/score_8/ctm_39phn
+
+Speakers: 
+    0:  fdhc0
+    1:  felc0
+    2:  fjlm0
+    3:  fmgd0
+    4:  fmld0
+    5:  fnlp0
+    6:  fpas0
+    7:  fpkt0
+    8:  mbpm0
+    9:  mcmj0
+   10:  mdab0
+   11:  mgrt0
+   12:  mjdh0
+   13:  mjln0
+   14:  mjmp0
+   15:  mklt0
+   16:  mlll0
+   17:  mlnt0
+   18:  mnjm0
+   19:  mpam0
+   20:  mtas1
+   21:  mtls0
+   22:  mwbt0
+   23:  mwew0
+
+Speaker sentences   0:  fdhc0   #utts: 8
+id: (fdhc0-000)
+Labels: <o,f>
+File: fdhc0_si1559
+Channel: 1
+Scores: (#C #S #D #I) 33 9 8 0
+REF:  (sil) V  IH sh uw AH l iy DH iy z ih (sil) P r aa (sil) K s ih M ey DX IH (sil) W AH DX iy w ih s F IY  L iy N w ih (sil) TH ih n ih m s eh l f (sil) 
+HYP:  sil   DH IY sh uw ** l iy ** iy z ih       F r aa sil   * s ih N ey ** **       * V  R  iy w ih s * SIL K iy * w ih sil   D  ih n ih m s eh l f sil   
+Eval:       S  S        D       D                S            D      S    D  D        D S  S            D S   S    D            S                           
+
+id: (fdhc0-001)
+Labels: <o,f>
+File: fdhc0_si2189
+Channel: 1
+Scores: (#C #S #D #I) 20 8 1 2
+REF:  (sil) Y UW s * AA  DH AH M aa * w iy z (sil) T  ih (sil) g eh dh er (sil) DH ow z y IH er z (sil) 
+HYP:  sil   * IY s L SIL D  IH N aa L w iy z       DH ih sil   g eh dh er sil   B  ow z y UW er z sil   
+Eval:       D S    I S   S  S  S    I              S                            S         S             
+
+id: (fdhc0-002)
+Labels: <o,f>
+File: fdhc0_si929
+Channel: 1
+Scores: (#C #S #D #I) 27 7 2 0
+REF:  (sil) B  AH (sil) T s ah (sil) ch (sil) K EY S ih z (sil) w er ih n DH ah (sil) p ae s (sil) T AH n y uw sh uw l (sil) 
+HYP:  sil   DH EH sil   K s ah sil   ch sil   N IH Z ih z       w er ih n ** ah sil   p ae s       * EH n y uw sh uw l sil   
+Eval:       S  S        S                     S S  S                      D                        D S                       
+
+id: (fdhc0-003)
+Labels: <o,f>
+File: fdhc0_sx119
+Channel: 1
+Scores: (#C #S #D #I) 33 6 1 1
+REF:  (sil) dh ih m ih s (sil) k W OW W IH z r iy (sil) t r ae (sil) t ih (sil) D W ih (sil) th ih n ah (sil) p aa l ih (sil) jh ** IY (sil) 
+HYP:  sil   dh ih m ih s sil   k L AH V AH z r iy sil   t r ae sil   t ih       * R ih       th ih n ah sil   p aa l ih sil   jh IH NG sil   
+Eval:                            S S  S S                                       D S                                              I  S        
+
+id: (fdhc0-004)
+Labels: <o,f>
+File: fdhc0_sx209
+Channel: 1
+Scores: (#C #S #D #I) 25 6 5 1
+REF:  (sil) m ay (sil) k l (sil) k AH l er (sil) DH ih (sil) b eh (sil) d R UW m W aa l W IH TH (sil) K r ** EY AA n s (sil) 
+HYP:  sil   m ay sil   k l sil   k ** l er sil   D  ih sil   b eh sil   d * ER m * aa l * ** AH sil   P r EH N  AY n s sil   
+Eval:                              D             S                        D S    D      D D  S        S   I  S  S            
+
+id: (fdhc0-005)
+Labels: <o,f>
+File: fdhc0_sx29
+Channel: 1
+Scores: (#C #S #D #I) 28 7 1 2
+REF:  (sil) hh eh l (sil) P (sil) g r ey (sil) t ih (sil) p IH (sil) k ih (sil) P eh (sil) K IH v (sil) P ih (sil) t ey dx ** * OW  Z (sil) 
+HYP:  sil   hh eh l       * sil   g r ey sil   t ih sil   p EY sil   k ih sil   N eh sil   P AH v sil   D ih sil   t ey dx IH N SIL S sil   
+Eval:                     D                                 S                   S          S S          S                  I  I S   S       
+
+id: (fdhc0-006)
+Labels: <o,f>
+File: fdhc0_sx299
+Channel: 1
+Scores: (#C #S #D #I) 24 3 10 0
+REF:  (sil) sh EY V iy N (sil) k r iy M ih z ih (sil) p aa (sil) p Y UW l er ay DX EH M AA n hh aa l AH w IY N  (sil) 
+HYP:  sil   sh ** * iy * sil   k r iy * ih z ih sil   p aa sil   p * IY l er ay ** ** * AH n hh aa l ** w ** EY sil   
+Eval:          D  D    D              D                            D S          D  D  D S            D    D  S        
+
+id: (fdhc0-007)
+Labels: <o,f>
+File: fdhc0_sx389
+Channel: 1
+Scores: (#C #S #D #I) 26 3 5 2
+REF:  (sil) dh ey OW N ah (sil) B ih (sil) * ** hh aw s ih n DH AH R er m OW (sil) k ah N  (sil) t r iy s ay (sil) d (sil) 
+HYP:  sil   dh ey ** * ah       N ih sil   D IY hh aw s ih n ** ** * er m AH sil   k ah EH sil   t r iy s ay sil   d sil   
+Eval:             D  D          S          I I               D  D  D      S             S                                  
+
+Speaker sentences   1:  felc0   #utts: 8
+id: (felc0-000)
+Labels: <o,f>
+File: felc0_si1386
+Channel: 1
+Scores: (#C #S #D #I) 47 13 5 5
+REF:  (sil) ih n w ey (sil) JH N  ih (sil) g ow sh iy ey sh ih n s (sil) DH iy ih *** n (sil) D ih s (sil) t r iy (sil) b aa r (sil) G ih n * ** Z EH z EY y uw ** ** n IH  w IH DH ih s ih NG (sil) g L Y UW N Y  IH n (sil) 
+HYP:  sil   ih n w ey sil   ** SH ih sil   g ow sh iy ey sh ih n s sil   T  iy ih SIL n       T ih s sil   t r iy sil   b aa r sil   K ih n S IH N IH z IH y uw DH IH n SIL w AH DX ih s ih N  sil   g * * ** * OW AE n sil   
+Eval:                       D  S                                         S        I           S                                      S      I I  S S    S       I  I    S     S  S          S          D D D  D S  S          
+
+id: (felc0-001)
+Labels: <o,f>
+File: felc0_si2016
+Channel: 1
+Scores: (#C #S #D #I) 29 4 1 0
+REF:  (sil) hh iy V aa n ow z r ow (sil) P s (sil) dh IH (sil) b ow (sil) s (sil) k ah m ah n s (sil) t AH (sil) K (sil) 
+HYP:  sil   hh iy M aa n ow z r ow sil   * s sil   dh AH sil   b ow sil   s sil   k ah m ah n s sil   t AA sil   P sil   
+Eval:             S                      D            S                                                 S        S       
+
+id: (felc0-002)
+Labels: <o,f>
+File: felc0_si756
+Channel: 1
+Scores: (#C #S #D #I) 31 8 5 2
+REF:  (sil) M ih * (sil) t IH R IY ih l s (sil) s er r AE M ih (sil) m AA DX l IH NG (sil) k l ey * (sil) r eh (sil) D w AY (sil) aa r (sil) b AA f (sil) 
+HYP:  sil   * ih M sil   t ** * ** ih l s sil   s er r EH N ih       m OW N  l ** IY sil   k l ey M sil   r eh       N w EY       aa r sil   b OW f sil   
+Eval:       D    I         D  D D                      S  S            S  S    D  S               I                  S   S                     S          
+
+id: (felc0-003)
+Labels: <o,f>
+File: felc0_sx126
+Channel: 1
+Scores: (#C #S #D #I) 24 3 2 0
+REF:  (sil) aa r DX ih f ih sh l IH N  (sil) t eh l IH (sil) jh ih n s ih Z f er r iy l (sil) 
+HYP:  sil   aa r ** ih f ih sh l ** AH sil   t eh l AH sil   jh ih n s ih S f er r iy l sil   
+Eval:            D               D  S               S                     S                   
+
+id: (felc0-004)
+Labels: <o,f>
+File: felc0_sx216
+Channel: 1
+Scores: (#C #S #D #I) 17 10 2 1
+REF:  (sil) dh ah s (sil) m aa l (sil) * B  OY (sil) P uh (sil) DH AH w ER M ah N DH AH  HH UH (sil) k (sil) 
+HYP:  sil   dh ah s sil   m aa l sil   K OW IH sil   K uh sil   T  IH w AA R ah * ** SIL P  OW sil   k sil   
+Eval:                                  I S  S        S          S  S    S  S    D D  S   S  S                
+
+id: (felc0-005)
+Labels: <o,f>
+File: felc0_sx306
+Channel: 1
+Scores: (#C #S #D #I) 20 5 3 0
+REF:  (sil) ah (sil) ch ow Z ih N f Y UW w L  (sil) b iy (sil) k AH M (sil) jh eh n ER l s (sil) 
+HYP:  sil   ah sil   ch ow S ih * f * IY w UH sil   b iy sil   k AA N sil   jh eh n ** l s sil   
+Eval:                      S    D   D S    S                     S  S               D            
+
+id: (felc0-006)
+Labels: <o,f>
+File: felc0_sx36
+Channel: 1
+Scores: (#C #S #D #I) 36 6 3 4
+REF:  (sil) ow n L ih *** DH ih m ow s (sil) T ih * (sil) k aa m (sil) p L IH sh (sil) aa r *** DX IH s ah (sil) t ey n (sil) p aa (sil) P ih l ** EH er dx iy (sil) 
+HYP:  sil   ow n * ih SIL D  ih m ow s sil   * ih T sil   k aa m sil   p * UH sh sil   aa r SIL D  AH s ah sil   t ey n sil   p aa sil   D ih l EY DX er dx iy sil   
+Eval:            D    I   S                  D    I                      D S                I   S  S                                     S      I  S                 
+
+id: (felc0-007)
+Labels: <o,f>
+File: felc0_sx396
+Channel: 1
+Scores: (#C #S #D #I) 39 7 5 1
+REF:  (sil) dh ih f ih sh (sil) B ih (sil) g ae n (sil) t IH L iy (sil) F r ae n (sil) t ih (sil) k l IY AH n DH AH s er F   ah s ah v DH IH s *** m AA l ey (sil) k (sil) 
+HYP:  sil   dh ih f ih sh sil   T ih sil   g ae n sil   t ER W iy sil   K r ae n sil   t ih sil   k l ** IH n ** ** s er SIL ah s ah v ** ** s SIL m OW l ey sil   k sil   
+Eval:                           S                         S  S          S                             D  S    D  D       S             D  D    I     S                     
+
+Speaker sentences   2:  fjlm0   #utts: 8
+id: (fjlm0-000)
+Labels: <o,f>
+File: fjlm0_si1043
+Channel: 1
+Scores: (#C #S #D #I) 33 4 1 1
+REF:  (sil) n aa (sil) s ih (sil) p r AA z ih NG l iy (sil) dh ih s ah (sil) p r ow (sil) CH (sil) d ih (sil) D n AA w ** er (sil) k (sil) 
+HYP:  sil   n aa       s ih sil   p r AY z ih N  l iy sil   dh ih s ah sil   p r ow sil   S  sil   d ih sil   * n AW w AY er sil   k sil   
+Eval:                                 S       S                                           S                   D   S    I                   
+
+id: (fjlm0-001)
+Labels: <o,f>
+File: fjlm0_si1673
+Channel: 1
+Scores: (#C #S #D #I) 23 10 2 0
+REF:  (sil) w ah N TH  IH NG (sil) k hh IH th aa (sil) (sil) n OW (sil) b AH DX IY n ow z ah (sil) B AW DX ih y eh (sil) (sil) 
+HYP:  sil   w ah * SIL T  EY sil   k hh IY th aa sil   sil   n AH sil   b ** L  EY n ow z ah       V AE V  ih y eh sil   sil   
+Eval:            D S   S  S             S                      S          D  S  S                  S S  S                      
+
+id: (fjlm0-002)
+Labels: <o,f>
+File: fjlm0_si2303
+Channel: 1
+Scores: (#C #S #D #I) 36 3 2 0
+REF:  (sil) ih N   sh aa r (sil) eh n (sil) t ih (sil) b aa r AH n aa r (sil) B er l f r ey z (sil) s l ae SH (sil) t ih m (sil) B er (sil) 
+HYP:  sil   ih SIL sh aa r       eh n sil   t ih sil   b aa r IH n aa r sil   * er l f r ey z sil   s l ae S  sil   t ih m       * er sil   
+Eval:          S                                              S               D                            S                     D          
+
+id: (fjlm0-003)
+Labels: <o,f>
+File: fjlm0_sx143
+Channel: 1
+Scores: (#C #S #D #I) 23 11 7 0
+REF:  (sil) dh ah s AW N  (sil) D ih V (sil) jh IH N ih f er Z  (sil) B Y UW (sil) g L  s (sil) k EH R  (sil) DH EH ae n ah L OW (sil) P (sil) 
+HYP:  sil   dh ah s ** EH       R ih * sil   jh ** * ih f er SH sil   * T IY sil   g OW s sil   k IH ER sil   D  IH ae n ah * **       M sil   
+Eval:               D  S        S    D          D  D         S        D S S          S            S  S        S  S          D D        S       
+
+id: (fjlm0-004)
+Labels: <o,f>
+File: fjlm0_sx233
+Channel: 1
+Scores: (#C #S #D #I) 17 8 0 1
+REF:  (sil) hh AA w EY ih n (sil) f r iy w ey m iy N IH s ey M (sil) * TH AE NG (sil) 
+HYP:  sil   hh AW w IY ih n       f r iy w ey m iy V AH s ey N sil   T IH N  IY sil   
+Eval:          S    S                              S S       S       I S  S  S        
+
+id: (fjlm0-005)
+Labels: <o,f>
+File: fjlm0_sx323
+Channel: 1
+Scores: (#C #S #D #I) 22 9 3 2
+REF:  (sil) dh ah f aa (sil) p r IH V  ih n ih (sil) * DH ih m F R AH M er r ** AA  V IH NG aa n (sil) t AA m (sil) 
+HYP:  sil   dh ah f aa sil   p r UW TH ih n ih sil   D IY ih m * * ** Z er r AW SIL B IY N  aa n sil   t AH m sil   
+Eval:                            S  S                I S       D D D  S      I  S   S S  S               S          
+
+id: (fjlm0-006)
+Labels: <o,f>
+File: fjlm0_sx413
+Channel: 1
+Scores: (#C #S #D #I) 29 11 6 1
+REF:  (sil) D  AE f (sil) N  iy s W IH DX ih sh (sil) N IY (sil) D  l (sil) P OY N  (sil) T s (sil) k aa r F (sil) m AE (sil) ch (sil) t HH ER s (sil) k ** er (sil) (sil) 
+HYP:  sil   DH EH f       DH iy s * L  IY ih sh       * **       EY l sil   K L  IH sil   * s sil   k aa r * sil   m EH sil   ch sil   t ** AH s sil   k AY er sil   sil   
+Eval:       S  S          S       D S  S              D D        S          S S  S        D                D         S                   D  S            I                 
+
+id: (fjlm0-007)
+Labels: <o,f>
+File: fjlm0_sx53
+Channel: 1
+Scores: (#C #S #D #I) 29 8 6 2
+REF:  (sil) ** IY  V ih n ah s ih M (sil) P l V AH (sil) k ae * (sil) B Y ih l eh r IY (sil) k AH n (sil) t ey N (sil) T s IH m (sil) B l z (sil) 
+HYP:  sil   EY SIL B ih n ah s ih * sil   B l * OW sil   k ae N sil   * * ih l eh r IH sil   k IH n sil   t ey *       M s UW m       * l z sil   
+Eval:       I  S   S              D       S   D S             I       D D           S          S               D       S   S          D           
+
+Speaker sentences   3:  fmgd0   #utts: 8
+id: (fmgd0-000)
+Labels: <o,f>
+File: fmgd0_si1564
+Channel: 1
+Scores: (#C #S #D #I) 37 12 8 0
+REF:  (sil) HH ah z (sil) B UH N  D   r iy w ah z (sil) B aw N D  ih (sil) b ay s (sil) N ey (sil) R  eh l f EH n S AH z AE n DH eh R w er (sil) G r ey z ih NG (sil) k ae DX L   (sil) 
+HYP:  sil   ** ah z       * G  IH SIL r iy w ah z sil   D aw * DX ih sil   b ay s sil   M ey sil   DH eh l f AE n Z IH z EH n ** eh * w er       * r ey z ih ** sil   k ae ** SIL sil   
+Eval:       D             D S  S  S                     S    D S                        S          S         S    S S    S    D     D            D           D             D  S         
+
+id: (fmgd0-001)
+Labels: <o,f>
+File: fmgd0_si2194
+Channel: 1
+Scores: (#C #S #D #I) 47 6 3 1
+REF:  (sil) hh iy hh eh (sil) f aa l IH n (sil) t uw ih s aa F (sil) jh aa (sil) (sil) EH n aw DH ih (sil) jh aa (sil) w ah z (sil) g AA N  ih n HH iy w UH s (sil) t r ae N (sil) d ih (sil) * (sil) 
+HYP:  sil   hh iy hh eh       f aa l AY n sil   t uw ih s aa * sil   jh aa sil   sil   IH n aw DX ih sil   jh aa sil   w ah z sil   g ** OW ih n DH iy w IH s sil   t r ae * sil   d ih sil   D sil   
+Eval:                                S                       D                         S       S                                      D  S       S       S                 D                  I       
+
+id: (fmgd0-002)
+Labels: <o,f>
+File: fmgd0_si934
+Channel: 1
+Scores: (#C #S #D #I) 27 7 4 4
+REF:  (sil) ** ah *** TH aa r ER DX iy s ey *** DH EH DX ow L (sil) s (sil) t er z aa r EY (sil) P r ay M (sil) t aa r (sil) G ih (sil) * (sil) 
+HYP:  sil   DH ah SIL D  aa r ** ** iy s ey SIL K  IH N  ow *       s sil   t er z aa r IH sil   T r ay N sil   t aa r       * ih sil   D sil   
+Eval:       I     I   S       D  D          I   S  S  S     D                           S        S      S                    D          I       
+
+id: (fmgd0-003)
+Labels: <o,f>
+File: fmgd0_sx124
+Channel: 1
+Scores: (#C #S #D #I) 21 3 7 1
+REF:  (sil) aa (sil) jh *** ih (sil) k s (sil) m ey (sil) D IH V (sil) P  y uw DX ER er (sil) B Y UW DX ih f l (sil) 
+HYP:  sil   aa       jh SIL ih sil   k s sil   m ey       * ** * sil   JH y uw ** ** er sil   * * K  IY ih f l sil   
+Eval:                   I                                 D D  D       S       D  D           D D S  S               
+
+id: (fmgd0-004)
+Labels: <o,f>
+File: fmgd0_sx214
+Channel: 1
+Scores: (#C #S #D #I) 26 9 6 0
+REF:  (sil) dh AH m aa r N IH NG (sil) d uw AA n DH AH S (sil) P ay DX ER w eh (sil) G L ih s EH n (sil) d ih n DH ah s ah n (sil) 
+HYP:  sil   dh IH m aa r * DX IY sil   d uw AH n ** ** Z sil   B ay ** IH w eh sil   * D ih s IH n sil   d ih n ** ah s ah n sil   
+Eval:          S         D S  S             S    D  D  S       S    D  S             D S      S                 D                  
+
+id: (fmgd0-005)
+Labels: <o,f>
+File: fmgd0_sx304
+Channel: 1
+Scores: (#C #S #D #I) 23 6 4 0
+REF:  (sil) CH iy (sil) S (sil) T  aa (sil) k IH NG z r ah n dh IH f er s (sil) t ay M DH EH R  w aa r n (sil) 
+HYP:  sil   SH iy       * sil   SH aa sil   k ** N  z r ah n dh AH f er s sil   t ay * ** N  ER w aa r n sil   
+Eval:       S           D       S             D  S              S                    D D  S  S                 
+
+id: (fmgd0-006)
+Labels: <o,f>
+File: fmgd0_sx34
+Channel: 1
+Scores: (#C #S #D #I) 20 4 2 0
+REF:  (sil) d OW n (sil) d uw (sil) ch AA R  l iy Z (sil) D er dx iy (sil) d ih sh ih Z (sil) 
+HYP:  sil   d AW n sil   d uw sil   ch ** ER l iy *       S er dx iy sil   d ih sh ih S sil   
+Eval:         S                        D  S       D       S                           S       
+
+id: (fmgd0-007)
+Labels: <o,f>
+File: fmgd0_sx394
+Channel: 1
+Scores: (#C #S #D #I) 21 5 2 1
+REF:  (sil) k ae L s iy IH m ey (sil) s (sil) b ow n z ** n (sil) T  iy TH  S  (sil) T r aa NG (sil) 
+HYP:  sil   k ae * s iy ** m ey sil   s sil   b ow n z IH n sil   JH iy SIL CH sil   K r aa M  sil   
+Eval:            D      D                              I          S     S   S        S      S        
+
+Speaker sentences   4:  fmld0   #utts: 8
+id: (fmld0-000)
+Labels: <o,f>
+File: fmld0_si2185
+Channel: 1
+Scores: (#C #S #D #I) 30 11 5 1
+REF:  (sil) sh iy s EH (sil) SH aa r (sil) k s eh V N  OW (sil) b ** OW n D z ih N (sil) T sh r IH M (sil) P s (sil) W ae M (sil) b ae (sil) K W er (sil) (sil) 
+HYP:  sil   sh iy s IH sil   CH aa r sil   k s eh M EH L  sil   b AA L  n * z ih * sil   * sh r EH N sil   * s       L ae N sil   b ae sil   * P er       sil   
+Eval:               S        S                    S S  S          I  S    D      D       D      S  S       D         S    S                  D S                
+
+id: (fmld0-001)
+Labels: <o,f>
+File: fmld0_si822
+Channel: 1
+Scores: (#C #S #D #I) 45 13 9 0
+REF:  (sil) M IH L  (sil) P er (sil) D AH (sil) K sh ih n M ey (sil) b iy ih NG (sil) k r iy s (sil) B ay DH iy ae n (sil) t AY IH N T  f eh (sil) t ih V (sil) p R AA (sil) P  R iy z ah v dh ih s (sil) D r ah (sil) G (sil) 
+HYP:  sil   * N  OW sil   T er       M EH sil   * sh ih n * ey sil   b iy ih N  sil   k r iy s sil   T ay DX iy ae n sil   t ** ** * EY f eh sil   t ih * sil   p * **       ER M iy z ah v dh ih s sil   T r ah sil   D sil   
+Eval:       D S  S        S          S S        D         D                  S                       S    S                  D  D  D S                  D         D D        S  S                         S            S       
+
+id: (fmld0-002)
+Labels: <o,f>
+File: fmld0_si925
+Channel: 1
+Scores: (#C #S #D #I) 28 6 4 0
+REF:  (sil) W ah HH iy W IH z ih N (sil) k ah s (sil) t ih (sil) D  iy ih z (sil) W ay F (sil) D ih v aa r s (sil) t ih M (sil) 
+HYP:  sil   * ah N  iy * N  z ih * sil   k ah s sil   t ih       DX iy ih z       L ay * sil   T ih v aa r s sil   t ih N sil   
+Eval:       D    S     D S       D                               S                S    D       S                        S       
+
+id: (fmld0-003)
+Labels: <o,f>
+File: fmld0_sx115
+Channel: 1
+Scores: (#C #S #D #I) 26 8 4 2
+REF:  (sil) dh iy EH m l AH M (sil) d ah (sil) p ih (sil) k s (sil) DH IY IH (sil) K r aa (sil) P L ah * S  aa l ah (sil) * G  l OW (sil) 
+HYP:  sil   dh iy AH m l ** * sil   d ah sil   p ih sil   k s sil   ** K  UW sil   P r aa sil   D W ah Z HH aa l ah sil   D AH l ** sil   
+Eval:             S      D  D                                       D  S  S        S            S S    I S                I S    D        
+
+id: (fmld0-004)
+Labels: <o,f>
+File: fmld0_sx205
+Channel: 1
+Scores: (#C #S #D #I) 37 8 4 0
+REF:  (sil) B  IH l ih (sil) t EH er (sil) p er s n EH L AA R  er (sil) k s (sil) p eh (sil) t ih (sil) t uw OW (sil) B ey (sil) g ah v er M EH n aa r dx er S (sil) 
+HYP:  sil   DH AH l ih sil   t ** er sil   p er s n ** * AW DX er sil   k s sil   p eh sil   t ih sil   t uw AH sil   * ey sil   g ah v er N IH n aa r dx er Z sil   
+Eval:       S  S               D                    D  D S  S                                                S        D                    S S               S       
+
+id: (fmld0-005)
+Labels: <o,f>
+File: fmld0_sx25
+Channel: 1
+Scores: (#C #S #D #I) 12 6 3 1
+REF:  (sil) ow n l IH L  oy * er Z l AH V  m IH Y  ih n IH R  s (sil) 
+HYP:  sil   ow n l IY HH oy Y er S l ** EH m ** EY ih n ** ER s sil   
+Eval:              S  S     I    S   D  S    D  S       D  S          
+
+id: (fmld0-006)
+Labels: <o,f>
+File: fmld0_sx295
+Channel: 1
+Scores: (#C #S #D #I) 32 5 3 2
+REF:  (sil) ** ih f (sil) k eh r L (sil) k ah M Z (sil) t ah m aa r AH hh AE v er r ey N   JH f er m iy dx iy NG ih * (sil) t uw (sil) 
+HYP:  sil   HH ih f sil   k eh r * sil   k ah N S sil   t ah m aa r ** hh EH v er r ey SIL CH f er m iy dx iy ** ih N sil   t uw sil   
+Eval:       I                    D            S S                   D     S            S   S                  D     I                  
+
+id: (fmld0-007)
+Labels: <o,f>
+File: fmld0_sx385
+Channel: 1
+Scores: (#C #S #D #I) 26 3 3 3
+REF:  (sil) hh ih Z sh ow L (sil) D  er f eh l (sil) t ih z ih *** * F ih (sil) * w ER (sil) b r OW (sil) k ih n (sil) 
+HYP:  sil   hh ih * sh ow *       DX er f eh l sil   t ih z ih SIL S T ih sil   K w AH sil   b r ** sil   k ih n sil   
+Eval:             D       D       S                            I   I S          I   S            D                     
+
+Speaker sentences   5:  fnlp0   #utts: 8
+id: (fnlp0-000)
+Labels: <o,f>
+File: fnlp0_si1308
+Channel: 1
+Scores: (#C #S #D #I) 47 12 6 4
+REF:  (sil) ih n (sil) D iy (sil) IH dx ih z (sil) p aa s AH (sil) b L  (sil) t ih s EH (sil) P er * ey *** * iy L EH (sil) t r AA n (sil) p eh ER m AE NG n eh dx ih (sil) F R AH m ** n UW (sil) k l iy ER IH f eh (sil) s (sil) 
+HYP:  sil   ih n sil   T iy       ** dx ih z sil   p aa s ** sil   b OW sil   t ih s AH       V er W ey SIL B iy N AY sil   t r AH n sil   p eh R  m ** EY n eh dx ih sil   * P ER m IH n ** sil   k l iy ** AH f eh sil   s sil   
+Eval:                  S          D                       D          S               S        S    I    I   I    S S            S               S    D  S                   D S S    I    D               D  S                     
+
+id: (fnlp0-001)
+Labels: <o,f>
+File: fnlp0_si1938
+Channel: 1
+Scores: (#C #S #D #I) 29 9 2 3
+REF:  (sil) l ay dx ih (sil) * w ih n (sil) d OW z (sil) G l OW (sil) JH uw L  (sil) b R ay (sil) TH R uw *** DH ih (sil) d AW N (sil) p aa r * (sil) 
+HYP:  sil   l ay dx ih sil   K w ih n sil   d AH z sil   K l AH sil   T  uw AH sil   b * ay sil   ** D uw SIL D  ih sil   d AE M sil   p aa r N sil   
+Eval:                        I                S          S   S        S     S          D          D  S    I   S             S  S              I       
+
+id: (fnlp0-002)
+Labels: <o,f>
+File: fnlp0_si678
+Channel: 1
+Scores: (#C #S #D #I) 15 6 1 1
+REF:  (sil) s AE l V ey sh ih N R IY (sil) k ih n s ** IH  DX er (sil) d (sil) 
+HYP:  sil   s EH l F ey sh ih * M IH sil   k ih n s EH SIL D  er sil   d sil   
+Eval:         S    S          D S S                 I  S   S                   
+
+id: (fnlp0-003)
+Labels: <o,f>
+File: fnlp0_sx138
+Channel: 1
+Scores: (#C #S #D #I) 33 8 5 2
+REF:  (sil) dh ih (sil) k l ah M z IY (sil) k ah s (sil) T ih M ER s (sil) p ih l (sil) s ah m ih (SIL) s (sil) P ih N S ih V (sil) p * ** ER  F y uw M (sil) 
+HYP:  sil   dh ih sil   k l ah N z IH sil   k ah s sil   W ih * ** s sil   p ih l sil   s ah m ih N     s sil   D ih * Z ih * sil   p R OW SIL K y uw * sil   
+Eval:                          S   S                     S    D D                                 S             S    D S    D         I I  S   S      D       
+
+id: (fnlp0-004)
+Labels: <o,f>
+File: fnlp0_sx228
+Channel: 1
+Scores: (#C #S #D #I) 16 7 1 1
+REF:  (sil) dh AH V Y   UW (sil) p * OY n (sil) ow v er l UH (sil) dh iy OW sh IH n (sil) 
+HYP:  sil   dh EH N SIL IY sil   p L AY n       ow v er l AY sil   dh iy EH sh ** n sil   
+Eval:          S  S S   S          I S                    S              S     D          
+
+id: (fnlp0-005)
+Labels: <o,f>
+File: fnlp0_sx318
+Channel: 1
+Scores: (#C #S #D #I) 27 7 1 3
+REF:  (sil) p l iy z (sil) D IH (sil) m AA M  (sil) P  ih (sil) t ey dx AH z ah (sil) b ah f aa ** R   F r aa * s (sil) t * (sil) 
+HYP:  sil   p l iy z sil   T AE       m ** AH sil   DH ih sil   t ey dx OW z ah sil   b ah f aa TH SIL K r aa L s sil   t S sil   
+Eval:                      S S          D  S        S                   S                       I  S   S      I           I       
+
+id: (fnlp0-006)
+Labels: <o,f>
+File: fnlp0_sx408
+Channel: 1
+Scores: (#C #S #D #I) 24 12 0 0
+REF:  (sil) AY (sil) D R AY (sil) DH ih s ah (sil) b W ey (sil) b IH dx AY hh ae v ih n iy N  AH F (sil) ch ey n (sil) JH (sil) 
+HYP:  sil   AH sil   K L AH sil   D  ih s ah sil   b L ey sil   b AH dx AH hh ae v ih n iy HH EH V sil   ch ey n sil   Z  sil   
+Eval:       S        S S S        S                  S            S     S                  S  S  S                     S        
+
+id: (fnlp0-007)
+Labels: <o,f>
+File: fnlp0_sx48
+Channel: 1
+Scores: (#C #S #D #I) 21 11 3 0
+REF:  (sil) g R AE M ah dh er aw G   R uw HH ER AH (sil) b r IH NG IH N  ih m (sil) p eh dx IY (sil) k OW (sil) s (sil) 
+HYP:  sil   g * AW N ah dh er aw SIL K uw ** R  AA sil   b r ** IY IY HH ih m sil   p eh dx IH sil   k AH sil   s sil   
+Eval:         D S  S             S   S    D  S  S            D  S  S  S                     S          S                
+
+Speaker sentences   6:  fpas0   #utts: 8
+id: (fpas0-000)
+Labels: <o,f>
+File: fpas0_si1272
+Channel: 1
+Scores: (#C #S #D #I) 16 5 3 0
+REF:  (sil) l AE (sil) R IH (sil) t ER IY ae s (sil) T R AH f ih z ih (sil) k s (sil) 
+HYP:  sil   l EH       V ER sil   t ** UW ae s       * * ER f ih z ih sil   k s sil   
+Eval:         S        S S          D  S             D D S                            
+
+id: (fpas0-001)
+Labels: <o,f>
+File: fpas0_si2204
+Channel: 1
+Scores: (#C #S #D #I) 31 16 13 0
+REF:  (sil) p r IH DX iy s UW N AH W  UH M  ih N (sil) k EY M ah l AA NG (sil) k IH R IH N  ih f OW l (sil) D IH DX AH M   (sil) b R  ah L IH z ah w aa (sil) k IH NG s (sil) t IH (sil) k (sil) 
+HYP:  sil   p r ** ** iy s ** * IY AA R  DH ih * sil   k AE N ah l ** AY sil   k ** * Y  ER ih f ** l       * ** DH EH SIL sil   b ER ah * ** z ah w aa sil   k IY N  s sil   t EY sil   k sil   
+Eval:           D  D       D  D S  S  S  S     D         S  S      D  S          D  D S  S       D          D D  S  S  S           S     D D                    S  S            S                
+
+id: (fpas0-002)
+Labels: <o,f>
+File: fpas0_si944
+Channel: 1
+Scores: (#C #S #D #I) 24 5 6 0
+REF:  (sil) ih V DH AH f aa r m IH z r eh N (sil) T  ih (sil) dh ah R EH N  m ah s (sil) b iy (sil) P EY (sil) d (sil) 
+HYP:  sil   ih * ** ** f aa r m ** z r eh * sil   JH ih       dh ah * L  AE m ah s sil   b iy sil   K EH sil   d sil   
+Eval:          D D  D           D         D       S                 D S  S                          S S                
+
+id: (fpas0-003)
+Labels: <o,f>
+File: fpas0_sx134
+Channel: 1
+Scores: (#C #S #D #I) 28 10 6 0
+REF:  (sil) D  ih s eh M (sil) B ER NG (sil) jh Y AE n Y UW ER IH n ay s (sil) m ah N TH  s (sil) T ih s (sil) p eh n ih N m ay AE m iy (sil) 
+HYP:  sil   DH ih s eh *       V R  IH sil   jh * EH n * R  EH R  n ay s sil   m ah * SIL s       * ih s sil   p eh n ih * m ay IY m iy sil   
+Eval:       S          D       S S  S           D S    D S  S  S                    D S           D                      D      S             
+
+id: (fpas0-004)
+Labels: <o,f>
+File: fpas0_sx224
+Channel: 1
+Scores: (#C #S #D #I) 14 2 4 2
+REF:  (sil) HH AW (sil) g uh dx ih z Y ER ih n (sil) D er IH n *** * s (sil) 
+HYP:  sil   F  UH sil   g uh dx ih z * ** ih n       * er ** n SIL T s sil   
+Eval:       S  S                     D D             D    D    I   I         
+
+id: (fpas0-005)
+Labels: <o,f>
+File: fpas0_sx314
+Channel: 1
+Scores: (#C #S #D #I) 26 9 7 1
+REF:  (sil) ih F (sil) p iy (sil) P L W  ER m aa r (sil) jh EH N er IH s DH eh * r (sil) B iy n ow N iy (sil) D f er W EH L  f eh R  (sil) 
+HYP:  sil   ih * sil   p iy sil   * G AA R  m aa r sil   jh AH V er ** s ** eh V r       * iy n ow M iy       * f er * M  AH f eh ER sil   
+Eval:          D                  D S S  S                  S  S    D    D     I         D         S          D      D S  S       S        
+
+id: (fpas0-006)
+Labels: <o,f>
+File: fpas0_sx404
+Channel: 1
+Scores: (#C #S #D #I) 28 3 3 0
+REF:  (sil) b aa r (sil) b er N  (sil) p ey (sil) p er n l iy V z IH N ah (sil) b ih (sil) B aa N  (sil) f ay er (sil) 
+HYP:  sil   b aa r sil   b er IH sil   p ey sil   p er n l iy * z ** * ah sil   b ih sil   G aa NG       f ay er sil   
+Eval:                         S                               D   D  D                     S    S                      
+
+id: (fpas0-007)
+Labels: <o,f>
+File: fpas0_sx44
+Channel: 1
+Scores: (#C #S #D #I) 20 11 7 0
+REF:  (sil) B  AE S (sil) k ih (sil) b AA L (sil) K IH N  (sil) B IY ih n EH n (sil) t er (sil) CH EY n IH NG S (sil) P aa R  (sil) (sil) 
+HYP:  sil   DH AH Z sil   k ih sil   b ** *       * ** OW sil   * T  ih n AE n sil   t er sil   T  IY n ** ** Z sil   B aa ER       sil   
+Eval:       S  S  S                    D  D       D D  S        D S       S                     S  S    D  D  S       S    S              
+
+Speaker sentences   7:  fpkt0   #utts: 8
+id: (fpkt0-000)
+Labels: <o,f>
+File: fpkt0_si1538
+Channel: 1
+Scores: (#C #S #D #I) 29 17 2 0
+REF:  (sil) ah (sil) k eh r ih (sil) jh (sil) k r AH N  CH (sil) b ay ih (SIL) S (sil) d ih M l AY (sil) T S F   IH L  (sil) t R ih NG  TH UW DH ih (sil) G l uw M (sil) 
+HYP:  sil   ah sil   k eh r ih sil   jh sil   k r ** EH SH sil   b ay ih N     Z sil   d ih N l AE       N Z SIL G  OW sil   t * ih SIL D  IH DX ih sil   B l uw N sil   
+Eval:                                             D  S  S                S     S            S   S        S S S   S  S          D    S   S  S  S           S      S       
+
+id: (fpkt0-001)
+Labels: <o,f>
+File: fpkt0_si2168
+Channel: 1
+Scores: (#C #S #D #I) 19 6 0 1
+REF:  (sil) dh ey m ey (sil) K AH s (sil) k * N   F aa r m ih s l uh (sil) G UH (sil) (sil) 
+HYP:  sil   dh ey m ey sil   D EH s sil   k M SIL P aa r m ih s l uh sil   D EY       sil   
+Eval:                        S S            I S   S                        S S              
+
+id: (fpkt0-002)
+Labels: <o,f>
+File: fpkt0_si908
+Channel: 1
+Scores: (#C #S #D #I) 19 11 0 2
+REF:  (sil) w iy ow w ih z *** TH AA W ih W UH (sil) d ay *** W ih TH aa r (sil) B UW (sil) T s AA n (sil) 
+HYP:  sil   w iy ow w ih z SIL K  AH M ih N IH sil   d ay SIL D ih Z  aa r sil   D IH       N s AH n sil   
+Eval:                      I   S  S  S    S S             I   S    S             S S        S   S          
+
+id: (fpkt0-003)
+Labels: <o,f>
+File: fpkt0_sx188
+Channel: 1
+Scores: (#C #S #D #I) 24 3 8 1
+REF:  (sil) hh uw * aa th ER ay z DH iy IH N l IH M IH DX ih DX ih (sil) k s (sil) P  eh N s ih (sil) k aw n (sil) (sil) 
+HYP:  sil   hh uw W aa th R  ay z ** iy ** * l ** * ** ** ih N  ih sil   k s       DH eh * s ih sil   k aw n       sil   
+Eval:             I       S       D     D  D   D  D D  D     S                     S     D                               
+
+id: (fpkt0-004)
+Labels: <o,f>
+File: fpkt0_sx278
+Channel: 1
+Scores: (#C #S #D #I) 39 3 8 2
+REF:  (sil) t uw f ER DH er hh ih z (sil) p R ih s (sil) t iy (sil) JH hh iy (sil) K ey sh n L ih *** r iy (sil) z *** dh ah W aa L s (sil) t R iy (sil) JH er n ah L (sil) 
+HYP:  sil   t uw f ** ** er hh ih z sil   p * ih s sil   t iy       ** hh iy sil   P ey sh n * ih SIL r iy       z SIL dh ah L aa * s sil   t * iy sil   T  er n ah * sil   
+Eval:              D  D                     D                       D              S         D    I                I         S    D           D          S          D       
+
+id: (fpkt0-005)
+Labels: <o,f>
+File: fpkt0_sx368
+Channel: 1
+Scores: (#C #S #D #I) 32 15 4 0
+REF:  (sil) L aa r IY z (sil) k aa s (sil) t UW m N iy dx ih (sil) b l ae (sil) G l AH z IH (sil) b iy (sil) K AH M  (sil) P L IY (SIL) l iy EH L  ih (sil) G EH N  (sil) (sil) 
+HYP:  sil   M aa r IH z sil   k aa s sil   t ER m * iy dx ih sil   b l ae sil   K l OW z ** sil   b iy sil   * P  ER sil   T W IH N     l iy AA DX ih sil   * D  IH sil   sil   
+Eval:       S      S                         S    D                             S   S    D                   D S  S        S S S  S          S  S           D S  S              
+
+id: (fpkt0-006)
+Labels: <o,f>
+File: fpkt0_sx8
+Channel: 1
+Scores: (#C #S #D #I) 15 6 2 0
+REF:  (sil) w ay y eh l ER w er IY OW  V er s ih l iy ay DX IH M   Z (sil) 
+HYP:  sil   w ay y eh l ** w er AH SIL P er s ih l iy ay ** N  SIL S sil   
+Eval:                   D       S  S   S                 D  S  S   S       
+
+id: (fpkt0-007)
+Labels: <o,f>
+File: fpkt0_sx98
+Channel: 1
+Scores: (#C #S #D #I) 18 3 3 1
+REF:  (sil) g eh s *** DH ih (sil) k w eh sh AH n f R ah M DH IY ae n s er (sil) 
+HYP:  sil   g eh s SIL T  ih sil   k w eh sh IH n f * ah * ** N  ae n s er sil   
+Eval:              I   S                     S      D    D D  S                  
+
+Speaker sentences   8:  mbpm0   #utts: 8
+id: (mbpm0-000)
+Labels: <o,m>
+File: mbpm0_si1577
+Channel: 1
+Scores: (#C #S #D #I) 14 5 1 1
+REF:  (sil) b r AW N  ay z ay (sil) b r AW M  ah s (sil) T ae *** SH (sil) 
+HYP:  sil   b r ** AY ay z ay sil   b r OW DH ah s sil   P ae SIL CH sil   
+Eval:           D  S                    S  S             S    I   S        
+
+id: (mbpm0-001)
+Labels: <o,m>
+File: mbpm0_si1584
+Channel: 1
+Scores: (#C #S #D #I) 47 8 7 0
+REF:  (sil) r eh (sil) K (sil) t er W IH z aa f ih n (sil) k Y  ER iy ih s (sil) aa f ih N (sil) t EH M  (sil) t ih (sil) T ae s (sil) k W EH s (sil) CH IH n Z (sil) b ih dx iy N eh v er (sil) d ih (sil) (sil) 
+HYP:  sil   r eh       * sil   t er * ** z aa f ih n sil   k IH R  iy ih s sil   aa f ih * sil   t ** AH sil   t ih sil   D ae s sil   k L EY s sil   ** T  n S sil   b ih dx iy * eh v er sil   d ih sil   sil   
+Eval:                  D            D D                      S  S                        D         D  S                   S              S S          D  S    S                  D                                
+
+id: (mbpm0-002)
+Labels: <o,m>
+File: mbpm0_si947
+Channel: 1
+Scores: (#C #S #D #I) 21 6 5 0
+REF:  (sil) F Y  UW r ER AH l EH R IY IH z ER (sil) p er (sil) t eh (sil) t ih (sil) b ay z OW n ih ng (sil) 
+HYP:  sil   * SH IY r ** OW l ** * ** ER z IH sil   p er sil   t eh sil   t ih sil   b ay z AH n ih ng sil   
+Eval:       D S  S    D  S    D  D D  S    S                                                S                
+
+id: (mbpm0-003)
+Labels: <o,m>
+File: mbpm0_sx137
+Channel: 1
+Scores: (#C #S #D #I) 37 8 5 0
+REF:  (sil) T R ih (sil) d ih sh ih n R er (sil) k w AA er z (sil) F ER eh n l ah (sil) p r uw v l f R AH AH n (sil) D er ey (sil) jh (sil) m AE r IH (sil) JH (sil) 
+HYP:  sil   * K ih sil   d ih sh ih n * er sil   k w AY er z sil   T R  eh n l ah sil   p r uw v l f * ER IH n       * er ey sil   jh sil   m EH r ** sil   CH sil   
+Eval:       D S                       D              S             S S                               D S  S          D                        S    D        S        
+
+id: (mbpm0-004)
+Labels: <o,m>
+File: mbpm0_sx227
+Channel: 1
+Scores: (#C #S #D #I) 19 6 4 0
+REF:  (sil) ih (sil) t S HH eh l th Y  er (sil) D ih (sil) k uh (sil) k W IH TH AW (sil) sh UH (sil) ER (sil) 
+HYP:  sil   ih sil   t * ** eh l th IH er sil   T ih sil   k uh sil   k * AH V  AE sil   sh ER sil   ** sil   
+Eval:                  D D          S           S                       D S  S  S           S        D        
+
+id: (mbpm0-005)
+Labels: <o,m>
+File: mbpm0_sx317
+Channel: 1
+Scores: (#C #S #D #I) 24 7 8 0
+REF:  (sil) dh ih (sil) k r EH n (sil) b ER IY (sil) b aa (sil) G ih (sil) T s (sil) V ER r IY (sil) p R IH dx iy EH N aa DX AH M   (sil) 
+HYP:  sil   dh ih sil   k r IH n sil   b R  EY sil   b aa sil   K ih sil   * s       * ** r EY sil   p * ER dx iy ** * aa ** ** SIL sil   
+Eval:                       S            S  S                   S          D         D D    S          D S        D  D    D  D  S         
+
+id: (mbpm0-006)
+Labels: <o,m>
+File: mbpm0_sx407
+Channel: 1
+Scores: (#C #S #D #I) 24 7 6 2
+REF:  (sil) l ae *** f (sil) d AE N  (sil) T s n s IH NG IH f aa r (sil) CH IH n s (sil) M AY l ** z ah (sil) p AA n Y UW (sil) 
+HYP:  sil   l ae SIL f       d ** EH sil   K s n s ** ** EY f aa r sil   ** JH n s sil   * ** l AW z ah sil   p AH n D ER sil   
+Eval:            I             D  S        S       D  D  S               D  S            D D    I               S    S S        
+
+id: (mbpm0-007)
+Labels: <o,m>
+File: mbpm0_sx47
+Channel: 1
+Scores: (#C #S #D #I) 20 10 2 0
+REF:  (sil) m AA m s (sil) t R AH NG  L IY (sil) d ih s l ay (sil) K s AE (sil) P  AH (sil) t ay Z ER s (sil) 
+HYP:  sil   m AH m s sil   t * AA SIL D IH sil   d ih s l ay sil   * s EH sil   DH IH sil   t ay S IH s sil   
+Eval:         S              D S  S   S S                          D   S        S  S             S S          
+
+Speaker sentences   9:  mcmj0   #utts: 8
+id: (mcmj0-000)
+Labels: <o,m>
+File: mcmj0_si1094
+Channel: 1
+Scores: (#C #S #D #I) 35 12 6 0
+REF:  (sil) M EH R  IH (sil) k ih n UW S (sil) P EY (sil) p er r IH V  y uw er z l ay (sil) t ih (sil) k aa l HH ih Z (sil) P L ey S (sil) n iy IH l IH s (sil) t AH (sil) (sil) 
+HYP:  sil   * N  AW N  sil   k ih n IH Z sil   T IH sil   p er r ** IY y uw er z l ay sil   t ih sil   k aa l ** ih S sil   * T ey Z sil   n iy ** l EH s sil   t **       sil   
+Eval:       D S  S  S               S  S       S S               D  S                                         D     S       D S    S            D    S            D              
+
+id: (mcmj0-001)
+Labels: <o,m>
+File: mcmj0_si464
+Channel: 1
+Scores: (#C #S #D #I) 47 10 4 1
+REF:  (sil) dh ah (sil) P r aa s (sil) p EH (sil) t ih V (sil) k ah dx ih NG (sil) b ae (sil) k s (sil) * eh n IH ng (sil) ih z n AH n (sil) P L EH Z ih n w ah N f ER eh n iy (sil) g ah v ER N er (sil) 
+HYP:  sil   dh ah sil   T r aa s sil   p AE sil   t ih Z sil   k ah dx ih N  sil   b ae sil   k s sil   T eh n IY ng       ih z n EH n sil   * T AY S ih n w ah * f R  eh n iy sil   g ah v ** * er sil   
+Eval:                   S                S             S                  S                             I      S                  S          D S S  S           D   S                       D  D          
+
+id: (mcmj0-002)
+Labels: <o,m>
+File: mcmj0_si602
+Channel: 1
+Scores: (#C #S #D #I) 34 14 3 2
+REF:  (sil) B  IH (sil) dh ih sh ih (sil) P s ER v er IH s *** L ow n aw (sil) EH n ** w iy (sil) d OW N (sil) G eh (SIL) s OW m eh n iy s EY L er z ih N IH M aa r (sil) 
+HYP:  sil   DH EH sil   dh ih sh ih sil   * s IH v er IY s SIL T ow n aw       ** n OW w iy sil   d AH M sil   K eh N     s UW m eh n iy s EH V er z ih * NG W aa r sil   
+Eval:       S  S                          D   S       S    I   S               D    I               S  S       S    S       S              S  S         D S  S            
+
+id: (mcmj0-003)
+Labels: <o,m>
+File: mcmj0_sx104
+Channel: 1
+Scores: (#C #S #D #I) 17 7 1 0
+REF:  (sil) HH IY s (sil) t OW l ah (sil) D ay m f R AH m ah (sil) b EH (sil) G  er (sil) 
+HYP:  sil   DH IH s sil   t EH l ah sil   T ay m f * EH m ah sil   b EY       DX er sil   
+Eval:       S  S            S             S        D S               S        S           
+
+id: (mcmj0-004)
+Labels: <o,m>
+File: mcmj0_sx14
+Channel: 1
+Scores: (#C #S #D #I) 23 9 5 1
+REF:  (sil) B AH f aa r *** TH er z (sil) D ey z ih (sil) G z ae M r IH V  y uw EH V  R  IH f aa r m Y ih L ah (sil) 
+HYP:  sil   * IH f aa r SIL JH er z       * ey z ih       * z ae N r IY HH y uw ** AE DX IY f aa r m * ih N ah sil   
+Eval:       D S         I   S             D               D      S   S  S       D  S  S  S           D    S          
+
+id: (mcmj0-005)
+Labels: <o,m>
+File: mcmj0_sx194
+Channel: 1
+Scores: (#C #S #D #I) 18 2 1 2
+REF:  (sil) DH ey IH n (sil) jh oy ih * w EH n ay aa * (sil) d ih sh ih n (sil) 
+HYP:  sil   N  ey ** n sil   jh oy ih M w AH n ay aa R sil   d ih sh ih n sil   
+Eval:       S     D                   I   S          I                          
+
+id: (mcmj0-006)
+Labels: <o,m>
+File: mcmj0_sx284
+Channel: 1
+Scores: (#C #S #D #I) 25 12 3 3
+REF:  (sil) jh eh f *** TH AA y uw aa r (sil) UW DX IH N   F EY v er IH V IH s eh n (sil) ** ** T   ER F UW (sil) jh (sil) p er (sil) ch ih s (sil) 
+HYP:  sil   jh eh f SIL T  ER y uw aa r       ** L  IY SIL T EH v er ** * N  s eh n sil   JH IH SIL K  Y ER sil   jh sil   p er sil   ch ih s sil   
+Eval:               I   S  S                  D  S  S  S   S S       D  D S               I  I  S   S  S S                                          
+
+id: (mcmj0-007)
+Labels: <o,m>
+File: mcmj0_sx374
+Channel: 1
+Scores: (#C #S #D #I) 17 6 3 3
+REF:  (sil) jh aa N (sil) K L IY n z (sil) sh eh l f ih *** * SH  F er ** ah L IH v ih NG (sil) 
+HYP:  sil   jh aa * sil   D R IH n z sil   sh eh l f ih SIL S SIL W er DH ah * ** v ih N  sil   
+Eval:             D       S S S                         I   I S   S    I     D D       S        
+
+Speaker sentences  10:  mdab0   #utts: 8
+id: (mdab0-000)
+Labels: <o,m>
+File: mdab0_si1039
+Channel: 1
+Scores: (#C #S #D #I) 33 14 8 0
+REF:  (sil) hh iy HH EH z N EH v er HH ih M s eh l f (SIL) D  AH n EY HH IH NG f OW w ih (sil) ch (sil) T AH (sil) B iy hh ey dx ih (sil) (sil) w IH (sil) ch ih V  ah S HH ae Z (sil) 
+HYP:  sil   hh iy ** OW z * AH v er N  ih N s eh l f UH    DX IH n ** ** ** IY f L  w ih sil   ch       * ** sil   K iy hh ey dx ih sil   sil   w ER sil   ch ih DH ah * F  ae S sil   
+Eval:             D  S    D S       S     S          S     S  S    D  D  D  S    S                      D D        S                              S              S     D S     S       
+
+id: (mdab0-001)
+Labels: <o,m>
+File: mdab0_si1669
+Channel: 1
+Scores: (#C #S #D #I) 20 3 9 0
+REF:  (sil) B  iy IH (sil) K s ay dx IH (sil) D ih N (sil) d OW N AH (sil) d EH N AH f ay er s eh l f (sil) 
+HYP:  sil   DH iy **       * s ay dx **       * ih * sil   d ** * AA sil   d ** * IH f ay er s eh l f sil   
+Eval:       S     D        D         D        D    D         D  D S          D  D S                         
+
+id: (mdab0-002)
+Labels: <o,m>
+File: mdab0_si2299
+Channel: 1
+Scores: (#C #S #D #I) 25 8 7 1
+REF:  (sil) s AH M  (sil) t ay m *** s IY (sil) k OW ah n s ay DX AH W ah TH M ay F aa DH ih z (sil) B iy NG EH (sil) T  hh ow m (sil) 
+HYP:  sil   s ** OW sil   t ay m SIL s IH sil   k ** ah n s ay ** ** L ah ** V ay V aa DX ih z sil   D iy ** **       IH hh ow m sil   
+Eval:         D  S               I     S          D            D  D  S    D  S    S    S             S    D  D        S                
+
+id: (mdab0-003)
+Labels: <o,m>
+File: mdab0_sx139
+Channel: 1
+Scores: (#C #S #D #I) 20 14 6 0
+REF:  (sil) dh ah (sil) B AH NG (SIL) G  l OW W ah Z (sil) p L ah Z N L  ih s ih (sil) CH AH W IH dx IH (sil) N ih DH IH sh aa r (sil) 
+HYP:  sil   dh ah sil   P AA N  DH    AH l AA L ah S sil   p * ah * S DH ih s ih sil   ** S  L EY dx **       * ih ** ER sh aa r sil   
+Eval:                   S S  S  S     S    S  S    S         D    D S S                D  S  S S     D        D    D  S                
+
+id: (mdab0-004)
+Labels: <o,m>
+File: mdab0_sx229
+Channel: 1
+Scores: (#C #S #D #I) 12 4 8 0
+REF:  (sil) AA R  y IH l UH (sil) K iy N f R OW M  (sil) P l OY M ih (sil) t (sil) 
+HYP:  sil   ** AY y UW l **       * iy * f * ** AA       F l ** * ih sil   t sil   
+Eval:       D  S    S    D        D    D   D D  S        S   D  D                  
+
+id: (mdab0-005)
+Labels: <o,m>
+File: mdab0_sx319
+Channel: 1
+Scores: (#C #S #D #I) 22 10 2 3
+REF:  (sil) ey (sil) b IY (sil) g ow (sil) ay DX ah l iy *** * ae M (sil) B  L (sil) TH UW DH ih *** F aa r M Y  aa r (sil) D (sil) 
+HYP:  sil   ey sil   b IH sil   g ow       ay ** ah l iy SIL G ae N       IH N       Z  IH N  ih SIL B aa r * IY aa r sil   T sil   
+Eval:                  S                      D          I   I    S       S  S       S  S  S     I   S      D S             S       
+
+id: (mdab0-006)
+Labels: <o,m>
+File: mdab0_sx409
+Channel: 1
+Scores: (#C #S #D #I) 33 6 10 2
+REF:  (sil) iy dx IY NG s (sil) p IH N eh (sil) CH (sil) n AY (sil) * ** l iy IH NG (sil) k r iy s ih s (sil) t r EH N  (sil) TH (sil) M ER ae (sil) K Y AH l ih s l iy (sil) 
+HYP:  sil   iy dx ** IH s sil   p ** * eh       **       n S  sil   M EY l iy ** ** sil   k r iy s ih s sil   t r ** EY sil   S  sil   * R  ae       * * F  l ih s l iy sil   
+Eval:             D  S            D  D          D          S        I I       D  D                                D  S        S        D S           D D S                    
+
+id: (mdab0-007)
+Labels: <o,m>
+File: mdab0_sx49
+Channel: 1
+Scores: (#C #S #D #I) 21 11 4 0
+REF:  (sil) ae (sil) T (sil) W aa L ay (sil) t ah m AH (sil) T (sil) W EH L  TH (sil) D  ey w L HH AE V  sh AH (sil) b l iy (sil) 
+HYP:  sil   ae       Z       L aa * ay sil   t ah m **       *       Z F  AA F  sil   DH ey w * AH N  AH sh IH sil   b l iy sil   
+Eval:                S       S    D                 D        D       S S  S  S        S       D S  S  S     S                     
+
+Speaker sentences  11:  mgrt0   #utts: 8
+id: (mgrt0-000)
+Labels: <o,m>
+File: mgrt0_si1450
+Channel: 1
+Scores: (#C #S #D #I) 55 8 4 3
+REF:  (sil) m *** iy (sil) T s (sil) dh er r ey DX IY ey sh N  (sil) p r aa s eh s ih ng *** * ah v m iy (sil) T hh EH z r iy s iy v (sil) D ih (sil) k s (sil) t eh n S IH V ih n V eh s (sil) t ih (sil) G ey sh ih n (sil) 
+HYP:  sil   m SIL iy       K s sil   dh er r ey ** ** ey sh IH sil   p r aa s eh s ih ng SIL P ah v m iy sil   D hh AE z r iy s iy v       * ih sil   k s sil   t eh n Z IY N ih n * eh s sil   t ih sil   K ey sh ih n sil   
+Eval:         I            S                    D  D        S                            I   I                 S    S                      D                           S S  S      D                       S                  
+
+id: (mgrt0-001)
+Labels: <o,m>
+File: mgrt0_si2080
+Channel: 1
+Scores: (#C #S #D #I) 23 1 0 0
+REF:  (sil) hh iy w uh (sil) n aa (sil) k eh r iy IH (sil) b r iy f (sil) k ey s (sil) 
+HYP:  sil   hh iy w uh sil   n aa sil   k eh r iy AH sil   b r iy f sil   k ey s sil   
+Eval:                                             S                                    
+
+id: (mgrt0-002)
+Labels: <o,m>
+File: mgrt0_si820
+Channel: 1
+Scores: (#C #S #D #I) 45 12 2 3
+REF:  (sil) b AY dh ae (sil) T (sil) W ah n f iy l z ae (sil) m ae (sil) ** n EH DX IH (sil) f aa r s AH z (sil) AA ER z (sil) jh eh n R  l *** * AE z ih l EH (sil) t ER (sil) k l f aa r s ih S (sil) 
+HYP:  sil   b AH dh ae sil   D sil   M ah n f iy l z ae sil   m ae sil   IH n ** ** EY sil   f aa r s IH z sil   AY IH z sil   jh eh n AH l SIL K AH z ih l AE sil   t IH sil   k l f aa r s ih Z sil   
+Eval:         S              S       S                                   I    D  D  S                 S          S  S                  S    I   I S         S          S                        S       
+
+id: (mgrt0-003)
+Labels: <o,m>
+File: mgrt0_sx10
+Channel: 1
+Scores: (#C #S #D #I) 21 6 0 1
+REF:  (sil) AA R y er (sil) G r ey (sil) Z hh ay er ** er l ow er dh EH n ae n s iy S (sil) 
+HYP:  sil   AH N y er sil   P r ey sil   S hh ay er HH er l ow er dh IH n ae n s iy Z sil   
+Eval:       S  S            S            S          I                S              S       
+
+id: (mgrt0-004)
+Labels: <o,m>
+File: mgrt0_sx100
+Channel: 1
+Scores: (#C #S #D #I) 30 4 3 2
+REF:  (sil) P r aa (sil) jh EH (sil) D ih v eh l M ah * N  (sil) w ah z (sil) p er s iy DX IH ng (sil) t uw s *** l ow l iy (sil) 
+HYP:  sil   T r aa sil   jh EY sil   T ih v eh l * ah M IH sil   w ah z sil   p er s iy ** ** ng sil   t uw s SIL l ow l iy sil   
+Eval:       S               S        S           D    I S                               D  D                  I                   
+
+id: (mgrt0-005)
+Labels: <o,m>
+File: mgrt0_sx190
+Channel: 1
+Scores: (#C #S #D #I) 16 4 5 6
+REF:  (sil) s er V Z IH (sil) k OW L  s L aa ** ** ae F sh er ** AY ae (sil) dh iy *** * ** OY l (sil) 
+HYP:  sil   s er * * ** sil   k ** AA s W aa NG HH ae * sh er AH HH ae sil   dh iy SIL G OW EH l sil   
+Eval:            D D D          D  S    S    I  I     D       I  S                 I   I I  S          
+
+id: (mgrt0-006)
+Labels: <o,m>
+File: mgrt0_sx280
+Channel: 1
+Scores: (#C #S #D #I) 11 7 0 2
+REF:  (sil) dh iy ow * ey s AH s (sil) * W AH z AH M er AA SH (sil) 
+HYP:  sil   dh iy ow L ey s IH s sil   K L IH z ER V er AY Z  sil   
+Eval:                I      S          I S S    S  S    S  S        
+
+id: (mgrt0-007)
+Labels: <o,m>
+File: mgrt0_sx370
+Channel: 1
+Scores: (#C #S #D #I) 24 8 2 0
+REF:  (sil) dh eh N OY Z (sil) p R AA (sil) L  M (sil) g r ow z (sil) m aa r ah n OY IH NG iy (sil) ch (sil) d ey (sil) 
+HYP:  sil   dh eh M OW S sil   p * **       OW N sil   g r ow z       m aa r ah n OW L  AY iy sil   ch sil   d ey sil   
+Eval:             S S  S         D D        S  S                                  S  S  S                               
+
+Speaker sentences  12:  mjdh0   #utts: 8
+id: (mjdh0-000)
+Labels: <o,m>
+File: mjdh0_si1354
+Channel: 1
+Scores: (#C #S #D #I) 40 8 10 4
+REF:  (sil) w ih ** ** *** TH ih n AH L aa r (sil) jh er s ow sh l s ih s (sil) t AH m aa r DH ih s (sil) t R AH (sil) K SH er * l N f AH NG (sil) SH N l s AH (sil) s ih s (sil) T ah M S (sil) 
+HYP:  sil   w ih DH EY SIL D  ih n ** W aa r sil   jh er s ow sh l s ih s sil   t IH m aa r DX ih s sil   t * **       * ** er F l * f ** **       AA F l s OW       s ih s       * ah * Z sil   
+Eval:            I  I  I   S       D  S                                           S         S               D D        D D     I   D   D  D        S  S     S                     D    D S       
+
+id: (mjdh0-001)
+Labels: <o,m>
+File: mjdh0_si1984
+Channel: 1
+Scores: (#C #S #D #I) 10 3 0 0
+REF:  (sil) EH n w ah DX ay z DH ey w er (sil) 
+HYP:  sil   IH n w ah L  ay z F  ey w er sil   
+Eval:       S         S       S                
+
+id: (mjdh0-002)
+Labels: <o,m>
+File: mjdh0_si724
+Channel: 1
+Scores: (#C #S #D #I) 24 4 4 2
+REF:  (sil) ih (sil) S ih s (sil) T r iy m L ay N  r ay f ** *** L f ae s (sil) T N w ah L m ey (sil) d (sil) 
+HYP:  sil   ih       Z ih s sil   P r iy m * ay NG r ay f IH SIL S f ae s sil   * * w ah * m ey sil   d sil   
+Eval:                S            S        D    S         I  I   S              D D      D                    
+
+id: (mjdh0-003)
+Labels: <o,m>
+File: mjdh0_sx184
+Channel: 1
+Scores: (#C #S #D #I) 19 5 1 0
+REF:  (sil) dh ih (sil) k ae (sil) s (sil) M iy aw oy Z hh er (sil) S  (sil) M AY IH er z (sil) 
+HYP:  sil   dh ih sil   k ae sil   s sil   B iy aw oy S hh er sil   CH sil   * W  IY er z sil   
+Eval:                                      S          S             S        D S  S             
+
+id: (mjdh0-004)
+Labels: <o,m>
+File: mjdh0_sx274
+Channel: 1
+Scores: (#C #S #D #I) 16 10 5 1
+REF:  (sil) K L IH F  W ih s uw DH (sil) b AY DH  ah L ih (sil) SH er R iy IH s (sil) M  IH s aa *** SH (sil) 
+HYP:  sil   * * T  AH V ih s uw ** sil   b AH SIL ah W ih sil   CH er * iy ** s       DH AH s aa SIL K  sil   
+Eval:       D D S  S  S         D          S  S      S          S     D    D          S  S       I   S        
+
+id: (mjdh0-005)
+Labels: <o,m>
+File: mjdh0_sx364
+Channel: 1
+Scores: (#C #S #D #I) 40 14 8 0
+REF:  (sil) iy (sil) CH AH n (sil) t AY m L iy IH N (sil) k ah M L aa s (sil) k ow AH n s ay dx IH W IH TH ah (sil) b r ey (sil) d aw n AH V ih HH IY DX iy NG  S ih s (sil) T M (sil) p aa r (sil) (sil) 
+HYP:  sil   iy sil   K  EH n sil   t AA m * iy ** * sil   k ah V W aa s sil   k ow IH n s ay dx ** * AH DH ah sil   b r ey sil   d aw n ** * ih F  AH HH iy SIL Z ih s       * N sil   p aa r sil   sil   
+Eval:                S  S            S    D    D  D            S S                 S            D  D S  S                               D  D    S  S  S     S   S            D S                          
+
+id: (mjdh0-006)
+Labels: <o,m>
+File: mjdh0_sx4
+Channel: 1
+Scores: (#C #S #D #I) 18 8 4 0
+REF:  (sil) JH ey N M EY er N m aa r M AH N IY (sil) b ay w er (sil) k IH NG  HH aa r (sil) d (sil) 
+HYP:  sil   G  ey * B EH er * m aa r * ** W EY sil   b ay w er sil   k N  SIL P  aa r sil   d sil   
+Eval:       S     D S S     D        D D  S S                          S  S   S                     
+
+id: (mjdh0-007)
+Labels: <o,m>
+File: mjdh0_sx94
+Channel: 1
+Scores: (#C #S #D #I) 26 4 4 1
+REF:  (sil) y ah NG  s (sil) t * UW z (sil) L ah V (sil) k aa M IH n (sil) k ae n (sil) D iy Z  (sil) t r iy (sil) s (sil) 
+HYP:  sil   y ah SIL s sil   t R IH z       W ah * sil   k aa * ** n sil   k ae n       * iy SH sil   t r iy sil   s sil   
+Eval:            S             I S          S    D            D D                       D    S                             
+
+Speaker sentences  13:  mjln0   #utts: 8
+id: (mjln0-000)
+Labels: <o,m>
+File: mjln0_si1449
+Channel: 1
+Scores: (#C #S #D #I) 35 14 9 0
+REF:  (sil) CH iy F  IH n (sil) t er S (sil) T ih N  r ey dx iy UH S (sil) T eh ER L AH z ey sh ih N   r ih z AY (sil) z ih n DH IH M IH l ih (sil) t EH R IH S er V er s ih z (sil) 
+HYP:  sil   JH iy HH EH n sil   t er *       Z ih NG r ey dx iy AH Z sil   D eh ** R OW z ey sh ih SIL r ih z AA       z ih n ** ** * AH l ih sil   t ** * ** * er S er s ih z sil   
+Eval:       S     S  S               D       S    S             S  S       S    D  S S             S          S               D  D  D S               D  D D  D    S                 
+
+id: (mjln0-001)
+Labels: <o,m>
+File: mjln0_si2079
+Channel: 1
+Scores: (#C #S #D #I) 13 2 2 1
+REF:  (sil) dh ey HH EH (sil) s l ae (sil) dh eh r TH ay * Z (sil) 
+HYP:  sil   dh ey ** ** sil   s l ae sil   dh eh r F  ay L S sil   
+Eval:             D  D                             S     I S       
+
+id: (mjln0-002)
+Labels: <o,m>
+File: mjln0_si819
+Channel: 1
+Scores: (#C #S #D #I) 46 9 2 2
+REF:  (sil) dh EH er f aa r s ih z ah m aa r l EY (sil) n (sil) DH EH n ih n l eh (sil) t r ih s ih (sil) D  iy (sil) AE n l eh s *** DH ih n ih N m ae (sil) N IH (sil) T ih z ** m (sil) 
+HYP:  sil   dh EY er f aa r s ih z ah m aa r l IY       n sil   B  IH n ih n l eh sil   t r ih s ih       DX iy sil   EH n l eh s SIL T  ih n ih * m ae       * NG       F ih z AH m sil   
+Eval:          S                               S                S  S                                      S           S           I   S          D            D S        S      I          
+
+id: (mjln0-003)
+Labels: <o,m>
+File: mjln0_sx189
+Channel: 1
+Scores: (#C #S #D #I) 23 6 3 1
+REF:  (sil) D  ih s (sil) t r oy ** eh v r iy f AY L R  AH  L ey dx ih (sil) t ih m ay AA DX IH (sil) s (sil) 
+HYP:  sil   DH ih s sil   t r oy DH eh v r iy f ** * AW SIL M ey dx ih sil   t ih m ay ** AY V        s sil   
+Eval:       S                    I              D  D S  S   S                          D  S  S                
+
+id: (mjln0-004)
+Labels: <o,m>
+File: mjln0_sx279
+Channel: 1
+Scores: (#C #S #D #I) 37 5 6 1
+REF:  (sil) ae l AH S ih * Z  ih (sil) b ih l AH DX iy (sil) t UW w er (sil) K W IH DH aw (sil) s UW (sil) p er v ih sh ih n (sil) ih z n ow (sil) w er dh iy (sil) 
+HYP:  sil   ae l ** Z ih V DH ih sil   b ih l ** ** iy sil   t AH w er       * * ** V  aw sil   s AH sil   p er v ih sh ih n       ih z n ow       w er dh iy sil   
+Eval:            D  S    I S                  D  D             S             D D D  S             S                                                                 
+
+id: (mjln0-005)
+Labels: <o,m>
+File: mjln0_sx369
+Channel: 1
+Scores: (#C #S #D #I) 18 3 7 0
+REF:  (sil) b aa (sil) p ey (sil) p er (sil) ow v IH DH AH L ih V IH NG r UW M ih R l z (sil) 
+HYP:  sil   b aa sil   p ey sil   p er       ow v ** ** ** * ih Y UW N  r ** * ih * l z sil   
+Eval:                                             D  D  D  D    S S  S    D  D    D           
+
+id: (mjln0-006)
+Labels: <o,m>
+File: mjln0_sx9
+Channel: 1
+Scores: (#C #S #D #I) 12 3 4 0
+REF:  (sil) w EH AH w er Y UW w AA l W iy w er AH w ey (sil) 
+HYP:  sil   w ** ER w er * IY w EH l * iy w er ** w ey sil   
+Eval:         D  S       D S    S    D         D             
+
+id: (mjln0-007)
+Labels: <o,m>
+File: mjln0_sx99
+Channel: 1
+Scores: (#C #S #D #I) 26 7 3 1
+REF:  (sil) m ih (sil) D iy *** V l s ih s ay IH dx iy w IH z (sil) B ey s (sil) T aa N  hh ay er AA R (sil) K  iy s (sil) 
+HYP:  sil   m ih       N iy SIL K l s ih s ay ** dx iy w AH z sil   D ey s sil   D aa NG hh ay er ** * sil   TH iy s sil   
+Eval:                  S    I   S             D          S          S            S    S           D  D       S             
+
+Speaker sentences  14:  mjmp0   #utts: 8
+id: (mjmp0-000)
+Labels: <o,m>
+File: mjmp0_si1535
+Channel: 1
+Scores: (#C #S #D #I) 20 7 3 1
+REF:  (sil) hh iy (sil) T R EH M  (sil) B l (sil) l eh s (sil) t HH ih Z (sil) P iy *** sh ih (sil) f EY L   (sil) 
+HYP:  sil   hh iy sil   * * CH AE sil   K l       l eh s sil   t ** ih S sil   T iy SIL sh ih sil   f EH SIL sil   
+Eval:                   D D S  S        S                        D     S       S    I                 S  S         
+
+id: (mjmp0-001)
+Labels: <o,m>
+File: mjmp0_si1791
+Channel: 1
+Scores: (#C #S #D #I) 42 11 4 3
+REF:  (sil) n ow *** DH ah m ae n w ah z (sil) n aa (sil) D R AH NG (sil) K (sil) hh iy w ah n (sil) d er (sil) D HH aw ** iy (sil) g AA (sil) t ay *** DX ah (sil) W ih th ih s (sil) t r EY N JH ER (sil) 
+HYP:  sil   n ow SIL D  ah m ae n w ah z       n aa sil   * T AA N  sil   T sil   hh iy w ah n sil   d er sil   * K  aw DX iy sil   g EH sil   t ay SIL D  ah sil   P ih th ih s sil   t r ** * IY M  sil   
+Eval:            I   S                                    D S S  S        S                                     D S     I             S             I   S           S                      D  D S  S        
+
+id: (mjmp0-002)
+Labels: <o,m>
+File: mjmp0_si905
+Channel: 1
+Scores: (#C #S #D #I) 25 9 2 1
+REF:  (sil) HH ih z w er (sil) B IY (sil) g ae n *** JH ih s ih (sil) K s (sil) D ey z ae F (sil) t AH dh AH F l ah (SIL) (sil) 
+HYP:  sil   DH ih z w er sil   K IH sil   g ae n SIL T  ih s ih sil   * s sil   T ey z ae * sil   t IH dh IH S l ah N     sil   
+Eval:       S                  S S               I   S                D         S         D         S     S  S      S           
+
+id: (mjmp0-003)
+Labels: <o,m>
+File: mjmp0_sx185
+Channel: 1
+Scores: (#C #S #D #I) 19 1 6 0
+REF:  (sil) d ih (sil) jh uw (sil) B ay IH N iy (sil) k aa r DX ER OY ow v er AA l s (sil) 
+HYP:  sil   d ih sil   jh uw       * ay ** * iy sil   k aa r ** ** EY ow v er ** l s sil   
+Eval:                              D    D  D                 D  D  S          D            
+
+id: (mjmp0-004)
+Labels: <o,m>
+File: mjmp0_sx275
+Channel: 1
+Scores: (#C #S #D #I) 24 3 3 1
+REF:  (sil) s (sil) t iy V w aa r AH (sil) b r AY (sil) r eh (sil) k ae * SH M er s (sil) w eh DX er (sil) 
+HYP:  sil   s sil   t iy * w aa r ** sil   b r EH sil   r eh sil   k ae Z IH N er s sil   w eh ** er sil   
+Eval:                    D        D            S                        I S  S                 D           
+
+id: (mjmp0-005)
+Labels: <o,m>
+File: mjmp0_sx365
+Channel: 1
+Scores: (#C #S #D #I) 33 14 1 1
+REF:  (sil) dh ih (sil) G AH N  M   ih n (sil) K EH (sil) t ih * Z   V ih (sil) t ih M (sil) k aa N ER (sil) EH (sil) G AH n (sil) p oy n (sil) f ER th r iy aw er z (sil) 
+HYP:  sil   dh ih sil   * T  EH SIL ih n sil   T AE sil   t ih S SIL D ih sil   t ih N sil   k aa R DX       AE sil   T EH n sil   p oy n sil   f IH th r iy aw er z sil   
+Eval:                   D S  S  S              S S             I S   S               S            S S        S        S S                         S                        
+
+id: (mjmp0-006)
+Labels: <o,m>
+File: mjmp0_sx5
+Channel: 1
+Scores: (#C #S #D #I) 9 6 1 1
+REF:  (sil) sh iy ih * Z   TH IH n ER DH ih n ay AE M (sil) 
+HYP:  sil   sh iy ih S SIL T  EH n AH V  ih n ay ** N sil   
+Eval:                I S   S  S    S  S          D  S       
+
+id: (mjmp0-007)
+Labels: <o,m>
+File: mjmp0_sx95
+Channel: 1
+Scores: (#C #S #D #I) 29 10 0 1
+REF:  (sil) ** IH (sil) g W aa N  EH z EH n ae l ih (sil) G ey dx er z er (sil) t r AA (sil) p ah (sil) k L  r EH (sil) t ay L z (sil) 
+HYP:  sil   HH IY sil   g L aa DX AH z IH n ae l ih sil   K ey dx er z er sil   t r AH sil   p ah sil   k AH r AH sil   t ay M z sil   
+Eval:       I  S          S    S  S    S                  S                         S                     S    S             S         
+
+Speaker sentences  15:  mklt0   #utts: 8
+id: (mklt0-000)
+Labels: <o,m>
+File: mklt0_si1213
+Channel: 1
+Scores: (#C #S #D #I) 18 12 4 0
+REF:  (sil) m AA OW N IH (sil) k s (sil) P IH ER n S ih z f aa l OW (sil) s IH M  (sil) P L ER l AA N z (sil) 
+HYP:  sil   m ** AY L IY sil   k s       * ** EH n Z ih z f aa l AH       s ** EH sil   D W IH l EH V z sil   
+Eval:         D  S  S S                  D D  S    S             S          D  S        S S S    S  S         
+
+id: (mklt0-001)
+Labels: <o,m>
+File: mklt0_si1843
+Channel: 1
+Scores: (#C #S #D #I) 32 7 14 0
+REF:  (sil) sh IY W AH Z  r EH dx iy f aa r HH ER (sil) g r ey DX IH (sil) V EH n (sil) CH ER z ah N   DH iy ER r aa V L AH v er m ow (sil) L (sil) p aa r (sil) n ER (sil) 
+HYP:  sil   sh ** * ** UW r EY dx iy f aa r ** ** sil   g r ey ** **       * AE n sil   JH IH z ah SIL B  iy ** r aa * * ** v er m ow       * sil   p aa r       n ** sil   
+Eval:          D  D D  S    S               D  D               D  D        D S          S  S       S   S     D       D D D                  D                      D        
+
+id: (mklt0-002)
+Labels: <o,m>
+File: mklt0_si583
+Channel: 1
+Scores: (#C #S #D #I) 27 5 4 0
+REF:  (sil) dh ih s W iy (sil) k ih n s ih M (sil) P IH TH eh dx ih (sil) k l iy AH n D AH s (sil) t ae n (sil) D (sil) 
+HYP:  sil   dh ih s L iy sil   k ih n s ih *       V AH F  eh dx ih sil   k l iy IH n * ** s sil   t ae n       * sil   
+Eval:               S                      D       S S  S                        S    D D                       D       
+
+id: (mklt0-003)
+Labels: <o,m>
+File: mklt0_sx133
+Channel: 1
+Scores: (#C #S #D #I) 21 7 6 2
+REF:  (sil) p iy (sil) * s ** ER IY er z ER (sil) K n v IY N Y ih (SIL) f AA R  (sil) k w ih (sil) K L ah n (sil) CH (sil) 
+HYP:  sil   p iy sil   T s IH DX IH er z IH sil   * n v ** * * ih NG    f ** ER sil   k w ih sil   * M ah n sil   JH sil   
+Eval:                  I   I  S  S       S        D     D  D D    S       D  S                     D S            S        
+
+id: (mklt0-004)
+Labels: <o,m>
+File: mklt0_sx223
+Channel: 1
+Scores: (#C #S #D #I) 27 2 5 0
+REF:  (sil) p uh (sil) DH AH (sil) b uh (sil) ch ER (sil) B l aa (sil) t ey (sil) B L ih n dh ih (sil) g er r AA (sil) jh (sil) 
+HYP:  sil   p uh       ** ** sil   b uh sil   ch **       * l aa sil   t ey       * W ih n dh ih sil   g er r AH sil   jh sil   
+Eval:                  D  D                      D        D                       D S                         S                 
+
+id: (mklt0-005)
+Labels: <o,m>
+File: mklt0_sx313
+Channel: 1
+Scores: (#C #S #D #I) 23 9 3 1
+REF:  (sil) D r aa (sil) f AY f * AA  M  Z  n DH AH (sil) b aa (sil) k s (sil) B ah f aa Y UW (sil) g OW aw (sil) (sil) HH (sil) 
+HYP:  sil   G r aa sil   f AA f L SIL JH IH n ** IH sil   b aa sil   k s sil   * ah f aa R IY sil   g UW aw       sil   ** sil   
+Eval:       S              S    I S   S  S    D  S                             D         S S          S                 D        
+
+id: (mklt0-006)
+Labels: <o,m>
+File: mklt0_sx403
+Channel: 1
+Scores: (#C #S #D #I) 29 8 3 0
+REF:  (sil) hh AH w aa r (sil) d r OW (sil) k n s ih s (sil) S AH V ow N L iy s (sil) k er (sil) s AH n (sil) B l AW z IH z (sil) 
+HYP:  sil   hh ** w aa r sil   d r EY sil   k n s ih s sil   T IH M ow * M iy s sil   k er sil   s IH n       * l AH z AH z sil   
+Eval:          D                   S                         S S  S    D S                         S          D   S    S          
+
+id: (mklt0-007)
+Labels: <o,m>
+File: mklt0_sx43
+Channel: 1
+Scores: (#C #S #D #I) 26 3 2 0
+REF:  (sil) eh l (SIL) er L IY (sil) p iy (sil) p l er aa f ih n ih (sil) k s (sil) k L UW dx ih (sil) d (sil) 
+HYP:  sil   eh l DH    er * ** sil   p iy sil   p l er aa f ih n ih sil   k s sil   k W IH dx ih sil   d sil   
+Eval:            S        D D                                                         S S                      
+
+Speaker sentences  16:  mlll0   #utts: 8
+id: (mlll0-000)
+Labels: <o,m>
+File: mlll0_si1363
+Channel: 1
+Scores: (#C #S #D #I) 41 7 7 1
+REF:  (sil) s ah m IH DH iy S (sil) p EH (sil) k ih l ey sh ** n z (sil) m ey EH V   s ah M  eh r IH (sil) (sil) ah dh er z ER s ah m W ah DX AH M  (sil) b ih (sil) g y uw AH s (sil) 
+HYP:  sil   s ah m ** ** iy Z sil   p IH sil   k ih l ey sh IH n z sil   m ey ** SIL s ah DH eh r ** sil   sil   ah dh er z IH s ah m * ah ** N  IH sil   b ih sil   g y uw ** s sil   
+Eval:              D  D     S         S                     I                 D  S        S       D                         S         D    D  S  S                          D          
+
+id: (mlll0-001)
+Labels: <o,m>
+File: mlll0_si1993
+Channel: 1
+Scores: (#C #S #D #I) 10 3 0 0
+REF:  (sil) sh UH (SIL) sh iy w ey (sil) k ih M (sil) 
+HYP:  sil   sh IH N     sh iy w ey sil   k ih N sil   
+Eval:          S  S                           S       
+
+id: (mlll0-002)
+Labels: <o,m>
+File: mlll0_si733
+Channel: 1
+Scores: (#C #S #D #I) 26 10 3 3
+REF:  (sil) d uw ah *** V oy (sil) p ah NG (sil) * SH ER IY N  er (sil) K AH dx IY N ih n (sil) t IH m iy (sil) S (sil) t eh s *** DH ah m (sil) 
+HYP:  sil   d uw ah SIL B oy sil   p ah ** sil   N T  R  IH DX er sil   P EY dx ** * ih n sil   t UW m iy       Z sil   t eh s SIL W  ah m sil   
+Eval:               I   S               D        I S  S  S  S           S S     D  D              S             S              I   S             
+
+id: (mlll0-003)
+Labels: <o,m>
+File: mlll0_sx103
+Channel: 1
+Scores: (#C #S #D #I) 23 4 8 1
+REF:  (sil) k aa L AH N AE M B UW l ih ** N  (sil) S f er m eh DX ih (sil) k l AH s ih s (sil) t N  (sil) t s (sil) 
+HYP:  sil   k aa * ** * ** * * ** l ih NG ER sil   Z f er m eh N  ih sil   k l ** s ih s sil   t IH sil   t s sil   
+Eval:            D D  D D  D D D       I  S        S           S               D                 S                  
+
+id: (mlll0-004)
+Labels: <o,m>
+File: mlll0_sx13
+Channel: 1
+Scores: (#C #S #D #I) 17 3 4 1
+REF:  (sil) s (sil) W iy NG y er aa r M ih * Z   HH ay IH z ih (sil) k AE ih n (sil) 
+HYP:  sil   s       L iy ** y er aa r * ih S SIL P  ay ** z ih sil   k ** ih n sil   
+Eval:               S    D            D    I S   S     D               D             
+
+id: (mlll0-005)
+Labels: <o,m>
+File: mlll0_sx193
+Channel: 1
+Scores: (#C #S #D #I) 17 6 2 1
+REF:  (sil) w ay (sil) B ay ** OY l (sil) w AH N   y IH aa W ih sh UW z (sil) m AY n (sil) 
+HYP:  sil   w ay       * ay AA EH l       w IH SIL y ** aa L ih sh IY z       m AH n sil   
+Eval:                  D    I  S            S  S     D     S       S            S          
+
+id: (mlll0-006)
+Labels: <o,m>
+File: mlll0_sx283
+Channel: 1
+Scores: (#C #S #D #I) 27 9 12 0
+REF:  (sil) p l AE N (sil) D  (sil) P  eh er N (sil) T HH UH (sil) AH aa r (sil) G IH N IH z ey sh ih n S (sil) P  M ow (sil) B er TH (sil) K N  (sil) t r ow L (sil) 
+HYP:  sil   p l ** *       EY       HH eh er *       * ** **       ** aa r       * ** * IY z ey sh ih n Z sil   AH V ow sil   P er **       Z IH sil   t r ow * sil   
+Eval:           D  D       S        S        D       D D  D        D             D D  D S               S       S  S          S    D        S S               D       
+
+id: (mlll0-007)
+Labels: <o,m>
+File: mlll0_sx373
+Channel: 1
+Scores: (#C #S #D #I) 22 6 4 2
+REF:  (sil) ah (sil) b AA R  IY  N aa V l ih z ih s ah (sil) p er (sil) * s L IY (sil) P IY n (sil) p IH l ** (sil) 
+HYP:  sil   ah sil   b ** OY SIL D aa * l ih z ih s ah sil   p er sil   T s * IH sil   * K  n sil   p EH l AH sil   
+Eval:                  D  S  S   S    D                                 I   D S        D S            S    I        
+
+Speaker sentences  17:  mlnt0   #utts: 8
+id: (mlnt0-000)
+Labels: <o,m>
+File: mlnt0_si1574
+Channel: 1
+Scores: (#C #S #D #I) 39 13 2 1
+REF:  (sil) F l ay s (sil) w AA R M  (sil) IH R aw n dh IH (sil) b ow l AH  V l eh n (sil) t ** l z ih n w ih (sil) ch HH iy m aa (sil) TH ih (sil) b L AE (sil) b r EH (sil) D (sil) 
+HYP:  sil   P l ay s sil   w AH N DH       AH V aw n dh AH sil   b ow l SIL G l eh n sil   t UW l z ih n w ih sil   ch ** iy m aa sil   D  ih sil   b * AA sil   b r EY sil   T sil   
+Eval:       S                S  S S        S  S         S               S   S                I                         D                S             D S            S        S       
+
+id: (mlnt0-001)
+Labels: <o,m>
+File: mlnt0_si1902
+Channel: 1
+Scores: (#C #S #D #I) 19 4 3 0
+REF:  (sil) dh ah (sil) p AH l S IH NG (sil) G l ow AH V   ah s ih (sil) er r eh (sil) t (sil) 
+HYP:  sil   dh ah sil   p ** l * TH IY sil   B l ow ** SIL ah s ih       er r eh sil   t sil   
+Eval:                     D    D S  S        S      D  S                                       
+
+id: (mlnt0-002)
+Labels: <o,m>
+File: mlnt0_si642
+Channel: 1
+Scores: (#C #S #D #I) 29 13 3 2
+REF:  (sil) dh EH R  (sil) p R aa (sil) P s (sil) W er (sil) t uw *** S (sil) T EH (sil) P L ae dx er z (sil) ah (sil) ch EH er AE n ** AH (sil) P aa M F  ae n (sil) 
+HYP:  sil   dh ** IH sil   p * aa       * s       F er sil   t uw SIL Z sil   D AW sil   K M ae dx er z       ah sil   ch EY er EH n AA N  sil   T aa N TH ae n sil   
+Eval:          D  S          D          D         S               I   S       S S        S S                              S     S    I  S        S    S S             
+
+id: (mlnt0-003)
+Labels: <o,m>
+File: mlnt0_sx102
+Channel: 1
+Scores: (#C #S #D #I) 43 6 1 1
+REF:  (sil) s (sil) P EH sh l (sil) t ae s (sil) f aa r s ih z ** r eh s (sil) k y uw hh aa s (sil) t ih (sil) jh ih Z F   R ah m (sil) k ih (sil) N ae (sil) P er z (sil) 
+HYP:  sil   s       F IH sh l sil   t ae s       f aa r s ih z IH r eh s sil   k y uw hh aa s sil   t ih sil   jh ih S SIL P ah m sil   k ih sil   * ae sil   T er z sil   
+Eval:               S S                                        I                                                     S S   S                       D          S            
+
+id: (mlnt0-004)
+Labels: <o,m>
+File: mlnt0_sx12
+Channel: 1
+Scores: (#C #S #D #I) 14 6 3 1
+REF:  (sil) w UH L  R aa (sil) B ih n w eh er EY Y EH L ow * L  ih l iy (sil) 
+HYP:  sil   w ** AH W aa sil   K ih n w eh er ** * IY N ow N DH ih l iy sil   
+Eval:         D  S  S          S              D  D S  S    I S                
+
+id: (mlnt0-005)
+Labels: <o,m>
+File: mlnt0_sx192
+Channel: 1
+Scores: (#C #S #D #I) 18 7 1 1
+REF:  *** (sil) s (sil) T r AA hh ae (sil) s er aw dx ah F ae sh ih N   DH ih S Y  IH er (sil) 
+HYP:  SIL sil   s       D r OW hh ae       s er aw dx ah V ae sh ih SIL D  ih * SH IY er sil   
+Eval: I                 S   S                            S          S   S     D S  S           
+
+id: (mlnt0-006)
+Labels: <o,m>
+File: mlnt0_sx282
+Channel: 1
+Scores: (#C #S #D #I) 28 10 4 2
+REF:  (sil) dh ih (sil) t uw *** TH F  ER IY F  AH (sil) g AA (sil) t ah (sil) k ah m W IH N  r aa (sil) jh er z (sil) t uw TH F EH  L aw * (sil) t (sil) 
+HYP:  sil   dh ih sil   t uw SIL B  EH R  IH DH IH sil   g AE sil   t ah sil   k ah m * ** AH r aa sil   jh er z sil   t uw ** * SIL D aw N sil   t sil   
+Eval:                        I   S  S  S  S  S  S          S                          D D  S                                D  D S   S    I               
+
+id: (mlnt0-007)
+Labels: <o,m>
+File: mlnt0_sx372
+Channel: 1
+Scores: (#C #S #D #I) 35 3 2 2
+REF:  (sil) dh eh * (sil) d ** AY ih (sil) g R AE m ey (sil) K s eh n s (sil) ow n l iy (sil) ae f (sil) t er m ah (sil) SH (sil) t ah dx iy (sil) 
+HYP:  sil   dh eh N sil   d AA DX ih sil   g * ER m ey sil   * s eh n s       ow n l iy       ae f sil   t er m ah sil   CH sil   t ah dx iy sil   
+Eval:             I         I  S             D S             D                                                           S                         
+
+Speaker sentences  18:  mnjm0   #utts: 8
+id: (mnjm0-000)
+Labels: <o,m>
+File: mnjm0_si1580
+Channel: 1
+Scores: (#C #S #D #I) 23 8 4 1
+REF:  (sil) HH IH AA W iy s iy m (sil) T EH HH AE V  m ah n iy ih HH (sil) HH ih n HH ih z (sil) p aa (sil) k ah *** (sil) 
+HYP:  sil   ** Y  OW L iy s iy m       * DH IH N  AW m ah n iy ih ** sil   ** ih n DH ih z sil   p aa sil   k ah SIL sil   
+Eval:       D  S  S  S                 D S  S  S  S               D        D       S                             I         
+
+id: (mnjm0-001)
+Labels: <o,m>
+File: mnjm0_si2210
+Channel: 1
+Scores: (#C #S #D #I) 16 9 1 1
+REF:  (sil) N  ow * r iy (sil) T er n ae (sil) D R EH S (sil) w ah (sil) s OW  W EH V er (sil) 
+HYP:  sil   DH ow N r iy sil   K er n ae sil   * G AH Z sil   w ah       s SIL K L  N er sil   
+Eval:       S     I            S               D S S  S                    S   S S  S          
+
+id: (mnjm0-002)
+Labels: <o,m>
+File: mnjm0_si950
+Channel: 1
+Scores: (#C #S #D #I) 44 12 4 3
+REF:  (sil) ae s *** ah (sil) ch (sil) ih w ah z (sil) b iy aa M (sil) P aa l ah (sil) T  IH (sil) s AH n HH ae (sil) n ow N iy DX AH (sil) JH ah s IH V  AH (sil) k ey sh ** n (sil) B ay EY M eh * s ih (sil) jh (sil) 
+HYP:  sil   ae s SIL ah       ch sil   ih w ah z sil   b iy aa *       N aa l ah       TH EH sil   s IH n ** ae       n ow M iy ** IH sil   T  ah s AH DH IH sil   k ey sh IH n sil   W ay ** N eh N s ih sil   jh sil   
+Eval:            I                                             D       S               S  S          S    D                S    D  S        S       S  S  S                I          S    D  S    I                     
+
+id: (mnjm0-003)
+Labels: <o,m>
+File: mnjm0_sx140
+Channel: 1
+Scores: (#C #S #D #I) 27 11 3 2
+REF:  (sil) AE (sil) R IH (sil) K AH L  (sil) CH ER l (sil) p r aa dx AH (sil) s aa r * ah n iy *** V l iy (sil) d ih SH R IH V ih dx ih (sil) (sil) 
+HYP:  sil   EH       N ER sil   * B  OW       TH R  l sil   p r aa dx IH sil   s aa r M ah n iy SIL B l iy       d ih ** * S  F ih dx ih sil   sil   
+Eval:       S        S S        D S  S        S  S                    S               I         I   S                 D  D S  S                      
+
+id: (mnjm0-004)
+Labels: <o,m>
+File: mnjm0_sx230
+Channel: 1
+Scores: (#C #S #D #I) 21 7 0 3
+REF:  (sil) EH l aw l iy w ey hh IH ER (sil) b ah r ae * SH  N ah l ay z aa l ** ** ER ER z (sil) 
+HYP:  sil   AH l aw l iy w ey hh EH R  sil   b ah r ae S SIL M ah l ay z aa l DH EH R  IH z sil   
+Eval:       S                    S  S                  I S   S                I  I  S  S          
+
+id: (mnjm0-005)
+Labels: <o,m>
+File: mnjm0_sx320
+Channel: 1
+Scores: (#C #S #D #I) 29 14 3 3
+REF:  (sil) dh EH n eh r ih s AH n AH (sil) G aa ** ** (sil) * G  (sil) m EY n aa (sil) B IH W  UH TH ih M w aa (sil) K IH NG (sil) D  ih s (sil) T ih n (sil) s (sil) 
+HYP:  sil   dh IH n eh r ih s EH n ER sil   D aa DX IH sil   T AH sil   m IH n aa sil   * D  UW AH Z  ih * w aa sil   T IY N        TH ih s sil   * ih n       s sil   
+Eval:          S              S    S        S    I  I        I S          S             D S  S  S  S     D            S S  S        S             D                    
+
+id: (mnjm0-006)
+Labels: <o,m>
+File: mnjm0_sx410
+Channel: 1
+Scores: (#C #S #D #I) 27 5 2 0
+REF:  (sil) g r EH (sil) b ay z f r eh SH (sil) M ih l (sil) K  iy (sil) ch (sil) w iy (sil) D  ey m aa r N ih NG (sil) 
+HYP:  sil   g r EY sil   b ay z f r eh S  sil   T ih l       HH iy sil   ch sil   w iy sil   DH ey m aa r * ih ** sil   
+Eval:           S                      S        S            S                               S            D    D        
+
+id: (mnjm0-007)
+Labels: <o,m>
+File: mnjm0_sx50
+Channel: 1
+Scores: (#C #S #D #I) 30 13 2 2
+REF:  (sil) K  AE DX AH s (sil) T R aa *** F ih (sil) K eh (sil) k AH n AA M ih (sil) k ah (sil) B ae (sil) s (sil) N ih (sil) G l eh (sil) dh ah (sil) p * aa R  (sil) 
+HYP:  sil   HH EH N  IH s sil   * K aa SIL P ih sil   * eh sil   k IH n AH N ih sil   k ah sil   P ae sil   s sil   W ih sil   K l eh sil   dh ah sil   p L aa ER sil   
+Eval:       S  S  S  S          D S    I   S          D            S    S  S                     S                  S          S                          I    S        
+
+Speaker sentences  19:  mpam0   #utts: 8
+id: (mpam0-000)
+Labels: <o,m>
+File: mpam0_si1189
+Channel: 1
+Scores: (#C #S #D #I) 22 6 2 2
+REF:  (sil) ey (sil) f IY L  (sil) G AH N  z *** w er (sil) k ae (sil) ch er DX ih n (sil) P AH z ih sh ** n (sil) 
+HYP:  sil   ey sil   f Y  OW sil   * D  AW z SIL w er sil   k ae sil   ch er ** ih n sil   T IH z ih sh IH n sil   
+Eval:                  S  S        D S  S    I                               D             S S          I          
+
+id: (mpam0-001)
+Labels: <o,m>
+File: mpam0_si1819
+Channel: 1
+Scores: (#C #S #D #I) 29 3 0 2
+REF:  (sil) hh iy r ah (sil) D  ih z ay s L iy (sil) * P  l iy w ih th w ah n hh y uw (sil) jh (sil) p aa * (sil) 
+HYP:  sil   hh iy r ah       DH ih z ay s R iy sil   K AH l iy w ih th w ah n hh y uw sil   jh sil   p aa L sil   
+Eval:                        S            S          I S                                                  I       
+
+id: (mpam0-002)
+Labels: <o,m>
+File: mpam0_si1961
+Channel: 1
+Scores: (#C #S #D #I) 43 6 7 3
+REF:  (sil) ah s EH (sil) * K  ih N (sil) t w ih (sil) ch (sil) t HH ih sh er (sil) * s l iy V (sil) ih n iy f EH l (sil) T  ah (sil) b r iy F (sil) b er N AH N AH z ah (sil) P er * aa r m (sil) 
+HYP:  sil   ah s ** sil   T AY ih * sil   t w ih sil   ch sil   t ** ih sh er sil   K s l iy * sil   ih n iy f IH l sil   DH ah sil   b r iy V sil   b er * ** * IH z ah sil   B er R aa r m sil   
+Eval:            D        I S     D                               D                 I        D                 S          S                  S            D D  D S             S    I              
+
+id: (mpam0-003)
+Labels: <o,m>
+File: mpam0_sx109
+Channel: 1
+Scores: (#C #S #D #I) 26 6 4 1
+REF:  (sil) sh iy s l IH (sil) t ** n s (sil) p R EY N D  ER AE NG (sil) k l AA n AH s (sil) t iy (sil) s l ow (sil) p (sil) 
+HYP:  sil   sh iy s l UH sil   t IH n s sil   p * ** * IH NG R  AY sil   k l ** n IH s sil   t iy sil   s l ow sil   p sil   
+Eval:                 S          I              D D  D S  S  S  S            D    S                                          
+
+id: (mpam0-004)
+Labels: <o,m>
+File: mpam0_sx19
+Channel: 1
+Scores: (#C #S #D #I) 23 6 4 1
+REF:  (sil) ah l UW M AH N  ih M s IH L  v AH w er (sil) k ih n aa f ** N  (sil) b iy f l ih M z iy (sil) 
+HYP:  sil   ah l ** * ** OW ih N s ** EH v ER w er sil   k ih n aa f IH NG sil   b iy f l ih N z iy sil   
+Eval:            D  D D  S     S   D  S    S                         I  S                    S            
+
+id: (mpam0-005)
+Labels: <o,m>
+File: mpam0_sx199
+Channel: 1
+Scores: (#C #S #D #I) 37 10 4 2
+REF:  (sil) y ah NG (sil) ch ** * ih L (sil) ER N SH uh dx AH v OY (sil) D ih (sil) K S  (sil) P ow sh er (sil) t ah (sil) k ih N (sil) t ey (sil) jh AH s (sil) D ih z iy z ih z (sil) 
+HYP:  sil   y ah N  sil   ch OW V ih N sil   ** * CH uh dx IH v AA       R ih sil   * JH sil   B ow sh er sil   t ah sil   k ih * sil   t ey sil   jh IH s sil   T ih z iy z ih z sil   
+Eval:            S           I  I    S       D  D S        S    S        S          D S        S                                D                     S          S                      
+
+id: (mpam0-006)
+Labels: <o,m>
+File: mpam0_sx289
+Channel: 1
+Scores: (#C #S #D #I) 19 8 6 2
+REF:  (sil) w eh dh er (sil) p R UW F (sil) G L aa sh IH z er *** V er IY Y UW S f l ** n s iy AE DX L  (sil) 
+HYP:  sil   w eh dh er sil   p * ER V sil   * B aa sh N  z er SIL B er ** * IH Z f l IH n s iy ** ** AW sil   
+Eval:                          D S  S       D S       S       I   S    D  D S  S     I         D  D  S        
+
+id: (mpam0-007)
+Labels: <o,m>
+File: mpam0_sx379
+Channel: 1
+Scores: (#C #S #D #I) 19 11 1 2
+REF:  (sil) p ae * M  (sil) g ih V Z (sil) d r ** AY  V ih NG L  EH s n z AA N th er Z (sil) D ey z (sil) 
+HYP:  sil   p ae V ER sil   g ih * F sil   d r AA SIL D ih N  HH AY s n z OW L th er S sil   T ey z sil   
+Eval:            I S             D S           I  S   S    S  S  S        S  S       S       S            
+
+Speaker sentences  20:  mtas1   #utts: 8
+id: (mtas1-000)
+Labels: <o,m>
+File: mtas1_si1473
+Channel: 1
+Scores: (#C #S #D #I) 11 2 5 0
+REF:  (sil) y IH DX OW N iy DX AH n ah f (sil) HH ah n iy (sil) 
+HYP:  sil   y ** ** AA R iy ** ** n ah f       ** ah n iy sil   
+Eval:         D  D  S  S    D  D               D                
+
+id: (mtas1-001)
+Labels: <o,m>
+File: mtas1_si2098
+Channel: 1
+Scores: (#C #S #D #I) 24 12 0 1
+REF:  (sil) hh iy (sil) G EY V EY sh aa r (SIL) hh aa r (sil) d l ae f IH n L uh (sil) t ih *** HH er N ow IY NG l IY (sil) 
+HYP:  sil   hh iy sil   D UW M IH sh aa r AH    hh aa r sil   d l ae f AH n W uh sil   t ih SIL K  er M ow IH N  l IH sil   
+Eval:                   S S  S S          S                            S    S               I   S     S    S  S    S        
+
+id: (mtas1-002)
+Labels: <o,m>
+File: mtas1_si838
+Channel: 1
+Scores: (#C #S #D #I) 24 9 7 0
+REF:  (sil) IH N  (sil) k r iy s iy NG (sil) t EH M  (sil) P OW ah V  N uw (sil) p r AA DX IH (sil) d ih V eh l AH (sil) M  ih N (sil) (sil) 
+HYP:  sil   ** EY sil   k r iy s iy ** sil   t ** IH sil   B L  ah TH Y uw sil   p r ** ** AY sil   d ih N eh l **       DH ih * sil   sil   
+Eval:       D  S                    D          D  S        S S     S  S              D  D  S             S      D        S     D             
+
+id: (mtas1-003)
+Labels: <o,m>
+File: mtas1_sx118
+Channel: 1
+Scores: (#C #S #D #I) 24 7 6 1
+REF:  (sil) K AH m (sil) b ay N aa l *** DH iy IH NG (sil) g r IY DX iy ih n s (sil) IH N  AH l aa r (sil) JH (sil) B ow l (sil) 
+HYP:  sil   F ER m sil   b ay * aa l SIL D  iy ** N  sil   g r ** ** iy ih n s       ** DH EH l aa r       **       F ow l sil   
+Eval:       S S               D      I   S     D  S            D  D                  D  S  S               D        S            
+
+id: (mtas1-004)
+Labels: <o,m>
+File: mtas1_sx208
+Channel: 1
+Scores: (#C #S #D #I) 32 9 0 1
+REF:  (sil) r aa (sil) B s ae (sil) B ay dh ah (sil) P aa n (sil) D IH (sil) * ih N   s (sil) k eh (sil) ch (sil) DH ah s (sil) t r ey (sil) G iy S (sil) 
+HYP:  sil   r aa       L s ae sil   P ay dh ah sil   K aa n sil   T AH sil   P ih SIL s sil   k eh sil   ch sil   T  ah s sil   t r ey sil   D iy Z sil   
+Eval:                  S            S                S            S S        I    S                               S                          S    S       
+
+id: (mtas1-005)
+Labels: <o,m>
+File: mtas1_sx28
+Channel: 1
+Scores: (#C #S #D #I) 21 7 3 0
+REF:  (sil) B  ey (sil) DH AE (sil) g aa r (sil) D f er w ah n (sil) G AE L AH n (sil) ah V  (sil) g AE s (sil) 
+HYP:  sil   DH ey sil   D  EH sil   g aa r sil   * f er w ah n sil   * ** D AW n       ah TH sil   g EH s sil   
+Eval:       S           S  S                     D                   D D  S S             S          S          
+
+id: (mtas1-006)
+Labels: <o,m>
+File: mtas1_sx298
+Channel: 1
+Scores: (#C #S #D #I) 27 6 3 2
+REF:  (sil) ay (sil) D R eh DH AH n AA (sil) b ** ** AY dh iy sh uw z dh ih N (sil) b iy ow v er (sil) ch aa r (sil) JH (sil) D (sil) 
+HYP:  sil   ay sil   * M eh V  IH n AH sil   b AA DX IH dh iy sh uw z dh ih * sil   b iy ow v er sil   ch aa r       ** sil   K sil   
+Eval:                D S    S  S    S          I  I  S                      D                                        D        S       
+
+id: (mtas1-007)
+Labels: <o,m>
+File: mtas1_sx388
+Channel: 1
+Scores: (#C #S #D #I) 37 10 3 2
+REF:  (sil) hh er r AY (sil) * hh ae n (sil) D (sil) ey (sil) k s (sil) w ih n eh * V  ER  dh AH (sil) b EH R IH m eh (sil) T  ER (sil) P r eh sh ER (sil) ch ey n (sil) jh ih Z (sil) 
+HYP:  sil   hh er r EH sil   K hh ae n       * sil   ey sil   k s sil   w ih n eh N IH SIL dh IH sil   b ** * ER m eh sil   CH IH sil   K r eh sh IH sil   ch ey n sil   jh ih S sil   
+Eval:               S        I               D                                    I S  S      S          D  D S             S  S        S         S                            S       
+
+Speaker sentences  21:  mtls0   #utts: 8
+id: (mtls0-000)
+Labels: <o,m>
+File: mtls0_si1370
+Channel: 1
+Scores: (#C #S #D #I) 40 12 7 3
+REF:  (sil) w ih m EY S EY DH eh (sil) * * ** HH ih z (sil) P r aa (sil) L AH m W ah Z (sil) D ay (sil) n ow s (sil) t (sil) (sil) B  ah (sil) dh AE (sil) T hh iy R UW f UW Z (sil) t r iy (sil) M ih n (sil) (sil) 
+HYP:  sil   w ih m ** * ** ** eh sil   T R EY DX ih z sil   K r aa       * ** m * ah S sil   T ay       n ow s sil   t       sil   DH ah sil   dh EH       V hh iy W IH f IY S sil   t r iy       V ih n       sil   
+Eval:              D  D D  D           I I I  S             S            D D    D    S       S                                     S              S        S       S S    S  S                    S                  
+
+id: (mtls0-001)
+Labels: <o,m>
+File: mtls0_si2000
+Channel: 1
+Scores: (#C #S #D #I) 26 7 5 1
+REF:  (sil) w iy (sil) k ih ng (sil) g EH DX ih (sil) * ih f W IH (sil) D IH IH (sil) G (sil) hh iy s EH (sil) P ey sh n (sil) T l IY (sil) 
+HYP:  sil   w iy sil   k ih ng sil   g ** ** ih sil   B ih f * IY sil   * G  EY sil   D sil   hh iy s IH sil   T ey sh n       * l IH sil   
+Eval:                                  D  D           I      D S        D S  S        S               S        S               D   S        
+
+id: (mtls0-002)
+Labels: <o,m>
+File: mtls0_si740
+Channel: 1
+Scores: (#C #S #D #I) 18 5 4 0
+REF:  (sil) D  UW w ih th aw (sil) f ae n (sil) s iy (sil) T ey (sil) B L (sil) K l AA DH S (sil) 
+HYP:  sil   DH IY w ih th aw sil   f ae n       s iy sil   P ey       * *       W l ** ** Z sil   
+Eval:       S  S                                           S          D D       S   D  D  S       
+
+id: (mtls0-003)
+Labels: <o,m>
+File: mtls0_sx110
+Channel: 1
+Scores: (#C #S #D #I) 32 11 2 2
+REF:  (sil) dh ah (sil) b ** EH  s (sil) T W EY (sil) t ** AH L  er N  (sil) ih z (sil) t ih s aa L V  eh (sil) k s (sil) T er (sil) P r aa (sil) b l AH M   s (sil) 
+HYP:  sil   dh ah sil   b AE SIL s sil   P L IH sil   t IH N  AY er HH       ih z sil   t ih s aa * NG eh sil   k s sil   P er sil   K r aa sil   b l ** SIL s sil   
+Eval:                     I  S           S S S          I  S  S     S                             D S                     S          S                D  S           
+
+id: (mtls0-004)
+Labels: <o,m>
+File: mtls0_sx20
+Channel: 1
+Scores: (#C #S #D #I) 19 4 4 0
+REF:  (sil) sh iy W aa r w aa r M f L iy s iy W UH l AH N  ow f er AA l z (sil) 
+HYP:  sil   sh iy * aa r w aa r * f * iy s iy M AH l EH DX ow f er ** l z sil   
+Eval:             D             D   D         S S    S  S          D            
+
+id: (mtls0-005)
+Labels: <o,m>
+File: mtls0_sx200
+Channel: 1
+Scores: (#C #S #D #I) 27 9 3 1
+REF:  (sil) r AW f (sil) k AH N  (sil) t r ow (sil) dh IH s (sil) T aa (sil) p W aa (sil) CH f * ER M dh ah (sil) B L iy (sil) ch er S (sil) 
+HYP:  sil   r AA f sil   k ** IH sil   t r ow sil   dh AH s sil   K aa sil   p * aa sil   K  f R IH N dh ah sil   * P iy sil   ch er Z sil   
+Eval:         S            D  S                        S          S            D          S    I S  S             D S                S       
+
+id: (mtls0-006)
+Labels: <o,m>
+File: mtls0_sx290
+Channel: 1
+Scores: (#C #S #D #I) 31 11 5 0
+REF:  (sil) dh ih s (sil) B R OW SH er IH  S (SIL) P  AH (sil) t IH (sil) k L ih n f OW M (sil) t ih f er (sil) p er s (sil) p AH (sil) t ih v (sil) B ay ER (sil) 
+HYP:  sil   dh ih s sil   * * ** P  er SIL K Y     ER Z  sil   t EY sil   k * ih n f AA N sil   t ih f er sil   p er s sil   p EH sil   t ih v       * ay M  sil   
+Eval:                     D D D  S     S   S S     S  S          S          D        S  S                                      S                     D    S        
+
+id: (mtls0-007)
+Labels: <o,m>
+File: mtls0_sx380
+Channel: 1
+Scores: (#C #S #D #I) 23 5 1 3
+REF:  (sil) w ay (sil) CH aa r (sil) jh *** m ah n ** IY  f er s AH (sil) ch * (sil) G aa r (sil) B ih (sil) JH (sil) 
+HYP:  sil   w ay sil   T  aa r sil   jh SIL m ah n IH SIL f er s EH sil   ch D sil   * aa r sil   K ih sil   CH sil   
+Eval:                  S                I          I  S          S           I       D            S          S        
+
+Speaker sentences  22:  mwbt0   #utts: 8
+id: (mwbt0-000)
+Labels: <o,m>
+File: mwbt0_si1553
+Channel: 1
+Scores: (#C #S #D #I) 46 7 4 1
+REF:  (sil) hh aw EH V ah dh ah l ih dx er r iy M EY n ** (sil) d aa (sil) m eh n (sil) t ih (sil) b ay s eh v R l (sil) d ah z IH n l AH n (sil) CH r uw m (sil) s ah (SIL) P ER z (sil) 
+HYP:  sil   hh aw ** W ah dh ah l ih dx er r iy * ** n IY sil   d aa sil   m eh n sil   t ih sil   b ay s eh v * l sil   d ah z AH n l EH n       TH r uw m       s ah V     R IH z sil   
+Eval:             D  S                          D D    I                                                       D                S      S          S                    S     S S          
+
+id: (mwbt0-001)
+Labels: <o,m>
+File: mwbt0_si2183
+Channel: 1
+Scores: (#C #S #D #I) 15 2 0 0
+REF:  (sil) b UH (sil) k s ah f ah sh (sil) N  uh (sil) k s (sil) 
+HYP:  sil   b AH sil   k s ah f ah sh       UW uh sil   k s sil   
+Eval:         S                             S                     
+
+id: (mwbt0-002)
+Labels: <o,m>
+File: mwbt0_si923
+Channel: 1
+Scores: (#C #S #D #I) 35 2 3 1
+REF:  (sil) t UH m eh n iy eh (sil) k s (sil) p er (sil) T s dh ih s (sil) t r EH n (sil) w ah z ih n eh v AH DX ah (sil) b ** l (sil) 
+HYP:  sil   t UW m eh n iy eh sil   k s sil   p er sil   * s dh ih s sil   t r IH n       w ah z ih n eh v ** ** ah sil   b OW l sil   
+Eval:         S                                          D                     S                           D  D             I          
+
+id: (mwbt0-003)
+Labels: <o,m>
+File: mwbt0_sx113
+Channel: 1
+Scores: (#C #S #D #I) 30 4 0 5
+REF:  (sil) ey m ah *** s (sil) k ih l AH ae * (sil) D ah m EH n ** (sil) ** ih z (sil) g uh (sil) * f aa y ih (sil) b ae (sil) K (sil) 
+HYP:  sil   ey m ah SIL s       k ih l OW ae F sil   T ah m AH n IH sil   DH ih z sil   g uh sil   D f aa y ih sil   b ae sil   P sil   
+Eval:               I                  S     I       S      S    I        I                        I                            S       
+
+id: (mwbt0-004)
+Labels: <o,m>
+File: mwbt0_sx203
+Channel: 1
+Scores: (#C #S #D #I) 22 10 3 3
+REF:  (sil) dh ih (sil) K AA z (sil) W ey IH N (sil) d ih (sil) D  ah (sil) b r AH (sil) p l IY (sil) EH (SIL) DH AH sh AA r ** * ** (sil) 
+HYP:  sil   dh ih sil   T AY z       L ey ** * sil   d ih sil   DH ah sil   b r AA sil   p l IH       HH AE    V  IH sh ** r IH L AH sil   
+Eval:                   S S          S    D  D                  S               S            S        S  S     S  S     D    I  I I        
+
+id: (mwbt0-005)
+Labels: <o,m>
+File: mwbt0_sx23
+Channel: 1
+Scores: (#C #S #D #I) 20 9 3 2
+REF:  (sil) dh ow Z (sil) M Y uw z ih sh ih n z *** HH AA M AH n ay z (sil) m AA V L  l AH s l ** IH  (sil) 
+HYP:  sil   dh ow * sil   S T uw z ih sh ih n z SIL K  AW N IH n ay z sil   m ** * AY l OW s l EY SIL sil   
+Eval:             D       S S                   I   S  S  S S                 D  D S    S      I  S         
+
+id: (mwbt0-006)
+Labels: <o,m>
+File: mwbt0_sx293
+Channel: 1
+Scores: (#C #S #D #I) 33 10 2 0
+REF:  (sil) P L  iy Z (sil) t ey (sil) DH ih s (sil) D ER dx iy (sil) t ey (sil) B UH (sil) K l aa TH (sil) t ih dh ih (sil) K l iy N ih z f ah m ey (sil) 
+HYP:  sil   * DH iy S sil   t ey sil   P  ih s sil   T IH dx iy sil   t ey sil   P AH sil   P l aa S  sil   t ih dh ih sil   P l iy * ih z f ah m ey sil   
+Eval:       D S     S                  S             S S                         S S        S      S                         S      D                      
+
+id: (mwbt0-007)
+Labels: <o,m>
+File: mwbt0_sx383
+Channel: 1
+Scores: (#C #S #D #I) 30 5 5 1
+REF:  (sil) dh ih (sil) k aa (sil) p IH (sil) k l iy N er z (sil) sh ae m (sil) p * uw (sil) D AA R  aa r iy EH N  (sil) t L  r AH (sil) G (sil) 
+HYP:  sil   dh ih sil   k aa sil   p ER sil   k l iy * er z sil   sh ae m sil   p R uw       * ** AW aa r iy ** AH sil   t AH r AA sil   * sil   
+Eval:                                S               D                            I          D D  S          D  S          S    S        D       
+
+Speaker sentences  23:  mwew0   #utts: 8
+id: (mwew0-000)
+Labels: <o,m>
+File: mwew0_si1361
+Channel: 1
+Scores: (#C #S #D #I) 27 2 7 2
+REF:  (sil) B ah * dx ih n ih s (sil) w ah n s eh (sil) sh ** n W IY w eh l (sil) K ah M (sil) D AH aa DX IH dx er z (sil) 
+HYP:  sil   * ah W dx ih n ih s sil   w ah n s eh sil   sh IH n * ** w eh l sil   P ah *       * N  aa ** ** dx er z sil   
+Eval:       D    I                                         I    D D               S    D       D S     D  D                
+
+id: (mwew0-001)
+Labels: <o,m>
+File: mwew0_si1991
+Channel: 1
+Scores: (#C #S #D #I) 37 14 7 1
+REF:  (sil) l aa DX AH V (sil) P IY (sil) P l W  l R OW M  DH ih s (sil) t r iy (sil) s ih n (sil) k aa s (sil) t UW M z ih N m ae s (sil) * s (sil) ih n HH AE V ih NG ah (sil) B AA L (sil) 
+HYP:  sil   l aa ** ** * sil   B IH sil   B l EH l * ** IH N  ih s sil   t r iy       s ih n sil   k aa s sil   t IH N z ih * m ae s sil   K s       ih n ** EH N ih N  ah       M OW M sil   
+Eval:            D  D  D       S S        S   S    D D  S  S                                                      S  S      D              I              D  S  S    S           S S  S       
+
+id: (mwew0-002)
+Labels: <o,m>
+File: mwew0_si731
+Channel: 1
+Scores: (#C #S #D #I) 16 7 1 1
+REF:  (sil) ah F  UW y IH er z l ey dx ** ER  DH ih (sil) d ow M f EH l ih N   (sil) 
+HYP:  sil   ah HH IY y ** er z l ey dx IH SIL B  ih sil   d ow N f IH l ih SIL sil   
+Eval:          S  S    D               I  S   S                S   S       S         
+
+id: (mwew0-003)
+Labels: <o,m>
+File: mwew0_sx101
+Channel: 1
+Scores: (#C #S #D #I) 30 15 6 1
+REF:  (sil) K ih n ER (sil) g AH r N (sil) ch IH L  (sil) D ER n (sil) d eh (sil) k er R  EY (sil) DH ER (sil) k L AE S  R  UW M z *** F ER aa l HH aa l ah (sil) d ey z (sil) 
+HYP:  sil   D ih n IH sil   g EH r * sil   ch ** OW sil   * ** n sil   d eh sil   k er IY IH sil   D  IH sil   k * W  EH SH IH N z SIL B R  aa l ** aa l ah sil   d ey z sil   
+Eval:       S      S          S    D          D  S        D D                          S  S        S  S          D S  S  S  S  S   I   S S       D                             
+
+id: (mwew0-004)
+Labels: <o,m>
+File: mwew0_sx11
+Channel: 1
+Scores: (#C #S #D #I) 11 0 4 2
+REF:  (sil) HH iy W L AH l aw er *** * r eh r l ay (sil) 
+HYP:  sil   ** iy * * ** l aw er SIL G r eh r l ay sil   
+Eval:       D     D D D          I   I                   
+
+id: (mwew0-005)
+Labels: <o,m>
+File: mwew0_sx191
+Channel: 1
+Scores: (#C #S #D #I) 24 3 4 2
+REF:  (sil) W ih * (sil) d r AA aa l f OW N iy ae (sil) K Y IH z ey sh ih n z ih * w ah n (sil) s (sil) 
+HYP:  sil   * ih W sil   d r ** aa l f ** L iy ae sil   * D IY z ey sh ih n z ih V w ah n       s sil   
+Eval:       D    I           D         D  S             D S S                    I                      
+
+id: (mwew0-006)
+Labels: <o,m>
+File: mwew0_sx281
+Channel: 1
+Scores: (#C #S #D #I) 30 7 1 2
+REF:  (sil) k aa r iy IH n (sil) t r ih SH (sil) p l EY (sil) t AE (sil) W ih (sil) b iy (sil) ch (sil) b aa l z *** F ER AW er *** z (sil) 
+HYP:  sil   k aa r iy ** n sil   t r ih S  sil   p l IY sil   t EH sil   D ih sil   b iy sil   ch sil   b aa l z SIL B R  OW er SIL z sil   
+Eval:                 D                 S            S          S        S                                       I   S S  S     I           
+
+id: (mwew0-007)
+Labels: <o,m>
+File: mwew0_sx371
+Channel: 1
+Scores: (#C #S #D #I) 25 15 0 4
+REF:  (sil) r AY (sil) n aw *** M EY n AA (sil) b iy *** DH ih (sil) B eh s (sil) T AY M   F ER (sil) b ih z ** *** N ih S (sil) m er (sil) jh ER Z (sil) 
+HYP:  sil   r EY       n aw SIL K IH n AH sil   b iy SIL D  ih       V eh s sil   B AE SIL K AH sil   b ih z IH SIL D ih Z sil   m er sil   jh UW S sil   
+Eval:         S             I   S S    S             I   S           S            S S  S   S S               I  I   S    S                     S  S       
+
+
