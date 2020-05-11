@@ -1,20 +1,17 @@
-##########################################################
-# pytorch-qnn v1.0
-# Titouan Parcollet
-# LIA, Université d'Avignon et des Pays du Vaucluse
-# ORKIS, Aix-en-provence
-# October 2018
-##########################################################
-
 import torch
-import torch.nn as nn
-from torch.autograd import Variable
 import torch.nn.functional as F
+import torch.nn as nn
+from torch.nn.parameter import Parameter
+from torch.autograd import Variable
+from torch.nn.utils.rnn import PackedSequence
+from torch.nn import Module
 import numpy as np
-from numpy.random import RandomState
 from scipy.stats import chi
-import sys
+from numpy.random import RandomState
+from distutils.util import strtobool
+import math
 
+#################### quaternion_ops ################################################
 def check_input(input):
 
     if input.dim() not in {2, 3}:
@@ -114,191 +111,15 @@ def get_normalized(input, eps=0.0001):
 
 
 
-def quaternion_conv(input, r_weight, i_weight, j_weight, k_weight, bias, stride,
-                    padding, groups, dilatation):
-    """
-    Applies a quaternion convolution to the incoming data:
-    """
-
-    cat_kernels_4_r = torch.cat([r_weight, -i_weight, -j_weight, -k_weight], dim=1)
-    cat_kernels_4_i = torch.cat([i_weight,  r_weight, -k_weight, j_weight], dim=1)
-    cat_kernels_4_j = torch.cat([j_weight,  k_weight, r_weight, -i_weight], dim=1)
-    cat_kernels_4_k = torch.cat([k_weight,  -j_weight, i_weight, r_weight], dim=1)
-    cat_kernels_4_quaternion   = torch.cat([cat_kernels_4_r, cat_kernels_4_i, cat_kernels_4_j, cat_kernels_4_k], dim=0)
-
-    if   input.dim() == 3:
-        convfunc = F.conv1d
-    elif input.dim() == 4:
-        convfunc = F.conv2d
-    elif input.dim() == 5:
-        convfunc = F.conv3d
-    else:
-        raise Exception("The convolutional input is either 3, 4 or 5 dimensions."
-                        " input.dim = " + str(input.dim()))
-
-    return convfunc(input, cat_kernels_4_quaternion, bias, stride, padding, dilatation, groups)
-
-def quaternion_transpose_conv(input, r_weight, i_weight, j_weight, k_weight, bias, stride,
-                    padding, output_padding, groups, dilatation):
-    """
-    Applies a quaternion trasposed convolution to the incoming data:
-
-    """
-
-    cat_kernels_4_r = torch.cat([r_weight, -i_weight, -j_weight, -k_weight], dim=1)
-    cat_kernels_4_i = torch.cat([i_weight,  r_weight, -k_weight, j_weight], dim=1)
-    cat_kernels_4_j = torch.cat([j_weight,  k_weight, r_weight, -i_weight], dim=1)
-    cat_kernels_4_k = torch.cat([k_weight,  -j_weight, i_weight, r_weight], dim=1)
-    cat_kernels_4_quaternion   = torch.cat([cat_kernels_4_r, cat_kernels_4_i, cat_kernels_4_j, cat_kernels_4_k], dim=0)
-
-
-    if   input.dim() == 3:
-        convfunc = F.conv_transpose1d
-    elif input.dim() == 4:
-        convfunc = F.conv_transpose2d
-    elif input.dim() == 5:
-        convfunc = F.conv_transpose3d
-    else:
-        raise Exception("The convolutional input is either 3, 4 or 5 dimensions."
-                        " input.dim = " + str(input.dim()))
-
-    return convfunc(input, cat_kernels_4_quaternion, bias, stride, padding, output_padding, groups, dilatation)
-
-
-def quaternion_conv_rotation(input, r_weight, i_weight, j_weight, k_weight, bias, stride,
-                    padding, groups, dilatation):
-    """
-    Applies a quaternion rotation and convolution transformation to the incoming data:
-
-    The rotation W*x*W^t can be replaced by R*x following:
-    https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
-
-    Works for unitary and non unitary weights.
-
-    The initial size of the input must be a multiple of 3 if quaternion_format = False and
-    4 if quaternion_format = True.
-    """
-
-    square_r          = (r_weight*r_weight)
-    square_i          = (i_weight*i_weight)
-    square_j          = (j_weight*j_weight)
-    square_k          = (k_weight*k_weight)
-
-    norm              = torch.sqrt(square_r+square_i+square_j+square_k)
-    norm_factor       = 2.0*norm
-
-    square_i          = norm_factor*(i_weight*i_weight)
-    square_j          = norm_factor*(j_weight*j_weight)
-    square_k          = norm_factor*(k_weight*k_weight)
-
-    ri                = (norm_factor*r_weight*i_weight)
-    rj                = (norm_factor*r_weight*j_weight)
-    rk                = (norm_factor*r_weight*k_weight)
-
-    ij                = (norm_factor*i_weight*j_weight)
-    ik                = (norm_factor*i_weight*k_weight)
-
-    jk                = (norm_factor*j_weight*k_weight)
-
-    if quaternion_format:
-        zero_kernel   = torch.zeros(r_weight.shape).cuda()
-        rot_kernel_1  = torch.cat([zero_kernel, 1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-        rot_kernel_2  = torch.cat([zero_kernel, ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-        rot_kernel_3  = torch.cat([zero_kernel, ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
-
-        zero_kernel2  = torch.zeros(rot_kernel_1.shape).cuda()
-        global_rot_kernel = torch.cat([zero_kernel2, rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
-    else:
-        rot_kernel_1  = torch.cat([1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-        rot_kernel_2  = torch.cat([ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-        rot_kernel_3  = torch.cat([ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
-        global_rot_kernel = torch.cat([rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
-
-    if   input.dim() == 3:
-        convfunc = F.conv1d
-    elif input.dim() == 4:
-        convfunc = F.conv2d
-    elif input.dim() == 5:
-        convfunc = F.conv3d
-    else:
-        raise Exception("The convolutional input is either 3, 4 or 5 dimensions."
-                        " input.dim = " + str(input.dim()))
-
-    return convfunc(input, global_rot_kernel, bias, stride, padding, dilatation, groups)
-
-def quaternion_transpose_conv_rotation(input, r_weight, i_weight, j_weight, k_weight, bias, stride,
-                    padding, output_padding, groups, dilatation, quaternion_format):
-    """
-    Applies a quaternion rotation and transposed convolution transformation to the incoming data:
-
-    The rotation W*x*W^t can be replaced by R*x following:
-    https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
-
-    Works for unitary and non unitary weights.
-
-    The initial size of the input must be a multiple of 3 if quaternion_format = False and
-    4 if quaternion_format = True.
-
-    """
-
-    square_r          = (r_weight*r_weight)
-    square_i          = (i_weight*i_weight)
-    square_j          = (j_weight*j_weight)
-    square_k          = (k_weight*k_weight)
-
-    norm              = torch.sqrt(square_r+square_i+square_j+square_k)
-    norm_factor       = 2.0*norm
-
-    square_i          = norm_factor*(i_weight*i_weight)
-    square_j          = norm_factor*(j_weight*j_weight)
-    square_k          = norm_factor*(k_weight*k_weight)
-
-    ri                = (norm_factor*r_weight*i_weight)
-    rj                = (norm_factor*r_weight*j_weight)
-    rk                = (norm_factor*r_weight*k_weight)
-
-    ij                = (norm_factor*i_weight*j_weight)
-    ik                = (norm_factor*i_weight*k_weight)
-
-    jk                = (norm_factor*j_weight*k_weight)
-
-    if quaternion_format:
-        zero_kernel   = torch.zeros(r_weight.shape).cuda()
-        rot_kernel_1  = torch.cat([zero_kernel, 1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-        rot_kernel_2  = torch.cat([zero_kernel, ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-        rot_kernel_3  = torch.cat([zero_kernel, ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
-
-        zero_kernel2  = torch.zeros(rot_kernel_1.shape).cuda()
-        global_rot_kernel = torch.cat([zero_kernel2, rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
-    else:
-        rot_kernel_1  = torch.cat([1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-        rot_kernel_2  = torch.cat([ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-        rot_kernel_3  = torch.cat([ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
-        global_rot_kernel = torch.cat([rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
-
-
-    if   input.dim() == 3:
-        convfunc = F.conv_transpose1d
-    elif input.dim() == 4:
-        convfunc = F.conv_transpose2d
-    elif input.dim() == 5:
-        convfunc = F.conv_transpose3d
-    else:
-        raise Exception("The convolutional input is either 3, 4 or 5 dimensions."
-                        " input.dim = " + str(input.dim()))
-
-    return convfunc(input, cat_kernels_4_quaternion, bias, stride, padding, output_padding, groups, dilatation)
 
 def quaternion_linear(input, r_weight, i_weight, j_weight, k_weight, bias):
 
     """
     Applies a quaternion linear transformation to the incoming data:
-
     It is important to notice that the forward phase of a QNN is defined
     as W * Inputs (with * equal to the Hamilton product). The constructed
     cat_kernels_4_quaternion is a modified version of the quaternion representation
     so when we do torch.mm(Input,W) it's equivalent to W * Inputs.
-
     """
 
     cat_kernels_4_r = torch.cat([r_weight, -i_weight, -j_weight, -k_weight], dim=0)
@@ -319,101 +140,6 @@ def quaternion_linear(input, r_weight, i_weight, j_weight, k_weight, bias):
             return output+bias
         else:
             return output
-
-def fusion_linear(input, r_weight, i_weight, j_weight, k_weight, bias):
-
-    """
-    Applies a quaternion linear transformation to the incoming data:
-
-    It is important to notice that the forward phase of a QNN is defined
-    as W * Inputs (with * equal to the Hamilton product). The constructed
-    cat_kernels_4_quaternion is a modified version of the quaternion representation
-    so when we do torch.mm(Input,W) it's equivalent to W * Inputs.
-
-    """
-
-    cat_kernels_4_r = torch.cat([r_weight, i_weight, j_weight, k_weight], dim=0)
-    cat_kernels_4_i = torch.cat([i_weight,  r_weight, k_weight, j_weight], dim=0)
-    cat_kernels_4_j = torch.cat([j_weight,  k_weight, r_weight, i_weight], dim=0)
-    cat_kernels_4_k = torch.cat([k_weight,  j_weight, i_weight, r_weight], dim=0)
-    cat_kernels_4_quaternion   = torch.cat([cat_kernels_4_r, cat_kernels_4_i, cat_kernels_4_j, cat_kernels_4_k], dim=1)
-
-    if input.dim() == 2 :
-            a,b,c,d = torch.split(torch.mm(input, cat_kernels_4_quaternion), cat_kernels_4_quaternion.shape[1]//4, dim=-1)
-            out = a + b + c + d
-            if bias is not None:
-                return out + bias
-            else:
-                return out
-    else:
-        a,b,c,d = torch.split(torch.matmul(input, cat_kernels_4_quaternion), cat_kernels_4_quaternion.shape[1]//4, dim=-1)
-        out = a + b + c + d
-        if bias is not None:
-            return out + bias
-        else:
-            return out
-
-
-def quaternion_linear_rotation(input, r_weight, i_weight, j_weight, k_weight, bias):
-
-    """
-    Applies a quaternion rotation transformation to the incoming data:
-
-    The rotation W*x*W^t can be replaced by R*x following:
-    https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
-
-    Works for unitary and non unitary weights.
-
-    The initial size of the input must be a multiple of 3 if quaternion_format = False and
-    4 if quaternion_format = True.
-    """
-
-
-    square_r          = (r_weight*r_weight)
-    square_i          = (i_weight*i_weight)
-    square_j          = (j_weight*j_weight)
-    square_k          = (k_weight*k_weight)
-
-    norm              = torch.sqrt(square_r+square_i+square_j+square_k)
-    norm_factor       = 2.0*norm
-
-    square_i          = norm_factor*(i_weight*i_weight)
-    square_j          = norm_factor*(j_weight*j_weight)
-    square_k          = norm_factor*(k_weight*k_weight)
-
-    ri                = (norm_factor*r_weight*i_weight)
-    rj                = (norm_factor*r_weight*j_weight)
-    rk                = (norm_factor*r_weight*k_weight)
-
-    ij                = (norm_factor*i_weight*j_weight)
-    ik                = (norm_factor*i_weight*k_weight)
-
-    jk                = (norm_factor*j_weight*k_weight)
-
-    zero_kernel   = torch.zeros(r_weight.shape).cuda()
-    rot_kernel_1  = torch.cat([zero_kernel, 1.0 - (square_j + square_k), ij-rk, ik+rj], dim=0)
-    rot_kernel_2  = torch.cat([zero_kernel, ij+rk, 1.0 - (square_i + square_k), jk-ri], dim=0)
-    rot_kernel_3  = torch.cat([zero_kernel, ik-rj, jk+ri, 1.0 - (square_i + square_j)], dim=0)
-
-    zero_kernel2  = torch.zeros(rot_kernel_1.shape).cuda()
-    global_rot_kernel = torch.cat([zero_kernel2, rot_kernel_1, rot_kernel_2, rot_kernel_3], dim=1)
-
-    if input.dim() == 2 :
-        if bias is not None:
-            #print(bias.shape)
-            #print(input.shape)
-            #print(global_rot_kernel.shape)
-            return torch.addmm(bias, input, global_rot_kernel)
-        else:
-            return torch.mm(input, global_rot_kernel)
-    else:
-        output = torch.matmul(input, global_rot_kernel)
-        if bias is not None:
-            return output+bias
-        else:
-            return output
-
-
 
 # Custom AUTOGRAD for lower VRAM consumption
 class QuaternionLinearFunction(torch.autograd.Function):
@@ -486,7 +212,7 @@ class QuaternionLinearFunction(torch.autograd.Function):
             grad_bias   = grad_output.sum(0).squeeze(0)
 
         return grad_input, grad_weight_r, grad_weight_i, grad_weight_j, grad_weight_k, grad_bias
-
+'''
 def hamilton_product(q0, q1):
     """
     Applies a Hamilton product q0 * q1:
@@ -524,7 +250,7 @@ def hamilton_product(q0, q1):
     k   = get_r(k_base) + get_i(k_base) - get_j(k_base) + get_k(k_base)
 
     return torch.cat([r, i, j, k], dim=1)
-
+'''
 #
 # PARAMETERS INITIALIZATION
 #
@@ -762,3 +488,335 @@ def get_kernel_and_weight_shape(operation, in_channels, out_channels, kernel_siz
                 ks = kernel_size
         w_shape = (out_channels, in_channels) + (*ks,)
     return ks, w_shape
+####################################################################################
+###################### quaternion_layers ###########################################
+class QuaternionLinearAutograd(Module):
+    r"""Applies a quaternion linear transformation to the incoming data.
+    """
+
+    def __init__(self, in_features, out_features, bias=True,
+                 init_criterion='glorot', weight_init='quaternion',
+                 seed=None, rotation=False, quaternion_format=False):
+
+        super(QuaternionLinearAutograd, self).__init__()
+        self.in_features       = in_features//4
+        self.out_features      = out_features//4
+        self.rotation          = rotation
+        self.quaternion_format = quaternion_format
+        self.r_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.i_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.j_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.k_weight = Parameter(torch.Tensor(self.in_features, self.out_features))
+
+        if bias:
+            self.bias = Parameter(torch.Tensor(self.out_features*4))
+        else:
+            self.bias = torch.zeros(self.out_features*4)
+
+        self.init_criterion = init_criterion
+        self.weight_init = weight_init
+        self.seed = seed if seed is not None else np.random.randint(0,1234)
+        self.rng = RandomState(self.seed)
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        winit = {'quaternion': quaternion_init, 'unitary': unitary_init, 'random': random_init}[self.weight_init]
+        if self.bias is not None:
+            self.bias.data.fill_(0)
+        affect_init(self.r_weight, self.i_weight, self.j_weight, self.k_weight, winit,
+                    self.rng, self.init_criterion)
+
+    def forward(self, input):
+        # See the autograd section for explanation of what happens here.
+        return quaternion_linear(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias)
+
+    def __repr__(self):
+        return self.__class__.__name__ + '(' \
+            + 'in_features=' + str(self.in_features) \
+            + ', out_features=' + str(self.out_features) \
+            + ', bias=' + str(self.bias is not None) \
+            + ', init_criterion=' + str(self.init_criterion) \
+            + ', weight_init=' + str(self.weight_init) \
+            + ', seed=' + str(self.seed) + ')'
+
+class QuaternionLinear(Module):
+    r"""A custom Autograd function is call to drastically reduce the VRAM consumption. Nonetheless, computing
+    time is also slower compared to QuaternionLinearAutograd().
+    """
+
+    def __init__(self, in_features, out_features, bias=True,
+                 init_criterion='glorot', weight_init='quaternion',
+                 seed=None):
+
+        super(QuaternionLinear, self).__init__()
+        self.in_features  = in_features//4
+        self.out_features = out_features//4
+        self.r_weight     = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.i_weight     = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.j_weight     = Parameter(torch.Tensor(self.in_features, self.out_features))
+        self.k_weight     = Parameter(torch.Tensor(self.in_features, self.out_features))
+
+        if bias:
+            self.bias     = Parameter(torch.Tensor(self.out_features*4))
+        else:
+            self.register_parameter('bias', None)
+
+        self.init_criterion = init_criterion
+        self.weight_init    = weight_init
+        self.seed           = seed if seed is not None else np.random.randint(0,1234)
+        self.rng            = RandomState(self.seed)
+        self.reset_parameters()
+
+    def reset_parameters(self):
+        winit = {'quaternion': quaternion_init,
+                 'unitary': unitary_init}[self.weight_init]
+        if self.bias is not None:
+            self.bias.data.fill_(0)
+        affect_init(self.r_weight, self.i_weight, self.j_weight, self.k_weight, winit,
+                    self.rng, self.init_criterion)
+
+    def forward(self, input):
+        # See the autograd section for explanation of what happens here.
+        if input.dim() == 3:
+            T, N, C = input.size()
+            input = input.view(T * N, C)
+            output = QuaternionLinearFunction.apply(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias)
+            output = output.view(T, N, output.size(1))
+        elif input.dim() == 2:
+            output = QuaternionLinearFunction.apply(input, self.r_weight, self.i_weight, self.j_weight, self.k_weight, self.bias)
+        else:
+            raise NotImplementedError
+
+        return output
+
+    def __repr__(self):
+        return self.__class__.__name__ + '(' \
+            + 'in_features=' + str(self.in_features) \
+            + ', out_features=' + str(self.out_features) \
+            + ', bias=' + str(self.bias is not None) \
+            + ', init_criterion=' + str(self.init_criterion) \
+            + ', weight_init=' + str(self.weight_init) \
+            + ', seed=' + str(self.seed) + ')'
+####################################################################################
+####################### QLSTM network ##############################################
+def flip(x, dim):
+    xsize = x.size()
+    dim = x.dim() + dim if dim < 0 else dim
+    x = x.contiguous()
+    x = x.view(-1, *xsize[dim:])
+    x = x.view(x.size(0), x.size(1), -1)[:, getattr(torch.arange(x.size(1)-1, -1, -1), ('cpu','cuda')[x.is_cuda])().long(), :]
+    return x.view(xsize)
+
+class LayerNorm(nn.Module):
+
+    def __init__(self, features, eps=1e-6):
+        super(LayerNorm,self).__init__()
+        self.gamma = nn.Parameter(torch.ones(features))
+        self.beta = nn.Parameter(torch.zeros(features))
+        self.eps = eps
+
+    def forward(self, x):
+        mean = x.mean(-1, keepdim=True)
+        std = x.std(-1, keepdim=True)
+        return self.gamma * (x - mean) / (std + self.eps) + self.beta
+
+def act_fun(act_type):
+
+ if act_type=="relu":
+    return nn.ReLU()
+
+ if act_type=="prelu":
+    return nn.PReLU()
+
+ if act_type=="tanh":
+    return nn.Tanh()
+
+ if act_type=="sigmoid":
+    return nn.Sigmoid()
+
+ if act_type=="hardtanh":
+    return nn.Hardtanh()
+
+ if act_type=="leaky_relu":
+    return nn.LeakyReLU(0.2)
+
+ if act_type=="elu":
+    return nn.ELU()
+
+ if act_type=="softmax":
+    return nn.LogSoftmax(dim=1)
+
+ if act_type=="linear":
+     return nn.LeakyReLU(1) # initializzed like this, but not used in forward!
+
+class QLSTM(nn.Module):
+
+    def __init__(self, options,inp_dim):
+        super(QLSTM, self).__init__()
+
+        # Reading parameters
+        self.input_dim=inp_dim
+        self.lstm_lay=list(map(int, options['lstm_lay'].split(',')))
+        self.lstm_drop=list(map(float, options['lstm_drop'].split(',')))
+        self.lstm_act=options['lstm_act'].split(',')
+        self.quaternion_init=str(options['quaternion_init'])
+        self.bidir=strtobool(options['lstm_bidir'])
+        self.use_cuda=strtobool(options['use_cuda'])
+        self.autograd=strtobool(options['autograd'])
+        self.to_do=options['to_do']
+        self.proj =strtobool(options['proj_layer'])
+        self.proj_dim = int(options['proj_dim'])
+        self.proj_norm = strtobool(options['proj_norm'])
+        self.proj_act  = str(options['proj_act'])
+        self.quaternion_norm = strtobool(options['quaternion_norm'])
+
+
+        if self.to_do=='train':
+            self.test_flag=False
+        else:
+            self.test_flag=True
+        # Project layer
+        if self.proj:
+            self.proj_layer = nn.Linear(self.input_dim, self.proj_dim, bias=True)
+            nn.init.zeros_(self.proj_layer.bias)
+            torch.nn.init.xavier_normal_(self.proj_layer.weight)
+        # List initialization
+        self.wfx  = nn.ModuleList([]) # Forget
+        self.ufh  = nn.ModuleList([]) # Forget
+
+        self.wix  = nn.ModuleList([]) # Input
+        self.uih  = nn.ModuleList([]) # Input
+
+        self.wox  = nn.ModuleList([]) # Output
+        self.uoh  = nn.ModuleList([]) # Output
+
+        self.wcx  = nn.ModuleList([]) # Cell state
+        self.uch  = nn.ModuleList([])  # Cell state
+
+        self.act  = nn.ModuleList([]) # Activations
+
+        self.N_lstm_lay=len(self.lstm_lay)
+
+        if self.proj:
+            current_input=self.proj_dim
+        else:
+            current_input=self.input_dim
+        # Initialization of hidden layers
+
+        for i in range(self.N_lstm_lay):
+
+             # Activations
+             self.act.append(act_fun(self.lstm_act[i]))
+
+             add_bias=True
+
+             if(self.autograd):
+
+                 # Feed-forward connections
+                 self.wfx.append(QuaternionLinearAutograd(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.wix.append(QuaternionLinearAutograd(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.wox.append(QuaternionLinearAutograd(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.wcx.append(QuaternionLinearAutograd(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+
+                 # Recurrent connections
+                 self.ufh.append(QuaternionLinearAutograd(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.uih.append(QuaternionLinearAutograd(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.uoh.append(QuaternionLinearAutograd(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.uch.append(QuaternionLinearAutograd(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+             else:
+
+                # Feed-forward connections
+                 self.wfx.append(QuaternionLinear(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.wix.append(QuaternionLinear(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.wox.append(QuaternionLinear(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.wcx.append(QuaternionLinear(current_input, self.lstm_lay[i],bias=add_bias, weight_init=self.quaternion_init, init_criterion='glorot'))
+
+                 # Recurrent connections
+                 self.ufh.append(QuaternionLinear(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.uih.append(QuaternionLinear(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.uoh.append(QuaternionLinear(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+                 self.uch.append(QuaternionLinear(self.lstm_lay[i], self.lstm_lay[i],bias=False, weight_init=self.quaternion_init, init_criterion='glorot'))
+             if self.bidir:
+                 current_input=2*self.lstm_lay[i]
+             else:
+                 current_input=self.lstm_lay[i]
+
+        self.out_dim=self.lstm_lay[i]+self.bidir*self.lstm_lay[i]
+
+    def forward(self, x):
+
+        if self.proj:
+
+            x = act_fun(self.proj_act)((self.proj_layer(x)))
+            if self.proj_norm:
+                x = q_normalize(x)
+
+            if self.test_flag==False:
+                drop_mask=torch.bernoulli(torch.Tensor(x.shape[1],self.proj_dim).fill_(1-0.2))
+                drop_mask=drop_mask.cuda()
+                x = x*drop_mask
+
+        #print(x.shape)
+        for i in range(self.N_lstm_lay):
+
+            # Initial state and concatenation
+            if self.bidir:
+                h_init = torch.zeros(2*x.shape[1], self.lstm_lay[i])
+                x=torch.cat([x,flip(x,0)],1)
+            else:
+                h_init = torch.zeros(x.shape[1],self.lstm_lay[i])
+
+
+            # Drop mask initilization (same mask for all time steps)
+            if self.test_flag==False:
+                drop_mask=torch.bernoulli(torch.Tensor(h_init.shape[0],h_init.shape[1]).fill_(1-self.lstm_drop[i]))
+            else:
+                drop_mask=torch.FloatTensor([1-self.lstm_drop[i]])
+
+            if self.use_cuda:
+               h_init=h_init.cuda()
+               drop_mask=drop_mask.cuda()
+
+
+            # Feed-forward affine transformations (all steps in parallel)
+            if self.quaternion_norm:
+                wfx_out=q_normalize(self.wfx[i](x))
+                wix_out=q_normalize(self.wix[i](x))
+                wox_out=q_normalize(self.wox[i](x))
+                wcx_out=q_normalize(self.wcx[i](x))
+            else:
+                wfx_out=self.wfx[i](x)
+                wix_out=self.wix[i](x)
+                wox_out=self.wox[i](x)
+                wcx_out=self.wcx[i](x)
+
+            # Processing time steps
+            hiddens = []
+            ct=h_init
+            ht=h_init
+
+            for k in range(x.shape[0]):
+
+                # LSTM equations
+                ft=torch.sigmoid(wfx_out[k]+self.ufh[i](ht))
+                it=torch.sigmoid(wix_out[k]+self.uih[i](ht))
+                ot=torch.sigmoid(wox_out[k]+self.uoh[i](ht))
+                ct=it*self.act[i](wcx_out[k]+self.uch[i](ht))*drop_mask+ft*ct
+                ht=ot*self.act[i](ct)
+
+                hiddens.append(ht)
+
+            # Stacking hidden states
+            h=torch.stack(hiddens)
+
+            # Bidirectional concatenations
+            if self.bidir:
+                h_f=h[:,0:int(x.shape[1]/2)]
+                h_b=flip(h[:,int(x.shape[1]/2):x.shape[1]].contiguous(),0)
+                h=torch.cat([h_f,h_b],2)
+
+            # Setup x for the next hidden layer
+            x=h
+
+
+        return x
