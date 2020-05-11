@@ -1,3 +1,10 @@
+##########################################################
+# Quaternion Neural Networks
+# Titouan Parcollet, Xinchi Qiu, Mirco Ravanelli
+# University of Oxford and Mila, University of Montreal
+# May 2020
+##########################################################
+
 import torch
 import torch.nn.functional as F
 import torch.nn as nn
